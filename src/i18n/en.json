@@ -1,0 +1,1112 @@
+{
+  "locale": "en",
+  "brand": {
+    "mark": "赤花",
+    "name": "Akai Hana Design Studio",
+    "logoAlt": "Akai Hana Design Studio logo"
+  },
+  "seo": {
+    "siteUrl": "https://akaihanagallery.com",
+    "canonical": "https://akaihanagallery.com/?lang=en",
+    "title": "Akai Hana Design Studio | Custom Japanese Tattoo Concepts",
+    "description": "A premium Japanese-inspired design studio for tattoo concepts, digital art and custom illustration.",
+    "ogTitle": "Akai Hana Design Studio",
+    "ogDescription": "Premium tattoo concepts and Japanese-inspired artwork created for personal stories, unique pieces and visual projects.",
+    "organizationDescription": "A premium design studio dedicated to custom artwork, visual direction, illustration, branding, merchandise and creative concepts.",
+    "itemListName": "Akai Hana Tattoo Gallery",
+    "serviceType": "Custom visual design"
+  },
+  "language": {
+    "selectorLabel": "Select language"
+  },
+  "lightbox": {
+    "close": "Close artwork",
+    "previous": "View previous artwork",
+    "next": "View next artwork"
+  },
+  "accessibility": {
+    "skipToGallery": "Skip to gallery",
+    "brandHome": "Akai Hana Design Studio, home",
+    "backHome": "Back to home",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "primaryNavigation": "Primary navigation",
+    "heroActions": "Primary actions",
+    "galleryValues": "Gallery values",
+    "filterToolbar": "Filter artworks by category",
+    "howItWorks": "How the custom design process works",
+    "galleryFeatures": "Gallery features",
+    "openHighRes": "Open {title} in high resolution"
+  },
+  "nav": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "collections": "Collections",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "bookProject": "Book a Project",
+    "gallery": "Gallery",
+    "stories": "Stories"
+  },
+  "stories": {
+    "eyebrow": "Story archive",
+    "title": "Stories",
+    "openStory": "Open story {title}",
+    "backToArchive": "Back to Stories",
+    "galleryTitle": "Visual gallery",
+    "items": [
+      {
+        "id": "higanbana",
+        "number": "01",
+        "title": "The Legend of the Red Spider Lily",
+        "eyebrow": "Japanese legends",
+        "japaneseName": "彼岸花",
+        "romanized": "Higanbana",
+        "lead": "The flower that blooms along the path of souls.",
+        "cardImage": {
+          "src": "./assets/images/story-card-higanbana-tattoo.png",
+          "width": 900,
+          "height": 1200,
+          "alt": "Red Spider Lily tattoo with black ink on an arm.",
+          "position": "center center"
+        },
+        "heroImage": {
+          "src": "./assets/images/story-higanbana-hero-clean.png",
+          "width": 2282,
+          "height": 794,
+          "alt": "Moonlit Japanese path filled with Red Spider Lilies.",
+          "position": "center center"
+        },
+        "sections": [
+          {
+            "eyebrow": "Higanbana",
+            "title": "A flower that should never be taken home",
+            "paragraphs": [
+              "Deep within Japanese folklore grows a flower unlike any other. Known as the Red Spider Lily, or Higanbana, it appears just as summer fades and autumn begins.",
+              "Its crimson petals resemble flames dancing in the wind, carrying a mysterious reputation for centuries.",
+              "According to Japanese tradition, these flowers bloom along the paths that guide departed souls toward the afterlife. For this reason, they are often found surrounding ancient cemeteries and temples, silently marking the boundary between the living and the dead."
+            ]
+          },
+          {
+            "eyebrow": "The flower of farewell",
+            "title": "Two spirits forbidden to meet",
+            "paragraphs": [
+              "An old legend tells of two spirits. One protected the flower. The other protected its leaves.",
+              "They were forbidden to meet. Whenever the flowers bloomed, the leaves disappeared. When the leaves returned, the flowers had already fallen.",
+              "Condemned to miss each other forever, the story became a symbol of impossible love, separation and eternal longing. Even today, many Japanese associate the Red Spider Lily with memories that never truly fade."
+            ]
+          },
+          {
+            "eyebrow": "Symbolism",
+            "title": "What it represents",
+            "paragraphs": [
+              "Higanbana does not speak of a simple ending. It speaks of passage, memory and bonds that remain even when physical presence disappears."
+            ],
+            "list": [
+              "Farewell",
+              "Eternal love",
+              "Rebirth",
+              "Death is not the end",
+              "The invisible bond between souls"
+            ]
+          },
+          {
+            "eyebrow": "Design inspiration",
+            "title": "Beauty within loss",
+            "paragraphs": [
+              "At Akai Hana Design Studio, we see the Red Spider Lily as more than a flower. It represents memory, transformation and beauty even within loss.",
+              "Its flowing petals make it a strong source of inspiration for tattoos, illustration, branding, concept art and editorial pieces with a delicate but intense presence."
+            ]
+          }
+        ],
+        "galleryTitle": "Higanbana gallery",
+        "gallery": [
+          {
+            "src": "./assets/images/story-higanbana-flower-sharp.png",
+            "width": 1388,
+            "height": 1228,
+            "alt": "Red Spider Lily illustration on a dark background.",
+            "position": "center center"
+          },
+          {
+            "src": "./assets/images/story-higanbana-torii-sharp.png",
+            "width": 1184,
+            "height": 1228,
+            "alt": "Torii path with a red umbrella figure among Higanbana flowers.",
+            "position": "center center"
+          },
+          {
+            "src": "./assets/images/story-higanbana-yinyang-sharp.png",
+            "width": 1460,
+            "height": 1320,
+            "alt": "Circular Higanbana composition inspired by yin and yang.",
+            "position": "center center"
+          },
+          {
+            "src": "./assets/images/story-kitsune-mask-sharp.png",
+            "width": 948,
+            "height": 1374,
+            "alt": "Kitsune mask inspired by red flowers.",
+            "position": "center center"
+          },
+          {
+            "src": "./assets/images/story-higanbana-oni-sharp.png",
+            "width": 954,
+            "height": 1374,
+            "alt": "Dark oni surrounded by red Higanbana flowers.",
+            "position": "center center"
+          },
+          {
+            "src": "./assets/images/story-higanbana-geisha-sharp.png",
+            "width": 954,
+            "height": 1374,
+            "alt": "Geisha in a moonlit composition with Higanbana flowers.",
+            "position": "center center"
+          },
+          {
+            "src": "./assets/images/story-higanbana-torii-card-sharp.png",
+            "width": 1002,
+            "height": 1374,
+            "alt": "Torii shrine among red flowers and a nocturnal atmosphere.",
+            "position": "center center"
+          }
+        ],
+        "quote": "Every design tells a story. Some stories never stop blooming."
+      },
+      {
+        "id": "kitsune",
+        "number": "02",
+        "title": "Kitsune",
+        "eyebrow": "Yokai and Japanese legends",
+        "japaneseName": "キツネ",
+        "romanized": "The nine-tailed spirit",
+        "lead": "A fox spirit tied to intuition, transformation and mystery.",
+        "cardImage": {
+          "src": "./assets/images/story-card-kitsune-tattoo.png",
+          "width": 900,
+          "height": 1200,
+          "alt": "White Kitsune tattoo with red moon, tails and torii.",
+          "position": "center center"
+        },
+        "heroImage": {
+          "src": "./assets/images/story-kitsune-cover.png",
+          "width": 1120,
+          "height": 2480,
+          "alt": "White nine-tailed Kitsune under the moon and cherry blossoms.",
+          "position": "center center"
+        },
+        "sections": [
+          {
+            "eyebrow": "Kitsune",
+            "title": "The spirit of the nine tails",
+            "paragraphs": [
+              "In ancient Japanese legends, Kitsune are fox spirits able to live for hundreds of years, gain wisdom and power, and even change their form.",
+              "The more tails a Kitsune has, the older and more powerful it is. The nine-tailed Kitsune is considered almost divine, a being of knowledge, magic and intuition."
+            ]
+          },
+          {
+            "eyebrow": "Legends",
+            "title": "Guardians, messengers and trials",
+            "paragraphs": [
+              "They can be guardians, messengers or protectors of humanity, especially as servants of Inari, deity of prosperity and abundance.",
+              "Some Kitsune test humans through illusions and challenges, teaching humility and wisdom to those who encounter them."
+            ]
+          },
+          {
+            "eyebrow": "Meaning",
+            "title": "Associated symbols",
+            "paragraphs": [
+              "The Kitsune lives between the visible and the hidden. Its beauty is not only ornamental: it represents intelligence, change, spiritual connection and protection."
+            ],
+            "list": [
+              "Wisdom",
+              "Intuition",
+              "Protection",
+              "Transformation",
+              "Longevity",
+              "Loyalty"
+            ]
+          },
+          {
+            "eyebrow": "In tattoo art",
+            "title": "A story of adaptation and bond",
+            "paragraphs": [
+              "To tattoo a Kitsune is to carry a symbol of personal transformation, intelligence and spiritual connection on the skin.",
+              "It represents the ability to adapt, overcome obstacles and protect what you value most. Every tail tells a story. Every gaze, a secret. Every tattoo, an eternal bond with the legend."
+            ]
+          }
+        ],
+        "galleryTitle": "Kitsune gallery",
+        "gallery": [],
+        "quote": "A Kitsune does not reveal its true form until it finds someone worthy of knowing the truth."
+      },
+      {
+        "id": "koi",
+        "number": "03",
+        "title": "Koi",
+        "eyebrow": "Japanese legends",
+        "japaneseName": "鯉",
+        "romanized": "The carp that defied the current",
+        "lead": "A legend of perseverance, transformation and destiny.",
+        "cardImage": {
+          "src": "./assets/images/story-card-koi-tattoo.png",
+          "width": 900,
+          "height": 1200,
+          "alt": "Red Koi tattoo among waves and sakura flowers.",
+          "position": "center center"
+        },
+        "heroImage": {
+          "src": "./assets/images/story-koi-hero.png",
+          "width": 900,
+          "height": 1946,
+          "alt": "Koi climbing a waterfall toward a torii beneath the red moon.",
+          "position": "center center"
+        },
+        "sections": [
+          {
+            "eyebrow": "Koi",
+            "title": "The carp that moves against the current",
+            "paragraphs": [
+              "The Koi is a carp from Japan, admired for its beauty, strength and ability to swim even against difficult currents.",
+              "In Japanese imagery it is more than an ornamental fish. It represents a life built through patience, resistance and determination."
+            ]
+          },
+          {
+            "eyebrow": "The legend",
+            "title": "The Dragon Gate",
+            "paragraphs": [
+              "An old legend tells of thousands of carp trying to swim against a powerful current to reach the top of a waterfall.",
+              "Most gave up, defeated by the force of the water and exhaustion. But one carp continued, year after year, overcoming each fall and every storm.",
+              "When it reached the top, the gods recognized its courage and transformed it into a dragon. Since then, the Koi has represented perseverance turning a dream into destiny."
+            ]
+          },
+          {
+            "eyebrow": "Meaning",
+            "title": "What it symbolizes",
+            "paragraphs": [
+              "The Koi speaks of moving forward even when the path is heavy. Its energy combines movement, balance and personal transformation."
+            ],
+            "list": [
+              "Perseverance",
+              "Overcoming",
+              "Transformation",
+              "Strength",
+              "Good fortune",
+              "One’s own destiny"
+            ]
+          },
+          {
+            "eyebrow": "In tattoo art",
+            "title": "A symbol for continuing forward",
+            "paragraphs": [
+              "To tattoo a Koi is to carry a story of struggle, growth and change on the skin. It is a reminder that every obstacle can also be a current pushing us toward a stronger version of ourselves.",
+              "It can be designed alone to symbolize the personal journey, or paired with water, lotus flowers, sakura or dragons to deepen its spiritual meaning."
+            ]
+          }
+        ],
+        "galleryTitle": "Koi gallery",
+        "gallery": [
+          {
+            "src": "./assets/images/story-koi-waterfall.png",
+            "width": 900,
+            "height": 1572,
+            "alt": "Koi rising through foam and current.",
+            "position": "center center"
+          },
+          {
+            "src": "./assets/images/story-koi-dragon.png",
+            "width": 760,
+            "height": 1350,
+            "alt": "Koi before the waterfall and the silhouette of a dragon.",
+            "position": "center center"
+          }
+        ],
+        "quote": "Keep swimming. The waterfall is part of the path too."
+      },
+      {
+        "id": "ryu",
+        "number": "04",
+        "title": "Ryū",
+        "eyebrow": "Japanese legends",
+        "japaneseName": "竜",
+        "romanized": "The Japanese dragon",
+        "lead": "A guardian of water, sky and spiritual wisdom.",
+        "cardImage": {
+          "src": "./assets/images/story-card-ryu-tattoo.png",
+          "width": 900,
+          "height": 1200,
+          "alt": "Japanese Ryū dragon tattoo with red eyes and lightning.",
+          "position": "center center"
+        },
+        "heroImage": {
+          "src": "./assets/images/story-ryu-cover.png",
+          "width": 900,
+          "height": 1200,
+          "alt": "Japanese Ryū dragon among clouds, sakura and a golden moon.",
+          "position": "center center"
+        },
+        "sections": [
+          {
+            "eyebrow": "Ryū",
+            "title": "The dragon that protects balance",
+            "paragraphs": [
+              "Ryū is not a creature of destruction. In Japanese tradition it is tied to water, sky, rain and deep wisdom.",
+              "Unlike many dragons in Western imagery, the Japanese dragon often appears as a benevolent protector: an ancient presence connecting earth, clouds and seas."
+            ]
+          },
+          {
+            "eyebrow": "Legend",
+            "title": "The guardian who brought the rain",
+            "paragraphs": [
+              "One legend tells that during a great drought, rivers began to vanish and the fields fell silent. People prayed to the heavens, but the clouds did not answer.",
+              "Then a Ryū emerged from the depths of the water and rose through the mist. As its serpentine body crossed the sky, it opened the clouds and returned rain to the land.",
+              "Since then, the dragon has been honored as a guardian of life, protection and abundance."
+            ]
+          },
+          {
+            "eyebrow": "Meaning",
+            "title": "What it represents",
+            "paragraphs": [
+              "Ryū symbolizes immense strength that does not need to destroy to leave a mark. Its power comes from control, calm and spiritual connection."
+            ],
+            "list": [
+              "Water and life",
+              "Wisdom",
+              "Protection",
+              "Balance",
+              "Inner power",
+              "Abundance"
+            ]
+          },
+          {
+            "eyebrow": "In tattoo art",
+            "title": "Strength that flows without breaking",
+            "paragraphs": [
+              "To tattoo a Ryū is to carry a symbol of protection, direction and spiritual strength. It represents someone who crosses storms without losing their center.",
+              "Its serpentine body allows powerful and elegant compositions: it can wrap around the arm, back or torso, paired with clouds, water, sakura or inner fire."
+            ]
+          }
+        ],
+        "galleryTitle": "Ryū gallery",
+        "gallery": [
+          {
+            "src": "./assets/images/story-ryu-dragon-head.png",
+            "width": 900,
+            "height": 1075,
+            "alt": "Detail of the face and body of a Japanese Ryū dragon.",
+            "position": "center center"
+          },
+          {
+            "src": "./assets/images/story-ryu-valley.png",
+            "width": 900,
+            "height": 968,
+            "alt": "Japanese landscape with mountains, red moon and temple beneath the dragon.",
+            "position": "center center"
+          }
+        ],
+        "quote": "True strength does not always roar. Sometimes it guides the current."
+      }
+    ]
+  },
+  "hero": {
+    "eyebrow": "",
+    "title": "JAPANESE ART. TIMELESS STORIES. ETERNAL INK.",
+    "lead": "Akai Hana Design Studio creates custom artwork for tattoos, illustration, branding, logos, visual identity and creative projects with a premium Japanese-inspired aesthetic.",
+    "primaryCta": "View Gallery",
+    "secondaryCta": "Book a Project",
+    "values": [
+      {
+        "icon": "brush",
+        "mark": "",
+        "title": "Custom Tattoo Design",
+        "body": "Digital concepts to take to your artist."
+      },
+      {
+        "icon": "flower",
+        "mark": "",
+        "title": "Japanese Art",
+        "body": "Myth, symbolism and visual elegance."
+      },
+      {
+        "icon": "enso",
+        "mark": "",
+        "title": "Brand Identity",
+        "body": "Logos, packaging and brand direction."
+      },
+      {
+        "icon": "torii",
+        "mark": "",
+        "title": "Creative Projects",
+        "body": "Custom commissions for unique ideas."
+      }
+    ],
+    "titleLineOne": "CUSTOM ART.",
+    "titleLineTwo": "JAPANESE SOUL.",
+    "titleAccent": "DESIGN STUDIO."
+  },
+  "intro": {
+    "ariaLabel": "Akai Hana Design Studio benefits",
+    "kicker": "Design Studio",
+    "title": "Custom design with a Japanese soul.",
+    "body": "We are not a shop and we do not manufacture products. We create bespoke digital designs for tattoos, illustration, branding, logos, visual identity, Japanese art and creative projects that need a memorable presence."
+  },
+  "customDesigns": {
+    "eyebrow": "Services",
+    "title": "Custom design services",
+    "body": "Digital concepts for tattoos, Japanese illustration and creative projects that need a memorable visual presence.",
+    "note": "Akai Hana does not do physical tattoos. We create custom artwork that can be used as inspiration, reference or taken to the artist of your choice.",
+    "tags": [
+      "Custom Tattoo Design",
+      "Japanese Art",
+      "Original Illustration",
+      "Custom Creative Projects"
+    ]
+  },
+  "tattooForm": {
+    "eyebrow": "Creative request",
+    "title": "Request your design",
+    "submit": "Send design request",
+    "legal": "By sending this form, you agree that I may contact you to discuss your design. We will not share your data.",
+    "emptyReferences": "No visual references provided.",
+    "fields": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Your name"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "you@email.com"
+      },
+      "size": {
+        "label": "Approximate format or size"
+      },
+      "bodyArea": {
+        "label": "Design destination",
+        "placeholder": "Tattoo reference, print, cover, gift or personal piece"
+      },
+      "style": {
+        "label": "Desired style"
+      },
+      "colorMode": {
+        "label": "Color or black and white"
+      },
+      "meaning": {
+        "label": "Project story or concept",
+        "placeholder": "Describe the idea, symbols, emotion and story you want to turn into an image."
+      },
+      "references": {
+        "label": "Optional visual references",
+        "placeholder": "Paste links or describe visual references if you have them."
+      }
+    },
+    "selects": {
+      "size": {
+        "placeholder": "Select size",
+        "options": [
+          {
+            "id": "small",
+            "label": "Small / asset"
+          },
+          {
+            "id": "medium",
+            "label": "Medium"
+          },
+          {
+            "id": "large",
+            "label": "Large / main piece"
+          },
+          {
+            "id": "collection",
+            "label": "Collection or visual system"
+          },
+          {
+            "id": "not-sure",
+            "label": "Not sure yet"
+          }
+        ]
+      },
+      "style": {
+        "placeholder": "Select style",
+        "options": [
+          {
+            "id": "tattoo-design",
+            "label": "Custom Tattoo Design"
+          },
+          {
+            "id": "japanese-art",
+            "label": "Japanese Art"
+          },
+          {
+            "id": "illustration",
+            "label": "Original Illustration"
+          },
+          {
+            "id": "custom-project",
+            "label": "Custom Creative Project"
+          }
+        ]
+      },
+      "colorMode": {
+        "placeholder": "Select finish",
+        "options": [
+          {
+            "id": "black-white",
+            "label": "Black and white"
+          },
+          {
+            "id": "color",
+            "label": "Color"
+          },
+          {
+            "id": "crimson",
+            "label": "Black with crimson details"
+          },
+          {
+            "id": "not-sure",
+            "label": "I want a recommendation"
+          }
+        ]
+      }
+    },
+    "status": {
+      "sending": "Sending your request...",
+      "success": "Thank you. Your request has been sent successfully.",
+      "error": "The request could not be sent right now. Please try again in a few minutes."
+    }
+  },
+  "designOptions": {
+    "eyebrow": "Services",
+    "title": "Four creative paths",
+    "body": "Choose a direction. The rest is shaped with calm, detail and artistic judgement.",
+    "cta": "Enquire",
+    "cards": [
+      {
+        "badge": "01",
+        "title": "Custom Tattoo Design",
+        "body": "Digital concepts to take as reference to the tattoo artist of your choice.",
+        "priceLabel": "Custom project",
+        "includes": [
+          "Visual composition",
+          "Style direction",
+          "Reference file"
+        ]
+      },
+      {
+        "badge": "02",
+        "title": "Japanese Art",
+        "body": "Pieces inspired by landscape, myth, ink, moonlight, sakura and Japanese aesthetics.",
+        "priceLabel": "Custom project",
+        "includes": [
+          "Japanese atmosphere",
+          "Palette and composition",
+          "Digital delivery"
+        ]
+      },
+      {
+        "badge": "03",
+        "title": "Original Illustration",
+        "body": "Identity-driven illustrations for print, covers, decor or personal use.",
+        "priceLabel": "Custom project",
+        "includes": [
+          "Original concept",
+          "Premium finish",
+          "High resolution"
+        ]
+      },
+      {
+        "badge": "04",
+        "title": "Custom Creative Projects",
+        "body": "Open art direction for special ideas that do not fit a fixed category.",
+        "priceLabel": "Enquire",
+        "includes": [
+          "Creative brief",
+          "Visual proposal",
+          "Final file"
+        ]
+      }
+    ]
+  },
+  "howItWorks": {
+    "eyebrow": "Process",
+    "title": "How it works",
+    "body": "A simple process to turn an idea into a carefully crafted digital piece.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "You tell me your idea",
+        "body": "You share the story, symbols, references, aesthetic or emotion you want to turn into a design."
+      },
+      {
+        "number": "02",
+        "title": "We define style, format and use",
+        "body": "We shape the medium, format, detail level, color direction, references and technical boundaries."
+      },
+      {
+        "number": "03",
+        "title": "I create one or more proposals",
+        "body": "I prepare digital proposals with composition, atmosphere and a coherent visual direction."
+      },
+      {
+        "number": "04",
+        "title": "We refine the details",
+        "body": "We polish symbols, proportions, intensity, contrast and the overall reading of the design."
+      },
+      {
+        "number": "05",
+        "title": "You receive the final design",
+        "body": "I deliver the final high-resolution file so you can use it as reference, visual art or production base."
+      }
+    ]
+  },
+  "categories": [
+    {
+      "id": "all",
+      "label": "All"
+    },
+    {
+      "id": "tattoo-designs",
+      "label": "Tattoo Designs"
+    },
+    {
+      "id": "illustrations",
+      "label": "Illustrations"
+    },
+    {
+      "id": "japanese-art",
+      "label": "Japanese Art"
+    },
+    {
+      "id": "brand-design",
+      "label": "Brand Design"
+    },
+    {
+      "id": "black-grey",
+      "label": "Black & Grey"
+    },
+    {
+      "id": "anime-gaming",
+      "label": "Anime / Gaming"
+    }
+  ],
+  "patterns": {
+    "projectMeta": "{category}",
+    "projectStyle": "{style}"
+  },
+  "actions": {
+    "viewProject": "View project",
+    "talkProject": "Talk about this design"
+  },
+  "gallery": {
+    "eyebrow": "",
+    "title": "Gallery",
+    "body": "A curated collection of original designs inspired by Japanese culture, mythology and timeless art.",
+    "notice": {
+      "icon": "i",
+      "title": "Digital designs for inspiration and reference.",
+      "body": "Akai Hana does not do physical tattoos. We create visual concepts you can take to the professional tattoo artist of your choice."
+    },
+    "countOne": "{count} design",
+    "countMany": "{count} designs",
+    "detailLabels": {
+      "style": "Visual direction",
+      "description": "Story",
+      "includes": "What it includes",
+      "uses": "What it can be used for",
+      "examples": "Use ideas"
+    },
+    "items": [
+      {
+        "id": "TD-001",
+        "title": "Yasuo",
+        "categoryId": "anime-gaming",
+        "category": "Gaming / Anime",
+        "style": "Anime warrior, dark ink and legendary energy",
+        "shortDescription": "An intense piece that turns a character into a visual icon.",
+        "description": "A design inspired by anime strength, combat energy and the silent presence of a legendary warrior.",
+        "includes": [
+          "Character concept",
+          "Vertical composition",
+          "Ink direction",
+          "Reference file"
+        ],
+        "uses": "Reference for tattoo, poster, personal illustration or collectible gaming piece.",
+        "examples": [
+          "sleeve",
+          "arm",
+          "poster",
+          "samurai"
+        ],
+        "tags": [
+          "Gaming",
+          "Anime",
+          "Ink"
+        ],
+        "image": {
+          "src": "./assets/images/tattoo-yasuo-blackwork.png",
+          "width": 1024,
+          "height": 1536,
+          "alt": "Black and grey Yasuo tattoo with anime and samurai aesthetics."
+        }
+      },
+      {
+        "id": "TD-002",
+        "title": "Horoscope",
+        "categoryId": "tattoo-designs",
+        "category": "Personal Design",
+        "style": "Personal sign, ritual geometry and symbolic reading",
+        "shortDescription": "A custom design based on the client's sign.",
+        "description": "A concept created to turn a sign, birth chart or personal symbol into an elegant visual composition.",
+        "includes": [
+          "Symbol direction",
+          "Circular composition",
+          "Mystic mood",
+          "Digital reference"
+        ],
+        "uses": "Ideal as a reference for forearm, chest, upper back or a small meaningful piece.",
+        "examples": [
+          "sign",
+          "forearm",
+          "chest",
+          "symbol"
+        ],
+        "tags": [
+          "Horoscope",
+          "Symbol",
+          "Custom"
+        ],
+        "image": {
+          "src": "./assets/images/tattoo-horoscope-aries.png",
+          "width": 1024,
+          "height": 1536,
+          "alt": "Aries tattoo with ram, constellations and astrological composition."
+        }
+      },
+      {
+        "id": "TD-003",
+        "title": "Final Fantasy VII",
+        "categoryId": "anime-gaming",
+        "category": "Gaming",
+        "style": "Sword, futuristic ruins and dark nostalgia",
+        "shortDescription": "A videogame reference turned into a cinematic piece.",
+        "description": "Design inspired by urban fantasy, steel, industrial scenery and mature gaming energy.",
+        "includes": [
+          "Gaming concept",
+          "Cinematic composition",
+          "Dark contrast",
+          "Final reference"
+        ],
+        "uses": "Reference for arm, leg, poster, cover or premium fan art project.",
+        "examples": [
+          "gaming",
+          "sword",
+          "poster",
+          "fan art"
+        ],
+        "tags": [
+          "Gaming",
+          "Sword",
+          "Fantasy"
+        ],
+        "image": {
+          "src": "./assets/images/tattoo-final-fantasy-vii.png",
+          "width": 1448,
+          "height": 1086,
+          "alt": "Final Fantasy VII inspired tattoo with character, sword and red details."
+        }
+      },
+      {
+        "id": "TD-004",
+        "title": "Realistic",
+        "categoryId": "black-grey",
+        "category": "Black & Grey",
+        "style": "Hyperrealistic eye, tear and restrained emotion",
+        "shortDescription": "A crying hyperrealistic eye. Not a full portrait.",
+        "description": "A realism concept focused on the gaze: texture, shadow, tear and emotional weight without becoming a full portrait.",
+        "includes": [
+          "Realistic direction",
+          "Emotional focus",
+          "Black & grey contrast",
+          "Detail reference"
+        ],
+        "uses": "Ideal for forearm, chest, shoulder, small back piece or meaningful personal work.",
+        "examples": [
+          "realism",
+          "eye",
+          "black & grey",
+          "detail"
+        ],
+        "tags": [
+          "Realistic",
+          "Eye",
+          "Black & Grey"
+        ],
+        "image": {
+          "src": "./assets/images/tattoo-realistic-crying-eye.png",
+          "width": 1122,
+          "height": 1402,
+          "alt": "Crying hyperrealistic eye in black and grey style for a tattoo design."
+        }
+      },
+      {
+        "id": "TD-005",
+        "title": "Japanese Style",
+        "categoryId": "japanese-art",
+        "category": "Traditional",
+        "style": "High-quality traditional Japanese tattoo design",
+        "shortDescription": "A large ornamental piece made to hold presence.",
+        "description": "Design inspired by dragons, flowers, motion and Japanese tradition for high-impact pieces.",
+        "includes": [
+          "Japanese motif",
+          "Body flow",
+          "Ornamental detail",
+          "Reference file"
+        ],
+        "uses": "Perfect for full sleeve, back, leg or large composition.",
+        "examples": [
+          "dragon",
+          "sleeve",
+          "back",
+          "traditional"
+        ],
+        "tags": [
+          "Japanese",
+          "Dragon",
+          "Traditional"
+        ],
+        "image": {
+          "src": "./assets/images/tattoo-japanese-style-irezumi-back.png",
+          "width": 1024,
+          "height": 1536,
+          "alt": "Full back Irezumi piece with Japanese dragon, koi, Hannya mask and flowers."
+        }
+      },
+      {
+        "id": "TD-006",
+        "title": "Brand Design",
+        "categoryId": "brand-design",
+        "category": "Logos · Packaging · Identity",
+        "style": "Creative direction, logos, packaging and premium visual identity",
+        "shortDescription": "Visual design for brands, businesses and creative projects.",
+        "description": "A creative-studio concept for projects that need character: branding, logos, packaging, art direction, editorial design and graphic systems.",
+        "includes": [
+          "Art and brand direction",
+          "Visual system",
+          "Packaging concept",
+          "Digital file"
+        ],
+        "uses": "Can be used as a design foundation for branding, logos, packaging concepts, visual identity, editorial direction and creative projects. It is not an offer to manufacture or sell physical products.",
+        "examples": [
+          "branding",
+          "logos",
+          "packaging",
+          "identity"
+        ],
+        "tags": [
+          "Branding",
+          "Logo",
+          "Identity"
+        ],
+        "image": {
+          "src": "./assets/images/creative-projects-brand-identity.png",
+          "width": 1122,
+          "height": 1402,
+          "alt": "Premium creative studio composition with branding, logos, packaging concepts and visual identity for businesses."
+        }
+      }
+    ],
+    "featuredIds": [],
+    "fullCollectionCta": "View all designs",
+    "accent": "We design. You bring it to life.",
+    "tagline": "Artwork that speaks. Designs that last.",
+    "studioNote": {
+      "title": "We are a design studio",
+      "body": "We create custom artwork for tattoos, brands and personal projects.",
+      "disclaimer": "We do not manufacture physical products."
+    }
+  },
+  "collections": {
+    "eyebrow": "Featured Collection",
+    "title": "Hana no Seishin",
+    "body": "A collection inspired by the red flower: beauty, energy, mystery and new beginnings. Pieces made to feel like art before they feel like product.",
+    "cta": "Explore",
+    "cards": [
+      {
+        "title": "Crimson Moon",
+        "body": "Night, moonlight and red as a language of desire, calm and quiet power.",
+        "image": {
+          "src": "./assets/collections/crimson-moon.png",
+          "width": 1024,
+          "height": 1536,
+          "alt": "Crimson Moon cover for Hana no Seishin."
+        }
+      },
+      {
+        "title": "Kitsune",
+        "body": "Masks, secrets and dangerous beauty in a premium Japanese anime direction.",
+        "image": {
+          "src": "./assets/collections/kitsune.png",
+          "width": 1024,
+          "height": 1536,
+          "alt": "Kitsune cover for Hana no Seishin."
+        }
+      },
+      {
+        "title": "Ryujin",
+        "body": "Dragons, water and mythic strength for high-impact compositions.",
+        "image": {
+          "src": "./assets/collections/ryujin.png",
+          "width": 962,
+          "height": 1635,
+          "alt": "Ryujin cover for Hana no Seishin."
+        }
+      },
+      {
+        "title": "Sakura",
+        "body": "Flowers and memory for delicate, poetic and timeless pieces.",
+        "image": {
+          "src": "./assets/collections/sakura.png",
+          "width": 1024,
+          "height": 1536,
+          "alt": "Sakura cover for Hana no Seishin."
+        }
+      }
+    ]
+  },
+  "merch": {
+    "eyebrow": "Next chapter",
+    "title": "Merchandising coming soon",
+    "body": "Coming soon: objects and limited editions born from the Akai Hana universe.",
+    "items": [
+      {
+        "title": "Apparel",
+        "body": "T-shirts, hoodies and textile pieces featuring original brand artwork."
+      },
+      {
+        "title": "Posters",
+        "body": "Decorative prints and visual editions for rooms, studios and personal spaces."
+      },
+      {
+        "title": "Stickers",
+        "body": "Small illustrations with symbols, creatures, masks and characters from the Akai Hana universe."
+      },
+      {
+        "title": "Accessories",
+        "body": "Brand objects inspired by anime, dark fantasy and Japanese ink."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Before requesting your design",
+    "body": "Clear answers about what the service includes and how to use a custom digital design.",
+    "items": [
+      {
+        "question": "Do you do physical tattoos?",
+        "answer": "No. Akai Hana Design Studio creates custom digital designs and concepts. If you want a piece tattooed, the tattoo itself must be applied by a professional tattoo artist in an authorized studio."
+      },
+      {
+        "question": "What do I receive when I commission a design?",
+        "answer": "You receive a high-resolution digital file with a visual proposal prepared to review, share and take to your tattoo artist."
+      },
+      {
+        "question": "Can I request changes?",
+        "answer": "Yes. The process includes adjustments to refine composition, symbols, contrast, style and details before closing the final file."
+      },
+      {
+        "question": "Can I take the design to my tattoo artist?",
+        "answer": "Yes. That is the purpose of the service: to give you a clear visual base to discuss with your tattoo artist and adapt technically if needed."
+      },
+      {
+        "question": "Do you create designs in color and black and white?",
+        "answer": "Yes. I can work in black and white, color, black with crimson details or a mixed visual direction depending on your idea."
+      },
+      {
+        "question": "How long does a custom design take?",
+        "answer": "It depends on size and complexity. After reviewing your request I will confirm scope, estimated timing and next steps."
+      }
+    ]
+  },
+  "discord": {
+    "username": ".liachan.",
+    "eyebrow": "Direct contact",
+    "title": "Talk to me on Discord",
+    "body": "Prefer to tell me your idea before sending the form? Add me on Discord and we can talk about references, size, body placement, style and availability.",
+    "label": "Discord username",
+    "cta": "Copy username",
+    "copied": "Username copied",
+    "inlineText": "Prefer to talk first? Message me on Discord.",
+    "inlineCta": "Copy username"
+  },
+  "about": {
+    "eyebrow": "About the brand",
+    "title": "Premium art with Japanese roots.",
+    "bodyOne": "Akai Hana Design Studio turns personal ideas into digital pieces with atmosphere, symbol and intention.",
+    "bodyTwo": "Anime, dark fantasy, Japanese landscape and illustration come together in a restrained, exclusive visual direction.",
+    "metrics": [
+      {
+        "value": "4",
+        "label": "Core services"
+      },
+      {
+        "value": "6",
+        "label": "Featured pieces"
+      },
+      {
+        "value": "AI",
+        "label": "Creative direction"
+      }
+    ],
+    "statementOne": "Akai Hana Design Studio was born from a deep passion for art, symbols and Japanese culture. Every creation is developed with attention to detail, seeking harmony between aesthetics, meaning and emotion.",
+    "statementTwo": "We work so each piece does not only look beautiful, but also tells something that represents you.",
+    "signatureName": "Lia Sanchéz",
+    "signatureRole": "Founder and Lead Artist"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let’s talk about your next project.",
+    "body": "Tell me the idea. If it carries emotion, symbol or story, we can give it visual form.",
+    "email": "akaihanadesing@gmail.com",
+    "details": "Digital design · Premium visual art · Merchandising in progress"
+  },
+  "finalCta": {
+    "eyebrow": "Custom request",
+    "title": "Have an idea for your next project?",
+    "body": "An image can begin with a sentence, a memory, a creature or a flower.",
+    "cta": "Request custom design"
+  },
+  "form": {
+    "nameLabel": "Name",
+    "emailLabel": "Email",
+    "interestLabel": "Interest",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Tell me which artwork, design or collection interests you and what you need to know.",
+    "submit": "Send request",
+    "interests": [
+      {
+        "id": "tattoo-design",
+        "label": "Custom Tattoo Design"
+      },
+      {
+        "id": "japanese-art",
+        "label": "Japanese Art"
+      },
+      {
+        "id": "illustration",
+        "label": "Original Illustration"
+      },
+      {
+        "id": "custom-project",
+        "label": "Custom Creative Project"
+      }
+    ],
+    "status": {
+      "sending": "Sending your message...",
+      "success": "Thank you. Your message has been sent successfully.",
+      "error": "The message could not be sent right now. Please try again in a few minutes."
+    }
+  },
+  "footer": {
+    "tagline": "Design Studio · Japanese Art · Custom Artwork"
+  }
+}

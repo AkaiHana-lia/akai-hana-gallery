@@ -1,0 +1,9 @@
+{
+  "name": "akai-hana-gallery",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node tools/dev-server.mjs 4173"
+  }
+}

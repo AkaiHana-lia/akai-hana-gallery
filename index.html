@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Akai Hana Design Studio</title>
+    <meta name="description" content="" data-i18n-meta="seo.description" />
+    <meta name="theme-color" content="#050506" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://akaihanagallery.com/" data-canonical />
+    <link rel="alternate" hreflang="es" href="https://akaihanagallery.com/?lang=es" />
+    <link rel="alternate" hreflang="en" href="https://akaihanagallery.com/?lang=en" />
+    <link rel="alternate" hreflang="x-default" href="https://akaihanagallery.com/" />
+    <link rel="icon" href="./assets/logo/akai-hana-mark.svg" type="image/svg+xml" />
+    <link rel="preload" as="image" href="./assets/images/hero-akai-hana-gallery.png" />
+    <link rel="stylesheet" href="./src/styles/styles.css?v=mobile-menu-fix" />
+    <link rel="manifest" href="./site.webmanifest" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Akai Hana Design Studio" data-i18n-meta="seo.ogTitle" />
+    <meta property="og:description" content="" data-i18n-meta="seo.ogDescription" />
+    <meta property="og:image" content="https://akaihanagallery.com/assets/images/hero-akai-hana-gallery.png" />
+    <meta property="og:url" content="https://akaihanagallery.com/" data-og-url />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script type="application/ld+json" id="schema-data"></script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#gallery" data-i18n="accessibility.skipToGallery"></a>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#home" data-i18n-attr="aria-label:accessibility.brandHome">
+        <img class="brand__mark" src="./assets/logo/akai-hana-mark.svg" width="48" height="48" alt="" aria-hidden="true" />
+        <span class="brand__name" data-i18n="brand.name"></span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        type="button"
+        data-nav-toggle
+        aria-expanded="false"
+        aria-controls="site-nav"
+        data-i18n-attr="aria-label:accessibility.openMenu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="header-actions">
+        <nav class="site-nav" id="site-nav" data-nav data-i18n-attr="aria-label:accessibility.primaryNavigation">
+          <a href="#home" data-i18n="nav.home"></a>
+          <a href="#gallery" data-i18n="nav.gallery"></a>
+          <a href="#stories" data-i18n="nav.stories"></a>
+          <a href="#custom-designs" data-i18n="nav.services"></a>
+          <a href="#about" data-i18n="nav.about"></a>
+          <a href="#contact" data-i18n="nav.contact"></a>
+          <a class="site-nav__book" href="#custom-design-form" data-i18n="nav.bookProject"></a>
+        </nav>
+
+        <a class="button button--header" href="#custom-design-form" data-i18n="nav.bookProject"></a>
+
+        <div class="language-switcher" role="group" data-language-switcher data-i18n-attr="aria-label:language.selectorLabel">
+          <button class="language-button" type="button" data-lang="es" lang="es">ES</button>
+          <span aria-hidden="true">/</span>
+          <button class="language-button" type="button" data-lang="en" lang="en">EN</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home" data-page="home" aria-labelledby="hero-title">
+        <div class="hero__image" aria-hidden="true"></div>
+        <div class="hero__ambient" aria-hidden="true"></div>
+        <div class="hero__content reveal">
+          <img
+            class="hero__logo"
+            src="./assets/logo/akai-hana-logo.svg"
+            width="110"
+            height="110"
+            data-i18n-attr="alt:brand.logoAlt"
+          />
+          <p class="eyebrow" data-i18n="hero.eyebrow"></p>
+          <h1 id="hero-title" class="hero__title">
+            <span data-i18n="hero.titleLineOne"></span>
+            <span data-i18n="hero.titleLineTwo"></span>
+            <span class="hero__title-accent" data-i18n="hero.titleAccent"></span>
+          </h1>
+          <p class="hero__lead" data-i18n="hero.lead"></p>
+          <div class="hero__actions" data-i18n-attr="aria-label:accessibility.heroActions">
+            <a class="button button--primary" href="#gallery" data-i18n="hero.primaryCta"></a>
+            <a class="button button--ghost" href="#custom-designs" data-i18n="hero.secondaryCta"></a>
+          </div>
+        </div>
+        <div class="hero__preview" data-hero-values data-i18n-attr="aria-label:accessibility.galleryValues"></div>
+      </section>
+
+      <section class="section intro" data-page="home" data-i18n-attr="aria-label:intro.ariaLabel">
+        <div class="section__inner intro__grid">
+          <p class="intro__kicker" data-i18n="intro.kicker"></p>
+          <h2 data-i18n="intro.title"></h2>
+          <p data-i18n="intro.body"></p>
+        </div>
+      </section>
+
+      <section class="section gallery-section" id="gallery" data-page="gallery" aria-labelledby="gallery-title">
+        <div class="gallery-page-hero">
+          <div class="section__inner gallery-page-hero__inner">
+            <div class="section__heading gallery-page-hero__copy reveal">
+            <p class="eyebrow" data-i18n="gallery.eyebrow"></p>
+            <h2 id="gallery-title" data-i18n="gallery.title"></h2>
+            <p data-i18n="gallery.body"></p>
+              <p class="gallery-page-hero__accent" data-i18n="gallery.accent"></p>
+              <div class="gallery-studio-note" role="note">
+                <span class="hero-value__icon hero-value__icon--brush" aria-hidden="true"></span>
+                <div>
+                  <strong data-i18n="gallery.studioNote.title"></strong>
+                  <p data-i18n="gallery.studioNote.body"></p>
+                  <p data-i18n="gallery.studioNote.disclaimer"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section__inner gallery-content">
+          <div class="gallery-notice reveal" role="note">
+            <span class="gallery-notice__icon" aria-hidden="true" data-i18n="gallery.notice.icon"></span>
+            <div>
+              <strong data-i18n="gallery.notice.title"></strong>
+              <p data-i18n="gallery.notice.body"></p>
+            </div>
+          </div>
+
+          <div class="filter-bar reveal" role="toolbar" data-filter-bar data-i18n-attr="aria-label:accessibility.filterToolbar"></div>
+          <p class="gallery-count" data-gallery-count aria-live="polite"></p>
+          <div class="gallery-grid" data-gallery-grid></div>
+          <p class="gallery-tagline reveal" data-i18n="gallery.tagline"></p>
+          <div class="gallery-cta reveal">
+            <a class="button button--ghost" href="#custom-design-form" data-i18n="gallery.fullCollectionCta"></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section stories-section" id="stories" data-page="stories" aria-labelledby="stories-title">
+        <div class="section__inner stories-layout">
+          <header class="stories-heading reveal">
+            <p class="eyebrow" data-i18n="stories.eyebrow"></p>
+            <h2 id="stories-title" data-i18n="stories.title"></h2>
+          </header>
+
+          <div class="stories-index" data-stories-index></div>
+
+          <article class="story-reader" data-story-reader hidden>
+            <div class="story-reader__top">
+              <button class="story-reader__back" type="button" data-story-back data-i18n="stories.backToArchive"></button>
+            </div>
+            <div data-story-detail></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--quiet" id="collections" aria-labelledby="collections-title">
+        <div class="section__inner">
+          <div class="section__heading reveal">
+            <p class="eyebrow" data-i18n="collections.eyebrow"></p>
+            <h2 id="collections-title" data-i18n="collections.title"></h2>
+            <p data-i18n="collections.body"></p>
+          </div>
+
+          <div class="collection-grid" data-collection-grid></div>
+        </div>
+      </section>
+
+      <section class="section custom-designs" id="custom-designs" data-page="services" aria-labelledby="custom-designs-title">
+        <div class="section__inner custom-designs__grid">
+          <div class="custom-designs__copy reveal">
+            <p class="eyebrow" data-i18n="customDesigns.eyebrow"></p>
+            <h2 id="custom-designs-title" data-i18n="customDesigns.title"></h2>
+            <p data-i18n="customDesigns.body"></p>
+            <div class="custom-designs__note" data-i18n="customDesigns.note"></div>
+            <div class="custom-designs__tags" data-custom-design-tags></div>
+          </div>
+
+          <form class="request-form reveal" id="custom-design-form" name="book-project" method="POST" action="/" data-netlify="true" netlify-honeypot="bot-field" data-custom-design-form>
+            <input type="hidden" name="form-name" value="book-project" />
+            <p hidden>
+              <label>Do not fill this field if you are human: <input name="bot-field" /></label>
+            </p>
+            <div class="form-heading">
+              <p class="eyebrow" data-i18n="tattooForm.eyebrow"></p>
+              <h3 data-i18n="tattooForm.title"></h3>
+            </div>
+            <div class="form-grid">
+              <label>
+                <span data-i18n="tattooForm.fields.name.label"></span>
+                <input type="text" name="name" autocomplete="name" required data-i18n-attr="placeholder:tattooForm.fields.name.placeholder" />
+              </label>
+              <label>
+                <span data-i18n="tattooForm.fields.email.label"></span>
+                <input type="email" name="email" autocomplete="email" required data-i18n-attr="placeholder:tattooForm.fields.email.placeholder" />
+              </label>
+              <label>
+                <span data-i18n="tattooForm.fields.size.label"></span>
+                <select name="size" data-tattoo-select="size" required></select>
+              </label>
+              <label>
+                <span data-i18n="tattooForm.fields.bodyArea.label"></span>
+                <input type="text" name="bodyArea" required data-i18n-attr="placeholder:tattooForm.fields.bodyArea.placeholder" />
+              </label>
+              <label>
+                <span data-i18n="tattooForm.fields.style.label"></span>
+                <select name="style" data-tattoo-select="style" required></select>
+              </label>
+              <label>
+                <span data-i18n="tattooForm.fields.colorMode.label"></span>
+                <select name="colorMode" data-tattoo-select="colorMode" required></select>
+              </label>
+              <label class="form-grid__full">
+                <span data-i18n="tattooForm.fields.meaning.label"></span>
+                <textarea name="meaning" rows="5" required data-i18n-attr="placeholder:tattooForm.fields.meaning.placeholder"></textarea>
+              </label>
+              <label class="form-grid__full">
+                <span data-i18n="tattooForm.fields.references.label"></span>
+                <textarea name="references" rows="4" data-i18n-attr="placeholder:tattooForm.fields.references.placeholder"></textarea>
+              </label>
+            </div>
+            <button class="button button--primary" type="submit" data-i18n="tattooForm.submit"></button>
+            <p class="form-legal" data-i18n="tattooForm.legal"></p>
+            <div class="form-discord">
+              <span data-i18n="discord.inlineText"></span>
+              <button
+                class="button button--discord-mini"
+                type="button"
+                data-copy-discord
+                data-i18n="discord.inlineCta"
+              ></button>
+              <small class="copy-status" data-copy-status aria-live="polite"></small>
+            </div>
+            <p class="form-status" data-tattoo-form-status role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+
+      <section class="section section--quiet design-options" id="design-options" data-page="services" aria-labelledby="design-options-title">
+        <div class="section__inner">
+          <div class="section__heading reveal">
+            <p class="eyebrow" data-i18n="designOptions.eyebrow"></p>
+            <h2 id="design-options-title" data-i18n="designOptions.title"></h2>
+            <p data-i18n="designOptions.body"></p>
+          </div>
+
+          <div class="pricing-grid reveal" data-design-options></div>
+        </div>
+      </section>
+
+      <section class="section section--quiet how-it-works" id="how-it-works" data-page="services" aria-labelledby="how-it-works-title">
+        <div class="section__inner">
+          <div class="section__heading reveal">
+            <p class="eyebrow" data-i18n="howItWorks.eyebrow"></p>
+            <h2 id="how-it-works-title" data-i18n="howItWorks.title"></h2>
+            <p data-i18n="howItWorks.body"></p>
+          </div>
+
+          <ol class="step-grid reveal" data-how-it-works-list data-i18n-attr="aria-label:accessibility.howItWorks"></ol>
+        </div>
+      </section>
+
+      <section class="section merch" id="merchandising" aria-labelledby="merch-title">
+        <div class="section__inner merch__grid">
+          <div class="merch__copy reveal">
+            <p class="eyebrow" data-i18n="merch.eyebrow"></p>
+            <h2 id="merch-title" data-i18n="merch.title"></h2>
+            <p data-i18n="merch.body"></p>
+          </div>
+
+          <div class="merch__items reveal" data-merch-list></div>
+        </div>
+      </section>
+
+      <section class="section section--quiet faq" id="faq" aria-labelledby="faq-title">
+        <div class="section__inner">
+          <div class="section__heading reveal">
+            <p class="eyebrow" data-i18n="faq.eyebrow"></p>
+            <h2 id="faq-title" data-i18n="faq.title"></h2>
+            <p data-i18n="faq.body"></p>
+          </div>
+
+          <div class="faq-list reveal" data-faq-list></div>
+        </div>
+      </section>
+
+      <section class="section section--quiet about" id="about" data-page="about" aria-labelledby="about-title">
+        <div class="section__inner about__grid">
+          <div class="about__copy reveal">
+            <p class="eyebrow" data-i18n="about.eyebrow"></p>
+            <h2 id="about-title" data-i18n="about.title"></h2>
+            <p data-i18n="about.bodyOne"></p>
+            <p data-i18n="about.bodyTwo"></p>
+          </div>
+
+          <div class="about__metrics reveal" data-metrics-grid data-i18n-attr="aria-label:accessibility.galleryFeatures"></div>
+
+          <div class="about__statement reveal">
+            <div class="about__statement-mark" aria-hidden="true"></div>
+            <div class="about__statement-copy">
+              <p data-i18n="about.statementOne"></p>
+              <p data-i18n="about.statementTwo"></p>
+              <p class="about__signature" data-i18n="about.signatureName"></p>
+              <p class="about__signature-role" data-i18n="about.signatureRole"></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact" data-page="contact" aria-labelledby="contact-title">
+        <div class="section__inner contact__grid">
+          <h2 id="contact-title" class="sr-only" data-i18n="contact.title"></h2>
+
+          <form class="contact-form reveal" name="contact" method="POST" action="/" data-netlify="true" netlify-honeypot="bot-field" data-contact-form>
+            <input type="hidden" name="form-name" value="contact" />
+            <p hidden>
+              <label>Do not fill this field if you are human: <input name="bot-field" /></label>
+            </p>
+            <label>
+              <span data-i18n="form.nameLabel"></span>
+              <input type="text" name="name" autocomplete="name" required />
+            </label>
+            <label>
+              <span data-i18n="form.emailLabel"></span>
+              <input type="email" name="email" autocomplete="email" required />
+            </label>
+            <label>
+              <span data-i18n="form.interestLabel"></span>
+              <select name="interest" data-interest></select>
+            </label>
+            <label>
+              <span data-i18n="form.messageLabel"></span>
+              <textarea name="message" data-message rows="6" required data-i18n-attr="placeholder:form.messagePlaceholder"></textarea>
+            </label>
+            <button class="button button--primary" type="submit" data-i18n="form.submit"></button>
+            <div class="form-discord">
+              <span data-i18n="discord.inlineText"></span>
+              <button
+                class="button button--discord-mini"
+                type="button"
+                data-copy-discord
+                data-i18n="discord.inlineCta"
+              ></button>
+              <small class="copy-status" data-copy-status aria-live="polite"></small>
+            </div>
+            <a href="#contact">akaihanadesing@gmail.com</a>
+            <p class="form-status" data-form-status role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+
+      <section class="section section--quiet discord-section" id="discord" data-page="services" aria-labelledby="discord-title">
+        <div class="section__inner discord-card reveal">
+          <div>
+            <p class="eyebrow" data-i18n="discord.eyebrow"></p>
+            <h2 id="discord-title" data-i18n="discord.title"></h2>
+            <p data-i18n="discord.body"></p>
+          </div>
+          <div class="discord-action">
+            <div class="discord-identity">
+              <span data-i18n="discord.label"></span>
+              <strong data-discord-username></strong>
+            </div>
+            <button class="button button--discord" type="button" data-copy-discord data-i18n="discord.cta"></button>
+            <p class="discord-status" data-copy-status role="status" aria-live="polite"></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section final-cta" data-page="contact" aria-labelledby="final-cta-title">
+        <div class="section__inner final-cta__inner reveal">
+          <p class="eyebrow" data-i18n="finalCta.eyebrow"></p>
+          <h2 id="final-cta-title" data-i18n="finalCta.title"></h2>
+          <p data-i18n="finalCta.body"></p>
+          <a class="button button--primary" href="#custom-design-form" data-i18n="finalCta.cta"></a>
+        </div>
+      </section>
+    </main>
+
+    <div class="lightbox" data-lightbox hidden aria-hidden="true">
+      <div class="lightbox__backdrop" data-lightbox-close></div>
+      <section class="lightbox__dialog" role="dialog" aria-modal="true" aria-labelledby="lightbox-title">
+        <button class="lightbox__close" type="button" data-lightbox-close data-i18n-attr="aria-label:lightbox.close">
+          <span aria-hidden="true">×</span>
+        </button>
+        <button class="lightbox__nav lightbox__nav--prev" type="button" data-lightbox-prev data-i18n-attr="aria-label:lightbox.previous">
+          <span aria-hidden="true">‹</span>
+        </button>
+        <figure class="lightbox__figure">
+          <div class="project-placeholder project-placeholder--lightbox" data-lightbox-placeholder hidden></div>
+          <img data-lightbox-image src="" alt="" />
+        </figure>
+        <div class="lightbox__content">
+          <p class="art-card__meta" data-lightbox-category></p>
+          <h3 id="lightbox-title" data-lightbox-title></h3>
+          <p class="lightbox__style" data-lightbox-style></p>
+          <p data-lightbox-description></p>
+          <div class="lightbox__details" data-lightbox-details></div>
+          <div class="project-tags lightbox__tags" data-lightbox-tags></div>
+          <button class="button button--primary lightbox__cta" type="button" data-lightbox-discord-cta></button>
+          <p class="discord-status" data-copy-status role="status" aria-live="polite"></p>
+        </div>
+        <button class="lightbox__nav lightbox__nav--next" type="button" data-lightbox-next data-i18n-attr="aria-label:lightbox.next">
+          <span aria-hidden="true">›</span>
+        </button>
+      </section>
+    </div>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <a class="brand brand--footer" href="#home" data-i18n-attr="aria-label:accessibility.backHome">
+          <img class="brand__logo brand__logo--footer" src="./assets/logo/akai-hana-logo.svg" width="190" height="110" alt="" aria-hidden="true" />
+          <span class="brand__name sr-only" data-i18n="brand.name"></span>
+        </a>
+        <p data-i18n="footer.tagline"></p>
+      </div>
+    </footer>
+
+    <script src="./src/i18n/locales.js" defer></script>
+    <script src="./src/scripts/main.js?v=mobile-menu-fix" defer></script>
+  </body>
+</html>
