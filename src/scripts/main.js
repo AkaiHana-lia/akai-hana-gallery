@@ -2,6 +2,7 @@ const supportedLocales = ["es", "en"];
 const defaultLocale = "es";
 const siteOrigin = "https://akaihanagallery.com";
 const discordInviteUrl = "https://discord.gg/95FXa8zfA";
+const designRequestEmail = "akaihanadesing@gmail.com";
 
 const body = document.body;
 const header = document.querySelector("[data-header]");
@@ -669,9 +670,35 @@ function getInterestLabel(id) {
   return dictionary.form?.interests?.find((interest) => interest.id === id)?.label || "";
 }
 
-function getTattooOptionLabel(name, id) {
-  const group = dictionary.tattooForm?.selects?.[name];
-  return group?.options?.find((option) => option.id === id)?.label || "";
+function getFieldLabel(field) {
+  const label = field.closest("label");
+  return label?.querySelector("span")?.textContent?.trim() || field.name;
+}
+
+function getFormFieldValue(field) {
+  if (!field) return "";
+
+  if (field instanceof HTMLSelectElement) {
+    return field.selectedOptions[0]?.textContent?.trim() || field.value.trim();
+  }
+
+  return field.value.trim();
+}
+
+function buildDesignRequestMailto(form) {
+  const fields = Array.from(form.elements).filter((field) => {
+    const isFormField = field instanceof HTMLInputElement || field instanceof HTMLTextAreaElement || field instanceof HTMLSelectElement;
+    return isFormField && field.name && field.type !== "submit" && field.type !== "button";
+  });
+  const clientName = getFormFieldValue(form.elements.namedItem("name"));
+  const subject = `Nueva solicitud de diseño — ${clientName || "cliente"}`;
+  const body = fields.map((field) => {
+    let value = getFormFieldValue(field);
+    if (field.name === "references" && !value) value = dictionary.tattooForm.emptyReferences;
+    return `${getFieldLabel(field)}: ${value}`;
+  }).join("\n");
+
+  return `mailto:${designRequestEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 }
 
 function setFilter(categoryId) {
@@ -867,17 +894,10 @@ function submitLead(event) {
 function submitTattooRequest(event) {
   event.preventDefault();
 
-  const formData = new FormData(customDesignForm);
-  const sizeLabel = getTattooOptionLabel("size", formData.get("size"));
-  const styleLabel = getTattooOptionLabel("style", formData.get("style"));
-  const colorModeLabel = getTattooOptionLabel("colorMode", formData.get("colorMode"));
+  if (!customDesignForm.reportValidity()) return;
 
-  if (sizeLabel) formData.set("size", sizeLabel);
-  if (styleLabel) formData.set("style", styleLabel);
-  if (colorModeLabel) formData.set("colorMode", colorModeLabel);
-  if (!formData.get("references")) formData.set("references", dictionary.tattooForm.emptyReferences);
-
-  submitNetlifyForm(customDesignForm, formData, tattooFormStatus, dictionary.tattooForm.status);
+  if (tattooFormStatus) tattooFormStatus.textContent = "";
+  window.location.href = buildDesignRequestMailto(customDesignForm);
 }
 
 function updateSeo() {
