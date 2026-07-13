@@ -406,6 +406,98 @@
           }
         ],
         "quote": "True strength does not always roar. Sometimes it guides the current."
+      },
+      {
+        "id": "hannya",
+        "number": "05",
+        "title": "Hannya",
+        "eyebrow": "Nō theatre and Japanese symbolism",
+        "japaneseName": "般若",
+        "romanized": "The mask of pain",
+        "lead": "A mask born from wounded love, jealousy and emotional transformation.",
+        "cardImage": {
+          "src": "./assets/images/story-card-hannya-tattoo.png",
+          "width": 1122,
+          "height": 1402,
+          "alt": "Hannya mask tattoo with red flowers and waves on the shoulder.",
+          "position": "52% 43%"
+        },
+        "heroImage": {
+          "src": "./assets/images/story-card-hannya-tattoo.png",
+          "width": 1122,
+          "height": 1402,
+          "alt": "Detail of a Hannya tattoo with horns, red flowers and Japanese texture.",
+          "position": "52% 43%"
+        },
+        "sections": [
+          {
+            "eyebrow": "Hannya",
+            "title": "The mask that gives pain a face",
+            "paragraphs": [
+              "Hannya is a mask from Japanese Nō theatre representing a woman transformed by jealousy, obsession and pain too intense to contain.",
+              "Although its face appears demonic, it does not symbolize evil alone. Its horns speak of transformation, its mouth reveals a tearing rage, and its eyes preserve a deeply human sadness.",
+              "Depending on the angle from which it is seen, Hannya can look furious or almost about to cry. That duality is what makes it so powerful."
+            ]
+          },
+          {
+            "eyebrow": "Legend",
+            "title": "A sadness that crossed the wood",
+            "paragraphs": [
+              "The story tells of a woman who gave her heart to someone who eventually abandoned her. Sadness slowly became jealousy, and jealousy became a rage that distorted her face until it was unrecognizable.",
+              "One night, before a temple and beneath endless rain, she tried to hide her grief behind a mask. But her tears crossed the wood and left cracks upon it.",
+              "Then she understood that the true monster had not been born from hatred, but from suffering that had remained silent for too long."
+            ]
+          },
+          {
+            "eyebrow": "Meaning",
+            "title": "What it symbolizes",
+            "paragraphs": [
+              "Hannya is not only a dark image. It is a figure of extreme emotion: pain, jealousy, loss, duality and release."
+            ],
+            "list": [
+              "Emotional pain",
+              "Jealousy",
+              "Transformation",
+              "Duality",
+              "Release",
+              "Rebirth"
+            ]
+          },
+          {
+            "eyebrow": "In tattoo art",
+            "title": "An emotional battle on the skin",
+            "paragraphs": [
+              "To tattoo a Hannya does not mean carrying only a demon on the skin. It can represent a betrayal overcome, a period of grief, or the memory of an emotion that almost consumed everything.",
+              "It also symbolizes feminine strength, emotional protection, transformation and rebirth. In Japanese compositions it is often paired with flowers, rain, fire, water, mirrors or sakura to balance beauty and suffering."
+            ]
+          },
+          {
+            "eyebrow": "Who it is for",
+            "title": "A symbol for transforming the wound",
+            "paragraphs": [
+              "Hannya can speak to those who have lived through betrayal, emotional loss or a stage where pain changed their identity.",
+              "It is not a mask for hiding. It is a way to face what happened and turn it into strength, memory and growth."
+            ]
+          }
+        ],
+        "galleryTitle": "Hannya gallery",
+        "gallery": [
+          {
+            "src": "./assets/images/story-hannya-cover.png",
+            "width": 1055,
+            "height": 1491,
+            "alt": "Hannya visual composition under rain with Japanese symbolism.",
+            "position": "center center"
+          },
+          {
+            "src": "./assets/images/story-card-hannya-tattoo.png",
+            "width": 1122,
+            "height": 1402,
+            "alt": "Hannya mask tattoo with flowers, waves and red chrysanthemum.",
+            "position": "52% 43%"
+          }
+        ],
+        "quote": "The mask did not hide her pain. It gave it a face."
       }
     ]
   },

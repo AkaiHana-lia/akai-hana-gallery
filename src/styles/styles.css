@@ -4814,6 +4814,52 @@ body[data-page="home"] .intro__grid {
   height: clamp(250px, 30vw, 410px);
 }
 
+.story-detail--hannya .story-detail__hero {
+  width: min(1120px, calc(100% - clamp(32px, 6vw, 96px)));
+  height: min(64svh, 590px);
+  min-height: 470px;
+  grid-template-columns: minmax(300px, 430px) minmax(0, 1fr);
+  margin: clamp(22px, 3vw, 40px) auto 0;
+  overflow: hidden;
+  border: 1px solid rgba(212, 84, 45, 0.28);
+  border-radius: var(--radius);
+  box-shadow: 0 30px 90px rgba(0, 0, 0, 0.46);
+}
+
+.story-detail--hannya .story-detail__hero-figure {
+  display: flex;
+  justify-content: center;
+  background:
+    radial-gradient(circle at 42% 14%, rgba(182, 0, 0, 0.22), rgba(182, 0, 0, 0) 42%),
+    radial-gradient(circle at 70% 70%, rgba(212, 175, 55, 0.1), rgba(212, 175, 55, 0) 36%),
+    #030303;
+}
+
+.story-detail--hannya .story-detail__hero-image {
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.story-detail--hannya .story-detail__hero-copy {
+  background:
+    radial-gradient(circle at 0% 20%, rgba(182, 0, 0, 0.18), rgba(182, 0, 0, 0) 34%),
+    linear-gradient(180deg, rgba(13, 9, 8, 0.97), rgba(3, 3, 3, 0.99));
+}
+
+.story-detail--hannya .story-detail__name span {
+  color: var(--gold);
+}
+
+.story-detail--hannya .story-gallery__grid {
+  grid-template-columns: repeat(2, minmax(220px, 1fr));
+  max-width: 860px;
+}
+
+.story-detail--hannya .story-gallery__image {
+  height: clamp(260px, 32vw, 440px);
+}
+
 .story-detail__hero-copy {
   display: flex;
   flex-direction: column;
@@ -5069,6 +5115,22 @@ body[data-page="home"] .intro__grid {
   }
 
   .story-detail--ryu .story-gallery__grid {
+    grid-template-columns: 1fr;
+    max-width: none;
+  }
+
+  .story-detail--hannya .story-detail__hero {
+    width: calc(100% - 40px);
+    height: auto;
+    min-height: 0;
+    grid-template-columns: 1fr;
+  }
+
+  .story-detail--hannya .story-detail__hero-figure {
+    height: min(48svh, 430px);
+  }
+
+  .story-detail--hannya .story-gallery__grid {
     grid-template-columns: 1fr;
     max-width: none;
   }

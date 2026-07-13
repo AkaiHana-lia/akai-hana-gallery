@@ -406,6 +406,98 @@
           }
         ],
         "quote": "La verdadera fuerza no siempre ruge. A veces guía la corriente."
+      },
+      {
+        "id": "hannya",
+        "number": "05",
+        "title": "Hannya",
+        "eyebrow": "Teatro Nō y simbolismo japonés",
+        "japaneseName": "般若",
+        "romanized": "La máscara del dolor",
+        "lead": "Una máscara nacida del amor herido, los celos y la transformación emocional.",
+        "cardImage": {
+          "src": "./assets/images/story-card-hannya-tattoo.png",
+          "width": 1122,
+          "height": 1402,
+          "alt": "Tatuaje de máscara Hannya con flores rojas y olas sobre el hombro.",
+          "position": "52% 43%"
+        },
+        "heroImage": {
+          "src": "./assets/images/story-card-hannya-tattoo.png",
+          "width": 1122,
+          "height": 1402,
+          "alt": "Detalle de tatuaje Hannya con cuernos, flores rojas y textura japonesa.",
+          "position": "52% 43%"
+        },
+        "sections": [
+          {
+            "eyebrow": "Hannya",
+            "title": "La máscara que convierte el dolor en rostro",
+            "paragraphs": [
+              "La Hannya es una máscara del teatro Nō japonés que representa a una mujer transformada por los celos, la obsesión y un dolor imposible de contener.",
+              "Aunque su rostro parece demoníaco, no simboliza únicamente maldad. Sus cuernos hablan de transformación, su boca muestra una ira desgarradora y sus ojos conservan una tristeza profundamente humana.",
+              "Según el ángulo desde el que se observe, la Hannya puede parecer furiosa o estar a punto de llorar. Esa dualidad es lo que la vuelve tan poderosa."
+            ]
+          },
+          {
+            "eyebrow": "Leyenda",
+            "title": "Una tristeza que atravesó la madera",
+            "paragraphs": [
+              "Cuenta la historia que una mujer entregó su corazón a alguien que terminó abandonándola. La tristeza se convirtió lentamente en celos, y los celos en una rabia que deformó su rostro hasta volverlo irreconocible.",
+              "Una noche, frente a un templo y bajo una lluvia interminable, intentó ocultar su dolor tras una máscara. Pero sus lágrimas atravesaron la madera y dejaron grietas sobre ella.",
+              "Entonces comprendió que el verdadero monstruo no había nacido del odio, sino del sufrimiento que permaneció demasiado tiempo en silencio."
+            ]
+          },
+          {
+            "eyebrow": "Significado",
+            "title": "Lo que simboliza",
+            "paragraphs": [
+              "La Hannya no es solo una imagen oscura. Es una figura de emoción extrema: dolor, celos, pérdida, dualidad y liberación."
+            ],
+            "list": [
+              "Dolor emocional",
+              "Celos",
+              "Transformación",
+              "Dualidad",
+              "Liberación",
+              "Renacimiento"
+            ]
+          },
+          {
+            "eyebrow": "En el arte del tatuaje",
+            "title": "Una batalla emocional sobre la piel",
+            "paragraphs": [
+              "Tatuarse una Hannya no significa llevar únicamente un demonio sobre la piel. Puede representar una traición superada, una etapa de dolor o el recuerdo de una emoción que casi consumió por completo.",
+              "También simboliza fuerza femenina, protección emocional, transformación y renacimiento. En composiciones japonesas suele acompañarse de flores, lluvia, fuego, agua, espejos o sakura para equilibrar belleza y sufrimiento."
+            ]
+          },
+          {
+            "eyebrow": "Para quién es",
+            "title": "Un símbolo para transformar la herida",
+            "paragraphs": [
+              "La Hannya puede hablar a quienes han vivido una traición, una pérdida emocional o una etapa en la que el dolor cambió su identidad.",
+              "No es una máscara para ocultarse. Es una forma de mirar de frente lo vivido y convertirlo en fuerza, memoria y crecimiento."
+            ]
+          }
+        ],
+        "galleryTitle": "Galería de Hannya",
+        "gallery": [
+          {
+            "src": "./assets/images/story-hannya-cover.png",
+            "width": 1055,
+            "height": 1491,
+            "alt": "Composición visual de Hannya bajo la lluvia con simbolismo japonés.",
+            "position": "center center"
+          },
+          {
+            "src": "./assets/images/story-card-hannya-tattoo.png",
+            "width": 1122,
+            "height": 1402,
+            "alt": "Tatuaje de máscara Hannya con flores, olas y crisantemo rojo.",
+            "position": "52% 43%"
+          }
+        ],
+        "quote": "La máscara no ocultó su dolor. Le dio un rostro."
       }
     ]
   },
