@@ -499,6 +499,97 @@
           }
         ],
         "quote": "The mask did not hide her pain. It gave it a face."
+      },
+      {
+        "id": "yuki-onna",
+        "number": "06",
+        "title": "Yuki-onna",
+        "eyebrow": "Yokai and Japanese legends",
+        "japaneseName": "雪女",
+        "romanized": "The snow woman",
+        "lead": "A winter spirit tied to frozen beauty, silence and solitude.",
+        "cardImage": {
+          "src": "./assets/images/story-card-yuki-onna.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "Yuki-onna back tattoo with moon, snow and Japanese scenery.",
+          "position": "50% 46%"
+        },
+        "heroImage": {
+          "src": "./assets/images/story-yuki-onna-cover.png",
+          "width": 1916,
+          "height": 821,
+          "alt": "Yuki-onna in a snowy forest beneath the moon.",
+          "position": "center center"
+        },
+        "sections": [
+          {
+            "eyebrow": "Yuki-onna",
+            "title": "The silent beauty of winter",
+            "paragraphs": [
+              "Yuki-onna, the snow woman, appears in Japanese folklore during cold nights, lost paths and forests covered in white. Her presence is as beautiful as it is unsettling.",
+              "She is described with pale skin, dark hair and a supernatural calm. She may seem delicate, almost ethereal, but behind that image lives the danger of an ancient frozen force."
+            ]
+          },
+          {
+            "eyebrow": "Story",
+            "title": "The spirit walking through snow",
+            "paragraphs": [
+              "In many legends, Yuki-onna appears before travelers trapped by snowstorms. Sometimes she draws them in with impossible beauty; other times she spares them and vanishes, leaving only cold and mystery behind.",
+              "She is not always cruel. In some versions she can love, protect or show compassion, but she always belongs to a world that is not fully human.",
+              "Her passing leaves a trace of silence, melancholy and distance: like a memory that seems beautiful, but cannot be touched without freezing."
+            ]
+          },
+          {
+            "eyebrow": "Meaning",
+            "title": "What it symbolizes",
+            "paragraphs": [
+              "Yuki-onna represents beauty that fascinates and frightens at the same time. She speaks of solitude, emotional winter, silence and impossible love."
+            ],
+            "list": [
+              "Dangerous beauty",
+              "Solitude",
+              "Winter",
+              "Silence",
+              "Impossible love",
+              "Spirit"
+            ]
+          },
+          {
+            "eyebrow": "Visual inspiration",
+            "title": "A cold and supernatural presence",
+            "paragraphs": [
+              "In tattoo art, Yuki-onna works especially well in elegant compositions, ethereal portraits, moonlit scenes, snow, red flowers and delicate linework.",
+              "She can express introspection, a quiet emotional wound or the beauty of someone who has learned to survive inside the cold."
+            ]
+          },
+          {
+            "eyebrow": "Who it is for",
+            "title": "A symbol for those who embrace calm",
+            "paragraphs": [
+              "Yuki-onna can represent reserved, sensitive or hard-to-read people who hide intensity beneath a quiet appearance.",
+              "It is a symbol for those who find power in silence, distance and the ability to remain steady even through winter."
+            ]
+          }
+        ],
+        "galleryTitle": "Yuki-onna gallery",
+        "gallery": [
+          {
+            "src": "./assets/images/story-yuki-onna-cover.png",
+            "width": 1916,
+            "height": 821,
+            "alt": "Yuki-onna in a snowy forest with moonlight and red branches.",
+            "position": "center center"
+          },
+          {
+            "src": "./assets/images/story-card-yuki-onna.png",
+            "width": 1086,
+            "height": 1448,
+            "alt": "Back tattoo inspired by Yuki-onna with moon and snow.",
+            "position": "50% 46%"
+          }
+        ],
+        "quote": "Her beauty was not warmth. It was the stillness of snow before it falls."
       }
     ]
   },

@@ -4544,7 +4544,7 @@ body[data-page="home"] .intro__grid {
 
 .stories-index {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(210px, 270px));
+  grid-template-columns: repeat(3, minmax(210px, 270px));
   justify-content: center;
   gap: clamp(14px, 1.6vw, 22px);
 }
@@ -4860,6 +4860,54 @@ body[data-page="home"] .intro__grid {
   height: clamp(260px, 32vw, 440px);
 }
 
+.story-detail--yuki-onna .story-detail__hero {
+  width: min(1120px, calc(100% - clamp(32px, 6vw, 96px)));
+  height: min(64svh, 590px);
+  min-height: 470px;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.52fr);
+  margin: clamp(22px, 3vw, 40px) auto 0;
+  overflow: hidden;
+  border: 1px solid rgba(180, 204, 224, 0.24);
+  border-radius: var(--radius);
+  box-shadow: 0 30px 90px rgba(0, 0, 0, 0.46);
+}
+
+.story-detail--yuki-onna .story-detail__hero-figure {
+  display: flex;
+  justify-content: center;
+  background:
+    radial-gradient(circle at 48% 10%, rgba(180, 204, 224, 0.2), rgba(180, 204, 224, 0) 42%),
+    radial-gradient(circle at 72% 66%, rgba(182, 0, 0, 0.1), rgba(182, 0, 0, 0) 38%),
+    #030303;
+}
+
+.story-detail--yuki-onna .story-detail__hero-image {
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.story-detail--yuki-onna .story-detail__hero-copy {
+  background:
+    radial-gradient(circle at 0% 18%, rgba(180, 204, 224, 0.14), rgba(180, 204, 224, 0) 34%),
+    linear-gradient(180deg, rgba(7, 10, 13, 0.97), rgba(3, 3, 3, 0.99));
+}
+
+.story-detail--yuki-onna .story-detail__name span {
+  color: rgba(180, 204, 224, 0.95);
+}
+
+.story-detail--yuki-onna .story-gallery__grid {
+  grid-template-columns: repeat(2, minmax(220px, 1fr));
+  max-width: 860px;
+}
+
+.story-detail--yuki-onna .story-gallery__image {
+  height: clamp(260px, 32vw, 440px);
+}
+
 .story-detail__hero-copy {
   display: flex;
   flex-direction: column;
@@ -5131,6 +5179,22 @@ body[data-page="home"] .intro__grid {
   }
 
   .story-detail--hannya .story-gallery__grid {
+    grid-template-columns: 1fr;
+    max-width: none;
+  }
+
+  .story-detail--yuki-onna .story-detail__hero {
+    width: calc(100% - 40px);
+    height: auto;
+    min-height: 0;
+    grid-template-columns: 1fr;
+  }
+
+  .story-detail--yuki-onna .story-detail__hero-figure {
+    height: min(48svh, 430px);
+  }
+
+  .story-detail--yuki-onna .story-gallery__grid {
     grid-template-columns: 1fr;
     max-width: none;
   }

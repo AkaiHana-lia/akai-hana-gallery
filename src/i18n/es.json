@@ -499,6 +499,97 @@
           }
         ],
         "quote": "La máscara no ocultó su dolor. Le dio un rostro."
+      },
+      {
+        "id": "yuki-onna",
+        "number": "06",
+        "title": "Yuki-onna",
+        "eyebrow": "Yokai y leyendas japonesas",
+        "japaneseName": "雪女",
+        "romanized": "La mujer de la nieve",
+        "lead": "Un espíritu de invierno ligado a la belleza helada, el silencio y la soledad.",
+        "cardImage": {
+          "src": "./assets/images/story-card-yuki-onna.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "Tatuaje de espalda de Yuki-onna con luna, nieve y paisaje japonés.",
+          "position": "50% 46%"
+        },
+        "heroImage": {
+          "src": "./assets/images/story-yuki-onna-cover.png",
+          "width": 1916,
+          "height": 821,
+          "alt": "Yuki-onna en un bosque nevado bajo la luna.",
+          "position": "center center"
+        },
+        "sections": [
+          {
+            "eyebrow": "Yuki-onna",
+            "title": "La belleza silenciosa del invierno",
+            "paragraphs": [
+              "Yuki-onna, la mujer de la nieve, aparece en el folclore japonés durante noches frías, caminos perdidos y bosques cubiertos de blanco. Su presencia es tan bella como inquietante.",
+              "Se la describe con piel pálida, cabello oscuro y una calma sobrenatural. Puede parecer delicada, casi etérea, pero tras esa imagen vive el peligro de una fuerza antigua y helada."
+            ]
+          },
+          {
+            "eyebrow": "Historia",
+            "title": "El espíritu que camina entre la nieve",
+            "paragraphs": [
+              "En muchas leyendas, Yuki-onna aparece ante viajeros atrapados por tormentas de nieve. A veces los atrae con una belleza imposible; otras, los perdona y desaparece dejando solo una sensación de frío y misterio.",
+              "No siempre actúa como una figura cruel. En algunas versiones puede amar, proteger o mostrar compasión, pero siempre pertenece a un mundo que no termina de ser humano.",
+              "Su paso deja una huella de silencio, melancolía y distancia: como un recuerdo que parece hermoso, pero que no puede tocarse sin congelarse."
+            ]
+          },
+          {
+            "eyebrow": "Significado",
+            "title": "Lo que simboliza",
+            "paragraphs": [
+              "Yuki-onna representa la belleza que fascina y asusta al mismo tiempo. Habla de soledad, invierno emocional, silencio y amor imposible."
+            ],
+            "list": [
+              "Belleza peligrosa",
+              "Soledad",
+              "Invierno",
+              "Silencio",
+              "Amor imposible",
+              "Espíritu"
+            ]
+          },
+          {
+            "eyebrow": "Inspiración visual",
+            "title": "Una presencia fría y sobrenatural",
+            "paragraphs": [
+              "En el arte del tatuaje, Yuki-onna funciona especialmente bien en composiciones elegantes, retratos etéreos, escenas nocturnas, nieve, luna, flores rojas y líneas delicadas.",
+              "Puede expresar una etapa de introspección, una herida emocional silenciosa o la belleza de quien ha aprendido a sobrevivir dentro del frío."
+            ]
+          },
+          {
+            "eyebrow": "Para quién es",
+            "title": "Un símbolo para quien abraza su calma",
+            "paragraphs": [
+              "Yuki-onna puede representar a personas reservadas, sensibles o difíciles de leer, que esconden intensidad bajo una apariencia tranquila.",
+              "Es un símbolo para quien encuentra poder en el silencio, en la distancia y en la capacidad de mantenerse firme incluso durante el invierno."
+            ]
+          }
+        ],
+        "galleryTitle": "Galería de Yuki-onna",
+        "gallery": [
+          {
+            "src": "./assets/images/story-yuki-onna-cover.png",
+            "width": 1916,
+            "height": 821,
+            "alt": "Yuki-onna en un bosque nevado con luna y ramas rojas.",
+            "position": "center center"
+          },
+          {
+            "src": "./assets/images/story-card-yuki-onna.png",
+            "width": 1086,
+            "height": 1448,
+            "alt": "Tatuaje de espalda inspirado en Yuki-onna con luna y nieve.",
+            "position": "50% 46%"
+          }
+        ],
+        "quote": "Su belleza no era calor. Era la calma de la nieve antes de caer."
       }
     ]
   },
