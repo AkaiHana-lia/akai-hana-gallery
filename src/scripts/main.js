@@ -1,6 +1,7 @@
 const supportedLocales = ["es", "en"];
 const defaultLocale = "es";
 const siteOrigin = "https://akaihanagallery.com";
+const discordInviteUrl = "https://discord.gg/95FXa8zfA";
 
 const body = document.body;
 const header = document.querySelector("[data-header]");
@@ -9,7 +10,6 @@ const nav = document.querySelector("[data-nav]");
 const languageButtons = Array.from(document.querySelectorAll("[data-lang]"));
 const galleryCount = document.querySelector("[data-gallery-count]");
 const contactSection = document.querySelector("#contact");
-const discordSection = document.querySelector("#discord");
 const contactForm = document.querySelector("[data-contact-form]");
 const customDesignForm = document.querySelector("[data-custom-design-form]");
 const messageField = document.querySelector("[data-message]");
@@ -819,72 +819,17 @@ function moveLightbox(direction) {
 }
 
 function renderDiscordContact() {
-  document.querySelectorAll("[data-discord-username]").forEach((element) => {
-    element.textContent = dictionary.discord.username;
-  });
-
-  document.querySelectorAll("[data-copy-status]").forEach((element) => {
-    element.textContent = "";
-  });
-
-  document.querySelectorAll("[data-copy-discord]").forEach((button) => {
-    button.onclick = copyDiscordUsername;
-    button.setAttribute("aria-label", `${dictionary.discord.cta} ${dictionary.discord.username}`);
+  document.querySelectorAll("[data-discord-link]").forEach((link) => {
+    link.setAttribute("href", discordInviteUrl);
+    link.setAttribute("target", "_blank");
+    link.setAttribute("rel", "noopener noreferrer");
+    link.setAttribute("aria-label", dictionary.discord?.cta || dictionary.discord?.inlineCta || "Open Akai Hana Discord");
   });
 
   if (lightboxDiscordCta) {
-    lightboxDiscordCta.textContent = dictionary.actions.talkProject;
+    lightboxDiscordCta.textContent = dictionary.discord?.cta || dictionary.actions.talkProject;
+    lightboxDiscordCta.setAttribute("aria-label", dictionary.discord?.cta || dictionary.actions.talkProject);
   }
-}
-
-function handleLightboxProjectContact() {
-  closeLightbox(false);
-  if (discordSection) {
-    discordSection.scrollIntoView({ behavior: "smooth", block: "start" });
-  } else {
-    window.location.hash = "contact";
-  }
-}
-
-async function copyDiscordUsername() {
-  const username = dictionary.discord.username;
-  let copied = false;
-
-  if (navigator.clipboard?.writeText) {
-    try {
-      await navigator.clipboard.writeText(username);
-      copied = true;
-    } catch {
-      copied = false;
-    }
-  }
-
-  if (!copied) {
-    const textarea = createElement("textarea", {
-      attributes: {
-        readonly: "",
-        "aria-hidden": "true"
-      }
-    });
-    textarea.value = username;
-    textarea.style.position = "fixed";
-    textarea.style.inset = "0 auto auto 0";
-    textarea.style.opacity = "0";
-    document.body.append(textarea);
-    textarea.focus();
-    textarea.select();
-    textarea.setSelectionRange(0, textarea.value.length);
-    try {
-      copied = document.execCommand("copy");
-    } catch {
-      copied = false;
-    }
-    textarea.remove();
-  }
-
-  document.querySelectorAll("[data-copy-status]").forEach((element) => {
-    element.textContent = copied ? dictionary.discord.copied : username;
-  });
 }
 
 async function submitNetlifyForm(form, formData, statusElement, statusMessages) {
@@ -1194,7 +1139,6 @@ lightboxCloseButtons.forEach((button) => {
 });
 lightboxPrevButton?.addEventListener("click", () => moveLightbox(-1));
 lightboxNextButton?.addEventListener("click", () => moveLightbox(1));
-lightboxDiscordCta?.addEventListener("click", handleLightboxProjectContact);
 mountPoints.storyBack?.addEventListener("click", () => closeStoryReader());
 
 document.addEventListener("keydown", (event) => {

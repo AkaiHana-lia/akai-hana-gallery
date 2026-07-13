@@ -1032,12 +1032,12 @@ window.AKAI_HANA_I18N = {
       "username": ".liachan.",
       "eyebrow": "Contacto directo",
       "title": "Habla conmigo en Discord",
-      "body": "¿Prefieres contarme tu idea antes de enviar el formulario? Añádeme en Discord y hablamos de referencias, tamaño, zona del cuerpo, estilo y disponibilidad.",
-      "label": "Usuario de Discord",
-      "cta": "Copiar usuario",
-      "copied": "Usuario copiado",
-      "inlineText": "¿Prefieres hablar primero? Escríbeme por Discord.",
-      "inlineCta": "Copiar usuario"
+      "body": "¿Prefieres contarme tu idea antes de enviar el formulario? Únete al Discord de Akai Hana y escríbenos en #Chat.",
+      "label": "Discord",
+      "cta": "Entrar al Discord de Akai Hana",
+      "copied": "Discord listo",
+      "inlineText": "¿Prefieres hablar directamente? Únete a nuestro Discord y escríbenos en #Chat.",
+      "inlineCta": "Entrar al Discord de Akai Hana"
     },
     "about": {
       "eyebrow": "Sobre la marca",
@@ -2144,12 +2144,12 @@ window.AKAI_HANA_I18N = {
       "username": ".liachan.",
       "eyebrow": "Direct contact",
       "title": "Talk to me on Discord",
-      "body": "Prefer to tell me your idea before sending the form? Add me on Discord and we can talk about references, size, body placement, style and availability.",
-      "label": "Discord username",
-      "cta": "Copy username",
-      "copied": "Username copied",
-      "inlineText": "Prefer to talk first? Message me on Discord.",
-      "inlineCta": "Copy username"
+      "body": "Prefer to tell me your idea before sending the form? Join the Akai Hana Discord and message us in #Chat.",
+      "label": "Discord",
+      "cta": "Open Akai Hana Discord",
+      "copied": "Discord ready",
+      "inlineText": "Prefer to talk directly? Join our Discord and message us in #Chat.",
+      "inlineCta": "Open Akai Hana Discord"
     },
     "about": {
       "eyebrow": "About the brand",

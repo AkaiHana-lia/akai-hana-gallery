@@ -13,7 +13,7 @@
     <link rel="alternate" hreflang="x-default" href="https://akaihanagallery.com/" />
     <link rel="icon" href="./assets/logo/akai-hana-mark.svg" type="image/svg+xml" />
     <link rel="preload" as="image" href="./assets/images/hero-akai-hana-gallery.png" />
-    <link rel="stylesheet" href="./src/styles/styles.css?v=mobile-menu-fix" />
+    <link rel="stylesheet" href="./src/styles/styles.css?v=contact-official-studio" />
     <link rel="manifest" href="./site.webmanifest" />
 
     <meta property="og:type" content="website" />
@@ -226,17 +226,18 @@
               </label>
             </div>
             <button class="button button--primary" type="submit" data-i18n="tattooForm.submit"></button>
-            <p class="form-legal" data-i18n="tattooForm.legal"></p>
             <div class="form-discord">
               <span data-i18n="discord.inlineText"></span>
-              <button
+              <a
                 class="button button--discord-mini"
-                type="button"
-                data-copy-discord
+                href="https://discord.gg/95FXa8zfA"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-discord-link
                 data-i18n="discord.inlineCta"
-              ></button>
-              <small class="copy-status" data-copy-status aria-live="polite"></small>
+              ></a>
             </div>
+            <p class="form-legal" data-i18n="tattooForm.legal"></p>
             <p class="form-status" data-tattoo-form-status role="status" aria-live="polite"></p>
           </form>
         </div>
@@ -315,7 +316,11 @@
 
       <section class="section contact" id="contact" data-page="contact" aria-labelledby="contact-title">
         <div class="section__inner contact__grid">
-          <h2 id="contact-title" class="sr-only" data-i18n="contact.title"></h2>
+          <div class="contact__copy reveal">
+            <p class="eyebrow" data-i18n="finalCta.eyebrow"></p>
+            <h2 id="contact-title" data-i18n="finalCta.title"></h2>
+            <p data-i18n="finalCta.body"></p>
+          </div>
 
           <form class="contact-form reveal" name="contact" method="POST" action="/" data-netlify="true" netlify-honeypot="bot-field" data-contact-form>
             <input type="hidden" name="form-name" value="contact" />
@@ -341,15 +346,16 @@
             <button class="button button--primary" type="submit" data-i18n="form.submit"></button>
             <div class="form-discord">
               <span data-i18n="discord.inlineText"></span>
-              <button
+              <a
                 class="button button--discord-mini"
-                type="button"
-                data-copy-discord
+                href="https://discord.gg/95FXa8zfA"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-discord-link
                 data-i18n="discord.inlineCta"
-              ></button>
-              <small class="copy-status" data-copy-status aria-live="polite"></small>
+              ></a>
             </div>
-            <a href="#contact">akaihanadesing@gmail.com</a>
+            <a class="contact-form__email" href="#contact" data-i18n="contact.email"></a>
             <p class="form-status" data-form-status role="status" aria-live="polite"></p>
           </form>
         </div>
@@ -363,22 +369,15 @@
             <p data-i18n="discord.body"></p>
           </div>
           <div class="discord-action">
-            <div class="discord-identity">
-              <span data-i18n="discord.label"></span>
-              <strong data-discord-username></strong>
-            </div>
-            <button class="button button--discord" type="button" data-copy-discord data-i18n="discord.cta"></button>
-            <p class="discord-status" data-copy-status role="status" aria-live="polite"></p>
+            <a
+              class="button button--discord"
+              href="https://discord.gg/95FXa8zfA"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-discord-link
+              data-i18n="discord.cta"
+            ></a>
           </div>
-        </div>
-      </section>
-
-      <section class="section final-cta" data-page="contact" aria-labelledby="final-cta-title">
-        <div class="section__inner final-cta__inner reveal">
-          <p class="eyebrow" data-i18n="finalCta.eyebrow"></p>
-          <h2 id="final-cta-title" data-i18n="finalCta.title"></h2>
-          <p data-i18n="finalCta.body"></p>
-          <a class="button button--primary" href="#custom-design-form" data-i18n="finalCta.cta"></a>
         </div>
       </section>
     </main>
@@ -403,8 +402,15 @@
           <p data-lightbox-description></p>
           <div class="lightbox__details" data-lightbox-details></div>
           <div class="project-tags lightbox__tags" data-lightbox-tags></div>
-          <button class="button button--primary lightbox__cta" type="button" data-lightbox-discord-cta></button>
-          <p class="discord-status" data-copy-status role="status" aria-live="polite"></p>
+          <a
+            class="button button--primary lightbox__cta"
+            href="https://discord.gg/95FXa8zfA"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-discord-link
+            data-i18n="discord.cta"
+            data-lightbox-discord-cta
+          ></a>
         </div>
         <button class="lightbox__nav lightbox__nav--next" type="button" data-lightbox-next data-i18n-attr="aria-label:lightbox.next">
           <span aria-hidden="true">›</span>
@@ -423,6 +429,6 @@
     </footer>
 
     <script src="./src/i18n/locales.js" defer></script>
-    <script src="./src/scripts/main.js?v=mobile-menu-fix" defer></script>
+    <script src="./src/scripts/main.js?v=contact-discord-layout" defer></script>
   </body>
 </html>

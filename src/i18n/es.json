@@ -1031,12 +1031,12 @@
     "username": ".liachan.",
     "eyebrow": "Contacto directo",
     "title": "Habla conmigo en Discord",
-    "body": "¿Prefieres contarme tu idea antes de enviar el formulario? Añádeme en Discord y hablamos de referencias, tamaño, zona del cuerpo, estilo y disponibilidad.",
-    "label": "Usuario de Discord",
-    "cta": "Copiar usuario",
-    "copied": "Usuario copiado",
-    "inlineText": "¿Prefieres hablar primero? Escríbeme por Discord.",
-    "inlineCta": "Copiar usuario"
+    "body": "¿Prefieres contarme tu idea antes de enviar el formulario? Únete al Discord de Akai Hana y escríbenos en #Chat.",
+    "label": "Discord",
+    "cta": "Entrar al Discord de Akai Hana",
+    "copied": "Discord listo",
+    "inlineText": "¿Prefieres hablar directamente? Únete a nuestro Discord y escríbenos en #Chat.",
+    "inlineCta": "Entrar al Discord de Akai Hana"
   },
   "about": {
     "eyebrow": "Sobre la marca",
@@ -1085,19 +1085,19 @@
     "interests": [
       {
         "id": "tattoo-design",
-        "label": "Custom Tattoo Design"
+        "label": "Diseño de tatuaje personalizado"
       },
       {
         "id": "japanese-art",
-        "label": "Japanese Art"
+        "label": "Arte japonés"
       },
       {
         "id": "illustration",
-        "label": "Original Illustration"
+        "label": "Ilustración original"
       },
       {
         "id": "custom-project",
-        "label": "Custom Creative Project"
+        "label": "Proyecto creativo personalizado"
       }
     ],
     "status": {
