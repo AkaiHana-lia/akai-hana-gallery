@@ -399,7 +399,7 @@ function renderStories() {
 
     content.append(
       createElement("span", { className: "story-card__number", text: story.number || String(index + 1).padStart(2, "0") }),
-      createElement("span", { className: "story-card__title", text: story.title })
+      createElement("span", { className: "story-card__title", text: story.cardTitle || story.title })
     );
     card.append(renderStoryImage(story.cardImage, "story-card__image", index < 2), content);
     card.addEventListener("click", () => openStory(story.id));
