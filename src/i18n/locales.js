@@ -61,6 +61,7 @@ window.AKAI_HANA_I18N = {
           "id": "higanbana",
           "number": "01",
           "title": "The Legend of the Red Spider Lily",
+          "cardTitle": "Spider Lily",
           "eyebrow": "Leyendas japonesas",
           "japaneseName": "彼岸花",
           "romanized": "Higanbana",
@@ -407,6 +408,189 @@ window.AKAI_HANA_I18N = {
             }
           ],
           "quote": "La verdadera fuerza no siempre ruge. A veces guía la corriente."
+        },
+        {
+          "id": "hannya",
+          "number": "05",
+          "title": "Hannya",
+          "eyebrow": "Teatro Nō y simbolismo japonés",
+          "japaneseName": "般若",
+          "romanized": "La máscara del dolor",
+          "lead": "Una máscara nacida del amor herido, los celos y la transformación emocional.",
+          "cardImage": {
+            "src": "./assets/images/story-card-hannya-tattoo.png",
+            "width": 1122,
+            "height": 1402,
+            "alt": "Tatuaje de máscara Hannya con flores rojas y olas sobre el hombro.",
+            "position": "52% 43%"
+          },
+          "heroImage": {
+            "src": "./assets/images/story-card-hannya-tattoo.png",
+            "width": 1122,
+            "height": 1402,
+            "alt": "Detalle de tatuaje Hannya con cuernos, flores rojas y textura japonesa.",
+            "position": "52% 43%"
+          },
+          "sections": [
+            {
+              "eyebrow": "Hannya",
+              "title": "La máscara que convierte el dolor en rostro",
+              "paragraphs": [
+                "La Hannya es una máscara del teatro Nō japonés que representa a una mujer transformada por los celos, la obsesión y un dolor imposible de contener.",
+                "Aunque su rostro parece demoníaco, no simboliza únicamente maldad. Sus cuernos hablan de transformación, su boca muestra una ira desgarradora y sus ojos conservan una tristeza profundamente humana.",
+                "Según el ángulo desde el que se observe, la Hannya puede parecer furiosa o estar a punto de llorar. Esa dualidad es lo que la vuelve tan poderosa."
+              ]
+            },
+            {
+              "eyebrow": "Leyenda",
+              "title": "Una tristeza que atravesó la madera",
+              "paragraphs": [
+                "Cuenta la historia que una mujer entregó su corazón a alguien que terminó abandonándola. La tristeza se convirtió lentamente en celos, y los celos en una rabia que deformó su rostro hasta volverlo irreconocible.",
+                "Una noche, frente a un templo y bajo una lluvia interminable, intentó ocultar su dolor tras una máscara. Pero sus lágrimas atravesaron la madera y dejaron grietas sobre ella.",
+                "Entonces comprendió que el verdadero monstruo no había nacido del odio, sino del sufrimiento que permaneció demasiado tiempo en silencio."
+              ]
+            },
+            {
+              "eyebrow": "Significado",
+              "title": "Lo que simboliza",
+              "paragraphs": [
+                "La Hannya no es solo una imagen oscura. Es una figura de emoción extrema: dolor, celos, pérdida, dualidad y liberación."
+              ],
+              "list": [
+                "Dolor emocional",
+                "Celos",
+                "Transformación",
+                "Dualidad",
+                "Liberación",
+                "Renacimiento"
+              ]
+            },
+            {
+              "eyebrow": "En el arte del tatuaje",
+              "title": "Una batalla emocional sobre la piel",
+              "paragraphs": [
+                "Tatuarse una Hannya no significa llevar únicamente un demonio sobre la piel. Puede representar una traición superada, una etapa de dolor o el recuerdo de una emoción que casi consumió por completo.",
+                "También simboliza fuerza femenina, protección emocional, transformación y renacimiento. En composiciones japonesas suele acompañarse de flores, lluvia, fuego, agua, espejos o sakura para equilibrar belleza y sufrimiento."
+              ]
+            },
+            {
+              "eyebrow": "Para quién es",
+              "title": "Un símbolo para transformar la herida",
+              "paragraphs": [
+                "La Hannya puede hablar a quienes han vivido una traición, una pérdida emocional o una etapa en la que el dolor cambió su identidad.",
+                "No es una máscara para ocultarse. Es una forma de mirar de frente lo vivido y convertirlo en fuerza, memoria y crecimiento."
+              ]
+            }
+          ],
+          "galleryTitle": "Galería de Hannya",
+          "gallery": [
+            {
+              "src": "./assets/images/story-hannya-cover.png",
+              "width": 1055,
+              "height": 1491,
+              "alt": "Composición visual de Hannya bajo la lluvia con simbolismo japonés.",
+              "position": "center center"
+            },
+            {
+              "src": "./assets/images/story-card-hannya-tattoo.png",
+              "width": 1122,
+              "height": 1402,
+              "alt": "Tatuaje de máscara Hannya con flores, olas y crisantemo rojo.",
+              "position": "52% 43%"
+            }
+          ],
+          "quote": "La máscara no ocultó su dolor. Le dio un rostro."
+        },
+        {
+          "id": "yuki-onna",
+          "number": "06",
+          "title": "Yuki-onna",
+          "eyebrow": "Yokai y leyendas japonesas",
+          "japaneseName": "雪女",
+          "romanized": "La mujer de la nieve",
+          "lead": "Un espíritu de invierno ligado a la belleza helada, el silencio y la soledad.",
+          "cardImage": {
+            "src": "./assets/images/story-card-yuki-onna.png",
+            "width": 1086,
+            "height": 1448,
+            "alt": "Tatuaje de espalda de Yuki-onna con luna, nieve y paisaje japonés.",
+            "position": "50% 46%"
+          },
+          "heroImage": {
+            "src": "./assets/images/story-yuki-onna-cover.png",
+            "width": 1916,
+            "height": 821,
+            "alt": "Yuki-onna en un bosque nevado bajo la luna.",
+            "position": "center center"
+          },
+          "sections": [
+            {
+              "eyebrow": "Yuki-onna",
+              "title": "La belleza silenciosa del invierno",
+              "paragraphs": [
+                "Yuki-onna, la mujer de la nieve, aparece en el folclore japonés durante noches frías, caminos perdidos y bosques cubiertos de blanco. Su presencia es tan bella como inquietante.",
+                "Se la describe con piel pálida, cabello oscuro y una calma sobrenatural. Puede parecer delicada, casi etérea, pero tras esa imagen vive el peligro de una fuerza antigua y helada."
+              ]
+            },
+            {
+              "eyebrow": "Historia",
+              "title": "El espíritu que camina entre la nieve",
+              "paragraphs": [
+                "En muchas leyendas, Yuki-onna aparece ante viajeros atrapados por tormentas de nieve. A veces los atrae con una belleza imposible; otras, los perdona y desaparece dejando solo una sensación de frío y misterio.",
+                "No siempre actúa como una figura cruel. En algunas versiones puede amar, proteger o mostrar compasión, pero siempre pertenece a un mundo que no termina de ser humano.",
+                "Su paso deja una huella de silencio, melancolía y distancia: como un recuerdo que parece hermoso, pero que no puede tocarse sin congelarse."
+              ]
+            },
+            {
+              "eyebrow": "Significado",
+              "title": "Lo que simboliza",
+              "paragraphs": [
+                "Yuki-onna representa la belleza que fascina y asusta al mismo tiempo. Habla de soledad, invierno emocional, silencio y amor imposible."
+              ],
+              "list": [
+                "Belleza peligrosa",
+                "Soledad",
+                "Invierno",
+                "Silencio",
+                "Amor imposible",
+                "Espíritu"
+              ]
+            },
+            {
+              "eyebrow": "Inspiración visual",
+              "title": "Una presencia fría y sobrenatural",
+              "paragraphs": [
+                "En el arte del tatuaje, Yuki-onna funciona especialmente bien en composiciones elegantes, retratos etéreos, escenas nocturnas, nieve, luna, flores rojas y líneas delicadas.",
+                "Puede expresar una etapa de introspección, una herida emocional silenciosa o la belleza de quien ha aprendido a sobrevivir dentro del frío."
+              ]
+            },
+            {
+              "eyebrow": "Para quién es",
+              "title": "Un símbolo para quien abraza su calma",
+              "paragraphs": [
+                "Yuki-onna puede representar a personas reservadas, sensibles o difíciles de leer, que esconden intensidad bajo una apariencia tranquila.",
+                "Es un símbolo para quien encuentra poder en el silencio, en la distancia y en la capacidad de mantenerse firme incluso durante el invierno."
+              ]
+            }
+          ],
+          "galleryTitle": "Galería de Yuki-onna",
+          "gallery": [
+            {
+              "src": "./assets/images/story-yuki-onna-cover.png",
+              "width": 1916,
+              "height": 821,
+              "alt": "Yuki-onna en un bosque nevado con luna y ramas rojas.",
+              "position": "center center"
+            },
+            {
+              "src": "./assets/images/story-card-yuki-onna.png",
+              "width": 1086,
+              "height": 1448,
+              "alt": "Tatuaje de espalda inspirado en Yuki-onna con luna y nieve.",
+              "position": "50% 46%"
+            }
+          ],
+          "quote": "Su belleza no era calor. Era la calma de la nieve antes de caer."
         }
       ]
     },
@@ -1086,19 +1270,19 @@ window.AKAI_HANA_I18N = {
       "interests": [
         {
           "id": "tattoo-design",
-          "label": "Custom Tattoo Design"
+          "label": "Diseño de tatuaje personalizado"
         },
         {
           "id": "japanese-art",
-          "label": "Japanese Art"
+          "label": "Arte japonés"
         },
         {
           "id": "illustration",
-          "label": "Original Illustration"
+          "label": "Ilustración original"
         },
         {
           "id": "custom-project",
-          "label": "Custom Creative Project"
+          "label": "Proyecto creativo personalizado"
         }
       ],
       "status": {
@@ -1173,6 +1357,7 @@ window.AKAI_HANA_I18N = {
           "id": "higanbana",
           "number": "01",
           "title": "The Legend of the Red Spider Lily",
+          "cardTitle": "Spider Lily",
           "eyebrow": "Japanese legends",
           "japaneseName": "彼岸花",
           "romanized": "Higanbana",
@@ -1519,6 +1704,189 @@ window.AKAI_HANA_I18N = {
             }
           ],
           "quote": "True strength does not always roar. Sometimes it guides the current."
+        },
+        {
+          "id": "hannya",
+          "number": "05",
+          "title": "Hannya",
+          "eyebrow": "Nō theatre and Japanese symbolism",
+          "japaneseName": "般若",
+          "romanized": "The mask of pain",
+          "lead": "A mask born from wounded love, jealousy and emotional transformation.",
+          "cardImage": {
+            "src": "./assets/images/story-card-hannya-tattoo.png",
+            "width": 1122,
+            "height": 1402,
+            "alt": "Hannya mask tattoo with red flowers and waves on the shoulder.",
+            "position": "52% 43%"
+          },
+          "heroImage": {
+            "src": "./assets/images/story-card-hannya-tattoo.png",
+            "width": 1122,
+            "height": 1402,
+            "alt": "Detail of a Hannya tattoo with horns, red flowers and Japanese texture.",
+            "position": "52% 43%"
+          },
+          "sections": [
+            {
+              "eyebrow": "Hannya",
+              "title": "The mask that gives pain a face",
+              "paragraphs": [
+                "Hannya is a mask from Japanese Nō theatre representing a woman transformed by jealousy, obsession and pain too intense to contain.",
+                "Although its face appears demonic, it does not symbolize evil alone. Its horns speak of transformation, its mouth reveals a tearing rage, and its eyes preserve a deeply human sadness.",
+                "Depending on the angle from which it is seen, Hannya can look furious or almost about to cry. That duality is what makes it so powerful."
+              ]
+            },
+            {
+              "eyebrow": "Legend",
+              "title": "A sadness that crossed the wood",
+              "paragraphs": [
+                "The story tells of a woman who gave her heart to someone who eventually abandoned her. Sadness slowly became jealousy, and jealousy became a rage that distorted her face until it was unrecognizable.",
+                "One night, before a temple and beneath endless rain, she tried to hide her grief behind a mask. But her tears crossed the wood and left cracks upon it.",
+                "Then she understood that the true monster had not been born from hatred, but from suffering that had remained silent for too long."
+              ]
+            },
+            {
+              "eyebrow": "Meaning",
+              "title": "What it symbolizes",
+              "paragraphs": [
+                "Hannya is not only a dark image. It is a figure of extreme emotion: pain, jealousy, loss, duality and release."
+              ],
+              "list": [
+                "Emotional pain",
+                "Jealousy",
+                "Transformation",
+                "Duality",
+                "Release",
+                "Rebirth"
+              ]
+            },
+            {
+              "eyebrow": "In tattoo art",
+              "title": "An emotional battle on the skin",
+              "paragraphs": [
+                "To tattoo a Hannya does not mean carrying only a demon on the skin. It can represent a betrayal overcome, a period of grief, or the memory of an emotion that almost consumed everything.",
+                "It also symbolizes feminine strength, emotional protection, transformation and rebirth. In Japanese compositions it is often paired with flowers, rain, fire, water, mirrors or sakura to balance beauty and suffering."
+              ]
+            },
+            {
+              "eyebrow": "Who it is for",
+              "title": "A symbol for transforming the wound",
+              "paragraphs": [
+                "Hannya can speak to those who have lived through betrayal, emotional loss or a stage where pain changed their identity.",
+                "It is not a mask for hiding. It is a way to face what happened and turn it into strength, memory and growth."
+              ]
+            }
+          ],
+          "galleryTitle": "Hannya gallery",
+          "gallery": [
+            {
+              "src": "./assets/images/story-hannya-cover.png",
+              "width": 1055,
+              "height": 1491,
+              "alt": "Hannya visual composition under rain with Japanese symbolism.",
+              "position": "center center"
+            },
+            {
+              "src": "./assets/images/story-card-hannya-tattoo.png",
+              "width": 1122,
+              "height": 1402,
+              "alt": "Hannya mask tattoo with flowers, waves and red chrysanthemum.",
+              "position": "52% 43%"
+            }
+          ],
+          "quote": "The mask did not hide her pain. It gave it a face."
+        },
+        {
+          "id": "yuki-onna",
+          "number": "06",
+          "title": "Yuki-onna",
+          "eyebrow": "Yokai and Japanese legends",
+          "japaneseName": "雪女",
+          "romanized": "The snow woman",
+          "lead": "A winter spirit tied to frozen beauty, silence and solitude.",
+          "cardImage": {
+            "src": "./assets/images/story-card-yuki-onna.png",
+            "width": 1086,
+            "height": 1448,
+            "alt": "Yuki-onna back tattoo with moon, snow and Japanese scenery.",
+            "position": "50% 46%"
+          },
+          "heroImage": {
+            "src": "./assets/images/story-yuki-onna-cover.png",
+            "width": 1916,
+            "height": 821,
+            "alt": "Yuki-onna in a snowy forest beneath the moon.",
+            "position": "center center"
+          },
+          "sections": [
+            {
+              "eyebrow": "Yuki-onna",
+              "title": "The silent beauty of winter",
+              "paragraphs": [
+                "Yuki-onna, the snow woman, appears in Japanese folklore during cold nights, lost paths and forests covered in white. Her presence is as beautiful as it is unsettling.",
+                "She is described with pale skin, dark hair and a supernatural calm. She may seem delicate, almost ethereal, but behind that image lives the danger of an ancient frozen force."
+              ]
+            },
+            {
+              "eyebrow": "Story",
+              "title": "The spirit walking through snow",
+              "paragraphs": [
+                "In many legends, Yuki-onna appears before travelers trapped by snowstorms. Sometimes she draws them in with impossible beauty; other times she spares them and vanishes, leaving only cold and mystery behind.",
+                "She is not always cruel. In some versions she can love, protect or show compassion, but she always belongs to a world that is not fully human.",
+                "Her passing leaves a trace of silence, melancholy and distance: like a memory that seems beautiful, but cannot be touched without freezing."
+              ]
+            },
+            {
+              "eyebrow": "Meaning",
+              "title": "What it symbolizes",
+              "paragraphs": [
+                "Yuki-onna represents beauty that fascinates and frightens at the same time. She speaks of solitude, emotional winter, silence and impossible love."
+              ],
+              "list": [
+                "Dangerous beauty",
+                "Solitude",
+                "Winter",
+                "Silence",
+                "Impossible love",
+                "Spirit"
+              ]
+            },
+            {
+              "eyebrow": "Visual inspiration",
+              "title": "A cold and supernatural presence",
+              "paragraphs": [
+                "In tattoo art, Yuki-onna works especially well in elegant compositions, ethereal portraits, moonlit scenes, snow, red flowers and delicate linework.",
+                "She can express introspection, a quiet emotional wound or the beauty of someone who has learned to survive inside the cold."
+              ]
+            },
+            {
+              "eyebrow": "Who it is for",
+              "title": "A symbol for those who embrace calm",
+              "paragraphs": [
+                "Yuki-onna can represent reserved, sensitive or hard-to-read people who hide intensity beneath a quiet appearance.",
+                "It is a symbol for those who find power in silence, distance and the ability to remain steady even through winter."
+              ]
+            }
+          ],
+          "galleryTitle": "Yuki-onna gallery",
+          "gallery": [
+            {
+              "src": "./assets/images/story-yuki-onna-cover.png",
+              "width": 1916,
+              "height": 821,
+              "alt": "Yuki-onna in a snowy forest with moonlight and red branches.",
+              "position": "center center"
+            },
+            {
+              "src": "./assets/images/story-card-yuki-onna.png",
+              "width": 1086,
+              "height": 1448,
+              "alt": "Back tattoo inspired by Yuki-onna with moon and snow.",
+              "position": "50% 46%"
+            }
+          ],
+          "quote": "Her beauty was not warmth. It was the stillness of snow before it falls."
         }
       ]
     },
