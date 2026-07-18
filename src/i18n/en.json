@@ -590,6 +590,188 @@
           }
         ],
         "quote": "Her beauty was not warmth. It was the stillness of snow before it falls."
+      },
+      {
+        "id": "baku",
+        "number": "07",
+        "title": "Baku",
+        "eyebrow": "Yokai and Japanese folklore",
+        "japaneseName": "獏",
+        "romanized": "The nightmare eater",
+        "lead": "A dream guardian that consumes fear and turns the night back into rest.",
+        "cardImage": {
+          "src": "./assets/images/story-card-baku-tattoo.png",
+          "width": 1122,
+          "height": 1402,
+          "alt": "Baku back tattoo with moon, dark smoke and wisteria.",
+          "position": "50% 50%"
+        },
+        "heroImage": {
+          "src": "./assets/images/story-baku-cover.png",
+          "width": 1672,
+          "height": 941,
+          "alt": "Dark Baku entering a Japanese room beside a sleeping person.",
+          "position": "58% 50%"
+        },
+        "sections": [
+          {
+            "eyebrow": "Baku",
+            "title": "The guardian that devours fear",
+            "paragraphs": [
+              "Baku is a supernatural creature from Japanese folklore, said to devour nightmares. Its form combines traits from several animals: an elephant-like trunk and tusks, feline strength and a chimeric body.",
+              "It does not represent fear: it is the guardian that consumes it. Its presence belongs to the threshold between sleep and waking, when the mind still remembers what the night tried to leave behind."
+            ]
+          },
+          {
+            "eyebrow": "Legend",
+            "title": "The eater called before dawn",
+            "paragraphs": [
+              "After waking from a nightmare, people were said to call upon Baku and ask it to devour that dream before it returned.",
+              "One night, darkness entered the memories of a sleeping young woman. Baku crossed the shōji beneath the moon, drew in the shadow and turned it into smoke. Before dawn it left. She never saw it, but she woke without fear.",
+              "Some versions warn that Baku must be invoked with respect: if it remains hungry, it may also devour beautiful dreams and hopes."
+            ]
+          },
+          {
+            "eyebrow": "Meaning",
+            "title": "What it symbolizes",
+            "paragraphs": [
+              "Baku speaks of inner protection, quiet bravery and rest after a difficult night. It is a figure of mental transformation: turning darkness into calm."
+            ],
+            "list": [
+              "Protection",
+              "Bravery",
+              "Inner control",
+              "Transformation",
+              "Rest",
+              "Clarity"
+            ]
+          },
+          {
+            "eyebrow": "In tattoo art",
+            "title": "A talisman against what cannot be seen",
+            "paragraphs": [
+              "To tattoo a Baku is to carry a talisman against what follows you even when your eyes are closed. It represents overcoming trauma, mastering the inner world and reclaiming peace.",
+              "On the back, it becomes a guardian; it can also work on thigh or arm in a vertical composition, paired with smoke, moonlight, wisteria, shōji and soft shadows."
+            ]
+          },
+          {
+            "eyebrow": "Who it is for",
+            "title": "A symbol for those reclaiming the night",
+            "paragraphs": [
+              "Baku can represent people who have moved through difficult nights, repeated fears or stages where the mind could not find rest.",
+              "It is a symbol for those who transformed fear into strength, desire inner protection and want to remember that even darkness can be consumed."
+            ]
+          }
+        ],
+        "galleryTitle": "Baku gallery",
+        "gallery": [
+          {
+            "src": "./assets/images/story-baku-cover.png",
+            "width": 1672,
+            "height": 941,
+            "alt": "Baku as a dream creature beside a moonlit Japanese room.",
+            "position": "58% 50%"
+          },
+          {
+            "src": "./assets/images/story-card-baku-tattoo.png",
+            "width": 1122,
+            "height": 1402,
+            "alt": "Vertical Baku back tattoo with moon and smoke.",
+            "position": "50% 50%"
+          }
+        ],
+        "quote": "Some battles are never witnessed. And some protectors do not need to be remembered."
+      },
+      {
+        "id": "tsuru-no-ongaeshi",
+        "number": "08",
+        "title": "Tsuru no Ongaeshi",
+        "eyebrow": "Japanese legends and gratitude",
+        "japaneseName": "鶴の恩返し",
+        "romanized": "The Crane's Gratitude",
+        "lead": "A legend about kindness, promises, sacrifice and freedom.",
+        "cardImage": {
+          "src": "./assets/images/story-card-tsuru-tattoo.png",
+          "width": 1122,
+          "height": 1402,
+          "alt": "Japanese crane back tattoo with red flowers and ornamental lines.",
+          "position": "50% 46%"
+        },
+        "heroImage": {
+          "src": "./assets/images/story-tsuru-cover.png",
+          "width": 1672,
+          "height": 941,
+          "alt": "A woman weaving beside the spirit of a crane in a snowy Japanese room.",
+          "position": "42% 50%"
+        },
+        "sections": [
+          {
+            "eyebrow": "Tsuru no Ongaeshi",
+            "title": "The promise that returns as a crane",
+            "paragraphs": [
+              "Tsuru no Ongaeshi means “the crane's return of a favor.” It is a Japanese legend about a rescued crane who comes back as a woman to repay an act of kindness.",
+              "It speaks of gratitude, promises, sacrifice and freedom. Its beauty does not come from the miracle itself, but from the quiet gesture of returning love without asking to be kept."
+            ]
+          },
+          {
+            "eyebrow": "Legend",
+            "title": "The woman who wove with her own feathers",
+            "paragraphs": [
+              "A man found an injured crane and freed it from a trap. Some time later, a young woman dressed in white came to his door.",
+              "To help him, she began weaving an extraordinary cloth under one condition: he must never watch her work. Curiosity broke the promise. Behind the door, he discovered the same crane, exhausted, weaving with her own feathers.",
+              "With her secret revealed, she looked at him without resentment, opened her wings and returned to the winter sky. He understood too late that loving something beautiful does not mean holding it captive."
+            ]
+          },
+          {
+            "eyebrow": "Meaning",
+            "title": "What it symbolizes",
+            "paragraphs": [
+              "The crane represents a serene beauty that joins gratitude and farewell. Its story reminds us that some bonds arrive to heal, teach and leave without losing their meaning."
+            ],
+            "list": [
+              "Gratitude",
+              "Loyalty",
+              "Freedom",
+              "Longevity",
+              "Rebirth",
+              "Sacrifice"
+            ]
+          },
+          {
+            "eyebrow": "In tattoo art",
+            "title": "Elegance, promise and flight",
+            "paragraphs": [
+              "The crane represents longevity, hope and good fortune. In this story, it also carries gratitude, sacrifice and love without possession.",
+              "The ribs and back allow the wings to follow the anatomy; in smaller pieces it can adapt to the thigh or arm with flowers, threads, feathers and gold details."
+            ]
+          },
+          {
+            "eyebrow": "Who it is for",
+            "title": "A symbol for those learning to let go",
+            "paragraphs": [
+              "Tsuru no Ongaeshi can represent those who are grateful for a second chance, those who learned to love without possession and those who were reborn after a farewell.",
+              "It is a story for people who understand that true kindness does not imprison: it accompanies, transforms and lets things fly."
+            ]
+          }
+        ],
+        "galleryTitle": "Tsuru no Ongaeshi gallery",
+        "gallery": [
+          {
+            "src": "./assets/images/story-tsuru-cover.png",
+            "width": 1672,
+            "height": 941,
+            "alt": "Tsuru no Ongaeshi scene with a young woman weaving and a luminous crane.",
+            "position": "42% 50%"
+          },
+          {
+            "src": "./assets/images/story-card-tsuru-tattoo.png",
+            "width": 1122,
+            "height": 1402,
+            "alt": "Crane back tattoo with red flowers and a vertical composition.",
+            "position": "50% 46%"
+          }
+        ],
+        "quote": "Some souls arrive to return our kindness. Some must leave to remain free."
       }
     ]
   },

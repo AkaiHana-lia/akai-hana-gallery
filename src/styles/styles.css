@@ -4550,7 +4550,7 @@ body[data-page="home"] .intro__grid {
 
 .stories-index {
   display: grid;
-  grid-template-columns: repeat(3, minmax(210px, 270px));
+  grid-template-columns: repeat(4, minmax(210px, 270px));
   justify-content: center;
   gap: clamp(14px, 1.6vw, 22px);
 }
@@ -4631,6 +4631,16 @@ body[data-page="home"] .intro__grid {
 .story-card:focus-visible .story-card__image {
   filter: saturate(1.18) contrast(1.12) brightness(1.06);
   transform: scale(1.035);
+}
+
+.story-card[data-story-card="tsuru-no-ongaeshi"] .story-card__image {
+  transform: scale(1.16);
+  transform-origin: 50% 46%;
+}
+
+.story-card[data-story-card="tsuru-no-ongaeshi"]:hover .story-card__image,
+.story-card[data-story-card="tsuru-no-ongaeshi"]:focus-visible .story-card__image {
+  transform: scale(1.2);
 }
 
 .story-reader[hidden] {
@@ -4911,6 +4921,98 @@ body[data-page="home"] .intro__grid {
 }
 
 .story-detail--yuki-onna .story-gallery__image {
+  height: clamp(260px, 32vw, 440px);
+}
+
+.story-detail--baku .story-detail__hero {
+  width: min(1120px, calc(100% - clamp(32px, 6vw, 96px)));
+  height: min(64svh, 590px);
+  min-height: 470px;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.52fr);
+  margin: clamp(22px, 3vw, 40px) auto 0;
+  overflow: hidden;
+  border: 1px solid rgba(170, 112, 42, 0.28);
+  border-radius: var(--radius);
+  box-shadow: 0 30px 90px rgba(0, 0, 0, 0.48);
+}
+
+.story-detail--baku .story-detail__hero-figure {
+  background:
+    radial-gradient(circle at 68% 28%, rgba(98, 82, 132, 0.16), rgba(98, 82, 132, 0) 38%),
+    radial-gradient(circle at 54% 68%, rgba(170, 112, 42, 0.14), rgba(170, 112, 42, 0) 42%),
+    #030303;
+}
+
+.story-detail--baku .story-detail__hero-image {
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  object-position: 58% 50%;
+}
+
+.story-detail--baku .story-detail__hero-copy {
+  background:
+    radial-gradient(circle at 0% 18%, rgba(98, 82, 132, 0.14), rgba(98, 82, 132, 0) 34%),
+    linear-gradient(180deg, rgba(12, 10, 9, 0.97), rgba(3, 3, 3, 0.99));
+}
+
+.story-detail--baku .story-detail__name span {
+  color: rgba(212, 175, 55, 0.95);
+}
+
+.story-detail--baku .story-gallery__grid {
+  grid-template-columns: repeat(2, minmax(220px, 1fr));
+  max-width: 860px;
+}
+
+.story-detail--baku .story-gallery__image {
+  height: clamp(260px, 32vw, 440px);
+}
+
+.story-detail--tsuru-no-ongaeshi .story-detail__hero {
+  width: min(1120px, calc(100% - clamp(32px, 6vw, 96px)));
+  height: min(64svh, 590px);
+  min-height: 470px;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.52fr);
+  margin: clamp(22px, 3vw, 40px) auto 0;
+  overflow: hidden;
+  border: 1px solid rgba(212, 175, 55, 0.24);
+  border-radius: var(--radius);
+  box-shadow: 0 30px 90px rgba(0, 0, 0, 0.48);
+}
+
+.story-detail--tsuru-no-ongaeshi .story-detail__hero-figure {
+  background:
+    radial-gradient(circle at 28% 18%, rgba(245, 230, 196, 0.18), rgba(245, 230, 196, 0) 38%),
+    radial-gradient(circle at 72% 62%, rgba(180, 204, 224, 0.12), rgba(180, 204, 224, 0) 40%),
+    #030303;
+}
+
+.story-detail--tsuru-no-ongaeshi .story-detail__hero-image {
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  object-position: 42% 50%;
+}
+
+.story-detail--tsuru-no-ongaeshi .story-detail__hero-copy {
+  background:
+    radial-gradient(circle at 0% 18%, rgba(245, 230, 196, 0.12), rgba(245, 230, 196, 0) 34%),
+    linear-gradient(180deg, rgba(12, 10, 9, 0.97), rgba(3, 3, 3, 0.99));
+}
+
+.story-detail--tsuru-no-ongaeshi .story-detail__name span {
+  color: rgba(245, 230, 196, 0.94);
+}
+
+.story-detail--tsuru-no-ongaeshi .story-gallery__grid {
+  grid-template-columns: repeat(2, minmax(220px, 1fr));
+  max-width: 860px;
+}
+
+.story-detail--tsuru-no-ongaeshi .story-gallery__image {
   height: clamp(260px, 32vw, 440px);
 }
 
@@ -5201,6 +5303,38 @@ body[data-page="home"] .intro__grid {
   }
 
   .story-detail--yuki-onna .story-gallery__grid {
+    grid-template-columns: 1fr;
+    max-width: none;
+  }
+
+  .story-detail--baku .story-detail__hero {
+    width: calc(100% - 40px);
+    height: auto;
+    min-height: 0;
+    grid-template-columns: 1fr;
+  }
+
+  .story-detail--baku .story-detail__hero-figure {
+    height: min(48svh, 430px);
+  }
+
+  .story-detail--baku .story-gallery__grid {
+    grid-template-columns: 1fr;
+    max-width: none;
+  }
+
+  .story-detail--tsuru-no-ongaeshi .story-detail__hero {
+    width: calc(100% - 40px);
+    height: auto;
+    min-height: 0;
+    grid-template-columns: 1fr;
+  }
+
+  .story-detail--tsuru-no-ongaeshi .story-detail__hero-figure {
+    height: min(48svh, 430px);
+  }
+
+  .story-detail--tsuru-no-ongaeshi .story-gallery__grid {
     grid-template-columns: 1fr;
     max-width: none;
   }
