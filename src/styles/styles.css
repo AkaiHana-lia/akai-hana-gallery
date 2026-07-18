@@ -6015,6 +6015,7 @@ body[data-page="contact"] #contact {
 }
 
 .pop-culture__panel {
+  min-width: 0;
   border: 1px solid rgba(238, 202, 164, 0.42);
   border-radius: 12px;
   background:
@@ -6222,7 +6223,24 @@ body[data-page="contact"] #contact {
   text-align: center;
 }
 
+.pop-culture__development-note {
+  position: relative;
+  z-index: 1;
+  width: min(900px, calc(100% - 32px));
+  margin: -18px auto 34px;
+  padding: 13px 18px;
+  border: 1px solid rgba(212, 175, 55, 0.26);
+  border-radius: 8px;
+  background: rgba(8, 5, 5, 0.58);
+  color: rgba(255, 226, 196, 0.78);
+  font-size: 0.84rem;
+  line-height: 1.5;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
 .pop-culture__current-copy {
+  min-width: 0;
   display: grid;
   gap: 8px;
 }
@@ -6482,6 +6500,14 @@ body[data-page="contact"] #contact {
   line-height: 1.65;
 }
 
+.pop-culture-detail__context {
+  padding: 12px 14px;
+  border-left: 1px solid rgba(212, 175, 55, 0.42);
+  background: rgba(255, 244, 225, 0.035);
+  color: rgba(255, 226, 196, 0.82) !important;
+  font-size: 0.94rem !important;
+}
+
 .pop-culture-detail__links {
   display: flex;
   flex-wrap: wrap;
@@ -6512,6 +6538,10 @@ body[data-page="contact"] #contact {
 
   .pop-culture__inner {
     padding: 24px 14px 34px;
+  }
+
+  .pop-culture__development-note {
+    margin: -14px auto 26px;
   }
 
   .pop-culture__panel {

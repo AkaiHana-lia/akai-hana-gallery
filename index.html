@@ -13,7 +13,7 @@
     <link rel="alternate" hreflang="x-default" href="https://akaihanagallery.com/" />
     <link rel="icon" href="./assets/logo/akai-hana-mark.svg" type="image/svg+xml" />
     <link rel="preload" as="image" href="./assets/images/hero-akai-hana-gallery.png" />
-    <link rel="stylesheet" href="./src/styles/styles.css?v=pop-culture-structure-01" />
+    <link rel="stylesheet" href="./src/styles/styles.css?v=pop-culture-i18n-01" />
     <link rel="manifest" href="./site.webmanifest" />
 
     <meta property="og:type" content="website" />
@@ -172,17 +172,17 @@
         <div class="section__inner pop-culture__inner reveal">
           <aside class="pop-culture__panel pop-culture__panel--index" aria-labelledby="pop-culture-title">
             <div class="pop-culture__heading">
-              <h1 id="pop-culture-title">POP CULTURE</h1>
+              <h1 id="pop-culture-title" data-pop-culture-ui="title">POP CULTURE</h1>
               <div class="pop-culture__ornament" aria-hidden="true"></div>
-              <p>Explore modern cultural echoes connected to each Akaihana Story.</p>
+              <p data-pop-culture-ui="lead">Explore modern cultural echoes connected to each Akaihana Story.</p>
             </div>
             <div class="pop-culture__archive-heading" aria-hidden="true">
               <span></span>
-              <strong>Explore by story</strong>
+              <strong data-pop-culture-ui="exploreByStory">Explore by story</strong>
               <span></span>
             </div>
             <div class="pop-culture__theme-grid" data-pop-culture-themes></div>
-            <p class="pop-culture__hint">Select a story to explore its pop-culture connections.</p>
+            <p class="pop-culture__hint" data-pop-culture-ui="hint">Select a story to explore its pop-culture connections.</p>
           </aside>
 
           <section class="pop-culture__panel pop-culture__panel--archive" aria-live="polite">
@@ -192,6 +192,9 @@
             <div class="pop-culture__empty" data-pop-culture-empty hidden></div>
           </section>
         </div>
+        <p class="pop-culture__development-note" data-pop-culture-ui="developmentNote">
+          Our Pop Culture library is currently in development. New verified connections are being added progressively.
+        </p>
         <div class="pop-culture-detail" data-pop-culture-detail hidden>
           <div class="pop-culture-detail__backdrop" data-pop-culture-close></div>
           <article class="pop-culture-detail__dialog" role="dialog" aria-modal="true" aria-labelledby="pop-culture-detail-title">
@@ -337,8 +340,8 @@
       </div>
     </footer>
 
-    <script src="./src/i18n/locales.js?v=pop-culture-structure-01" defer></script>
-    <script src="./src/data/pop-culture.js?v=pop-culture-structure-01" defer></script>
-    <script src="./src/scripts/main.js?v=pop-culture-structure-01" defer></script>
+    <script src="./src/i18n/locales.js?v=pop-culture-i18n-01" defer></script>
+    <script src="./src/data/pop-culture.js?v=pop-culture-i18n-01" defer></script>
+    <script src="./src/scripts/main.js?v=pop-culture-i18n-01" defer></script>
   </body>
 </html>
