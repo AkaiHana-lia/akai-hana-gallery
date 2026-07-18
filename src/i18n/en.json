@@ -42,12 +42,12 @@
     "home": "Home",
     "portfolio": "Portfolio",
     "collections": "Collections",
-    "services": "Services",
-    "about": "About",
-    "contact": "Contact",
+    "services": "Pop Culture",
     "bookProject": "Book a Project",
     "gallery": "Gallery",
-    "stories": "Stories"
+    "stories": "Stories",
+    "popCulture": "Pop Culture",
+    "servicesContact": "Services & Contact"
   },
   "stories": {
     "eyebrow": "Story archive",
@@ -845,50 +845,46 @@
         "placeholder": "you@email.com"
       },
       "size": {
-        "label": "Approximate format or size"
+        "label": "Project type"
       },
       "bodyArea": {
         "label": "Design destination",
-        "placeholder": "Tattoo reference, print, cover, gift or personal piece"
+        "placeholder": "Tattoo reference, print, cover or personal piece"
       },
       "style": {
         "label": "Desired style"
       },
       "colorMode": {
-        "label": "Color or black and white"
+        "label": "Format / Size"
       },
       "meaning": {
-        "label": "Project story or concept",
-        "placeholder": "Describe the idea, symbols, emotion and story you want to turn into an image."
+        "label": "Idea, story or concept",
+        "placeholder": "Tell us your idea, story or concept..."
       },
       "references": {
-        "label": "Optional visual references",
-        "placeholder": "Paste links or describe visual references if you have them."
+        "label": "Add references (optional)",
+        "placeholder": "Images, sketches, links or ideas"
       }
     },
     "selects": {
       "size": {
-        "placeholder": "Select size",
+        "placeholder": "Project type",
         "options": [
           {
-            "id": "small",
-            "label": "Small / asset"
+            "id": "tattoo-design",
+            "label": "Tattoo-inspired design"
           },
           {
-            "id": "medium",
-            "label": "Medium"
+            "id": "japanese-art",
+            "label": "Japanese art"
           },
           {
-            "id": "large",
-            "label": "Large / main piece"
+            "id": "illustration",
+            "label": "Original illustration"
           },
           {
-            "id": "collection",
-            "label": "Collection or visual system"
-          },
-          {
-            "id": "not-sure",
-            "label": "Not sure yet"
+            "id": "visual-project",
+            "label": "Cover, print or visual project"
           }
         ]
       },
@@ -896,37 +892,37 @@
         "placeholder": "Select style",
         "options": [
           {
-            "id": "tattoo-design",
-            "label": "Custom Tattoo Design"
+            "id": "dark-japanese",
+            "label": "Dark Japanese"
           },
           {
-            "id": "japanese-art",
-            "label": "Japanese Art"
+            "id": "anime-fantasy",
+            "label": "Anime / fantasy"
           },
           {
-            "id": "illustration",
-            "label": "Original Illustration"
+            "id": "irezumi",
+            "label": "Irezumi / traditional"
           },
           {
-            "id": "custom-project",
-            "label": "Custom Creative Project"
+            "id": "fine-art",
+            "label": "Premium illustration"
           }
         ]
       },
       "colorMode": {
-        "placeholder": "Select finish",
+        "placeholder": "Format / Size",
         "options": [
           {
-            "id": "black-white",
-            "label": "Black and white"
+            "id": "digital-file",
+            "label": "Digital file"
           },
           {
-            "id": "color",
-            "label": "Color"
+            "id": "tattoo-reference",
+            "label": "Tattoo reference"
           },
           {
-            "id": "crimson",
-            "label": "Black with crimson details"
+            "id": "print-ready",
+            "label": "Print / poster"
           },
           {
             "id": "not-sure",
@@ -1474,5 +1470,26 @@
   },
   "footer": {
     "tagline": "Design Studio · Japanese Art · Custom Artwork"
+  },
+  "servicesContact": {
+    "eyebrow": "Services and contact",
+    "title": "Art with<br /><span>Japanese</span> soul.",
+    "body": "We design digital artwork inspired by Japanese culture, dark fantasy, symbolism and stories made to feel eternal.",
+    "bullets": {
+      "tattoo": "Tattoo-inspired design",
+      "illustration": "Original illustration",
+      "japanese": "Japanese art",
+      "visual": "Covers, prints and visual projects"
+    },
+    "quote": "Every design is a story. Every symbol, a connection.",
+    "formEyebrow": "Start your project",
+    "formTitle": "",
+    "formIntro": "Tell us your idea and we will create unique artwork for you.",
+    "submit": "Send request",
+    "directLabel": "Direct contact",
+    "discordShort": "Direct chat",
+    "emailLabel": "Email",
+    "directTitle": "Or contact us directly",
+    "emailAria": "Open email to Akai Hana"
   }
 }

@@ -41,6 +41,13 @@ const mountPoints = {
   storyReader: document.querySelector("[data-story-reader]"),
   storyDetail: document.querySelector("[data-story-detail]"),
   storyBack: document.querySelector("[data-story-back]"),
+  popCultureThemes: document.querySelector("[data-pop-culture-themes]"),
+  popCultureCurrent: document.querySelector("[data-pop-culture-current]"),
+  popCultureTabs: document.querySelector("[data-pop-culture-tabs]"),
+  popCultureConnections: document.querySelector("[data-pop-culture-connections]"),
+  popCultureEmpty: document.querySelector("[data-pop-culture-empty]"),
+  popCultureDetail: document.querySelector("[data-pop-culture-detail]"),
+  popCultureDetailBody: document.querySelector("[data-pop-culture-detail-body]"),
   designOptions: document.querySelector("[data-design-options]"),
   collectionGrid: document.querySelector("[data-collection-grid]"),
   howItWorksList: document.querySelector("[data-how-it-works-list]"),
@@ -57,6 +64,8 @@ let revealObserver = null;
 let lightboxProjectId = null;
 let lastFocusedElement = null;
 let activeStoryId = null;
+let activePopCultureThemeId = window.AKAI_HANA_POP_CULTURE?.defaultTheme || "kitsune";
+let activePopCultureCategoryId = null;
 
 function getInitialLocale() {
   const params = new URLSearchParams(window.location.search);
@@ -68,7 +77,7 @@ function getInitialLocale() {
 }
 
 async function loadDictionary(nextLocale) {
-  const fallbackDictionary = window.AKAI_HANA_I18N?.[nextLocale];
+  const fallbackDictionary = window.AKAI_HANA_I18N?.[nextLocale] || window.AKAI_HANA_LOCALES?.[nextLocale];
 
   if (window.location.protocol === "file:" && fallbackDictionary) {
     return JSON.parse(JSON.stringify(fallbackDictionary));
@@ -137,6 +146,10 @@ function createElement(tag, options = {}) {
 function applyStaticTranslations() {
   document.querySelectorAll("[data-i18n]").forEach((element) => {
     element.textContent = translate(element.dataset.i18n);
+  });
+
+  document.querySelectorAll("[data-i18n-html]").forEach((element) => {
+    element.innerHTML = translate(element.dataset.i18nHtml);
   });
 
   document.querySelectorAll("[data-i18n-attr]").forEach((element) => {
@@ -514,6 +527,161 @@ function closeStoryReader(shouldScroll = true) {
   if (shouldScroll) {
     window.requestAnimationFrame(() => document.querySelector("#stories")?.scrollIntoView({ block: "start" }));
   }
+}
+
+function getPopCultureData() {
+  const data = window.AKAI_HANA_POP_CULTURE;
+  return data && Array.isArray(data.themes) ? data : { categories: [], themes: [] };
+}
+
+function getActivePopCultureTheme() {
+  const data = getPopCultureData();
+  return data.themes.find((theme) => theme.id === activePopCultureThemeId) || data.themes[0] || null;
+}
+
+function getPopCultureCategoryLabel(categoryId) {
+  const category = getPopCultureData().categories.find((item) => item.id === categoryId);
+  return category?.label || categoryId;
+}
+
+function renderPopCulture() {
+  if (!mountPoints.popCultureThemes || !mountPoints.popCultureCurrent || !mountPoints.popCultureTabs || !mountPoints.popCultureConnections) return;
+
+  const data = getPopCultureData();
+  const activeTheme = getActivePopCultureTheme();
+  clear(mountPoints.popCultureThemes);
+  clear(mountPoints.popCultureCurrent);
+  clear(mountPoints.popCultureTabs);
+  clear(mountPoints.popCultureConnections);
+
+  data.themes.forEach((theme) => {
+    const button = createElement("button", {
+      className: "pop-theme-card",
+      attributes: {
+        type: "button",
+        "data-pop-theme": theme.id,
+        "aria-pressed": String(theme.id === activeTheme?.id)
+      }
+    });
+    if (theme.id === activeTheme?.id) button.classList.add("is-active");
+
+    button.append(
+      createElement("img", { attributes: { src: theme.image, alt: "", loading: "lazy", decoding: "async" } }),
+      createElement("span", { className: "pop-theme-card__shade" }),
+      createElement("span", { className: "pop-theme-card__title", text: theme.title }),
+      createElement("span", { className: "pop-theme-card__kanji", text: theme.kanji || "" })
+    );
+    button.addEventListener("click", () => {
+      activePopCultureThemeId = theme.id;
+      activePopCultureCategoryId = null;
+      renderPopCulture();
+    });
+    mountPoints.popCultureThemes.append(button);
+  });
+
+  if (!activeTheme) return;
+
+  const entries = Array.isArray(activeTheme.entries) ? activeTheme.entries : [];
+  const availableCategories = data.categories.filter((category) => entries.some((entry) => entry.categoryId === category.id));
+  if (!activePopCultureCategoryId || !availableCategories.some((category) => category.id === activePopCultureCategoryId)) {
+    activePopCultureCategoryId = availableCategories[0]?.id || null;
+  }
+
+  const currentCopy = createElement("div", { className: "pop-culture__current-copy" });
+  currentCopy.append(
+    createElement("p", { className: "pop-culture__current-number", text: activeTheme.number || "" }),
+    createElement("h2", { text: activeTheme.title }),
+    createElement("p", { text: activeTheme.intro || "" })
+  );
+  mountPoints.popCultureCurrent.append(
+    createElement("img", { className: "pop-culture__current-icon", attributes: { src: activeTheme.icon || activeTheme.image, alt: "", loading: "lazy", decoding: "async" } }),
+    currentCopy
+  );
+
+  availableCategories.forEach((category) => {
+    const tab = createElement("button", {
+      className: "pop-culture-tab",
+      text: category.label,
+      attributes: {
+        type: "button",
+        role: "tab",
+        "aria-selected": String(category.id === activePopCultureCategoryId)
+      }
+    });
+    if (category.id === activePopCultureCategoryId) tab.classList.add("is-active");
+    tab.addEventListener("click", () => {
+      activePopCultureCategoryId = category.id;
+      renderPopCulture();
+    });
+    mountPoints.popCultureTabs.append(tab);
+  });
+
+  const visibleEntries = activePopCultureCategoryId ? entries.filter((entry) => entry.categoryId === activePopCultureCategoryId) : [];
+  const hasEntries = visibleEntries.length > 0;
+  if (mountPoints.popCultureEmpty) {
+    mountPoints.popCultureEmpty.hidden = hasEntries;
+    mountPoints.popCultureEmpty.textContent = hasEntries ? "" : "Pop-culture entries for this theme will be added after verified references are provided.";
+  }
+
+  visibleEntries.forEach((entry) => {
+    const card = createElement("button", { className: "pop-connection-card", attributes: { type: "button", "data-pop-entry": entry.id } });
+    const figure = createElement("span", { className: "pop-connection-card__figure" });
+    figure.append(createElement("img", { attributes: { src: entry.image, alt: "", loading: "lazy", decoding: "async" } }));
+    const bodyContent = createElement("span", { className: "pop-connection-card__body" });
+    bodyContent.append(
+      createElement("span", { className: "pop-connection-card__badge", text: entry.classification || getPopCultureCategoryLabel(entry.categoryId) }),
+      createElement("strong", { text: entry.title }),
+      createElement("span", { className: "pop-connection-card__franchise", text: entry.franchise || "" }),
+      createElement("span", { className: "pop-connection-card__description", text: entry.shortDescription || "" }),
+      createElement("span", { className: "pop-connection-card__arrow", text: "→" })
+    );
+    card.append(figure, bodyContent);
+    card.addEventListener("click", () => openPopCultureDetail(entry, activeTheme));
+    mountPoints.popCultureConnections.append(card);
+  });
+}
+
+function openPopCultureDetail(entry, theme) {
+  if (!mountPoints.popCultureDetail || !mountPoints.popCultureDetailBody || !entry) return;
+
+  clear(mountPoints.popCultureDetailBody);
+  const links = createElement("div", { className: "pop-culture-detail__links" });
+  if (entry.sourceUrl) {
+    links.append(createElement("a", {
+      className: "button button--collection",
+      text: `${entry.sourceLabel || "Official source"} ↗`,
+      attributes: { href: entry.sourceUrl, target: "_blank", rel: "noopener noreferrer" }
+    }));
+  }
+  if (entry.secondarySourceUrl) {
+    links.append(createElement("a", {
+      className: "button button--collection",
+      text: `${entry.secondarySourceLabel || "View official character"} ↗`,
+      attributes: { href: entry.secondarySourceUrl, target: "_blank", rel: "noopener noreferrer" }
+    }));
+  }
+
+  const copy = createElement("div", { className: "pop-culture-detail__copy" });
+  copy.append(
+    createElement("p", { className: "pop-culture-detail__eyebrow", text: `${theme?.title || ""} · ${getPopCultureCategoryLabel(entry.categoryId)}` }),
+    createElement("h2", { text: entry.title, attributes: { id: "pop-culture-detail-title" } }),
+    createElement("p", { className: "pop-culture-detail__meta", text: [entry.franchise, entry.classification].filter(Boolean).join(" · ") }),
+    createElement("p", { text: entry.fullDescription || entry.shortDescription || "" }),
+    links
+  );
+
+  mountPoints.popCultureDetailBody.append(
+    createElement("img", { className: "pop-culture-detail__image", attributes: { src: entry.image, alt: "", loading: "eager", decoding: "async" } }),
+    copy
+  );
+  mountPoints.popCultureDetail.hidden = false;
+  mountPoints.popCultureDetail.setAttribute("aria-hidden", "false");
+}
+
+function closePopCultureDetail() {
+  if (!mountPoints.popCultureDetail) return;
+  mountPoints.popCultureDetail.hidden = true;
+  mountPoints.popCultureDetail.setAttribute("aria-hidden", "true");
 }
 
 function renderCollections() {
@@ -1002,9 +1170,8 @@ function getCurrentPage() {
   if (!hash || hash === "home") return "home";
   if (hash === "gallery") return "gallery";
   if (hash === "stories") return "stories";
-  if (["custom-designs", "custom-design-form", "design-options", "how-it-works", "discord"].includes(hash)) return "services";
-  if (hash === "about") return "about";
-  if (hash === "contact") return "contact";
+  if (hash === "pop-culture") return "pop-culture";
+  if (["services-contact", "custom-design-form"].includes(hash)) return "services-contact";
   return "home";
 }
 
@@ -1033,9 +1200,8 @@ function getPageFromHash(href) {
 
   if (hash === "gallery") return "gallery";
   if (hash === "stories") return "stories";
-  if (["custom-designs", "custom-design-form", "design-options", "how-it-works", "discord"].includes(hash)) return "services";
-  if (hash === "about") return "about";
-  if (hash === "contact") return "contact";
+  if (hash === "pop-culture") return "pop-culture";
+  if (["services-contact", "custom-design-form"].includes(hash)) return "services-contact";
   return "home";
 }
 
@@ -1096,6 +1262,7 @@ function renderPage() {
   renderFilters();
   renderGallery();
   renderStories();
+  renderPopCulture();
   renderCollections();
   renderDesignOptions();
   renderHowItWorks();
@@ -1162,6 +1329,11 @@ lightboxNextButton?.addEventListener("click", () => moveLightbox(1));
 mountPoints.storyBack?.addEventListener("click", () => closeStoryReader());
 
 document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && mountPoints.popCultureDetail && !mountPoints.popCultureDetail.hidden) {
+    closePopCultureDetail();
+    return;
+  }
+
   if (!lightbox || lightbox.hidden) return;
 
   if (event.key === "Escape") closeLightbox();
@@ -1171,6 +1343,9 @@ document.addEventListener("keydown", (event) => {
 
 contactForm?.addEventListener("submit", submitLead);
 customDesignForm?.addEventListener("submit", submitTattooRequest);
+document.querySelectorAll("[data-pop-culture-close]").forEach((button) => {
+  button.addEventListener("click", closePopCultureDetail);
+});
 
 setHeaderState();
 setLocale(locale, !window.location.search.includes("lang=")).catch((error) => {

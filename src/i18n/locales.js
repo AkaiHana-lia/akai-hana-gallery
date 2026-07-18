@@ -1,4 +1,4 @@
-window.AKAI_HANA_I18N = {
+window.AKAI_HANA_LOCALES = {
   "es": {
     "locale": "es",
     "brand": {
@@ -43,12 +43,12 @@ window.AKAI_HANA_I18N = {
       "home": "Home",
       "portfolio": "Portfolio",
       "collections": "Collections",
-      "services": "Services",
-      "about": "About",
-      "contact": "Contact",
+      "services": "Pop Culture",
       "bookProject": "Book a Project",
       "gallery": "Gallery",
-      "stories": "Stories"
+      "stories": "Stories",
+      "popCulture": "Pop Culture",
+      "servicesContact": "Services & Contact"
     },
     "stories": {
       "eyebrow": "Archivo de historias",
@@ -846,50 +846,46 @@ window.AKAI_HANA_I18N = {
           "placeholder": "tu@email.com"
         },
         "size": {
-          "label": "Formato o tamaño aproximado"
+          "label": "Tipo de proyecto"
         },
         "bodyArea": {
           "label": "Destino del diseño",
-          "placeholder": "Referencia para tatuaje, print, portada, regalo o pieza personal"
+          "placeholder": "Referencia para tatuaje, print, portada o pieza personal"
         },
         "style": {
           "label": "Estilo deseado"
         },
         "colorMode": {
-          "label": "Color o blanco y negro"
+          "label": "Formato / Tamaño"
         },
         "meaning": {
-          "label": "Historia o concepto del proyecto",
-          "placeholder": "Describe la idea, símbolos, emoción e historia que quieres convertir en imagen."
+          "label": "Idea, historia o concepto",
+          "placeholder": "Cuéntanos tu idea, historia o concepto..."
         },
         "references": {
-          "label": "Referencias visuales opcionales",
-          "placeholder": "Pega enlaces o describe referencias visuales si las tienes."
+          "label": "Añadir referencias (opcional)",
+          "placeholder": "Imágenes, bocetos, enlaces o ideas"
         }
       },
       "selects": {
         "size": {
-          "placeholder": "Selecciona tamaño",
+          "placeholder": "Tipo de proyecto",
           "options": [
             {
-              "id": "small",
-              "label": "Pequeño / asset"
+              "id": "tattoo-design",
+              "label": "Diseño inspirado en tatuaje"
             },
             {
-              "id": "medium",
-              "label": "Mediano"
+              "id": "japanese-art",
+              "label": "Arte japonés"
             },
             {
-              "id": "large",
-              "label": "Grande / pieza principal"
+              "id": "illustration",
+              "label": "Ilustración original"
             },
             {
-              "id": "collection",
-              "label": "Colección o sistema visual"
-            },
-            {
-              "id": "not-sure",
-              "label": "Aún no lo sé"
+              "id": "visual-project",
+              "label": "Portada, print o proyecto visual"
             }
           ]
         },
@@ -897,37 +893,37 @@ window.AKAI_HANA_I18N = {
           "placeholder": "Selecciona estilo",
           "options": [
             {
-              "id": "tattoo-design",
-              "label": "Custom Tattoo Design"
+              "id": "dark-japanese",
+              "label": "Japonés oscuro"
             },
             {
-              "id": "japanese-art",
-              "label": "Japanese Art"
+              "id": "anime-fantasy",
+              "label": "Anime / fantasía"
             },
             {
-              "id": "illustration",
-              "label": "Original Illustration"
+              "id": "irezumi",
+              "label": "Irezumi / tradicional"
             },
             {
-              "id": "custom-project",
-              "label": "Custom Creative Project"
+              "id": "fine-art",
+              "label": "Ilustración premium"
             }
           ]
         },
         "colorMode": {
-          "placeholder": "Selecciona acabado",
+          "placeholder": "Formato / Tamaño",
           "options": [
             {
-              "id": "black-white",
-              "label": "Blanco y negro"
+              "id": "digital-file",
+              "label": "Archivo digital"
             },
             {
-              "id": "color",
-              "label": "Color"
+              "id": "tattoo-reference",
+              "label": "Referencia para tatuaje"
             },
             {
-              "id": "crimson",
-              "label": "Negro con detalles carmesí"
+              "id": "print-ready",
+              "label": "Print / póster"
             },
             {
               "id": "not-sure",
@@ -1475,6 +1471,27 @@ window.AKAI_HANA_I18N = {
     },
     "footer": {
       "tagline": "Design Studio · Japanese Art · Custom Artwork"
+    },
+    "servicesContact": {
+      "eyebrow": "Servicios y contacto",
+      "title": "Arte con<br /><span>alma</span> japonesa.",
+      "body": "Diseñamos arte digital inspirado en la cultura japonesa, la fantasía oscura, el simbolismo y las historias que merecen ser eternas.",
+      "bullets": {
+        "tattoo": "Diseño inspirado en tatuajes",
+        "illustration": "Ilustración original",
+        "japanese": "Arte japonés",
+        "visual": "Portadas, prints y proyectos visuales"
+      },
+      "quote": "Cada diseño es una historia. Cada símbolo, una conexión.",
+      "formEyebrow": "Inicia tu proyecto",
+      "formTitle": "",
+      "formIntro": "Cuéntanos tu idea y crearemos arte único para ti.",
+      "submit": "Enviar solicitud",
+      "directLabel": "Contacto directo",
+      "discordShort": "Chat directo",
+      "emailLabel": "Email",
+      "directTitle": "O contáctanos directamente",
+      "emailAria": "Abrir correo a Akai Hana"
     }
   },
   "en": {
@@ -1521,12 +1538,12 @@ window.AKAI_HANA_I18N = {
       "home": "Home",
       "portfolio": "Portfolio",
       "collections": "Collections",
-      "services": "Services",
-      "about": "About",
-      "contact": "Contact",
+      "services": "Pop Culture",
       "bookProject": "Book a Project",
       "gallery": "Gallery",
-      "stories": "Stories"
+      "stories": "Stories",
+      "popCulture": "Pop Culture",
+      "servicesContact": "Services & Contact"
     },
     "stories": {
       "eyebrow": "Story archive",
@@ -2324,50 +2341,46 @@ window.AKAI_HANA_I18N = {
           "placeholder": "you@email.com"
         },
         "size": {
-          "label": "Approximate format or size"
+          "label": "Project type"
         },
         "bodyArea": {
           "label": "Design destination",
-          "placeholder": "Tattoo reference, print, cover, gift or personal piece"
+          "placeholder": "Tattoo reference, print, cover or personal piece"
         },
         "style": {
           "label": "Desired style"
         },
         "colorMode": {
-          "label": "Color or black and white"
+          "label": "Format / Size"
         },
         "meaning": {
-          "label": "Project story or concept",
-          "placeholder": "Describe the idea, symbols, emotion and story you want to turn into an image."
+          "label": "Idea, story or concept",
+          "placeholder": "Tell us your idea, story or concept..."
         },
         "references": {
-          "label": "Optional visual references",
-          "placeholder": "Paste links or describe visual references if you have them."
+          "label": "Add references (optional)",
+          "placeholder": "Images, sketches, links or ideas"
         }
       },
       "selects": {
         "size": {
-          "placeholder": "Select size",
+          "placeholder": "Project type",
           "options": [
             {
-              "id": "small",
-              "label": "Small / asset"
+              "id": "tattoo-design",
+              "label": "Tattoo-inspired design"
             },
             {
-              "id": "medium",
-              "label": "Medium"
+              "id": "japanese-art",
+              "label": "Japanese art"
             },
             {
-              "id": "large",
-              "label": "Large / main piece"
+              "id": "illustration",
+              "label": "Original illustration"
             },
             {
-              "id": "collection",
-              "label": "Collection or visual system"
-            },
-            {
-              "id": "not-sure",
-              "label": "Not sure yet"
+              "id": "visual-project",
+              "label": "Cover, print or visual project"
             }
           ]
         },
@@ -2375,37 +2388,37 @@ window.AKAI_HANA_I18N = {
           "placeholder": "Select style",
           "options": [
             {
-              "id": "tattoo-design",
-              "label": "Custom Tattoo Design"
+              "id": "dark-japanese",
+              "label": "Dark Japanese"
             },
             {
-              "id": "japanese-art",
-              "label": "Japanese Art"
+              "id": "anime-fantasy",
+              "label": "Anime / fantasy"
             },
             {
-              "id": "illustration",
-              "label": "Original Illustration"
+              "id": "irezumi",
+              "label": "Irezumi / traditional"
             },
             {
-              "id": "custom-project",
-              "label": "Custom Creative Project"
+              "id": "fine-art",
+              "label": "Premium illustration"
             }
           ]
         },
         "colorMode": {
-          "placeholder": "Select finish",
+          "placeholder": "Format / Size",
           "options": [
             {
-              "id": "black-white",
-              "label": "Black and white"
+              "id": "digital-file",
+              "label": "Digital file"
             },
             {
-              "id": "color",
-              "label": "Color"
+              "id": "tattoo-reference",
+              "label": "Tattoo reference"
             },
             {
-              "id": "crimson",
-              "label": "Black with crimson details"
+              "id": "print-ready",
+              "label": "Print / poster"
             },
             {
               "id": "not-sure",
@@ -2953,6 +2966,29 @@ window.AKAI_HANA_I18N = {
     },
     "footer": {
       "tagline": "Design Studio · Japanese Art · Custom Artwork"
+    },
+    "servicesContact": {
+      "eyebrow": "Services and contact",
+      "title": "Art with<br /><span>Japanese</span> soul.",
+      "body": "We design digital artwork inspired by Japanese culture, dark fantasy, symbolism and stories made to feel eternal.",
+      "bullets": {
+        "tattoo": "Tattoo-inspired design",
+        "illustration": "Original illustration",
+        "japanese": "Japanese art",
+        "visual": "Covers, prints and visual projects"
+      },
+      "quote": "Every design is a story. Every symbol, a connection.",
+      "formEyebrow": "Start your project",
+      "formTitle": "",
+      "formIntro": "Tell us your idea and we will create unique artwork for you.",
+      "submit": "Send request",
+      "directLabel": "Direct contact",
+      "discordShort": "Direct chat",
+      "emailLabel": "Email",
+      "directTitle": "Or contact us directly",
+      "emailAria": "Open email to Akai Hana"
     }
   }
 };
+
+window.AKAI_HANA_I18N = window.AKAI_HANA_I18N || window.AKAI_HANA_LOCALES;
