@@ -772,6 +772,203 @@
           }
         ],
         "quote": "Some souls arrive to return our kindness. Some must leave to remain free."
+      },
+      {
+        "id": "akai-ito",
+        "number": "09",
+        "title": "Akai Ito",
+        "eyebrow": "Japanese legends and fate",
+        "japaneseName": "赤い糸",
+        "romanized": "The red thread of fate",
+        "lead": "An invisible red thread connects souls destined to meet, no matter time, place or circumstance.",
+        "cardImage": {
+          "src": "./assets/images/story-card-akai-ito-tattoo.png",
+          "width": 900,
+          "height": 1200,
+          "alt": "Akai Ito tattoo with red thread, moon, pagoda and destined couple.",
+          "position": "52% 44%"
+        },
+        "heroImage": {
+          "src": "./assets/images/story-akai-ito-cover.png",
+          "width": 1983,
+          "height": 793,
+          "alt": "Japanese couple joined by the red thread of fate under the moon.",
+          "position": "58% 50%"
+        },
+        "sections": [
+          {
+            "eyebrow": "Akai Ito",
+            "title": "The invisible thread",
+            "paragraphs": [
+              "Akai Ito means the red thread. The legend says that the gods tie an invisible red thread around those who are destined to meet.",
+              "The thread may stretch, tangle or hide, but it never breaks. It joins people across time, distance and lifetimes."
+            ]
+          },
+          {
+            "eyebrow": "The legend",
+            "title": "Bound by fate",
+            "paragraphs": [
+              "From the moment we are born, the thread begins to guide the path. It may connect us to love, friendship, chosen family or a soul that arrives to transform a life.",
+              "Sometimes the people joined by Akai Ito meet early. Other times the thread crosses years, obstacles, cities and silences before bringing them to the same place."
+            ]
+          },
+          {
+            "eyebrow": "When they meet",
+            "title": "The heart recognises the instant",
+            "paragraphs": [
+              "When they finally meet, the thread tightens and the heart recognises something that seemed asleep. It is not always romantic: it can also speak of family, friendship, protection or a connection that changes destiny.",
+              "The legend reminds us that some bonds do not depend on logic. They feel like return, like memory, like an ancient promise breathing again."
+            ]
+          },
+          {
+            "eyebrow": "Meaning",
+            "title": "What it symbolizes",
+            "paragraphs": [
+              "Akai Ito represents destiny, true love, eternal connection, hope and soul bonds. It is a delicate way to speak about what remains united even when the world tries to separate it."
+            ],
+            "list": [
+              "Destiny",
+              "True love",
+              "Eternal connection",
+              "Hope",
+              "Soulmates",
+              "Family bonds"
+            ]
+          },
+          {
+            "eyebrow": "In tattoo art",
+            "title": "A bond that guides the body",
+            "paragraphs": [
+              "In tattoo art, Akai Ito works beautifully because the red thread can follow the anatomy like a narrative line: from the hand, arm, back or ribs into a complete scene.",
+              "It can be paired with moonlight, sakura, pagodas, water, joined hands or two figures separated by landscape. The thread becomes path, promise and visual memory."
+            ]
+          },
+          {
+            "eyebrow": "Who it is for",
+            "title": "A symbol for bonds that do not break",
+            "paragraphs": [
+              "Akai Ito can represent those who believe in destined encounters, those who have lived a connection that cannot be explained or those who want to honour a bond time cannot erase.",
+              "It is not only romantic love. It can also be family, friendship, grief, reunion or gratitude for someone who changed the direction of a life."
+            ]
+          }
+        ],
+        "galleryTitle": "Akai Ito gallery",
+        "gallery": [
+          {
+            "src": "./assets/images/story-akai-ito-lore.png",
+            "width": 1536,
+            "height": 1024,
+            "alt": "Complete Akai Ito narrative panel with legend steps and tattoos.",
+            "position": "50% 50%"
+          },
+          {
+            "src": "./assets/images/story-card-akai-ito-tattoo.png",
+            "width": 900,
+            "height": 1200,
+            "alt": "Akai Ito back tattoo detail with the red thread of fate.",
+            "position": "52% 44%"
+          }
+        ],
+        "quote": "Fate joins, the thread guides, the heart recognises."
+      },
+      {
+        "id": "shuten-doji",
+        "number": "10",
+        "title": "Shuten-dōji",
+        "eyebrow": "Japanese folklore and demons",
+        "japaneseName": "酒呑童子",
+        "romanized": "The demon king of Mount Ōe",
+        "lead": "The most feared oni in Japanese folklore: power, chaos, excess and a legend defeated by courage and honour.",
+        "cardImage": {
+          "src": "./assets/images/story-card-shuten-doji-tattoo.png",
+          "width": 1024,
+          "height": 1536,
+          "alt": "Shuten-dōji tattoo with red moon, horns, maple leaves and dark energy.",
+          "position": "50% 48%"
+        },
+        "heroImage": {
+          "src": "./assets/images/story-shuten-doji-cover.png",
+          "width": 1983,
+          "height": 793,
+          "alt": "Shuten-dōji, demon king of Mount Ōe, beneath a red moon with sake and warriors.",
+          "position": "58% 50%"
+        },
+        "sections": [
+          {
+            "eyebrow": "Shuten-dōji",
+            "title": "The demon king of Mount Ōe",
+            "paragraphs": [
+              "Shuten-dōji, whose name means the boy who drinks sake, is one of the most famous and feared oni in Japanese folklore.",
+              "He ruled Mount Ōe surrounded by demons, banquets, chaos and indulgence. His figure blends terror, charisma, wild strength and tragedy."
+            ]
+          },
+          {
+            "eyebrow": "The legend",
+            "title": "The demon who would not fall",
+            "paragraphs": [
+              "According to legend, Shuten-dōji terrorised the Kyoto region and abducted people alongside his demonic court.",
+              "Minamoto no Raikō and his warriors climbed Mount Ōe to stop him. They defeated him with strategy, bravery and a promise of justice.",
+              "Even after being beheaded, Shuten-dōji's severed head continued to attack. The legend reminds us that some forces do not vanish when defeated: they become warnings."
+            ]
+          },
+          {
+            "eyebrow": "Meanings",
+            "title": "What it represents",
+            "paragraphs": [
+              "Shuten-dōji speaks of inner demons, wild strength, excess, transformation and the duality between power and destruction."
+            ],
+            "list": [
+              "Inner demons",
+              "Strength and courage",
+              "Transformation",
+              "Duality",
+              "Controlled chaos",
+              "Victory over shadow"
+            ]
+          },
+          {
+            "eyebrow": "Symbolism",
+            "title": "Oni, sake, mountain and maple leaves",
+            "paragraphs": [
+              "The oni represents the untamed side of the mind. The sake bowl speaks of pleasure, excess and loss of control. Mount Ōe symbolizes isolation, territory and absolute power.",
+              "Maple leaves add beauty, fragility and passage: even the darkest forces exist within the cycle of life."
+            ]
+          },
+          {
+            "eyebrow": "In tattoo art",
+            "title": "A piece of brutal strength",
+            "paragraphs": [
+              "As a tattoo, Shuten-dōji carries enormous presence: oni face, horns, red moon, smoke, sake, castles, warriors and maple leaves.",
+              "It can represent the fight against inner impulses, the ability to face fear or a transformation born from discipline. It is an intense, dark and highly visual story."
+            ]
+          },
+          {
+            "eyebrow": "Who it is for",
+            "title": "A symbol for conquering the untamed",
+            "paragraphs": [
+              "Shuten-dōji is for those who want to represent strength, survival, courage and control over what tries to destroy them.",
+              "He is not a flat demon: he is power, tragedy, excess and greatness in one figure."
+            ]
+          }
+        ],
+        "galleryTitle": "Shuten-dōji gallery",
+        "gallery": [
+          {
+            "src": "./assets/images/story-shuten-doji-lore.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Complete Shuten-dōji narrative panel with legend, meanings, symbols and tattoo.",
+            "position": "50% 50%"
+          },
+          {
+            "src": "./assets/images/story-card-shuten-doji-tattoo.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Shuten-dōji tattoo detail with oni and red moon.",
+            "position": "50% 48%"
+          }
+        ],
+        "quote": "Even the greatest darkness can be defeated by courage and honour."
       }
     ]
   },
