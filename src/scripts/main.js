@@ -641,7 +641,7 @@ function renderPopCulture() {
   visibleEntries.forEach((entry) => {
     const card = createElement("button", { className: "pop-connection-card", attributes: { type: "button", "data-pop-entry": entry.id } });
     const figure = createElement("span", { className: "pop-connection-card__figure" });
-    figure.append(createElement("img", { attributes: { src: entry.image, alt: "", loading: "lazy", decoding: "async" } }));
+    figure.append(createElement("img", { attributes: { src: entry.image, alt: "", loading: "lazy", decoding: "async", "data-pop-fit": entry.imageFit || "cover" } }));
     const bodyContent = createElement("span", { className: "pop-connection-card__body" });
     bodyContent.append(
       createElement("span", { className: "pop-connection-card__badge", text: getPopCultureText(entry.classification) || getPopCultureCategoryLabel(entry.categoryId) }),
@@ -690,7 +690,7 @@ function openPopCultureDetail(entry, theme) {
   copy.append(...detailNodes);
 
   mountPoints.popCultureDetailBody.append(
-    createElement("img", { className: "pop-culture-detail__image", attributes: { src: entry.image, alt: "", loading: "eager", decoding: "async" } }),
+    createElement("img", { className: "pop-culture-detail__image", attributes: { src: entry.image, alt: "", loading: "eager", decoding: "async", "data-pop-fit": entry.imageFit || "cover" } }),
     copy
   );
   mountPoints.popCultureDetail.hidden = false;

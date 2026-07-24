@@ -191,9 +191,9 @@
           "position": "center center"
         },
         "heroImage": {
-          "src": "./assets/images/story-kitsune-cover.png",
-          "width": 1120,
-          "height": 2480,
+          "src": "./assets/images/story-kitsune-banner-premium.png",
+          "width": 1916,
+          "height": 821,
           "alt": "White nine-tailed Kitsune under the moon and cherry blossoms.",
           "position": "center center"
         },
@@ -258,9 +258,9 @@
           "position": "center center"
         },
         "heroImage": {
-          "src": "./assets/images/story-koi-hero.png",
-          "width": 900,
-          "height": 1946,
+          "src": "./assets/images/story-koi-banner-premium.png",
+          "width": 1916,
+          "height": 821,
           "alt": "Koi climbing a waterfall toward a torii beneath the red moon.",
           "position": "center center"
         },
@@ -341,9 +341,9 @@
           "position": "center center"
         },
         "heroImage": {
-          "src": "./assets/images/story-ryu-cover.png",
-          "width": 900,
-          "height": 1200,
+          "src": "./assets/images/story-ryu-banner-premium.png",
+          "width": 1916,
+          "height": 821,
           "alt": "Japanese Ryū dragon among clouds, sakura and a golden moon.",
           "position": "center center"
         },

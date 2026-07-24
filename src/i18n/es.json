@@ -191,9 +191,9 @@
           "position": "center center"
         },
         "heroImage": {
-          "src": "./assets/images/story-kitsune-cover.png",
-          "width": 1120,
-          "height": 2480,
+          "src": "./assets/images/story-kitsune-banner-premium.png",
+          "width": 1916,
+          "height": 821,
           "alt": "Kitsune blanco de nueve colas bajo la luna y flores de cerezo.",
           "position": "center center"
         },
@@ -258,9 +258,9 @@
           "position": "center center"
         },
         "heroImage": {
-          "src": "./assets/images/story-koi-hero.png",
-          "width": 900,
-          "height": 1946,
+          "src": "./assets/images/story-koi-banner-premium.png",
+          "width": 1916,
+          "height": 821,
           "alt": "Koi ascendiendo una cascada hacia un torii bajo la luna roja.",
           "position": "center center"
         },
@@ -341,9 +341,9 @@
           "position": "center center"
         },
         "heroImage": {
-          "src": "./assets/images/story-ryu-cover.png",
-          "width": 900,
-          "height": 1200,
+          "src": "./assets/images/story-ryu-banner-premium.png",
+          "width": 1916,
+          "height": 821,
           "alt": "Dragón japonés Ryū entre nubes, sakura y luna dorada.",
           "position": "center center"
         },

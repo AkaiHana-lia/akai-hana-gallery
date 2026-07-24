@@ -4553,7 +4553,7 @@ body[data-page="home"] .intro__grid {
 
 .stories-index {
   display: grid;
-  grid-template-columns: repeat(4, minmax(210px, 270px));
+  grid-template-columns: repeat(5, minmax(170px, 236px));
   justify-content: center;
   gap: clamp(14px, 1.6vw, 22px);
 }
@@ -4831,6 +4831,32 @@ body[data-page="home"] .intro__grid {
 
 .story-detail--ryu .story-gallery__image {
   height: clamp(250px, 30vw, 410px);
+}
+
+.story-detail--kitsune .story-detail__hero,
+.story-detail--koi .story-detail__hero,
+.story-detail--ryu .story-detail__hero {
+  width: 100%;
+  height: min(68svh, 620px);
+  min-height: 460px;
+  grid-template-columns: minmax(0, 1.08fr) minmax(340px, 0.64fr);
+  margin: 0;
+  border-width: 0 0 1px;
+  border-radius: 0;
+}
+
+.story-detail--kitsune .story-detail__hero-figure,
+.story-detail--koi .story-detail__hero-figure,
+.story-detail--ryu .story-detail__hero-figure {
+  display: block;
+}
+
+.story-detail--kitsune .story-detail__hero-image,
+.story-detail--koi .story-detail__hero-image,
+.story-detail--ryu .story-detail__hero-image {
+  width: 100%;
+  max-width: none;
+  object-fit: cover;
 }
 
 .story-detail--hannya .story-detail__hero {
@@ -5276,6 +5302,21 @@ body[data-page="home"] .intro__grid {
   .story-detail--ryu .story-gallery__grid {
     grid-template-columns: 1fr;
     max-width: none;
+  }
+
+  .story-detail--kitsune .story-detail__hero,
+  .story-detail--koi .story-detail__hero,
+  .story-detail--ryu .story-detail__hero {
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    grid-template-columns: 1fr;
+  }
+
+  .story-detail--kitsune .story-detail__hero-figure,
+  .story-detail--koi .story-detail__hero-figure,
+  .story-detail--ryu .story-detail__hero-figure {
+    height: min(56svh, 520px);
   }
 
   .story-detail--hannya .story-detail__hero {
@@ -6347,6 +6388,12 @@ body[data-page="contact"] #contact {
   object-fit: cover;
   filter: saturate(1.02) contrast(1.08) brightness(0.88);
   transition: transform 240ms var(--ease), filter 240ms var(--ease);
+}
+
+.pop-connection-card__figure img[data-pop-fit="contain"],
+.pop-culture-detail__image[data-pop-fit="contain"] {
+  object-fit: contain;
+  background: rgba(4, 9, 10, 0.94);
 }
 
 .pop-connection-card__body {
