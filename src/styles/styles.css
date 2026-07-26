@@ -7227,6 +7227,44 @@ body[data-page="services-contact"] .site-actions {
   font-weight: 600;
 }
 
+.services-contact__support-button {
+  width: min(100%, 252px);
+  min-height: 34px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  margin-top: 1px;
+  padding: 8px 13px;
+  border: 1px solid rgba(212, 175, 55, 0.26);
+  border-radius: 999px;
+  background:
+    linear-gradient(90deg, rgba(182, 0, 0, 0.08), rgba(212, 175, 55, 0.045), rgba(182, 0, 0, 0.08)),
+    rgba(3, 3, 3, 0.22);
+  color: rgba(248, 211, 171, 0.78);
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.24em;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-shadow: inset 0 1px 0 rgba(255, 244, 229, 0.04);
+  opacity: 0.88;
+  transition: opacity 180ms var(--ease), border-color 180ms var(--ease), background 180ms var(--ease), color 180ms var(--ease);
+}
+
+.services-contact__support-button:hover,
+.services-contact__support-button:focus-visible {
+  border-color: rgba(212, 175, 55, 0.52);
+  background:
+    linear-gradient(90deg, rgba(182, 0, 0, 0.13), rgba(212, 175, 55, 0.075), rgba(182, 0, 0, 0.13)),
+    rgba(3, 3, 3, 0.32);
+  color: rgba(255, 244, 229, 0.95);
+  outline: none;
+  opacity: 1;
+}
+
 .services-contact__form .form-legal,
 .services-contact__form .form-status {
   display: none;
@@ -7412,6 +7450,12 @@ body[data-page="services-contact"] .site-actions {
   .services-contact__form .form-grid,
   .services-contact__direct {
     grid-template-columns: 1fr;
+  }
+
+  .services-contact__support-button {
+    width: 100%;
+    min-height: 38px;
+    font-size: 0.64rem;
   }
 }
 
