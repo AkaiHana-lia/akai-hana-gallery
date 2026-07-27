@@ -1558,6 +1558,266 @@ window.AKAI_HANA_POP_CULTURE = {
           sourceUrl: "https://j-books.shueisha.co.jp/books/kaidankanojo_02_kutisakeonna.html"
         }
       ]
+    },
+    {
+      id: "nure-onna",
+      number: "12",
+      title: "Nure-onna",
+      kanji: "濡女",
+      image: "./assets/images/story-card-nure-onna-tattoo.png",
+      icon: "./assets/images/story-nure-onna-banner.png",
+      intro: {
+        es: "Nure-onna, la mujer mojada, une belleza, agua, serpiente y peligro oculto. Estas conexiones verificadas muestran su presencia moderna en anime, manga, cine, live action, novelas ligeras y videojuegos.",
+        en: "Nure-onna, the wet woman, brings together beauty, water, serpent imagery and hidden danger. These verified connections show her modern presence across anime, manga, cinema, live action, light novels and video games."
+      },
+      entries: [
+        {
+          id: "nure-kakuriyo-shizuna",
+          categoryId: "anime-manga",
+          title: {
+            es: "Kakuriyo no Yadomeshi - Shizuna",
+            en: "Kakuriyo no Yadomeshi - Shizuna"
+          },
+          franchise: {
+            es: "Anime",
+            en: "Anime"
+          },
+          classification: {
+            es: "Personaje Nure-onna explícito",
+            en: "Explicit Nure-onna Character"
+          },
+          image: "./assets/images/pop-nure-kakuriyo-shizuna.png?v=nure-pop-01",
+          imageFit: "contain",
+          shortDescription: {
+            es: "La página oficial del anime identifica a Shizuna directamente como Nure-onna.",
+            en: "The official anime character page identifies Shizuna directly as Nure-onna."
+          },
+          fullDescription: {
+            es: "Kakuriyo no Yadomeshi incorpora a Shizuna como una figura Nure-onna dentro de su universo sobrenatural. La conexión es directa porque la fuente oficial la presenta con ese nombre y la sitúa como responsable de los baños termales de Tenjin-ya.",
+            en: "Kakuriyo no Yadomeshi includes Shizuna as a Nure-onna figure inside its supernatural world. The connection is direct because the official source presents her under that name and places her as Tenjin-ya's bathkeeper."
+          },
+          context: {
+            es: "La entrada conecta con el agua, los baños y la presencia femenina sobrenatural de la leyenda original.",
+            en: "This entry connects with water, bathing spaces and the supernatural feminine presence of the original legend."
+          },
+          sourceLabel: {
+            es: "Kakuriyo no Yadomeshi - ficha oficial",
+            en: "Kakuriyo no Yadomeshi - Official Page"
+          },
+          sourceUrl: "https://kakuriyo-anime.com/character/shizuna/"
+        },
+        {
+          id: "nure-fairy-tail-100-years-quest",
+          categoryId: "anime-manga",
+          title: {
+            es: "Fairy Tail: 100 Years Quest - Chapter 74",
+            en: "Fairy Tail: 100 Years Quest - Chapter 74"
+          },
+          franchise: {
+            es: "Manga · Comic DAYS / Kodansha",
+            en: "Manga · Comic DAYS / Kodansha"
+          },
+          classification: {
+            es: "Referencia explícita",
+            en: "Explicit Reference"
+          },
+          image: "./assets/images/pop-nure-fairy-tail-100yq.png?v=nure-pop-01",
+          imageFit: "contain",
+          shortDescription: {
+            es: "Comic DAYS titula oficialmente el capítulo 74 como Yokai Nure-onna.",
+            en: "Comic DAYS officially titles chapter 74 as Yokai Nure-onna."
+          },
+          fullDescription: {
+            es: "Fairy Tail: 100 Years Quest utiliza la referencia a Nure-onna de forma explícita en el título del capítulo. La conexión queda marcada como directa porque la propia ficha oficial conserva el nombre del yokai.",
+            en: "Fairy Tail: 100 Years Quest uses the Nure-onna reference explicitly in the chapter title. The connection is marked as direct because the official listing keeps the yokai's name."
+          },
+          context: {
+            es: "Funciona como eco moderno del mito dentro de un universo de fantasía y criaturas sobrenaturales.",
+            en: "It works as a modern echo of the myth inside a fantasy world of supernatural beings."
+          },
+          sourceLabel: {
+            es: "Comic DAYS · Kodansha",
+            en: "Comic DAYS · Kodansha"
+          },
+          sourceUrl: "https://comic-days.com/episode/14079602755426661224"
+        },
+        {
+          id: "nure-bake-sekien-chapter-18",
+          categoryId: "anime-manga",
+          title: {
+            es: "Bake-e!: Sekien Yokai Banashi - Chapter 18",
+            en: "Bake-e!: Sekien Yokai Banashi - Chapter 18"
+          },
+          franchise: {
+            es: "Manga · Comic DAYS / Kodansha",
+            en: "Manga · Comic DAYS / Kodansha"
+          },
+          classification: {
+            es: "Referencia explícita",
+            en: "Explicit Reference"
+          },
+          image: "./assets/images/pop-nure-bake-sekien.png?v=nure-pop-01",
+          imageFit: "contain",
+          shortDescription: {
+            es: "Comic DAYS lista oficialmente el capítulo 18 como Nure-onna.",
+            en: "Comic DAYS officially lists chapter 18 as Nure-onna."
+          },
+          fullDescription: {
+            es: "Bake-e!: Sekien Yokai Banashi conecta con Nure-onna desde un manga centrado en Toriyama Sekien y la tradición visual de los yokai. La referencia es explícita porque el capítulo aparece identificado oficialmente con ese nombre.",
+            en: "Bake-e!: Sekien Yokai Banashi connects with Nure-onna through a manga centred on Toriyama Sekien and yokai illustration. The reference is explicit because the chapter is officially identified by that name."
+          },
+          context: {
+            es: "Esta ficha mantiene el vínculo entre la cultura popular moderna y la genealogía clásica de los yokai ilustrados.",
+            en: "This entry keeps the link between modern pop culture and the classic lineage of illustrated yokai."
+          },
+          sourceLabel: {
+            es: "Comic DAYS · Kodansha",
+            en: "Comic DAYS · Kodansha"
+          },
+          sourceUrl: "https://comic-days.com/episode/4856001361087506888"
+        },
+        {
+          id: "nure-nioh-2",
+          categoryId: "video-games",
+          title: {
+            es: "Nioh 2 - Nure-onna",
+            en: "Nioh 2 - Nure-onna"
+          },
+          franchise: {
+            es: "Videojuego · Koei Tecmo",
+            en: "Video Game · Koei Tecmo"
+          },
+          classification: {
+            es: "Enemigo Nure-onna oficial",
+            en: "Official Nure-onna Enemy"
+          },
+          image: "./assets/images/pop-nure-nioh-2.png?v=nure-pop-01",
+          imageFit: "contain",
+          shortDescription: {
+            es: "Koei Tecmo dedica una página oficial al yokai Nure-onna dentro de Nioh 2.",
+            en: "Koei Tecmo has an official yokai page devoted to Nure-onna in Nioh 2."
+          },
+          fullDescription: {
+            es: "Nioh 2 adapta a Nure-onna como un enemigo yokai con rostro femenino y cuerpo serpentino. La fuente oficial la describe vinculada al agua, la lluvia y los lugares húmedos, conservando los rasgos esenciales de la leyenda.",
+            en: "Nioh 2 adapts Nure-onna as a yokai enemy with a woman's face and serpentine body. The official source links her to water, rain and wet places, preserving the legend's essential traits."
+          },
+          context: {
+            es: "La conexión es fuerte porque traduce el miedo acuático de Nure-onna a una presencia jugable y visualmente reconocible.",
+            en: "The connection is strong because it turns Nure-onna's water-bound fear into a playable and visually recognisable presence."
+          },
+          sourceLabel: {
+            es: "Koei Tecmo · página oficial",
+            en: "Koei Tecmo · Official Page"
+          },
+          sourceUrl: "https://www.gamecity.ne.jp/nioh2/youkai/youkai-18.html"
+        },
+        {
+          id: "nure-gegege-millennium-curse-song",
+          categoryId: "cinema",
+          title: {
+            es: "GeGeGe no Kitaro: Millennium Curse Song",
+            en: "GeGeGe no Kitaro: Millennium Curse Song"
+          },
+          franchise: {
+            es: "Cine · Fuji TV",
+            en: "Cinema · Fuji TV"
+          },
+          year: "2008",
+          classification: {
+            es: "Personaje Nure-onna explícito",
+            en: "Explicit Nure-onna Character"
+          },
+          image: "./assets/images/pop-nure-gegege-millennium.png?v=nure-pop-01",
+          imageFit: "contain",
+          shortDescription: {
+            es: "La ficha oficial de Fuji TV lista a Nure-onna e indica que está interpretada por Shinobu Terajima.",
+            en: "Fuji TV's official film page lists Nure-onna and notes that she is played by Shinobu Terajima."
+          },
+          fullDescription: {
+            es: "GeGeGe no Kitaro: Millennium Curse Song incorpora a Nure-onna dentro de su galería de yokai cinematográficos. La fuente oficial la nombra como personaje y la describe como una figura que se enamoró de un humano.",
+            en: "GeGeGe no Kitaro: Millennium Curse Song includes Nure-onna within its cinematic yokai cast. The official source names her as a character and describes her as a figure who fell in love with a human."
+          },
+          context: {
+            es: "La entrada conserva la lectura trágica de Nure-onna: belleza, deseo, agua y frontera entre humanidad y monstruo.",
+            en: "This entry preserves Nure-onna's tragic reading: beauty, desire, water and the boundary between human and monster."
+          },
+          sourceLabel: {
+            es: "Fuji TV · ficha oficial",
+            en: "Fuji TV · Official Page"
+          },
+          sourceUrl: "https://www.fujitv.co.jp/movie/01movie/20080000_08_M00.html"
+        },
+        {
+          id: "nure-gegege-yokai-kiden",
+          categoryId: "cinema",
+          title: {
+            es: "GeGeGe no Kitaro: Yokai Kiden - Magic Flute Eloim Essaim",
+            en: "GeGeGe no Kitaro: Yokai Kiden - Magic Flute Eloim Essaim"
+          },
+          franchise: {
+            es: "Live action · Toei Video",
+            en: "Live Action · Toei Video"
+          },
+          classification: {
+            es: "Personaje Nure-onna explícito",
+            en: "Explicit Nure-onna Character"
+          },
+          image: "./assets/images/pop-nure-gegege-yokai-kiden.png?v=nure-pop-01",
+          imageFit: "contain",
+          shortDescription: {
+            es: "Toei Video destaca oficialmente a Nure-onna dentro de esta producción live action de Kitaro.",
+            en: "Toei Video officially highlights Nure-onna inside this live-action Kitaro production."
+          },
+          fullDescription: {
+            es: "GeGeGe no Kitaro: Yokai Kiden - Magic Flute Eloim Essaim lleva a Nure-onna al live action japonés. La conexión es directa porque la página oficial la identifica como parte de la obra y señala su interpretación por Kimiko Yo.",
+            en: "GeGeGe no Kitaro: Yokai Kiden - Magic Flute Eloim Essaim brings Nure-onna into Japanese live action. The connection is direct because the official page identifies her as part of the work and notes Kimiko Yo's performance."
+          },
+          context: {
+            es: "La ficha amplía su presencia audiovisual más allá del anime y el manga, dentro de una adaptación con raíces yokai.",
+            en: "This entry expands her audiovisual presence beyond anime and manga, inside an adaptation rooted in yokai culture."
+          },
+          sourceLabel: {
+            es: "Toei Video · ficha oficial",
+            en: "Toei Video · Official Page"
+          },
+          sourceUrl: "https://shop.toei-video.co.jp/products/dutd02730"
+        },
+        {
+          id: "nure-c-cube-v",
+          categoryId: "other-pop-culture",
+          title: {
+            es: "C3 / C-Cube V",
+            en: "C3 / C-Cube V"
+          },
+          franchise: {
+            es: "Novela ligera · Dengeki Bunko / KADOKAWA",
+            en: "Light Novel · Dengeki Bunko / KADOKAWA"
+          },
+          classification: {
+            es: "Referencia explícita",
+            en: "Explicit Reference"
+          },
+          image: "./assets/images/pop-nure-c-cube-v.png?v=nure-pop-01",
+          imageFit: "contain",
+          shortDescription: {
+            es: "La página oficial de Dengeki Bunko menciona un rumor escolar sobre un yokai misterioso llamado Nure-onna.",
+            en: "Dengeki Bunko's official page mentions a school rumour about a mysterious yokai called Nure-onna."
+          },
+          fullDescription: {
+            es: "C3 / C-Cube V utiliza a Nure-onna como referencia sobrenatural dentro de una novela ligera. La fuente oficial conserva el nombre del yokai al describir un rumor que circula por la escuela.",
+            en: "C3 / C-Cube V uses Nure-onna as a supernatural reference inside a light novel. The official source keeps the yokai's name while describing a rumour spreading through the school."
+          },
+          context: {
+            es: "La conexión funciona como ejemplo de cómo Nure-onna sigue viva en relatos escolares, rumores modernos y cultura pop escrita.",
+            en: "The connection works as an example of how Nure-onna remains alive in school stories, modern rumours and written pop culture."
+          },
+          sourceLabel: {
+            es: "Dengeki Bunko · KADOKAWA",
+            en: "Dengeki Bunko · KADOKAWA"
+          },
+          sourceUrl: "https://dengekibunko.jp/product/c3/200811000243.html"
+        }
+      ]
     }
   ]
 };
