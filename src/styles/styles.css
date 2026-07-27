@@ -4553,7 +4553,7 @@ body[data-page="home"] .intro__grid {
 
 .stories-index {
   display: grid;
-  grid-template-columns: repeat(5, minmax(170px, 236px));
+  grid-template-columns: repeat(6, minmax(145px, 210px));
   justify-content: center;
   gap: clamp(14px, 1.6vw, 22px);
 }

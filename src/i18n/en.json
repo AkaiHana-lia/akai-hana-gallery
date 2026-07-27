@@ -969,6 +969,236 @@
           }
         ],
         "quote": "Even the greatest darkness can be defeated by courage and honour."
+      },
+      {
+        "id": "kuchisake-onna",
+        "number": "11",
+        "title": "Kuchisake-onna",
+        "cardTitle": "Kuchisake",
+        "eyebrow": "Japanese urban legends",
+        "japaneseName": "口裂け女",
+        "romanized": "The Slit-Mouthed Woman",
+        "lead": "Beauty turned into a question, fear and fate. A modern legend where any answer can change everything.",
+        "cardImage": {
+          "src": "./assets/images/story-card-kuchisake-onna-tattoo.png",
+          "width": 1024,
+          "height": 1536,
+          "alt": "Kuchisake-onna tattoo with mask, scar, scissors, red moon and flowers.",
+          "position": "50% 46%"
+        },
+        "heroImage": {
+          "src": "./assets/images/story-kuchisake-onna-banner.png",
+          "width": 1983,
+          "height": 793,
+          "alt": "Cinematic Kuchisake-onna banner in a nocturnal Japanese street with red lanterns.",
+          "position": "52% 50%"
+        },
+        "sections": [
+          {
+            "eyebrow": "What is it?",
+            "title": "The question that opens fear",
+            "paragraphs": [
+              "Kuchisake-onna, literally the slit-mouthed woman, is one of Japan's most famous urban horror legends.",
+              "She appears on roads, dark streets or near schools, and approaches her victims with a simple question: Am I beautiful?"
+            ]
+          },
+          {
+            "eyebrow": "The legend",
+            "title": "Am I beautiful?",
+            "paragraphs": [
+              "A woman wearing a mask hides her face and approaches with a soft voice. First, she asks if she is beautiful.",
+              "If the answer is yes, she removes the mask and reveals a mouth cut from ear to ear. Then she asks again.",
+              "If you answer yes, she may try to make you look like her. If you answer no, she may kill you. Only a few escape through cleverness."
+            ]
+          },
+          {
+            "eyebrow": "Meanings",
+            "title": "Beauty, judgement and threat",
+            "paragraphs": [
+              "Kuchisake-onna turns beauty into a threat. Her story speaks of the fear of being judged, what hides behind a perfect appearance and the decisions that can change our fate."
+            ],
+            "list": [
+              "Beauty turned into threat",
+              "The judgement of others",
+              "Fear of what is hidden",
+              "A scar that transforms",
+              "Decisions with no safe answer"
+            ]
+          },
+          {
+            "eyebrow": "Symbolism",
+            "title": "Mask, scissors and red flowers",
+            "paragraphs": [
+              "The mask represents concealment, appearance and what we do not want to show. The scissors speak of threat, mutilation and destructive power.",
+              "The broken mirror symbolizes fragmented identity. Red flowers blend beauty, femininity, attraction and destruction, while the night street represents the unknown and everyday fear."
+            ]
+          },
+          {
+            "eyebrow": "Colours and meaning",
+            "title": "Black, white, red and smoke",
+            "paragraphs": [
+              "Black speaks of mystery, death and the hidden. White represents purity, appearance and the social mask.",
+              "Red brings blood, passion, danger and scar. Grey and smoke transmit uncertainty: what cannot be clearly seen."
+            ]
+          },
+          {
+            "eyebrow": "In tattoo art",
+            "title": "Beauty and horror in one piece",
+            "paragraphs": [
+              "Kuchisake-onna works powerfully as tattoo design because of her duality between beauty and horror, fragility and strength.",
+              "She can symbolize acceptance of scars, the personal power born from surviving judgement and pain, or the transformation of fear into visual presence."
+            ]
+          },
+          {
+            "eyebrow": "Modern origin",
+            "title": "A legend born as a rumour",
+            "paragraphs": [
+              "The modern Kuchisake-onna story became popular in Japan in the late seventies and spread across the country in 1979.",
+              "It is considered the first great modern Japanese urban legend, passed from person to person like a rumour."
+            ]
+          }
+        ],
+        "galleryTitle": "Kuchisake-onna gallery",
+        "gallery": [
+          {
+            "src": "./assets/images/story-kuchisake-onna-lore.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Complete Kuchisake-onna narrative panel with story, legend, symbolism and tattoo.",
+            "position": "50% 50%"
+          },
+          {
+            "src": "./assets/images/story-card-kuchisake-onna-tattoo.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Kuchisake-onna tattoo detail with mask, scar and scissors.",
+            "position": "50% 46%"
+          }
+        ],
+        "quote": "Beauty became a question. Fear became the answer."
+      },
+      {
+        "id": "nure-onna",
+        "number": "12",
+        "title": "Nure-onna",
+        "cardTitle": "Nure-onna",
+        "eyebrow": "Japanese aquatic yokai",
+        "japaneseName": "濡女",
+        "romanized": "The Wet Woman",
+        "lead": "Water lures with beauty and hides an ancient truth in its depths.",
+        "cardImage": {
+          "src": "./assets/images/story-card-nure-onna-tattoo.png",
+          "width": 1023,
+          "height": 1537,
+          "alt": "Nure-onna tattoo with serpent woman, full moon, torii, dark water and red flowers.",
+          "position": "50% 45%"
+        },
+        "heroImage": {
+          "src": "./assets/images/story-nure-onna-banner.png",
+          "width": 1983,
+          "height": 793,
+          "alt": "Cinematic Nure-onna banner emerging from water under the full moon.",
+          "position": "54% 50%"
+        },
+        "sections": [
+          {
+            "eyebrow": "What is it?",
+            "title": "The beauty that rises from water",
+            "paragraphs": [
+              "Nure-onna, literally the wet woman, is a Japanese yokai that inhabits rivers, lakes, seas and hot springs.",
+              "She appears as a woman of dazzling beauty, but her true body is that of a serpent. She symbolizes the danger of temptation, the unknown and emotional depths."
+            ]
+          },
+          {
+            "eyebrow": "The legend",
+            "title": "Will you come with me?",
+            "paragraphs": [
+              "Legend says Nure-onna appears when someone walks alone near water. She emerges soaked and ethereal, asking: Will you come with me?",
+              "If the person is carried away by her beauty and accepts, she reveals her serpentine form and drags them into the deep waters, where she drowns her victim.",
+              "Some say she seeks companionship. Others say she devours the vitality of men."
+            ]
+          },
+          {
+            "eyebrow": "Meanings",
+            "title": "Temptation, depth and loss of control",
+            "paragraphs": [
+              "Nure-onna speaks of danger hidden behind beauty, attraction to the forbidden and everything that moves beneath the emotional surface."
+            ],
+            "list": [
+              "Hidden danger behind beauty",
+              "Temptation and loss of control",
+              "The depths of the unconscious",
+              "Attraction to the forbidden",
+              "The duality between human and monster"
+            ]
+          },
+          {
+            "eyebrow": "The story",
+            "title": "The journey into the depths",
+            "paragraphs": [
+              "A traveller walks beside a river, lake or sea as night falls. From the water, a beautiful woman emerges. Her skin shines, her voice is soft.",
+              "She seduces him gently and invites him into the water. Whoever accepts becomes trapped. Her true body is revealed: an ancient serpentine creature.",
+              "At last, she drags him into the depths, where he is never seen again."
+            ]
+          },
+          {
+            "eyebrow": "Symbolism",
+            "title": "Dark water, serpent and full moon",
+            "paragraphs": [
+              "Dark water represents the unknown, the subconscious and the deep. The serpent speaks of transformation, instinct, wisdom and danger.",
+              "The full moon brings cycles, mystery, femininity and hidden power. Black hair symbolizes magnetism, femininity and what wraps around and traps."
+            ],
+            "list": [
+              "Dark water",
+              "Serpent",
+              "Full moon",
+              "Black hair",
+              "Lycoris flower"
+            ]
+          },
+          {
+            "eyebrow": "Colours and meaning",
+            "title": "Black, blue, pearl white and red",
+            "paragraphs": [
+              "Black and blue speak of depth, mystery and the unknown. Pearl white represents apparent purity, illusion and deception.",
+              "Red brings passion, desire, danger and stolen life. Silver evokes the reflection of water, the moon and the intangible."
+            ]
+          },
+          {
+            "eyebrow": "In tattoo art",
+            "title": "A composition that flows with the body",
+            "paragraphs": [
+              "Nure-onna represents fatal attraction, the mystery of the deep and transformation.",
+              "She is ideal for compositions that flow with the body, blending water, moon, serpents and flowers in harmony."
+            ]
+          },
+          {
+            "eyebrow": "Origin",
+            "title": "An ancient presence in Japanese folklore",
+            "paragraphs": [
+              "Nure-onna has been part of Japanese folklore since ancient times. She appears in oral and written tales such as Konjaku Monogatari and Ugetsu Monogatari.",
+              "She is related to other aquatic creatures such as Funayūrei, the drowned spirit, and Umibōzu, the sea monk."
+            ]
+          }
+        ],
+        "galleryTitle": "Nure-onna gallery",
+        "gallery": [
+          {
+            "src": "./assets/images/story-nure-onna-lore.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Complete Nure-onna narrative panel with story, legend, symbolism and tattoo.",
+            "position": "50% 50%"
+          },
+          {
+            "src": "./assets/images/story-card-nure-onna-tattoo.png",
+            "width": 1023,
+            "height": 1537,
+            "alt": "Nure-onna tattoo detail with serpent woman, water and full moon.",
+            "position": "50% 45%"
+          }
+        ],
+        "quote": "In the depths of the water, a beautiful darkness sleeps."
       }
     ]
   },
