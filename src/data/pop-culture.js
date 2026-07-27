@@ -1297,6 +1297,267 @@ window.AKAI_HANA_POP_CULTURE = {
           }
         }
       ]
+    },
+    {
+      id: "kuchisake-onna",
+      number: "11",
+      title: "Kuchisake-onna",
+      kanji: "口裂け女",
+      image: "./assets/images/story-card-kuchisake-onna-tattoo.png",
+      icon: "./assets/images/story-kuchisake-onna-banner.png",
+      intro: {
+        es: "Kuchisake-onna, la mujer de la boca cortada, es una de las leyendas urbanas japonesas más reconocibles. Estas referencias muestran cómo su pregunta, su máscara y su figura siguen apareciendo en manga, cine y videojuegos.",
+        en: "Kuchisake-onna, the slit-mouthed woman, is one of Japan's most recognisable urban legends. These references show how her question, mask and figure continue to appear across manga, cinema and video games."
+      },
+      entries: [
+        {
+          id: "kuchisake-even-if-you-slit-my-mouth",
+          categoryId: "anime-manga",
+          title: {
+            es: "Even If You Slit My Mouth",
+            en: "Even If You Slit My Mouth"
+          },
+          franchise: {
+            es: "Manga · Shueisha",
+            en: "Manga · Shueisha"
+          },
+          classification: {
+            es: "Reinterpretación directa",
+            en: "Direct Reinterpretation"
+          },
+          image: "./assets/images/pop-kuchisake-even-if-you-slit-my-mouth.png?v=kuchisake-pop-02",
+          imageFit: "contain",
+          shortDescription: {
+            es: "Shueisha describe a Miroku explícitamente como Kuchisake-onna dentro de una comedia romántica sobrenatural.",
+            en: "Shueisha describes Miroku explicitly as Kuchisake-onna inside a supernatural romantic comedy."
+          },
+          fullDescription: {
+            es: "Even If You Slit My Mouth construye su premisa alrededor de una reinterpretación moderna de Kuchisake-onna. La conexión es directa porque la obra identifica a Miroku como la leyenda urbana de la mujer de la boca cortada y convierte ese mito en parte central de la historia.",
+            en: "Even If You Slit My Mouth builds its premise around a modern reinterpretation of Kuchisake-onna. The connection is direct because the work identifies Miroku as the slit-mouthed woman urban legend and makes that myth central to the story."
+          },
+          context: {
+            es: "Pasa el filtro Akaihana porque no es una inspiración visual suelta: la fuente oficial conserva el nombre y la identidad de Kuchisake-onna.",
+            en: "It passes the Akaihana filter because it is not a loose visual inspiration: the official source preserves Kuchisake-onna's name and identity."
+          },
+          sourceLabel: {
+            es: "Shueisha · ficha oficial",
+            en: "Shueisha · Official Page"
+          },
+          sourceUrl: "https://www.shueisha.co.jp/books/items/contents.html?isbn=978-4-08-883761-1"
+        },
+        {
+          id: "kuchisake-mob-psycho-100",
+          categoryId: "anime-manga",
+          title: {
+            es: "Mob Psycho 100 Vol. 7",
+            en: "Mob Psycho 100 Vol. 7"
+          },
+          franchise: {
+            es: "Manga · Shogakukan",
+            en: "Manga · Shogakukan"
+          },
+          classification: {
+            es: "Referencia explícita",
+            en: "Explicit Reference"
+          },
+          image: "./assets/images/pop-kuchisake-mob-psycho-100.png?v=kuchisake-pop-02",
+          imageFit: "contain",
+          shortDescription: {
+            es: "La sinopsis oficial menciona una investigación sobre leyendas urbanas, incluyendo Jinmenken y Kuchisake-onna.",
+            en: "The official synopsis mentions an investigation into urban legends, including Jinmenken and Kuchisake-onna."
+          },
+          fullDescription: {
+            es: "Mob Psycho 100 Vol. 7 incluye a Kuchisake-onna dentro de un episodio narrativo de leyendas urbanas. La referencia es explícita porque la fuente oficial de Shogakukan nombra la leyenda como parte del contenido del volumen.",
+            en: "Mob Psycho 100 Vol. 7 includes Kuchisake-onna inside an urban-legend narrative episode. The reference is explicit because Shogakukan's official source names the legend as part of the volume's content."
+          },
+          context: {
+            es: "Esta ficha conecta con el lado urbano de Kuchisake-onna: rumor moderno, aparición inquietante y miedo cotidiano.",
+            en: "This entry connects with Kuchisake-onna's urban side: modern rumour, unsettling appearance and everyday fear."
+          },
+          sourceLabel: {
+            es: "Shogakukan · ficha oficial",
+            en: "Shogakukan · Official Page"
+          },
+          sourceUrl: "https://shogakukan-comic.jp/book?isbn=9784091251299"
+        },
+        {
+          id: "kuchisake-jujutsu-kaisen",
+          categoryId: "anime-manga",
+          title: {
+            es: "Jujutsu Kaisen · Kuchisake-onna",
+            en: "Jujutsu Kaisen · Kuchisake-onna"
+          },
+          franchise: {
+            es: "Weekly Shonen Jump · Shueisha",
+            en: "Weekly Shonen Jump · Shueisha"
+          },
+          classification: {
+            es: "Personaje nombrado explícitamente",
+            en: "Explicit Named Character"
+          },
+          image: "./assets/images/pop-kuchisake-jujutsu-kaisen.png?v=kuchisake-pop-02",
+          imageFit: "contain",
+          shortDescription: {
+            es: "Material oficial de Weekly Shonen Jump lista una entidad llamada Kuchisake-onna dentro del universo de Jujutsu Kaisen.",
+            en: "Official Weekly Shonen Jump material lists an entity named Kuchisake-onna inside the Jujutsu Kaisen universe."
+          },
+          fullDescription: {
+            es: "Jujutsu Kaisen incorpora una entidad nombrada como Kuchisake-onna dentro de su imaginario de maldiciones, miedos y figuras sobrenaturales. La conexión se mantiene como explícita porque el material oficial conserva el nombre de la leyenda urbana.",
+            en: "Jujutsu Kaisen incorporates an entity named Kuchisake-onna inside its world of curses, fears and supernatural figures. The connection remains explicit because the official material preserves the urban legend's name."
+          },
+          context: {
+            es: "Funciona especialmente bien dentro de Jujutsu Kaisen porque la leyenda nace del miedo colectivo y de una pregunta que se vuelve amenaza.",
+            en: "It works especially well inside Jujutsu Kaisen because the legend is born from collective fear and from a question that becomes a threat."
+          },
+          sourceLabel: {
+            es: "Shonen Jump · fuente oficial",
+            en: "Shonen Jump · Official Source"
+          },
+          sourceUrl: "https://www.shonenjump.com/j/vote_jujutsu_kaisen/"
+        },
+        {
+          id: "kuchisake-ghostwire-tokyo",
+          categoryId: "video-games",
+          title: {
+            es: "Ghostwire: Tokyo",
+            en: "Ghostwire: Tokyo"
+          },
+          franchise: {
+            es: "PlayStation / Bethesda",
+            en: "PlayStation / Bethesda"
+          },
+          classification: {
+            es: "Basado oficialmente en la leyenda",
+            en: "Officially Based on the Legend"
+          },
+          image: "./assets/images/pop-kuchisake-ghostwire-tokyo.png?v=kuchisake-pop-02",
+          imageFit: "contain",
+          shortDescription: {
+            es: "PlayStation explica que la Visitante Kuchisake nace de la leyenda urbana real de Kuchisake-onna.",
+            en: "PlayStation explains that the Visitor Kuchisake comes from the real Kuchisake-onna urban legend."
+          },
+          fullDescription: {
+            es: "Ghostwire: Tokyo adapta a Kuchisake como una Visitante inspirada directamente en la leyenda urbana japonesa. La fuente oficial explica que el equipo parte del mito real y lo transforma en una presencia de videojuego dentro del Tokio sobrenatural del juego.",
+            en: "Ghostwire: Tokyo adapts Kuchisake as a Visitor directly inspired by the Japanese urban legend. The official source explains that the team starts from the real myth and turns it into a video-game presence inside the game's supernatural Tokyo."
+          },
+          context: {
+            es: "La conexión es fuerte porque la obra no solo usa una estética de terror japonés: nombra Kuchisake y explica su origen en la leyenda urbana.",
+            en: "The connection is strong because the work does not only use a Japanese horror aesthetic: it names Kuchisake and explains her origin in the urban legend."
+          },
+          sourceLabel: {
+            es: "PlayStation Blog Japón",
+            en: "PlayStation Blog Japan"
+          },
+          sourceUrl: "https://blog.ja.playstation.com/2022/03/22/20220322-ghostwire/"
+        },
+        {
+          id: "kuchisakeonna-returns",
+          categoryId: "cinema",
+          title: {
+            es: "Kuchisakeonna Returns",
+            en: "Kuchisakeonna Returns"
+          },
+          franchise: {
+            es: "Cine japonés · 2012",
+            en: "Japanese Cinema · 2012"
+          },
+          year: "2012",
+          classification: {
+            es: "Reinterpretación cinematográfica directa",
+            en: "Direct Film Reinterpretation"
+          },
+          image: "./assets/images/pop-kuchisake-returns.png?v=kuchisake-pop-02",
+          imageFit: "contain",
+          shortDescription: {
+            es: "JFDB describe la película como una nueva versión de la famosa leyenda urbana de los años setenta.",
+            en: "JFDB describes the film as a new take on the famous 1970s slit-mouthed woman urban legend."
+          },
+          fullDescription: {
+            es: "Kuchisakeonna Returns recupera la leyenda para una reinterpretación cinematográfica contemporánea. La conexión es directa porque la ficha oficial la vincula con la figura popular de Kuchisake-onna y su lugar dentro del terror urbano japonés.",
+            en: "Kuchisakeonna Returns brings the legend into a contemporary film reinterpretation. The connection is direct because the official entry links it with the popular figure of Kuchisake-onna and her place inside Japanese urban horror."
+          },
+          context: {
+            es: "Esta entrada conserva la faceta clásica de Kuchisake-onna como mito de cine de terror: aparición, persecución y amenaza urbana.",
+            en: "This entry preserves Kuchisake-onna's classic horror-film side: appearance, pursuit and urban threat."
+          },
+          sourceLabel: {
+            es: "JFDB · ficha oficial",
+            en: "JFDB · Official Page"
+          },
+          sourceUrl: "https://jfdb.jp/title/3345"
+        },
+        {
+          id: "kuchisake-sensei-2023",
+          categoryId: "cinema",
+          title: {
+            es: "Sensei! Kuchisake-onna desu!",
+            en: "Sensei! Kuchisake-onna desu!"
+          },
+          franchise: {
+            es: "Uden Flame Works · 2023",
+            en: "Uden Flame Works · 2023"
+          },
+          year: "2023",
+          classification: {
+            es: "Reinterpretación moderna directa",
+            en: "Direct Modern Reinterpretation"
+          },
+          image: "./assets/images/pop-kuchisake-sensei.png?v=kuchisake-pop-02",
+          imageFit: "contain",
+          shortDescription: {
+            es: "La producción identifica a la mujer enmascarada como la legendaria Kuchisake-onna y sitúa el mito en una lectura moderna.",
+            en: "The production identifies the masked woman as the legendary Kuchisake-onna and places the myth in a modern reading."
+          },
+          fullDescription: {
+            es: "Sensei! Kuchisake-onna desu! traslada la leyenda a un registro contemporáneo de acción y terror. La ficha conserva el nombre de la leyenda y la figura de la mujer enmascarada como eje del conflicto.",
+            en: "Sensei! Kuchisake-onna desu! moves the legend into a contemporary action-horror register. The entry preserves the legend's name and the masked woman as the centre of the conflict."
+          },
+          context: {
+            es: "La conexión funciona porque no es una referencia lateral: el título y la trama giran alrededor de Kuchisake-onna.",
+            en: "The connection works because it is not a side reference: the title and plot revolve around Kuchisake-onna."
+          },
+          sourceLabel: {
+            es: "Uden Flame Works · obra oficial",
+            en: "Uden Flame Works · Official Work"
+          },
+          sourceUrl: "https://udenflameworks.com/works/%E5%85%88%E7%94%9F%EF%BC%81%E5%8F%A3%E8%A3%82%E3%81%91%E5%A5%B3%E3%81%A7%E3%81%99%EF%BC%81/"
+        },
+        {
+          id: "kuchisake-kaidan-kanojo-2",
+          categoryId: "other-pop-culture",
+          title: {
+            es: "Kaidan Kanojo 2 · Kuchisake-onna",
+            en: "Kaidan Kanojo 2 · Kuchisake-onna"
+          },
+          franchise: {
+            es: "JUMP j BOOKS · Shueisha",
+            en: "JUMP j BOOKS · Shueisha"
+          },
+          classification: {
+            es: "Aparición directa",
+            en: "Direct Appearance"
+          },
+          image: "./assets/images/pop-kuchisake-kaidan-kanojo.png?v=kuchisake-pop-02",
+          imageFit: "contain",
+          shortDescription: {
+            es: "JUMP j BOOKS presenta a Kuchisake-onna como una entidad sobrenatural vinculada al pasado del protagonista.",
+            en: "JUMP j BOOKS presents Kuchisake-onna as a supernatural entity connected to the protagonist's past."
+          },
+          fullDescription: {
+            es: "Kaidan Kanojo 2 utiliza a Kuchisake-onna dentro de su imaginario de apariciones, entidades sobrenaturales y pasado inquietante. La conexión es directa porque el título y la ficha oficial la identifican como parte de la obra.",
+            en: "Kaidan Kanojo 2 uses Kuchisake-onna inside its world of apparitions, supernatural entities and unsettling past. The connection is direct because the title and official page identify her as part of the work."
+          },
+          context: {
+            es: "La entrada amplía la presencia de Kuchisake-onna fuera del manga y el cine, llevándola al terreno de la novela ligera y el terror sobrenatural.",
+            en: "This entry expands Kuchisake-onna's presence beyond manga and cinema, bringing her into light-novel territory and supernatural horror."
+          },
+          sourceLabel: {
+            es: "JUMP j BOOKS · Shueisha",
+            en: "JUMP j BOOKS · Shueisha"
+          },
+          sourceUrl: "https://j-books.shueisha.co.jp/books/kaidankanojo_02_kutisakeonna.html"
+        }
+      ]
     }
   ]
 };
