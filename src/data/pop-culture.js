@@ -147,6 +147,47 @@ window.AKAI_HANA_POP_CULTURE = {
           sourceUrl: "https://www.criterion.com/films/28700-akira-kurosawa-s-dreams"
         },
         {
+          id: "kitsune-yako-crayon-shinchan-2026",
+          categoryId: "cinema",
+          title: {
+            es: "Yako · Crayon Shin-chan: Kiki Kaikai! Ora no Yōkai Vacation",
+            en: "Yako · Crayon Shin-chan: Kiki Kaikai! Ora no Yōkai Vacation"
+          },
+          franchise: {
+            es: "Cine / Anime · Crayon Shin-chan 2026",
+            en: "Cinema / Anime · Crayon Shin-chan 2026"
+          },
+          year: "2026",
+          classification: {
+            es: "Referencia oficial explícita",
+            en: "Explicit Official Reference"
+          },
+          image: "./assets/images/pop-kitsune-yako-crayon-shinchan.png?v=kitsune-yako-01",
+          imageFit: "contain",
+          shortDescription: {
+            es: "La web oficial identifica a Yako como una 九尾の狐の妖怪: una yōkai zorro de nueve colas capaz de adoptar forma humana.",
+            en: "The official website identifies Yako as a 九尾の狐の妖怪: a nine-tailed fox yōkai capable of assuming human form."
+          },
+          fullDescription: {
+            es: "En la película de 2026, Yako es una poderosa yōkai zorro vinculada al Reino de los Yōkai. La ficha oficial explica que tiene 500 años, posee una gran fuerza sobrenatural, puede transformarse en humana y actúa como una figura importante entre los yōkai. Durante la historia guía a Shinnosuke y a sus amigos por ese mundo.",
+            en: "In the 2026 film, Yako is a powerful fox yōkai connected to the Yōkai Kingdom. Her official profile states that she is 500 years old, possesses strong supernatural power, can transform into human form and is an important figure among the yōkai. During the story, she guides Shinnosuke and his friends through that world."
+          },
+          context: {
+            es: "Pasa el filtro Akaihana porque la franquicia la define expresamente como un zorro sobrenatural de nueve colas y confirma su capacidad de transformación. No se presenta como adaptación confirmada de una leyenda clásica concreta, sino como una representación moderna explícita de la tradición kitsune.",
+            en: "It passes the Akaihana filter because the franchise explicitly defines her as a supernatural nine-tailed fox and confirms her transformation ability. She is not presented as a confirmed adaptation of one specific classical legend, but as an explicit modern representation of the Kitsune tradition."
+          },
+          sourceLabel: {
+            es: "Película oficial · Perfil de Yako",
+            en: "Official Film · Yako Profile"
+          },
+          sourceUrl: "https://shinchan-movie.com/2026/20260604/guest/",
+          secondarySourceLabel: {
+            es: "TV Asahi · Noticia oficial",
+            en: "TV Asahi · Official News"
+          },
+          secondarySourceUrl: "https://www.tv-asahi.co.jp/shinchan/news/0362/index.html"
+        },
+        {
           id: "kitsune-ninetales",
           categoryId: "pokemon",
           title: "Ninetales",
@@ -560,6 +601,47 @@ window.AKAI_HANA_POP_CULTURE = {
           secondarySourceUrl: "https://www.criterion.com/films/629-kwaidan"
         },
         {
+          id: "yuki-onna-hyoketsu-2026",
+          categoryId: "cinema",
+          title: {
+            es: "氷血 / HYOKETSU",
+            en: "氷血 / HYOKETSU"
+          },
+          franchise: {
+            es: "Cine japones de horror",
+            en: "Japanese Horror Cinema"
+          },
+          year: "2026",
+          classification: {
+            es: "Conexion moderna verificada",
+            en: "Verified Modern Connection"
+          },
+          image: "./assets/images/pop-yuki-onna-hyoketsu-poster.png?v=yuki-hyoketsu-01",
+          imageFit: "contain",
+          shortDescription: {
+            es: "HYOKETSU reinterpreta Yuki-onna desde una lectura cinematografica moderna confirmada por su director.",
+            en: "HYOKETSU reinterprets Yuki-onna through a modern cinematic reading confirmed by its director."
+          },
+          fullDescription: {
+            es: "氷血 / HYOKETSU funciona como una conexion contemporanea de Yuki-onna porque el director Eiji Naito habla de releer la Yuki-onna de Lafcadio Hearn al desarrollar la pelicula. La reinterpretacion desplaza el mito hacia expectativas familiares modernas, roles de genero y una mujer vinculada a la nieve que puede ser salvada.",
+            en: "氷血 / HYOKETSU works as a contemporary Yuki-onna connection because director Eiji Naito discusses rereading Lafcadio Hearn's Yuki-onna while developing the film. The reinterpretation reframes the myth through modern family expectations, gender roles and a snow-bound woman who can ultimately be saved."
+          },
+          context: {
+            es: "Pasa el filtro Akaihana porque no es solo una estetica de mujer en la nieve: la conexion con Yuki-onna se confirma desde material oficial y una entrevista del director.",
+            en: "It passes the Akaihana filter because it is not just a woman-in-snow aesthetic: the Yuki-onna connection is confirmed through official material and a director interview."
+          },
+          sourceLabel: {
+            es: "Web oficial - HYOKETSU",
+            en: "Official Film Site - HYOKETSU"
+          },
+          sourceUrl: "https://hyoketsu-movie.jp/",
+          secondarySourceLabel: {
+            es: "Entrevista - reinterpretacion de Yuki-onna",
+            en: "Interview - Yuki-onna reinterpretation"
+          },
+          secondarySourceUrl: "https://www.audio-technica.co.jp/always-listening/articles/hyoketsu-sound-design/"
+        },
+        {
           id: "yuki-onna-gegege-no-kitaro",
           categoryId: "anime-manga",
           title: {
@@ -798,8 +880,8 @@ window.AKAI_HANA_POP_CULTURE = {
       image: "./assets/images/story-card-tsuru-tattoo.png",
       icon: "./assets/images/story-tsuru-cover.png",
       intro: {
-        es: "Tsuru no Ongaeshi, la gratitud de la grulla, habla de bondad, sacrificio y promesas. Estas conexiones muestran como la leyenda sigue reapareciendo en anime, videojuegos y drama CD.",
-        en: "Tsuru no Ongaeshi, the Crane's Gratitude, speaks of kindness, sacrifice and promises. These connections show how the legend keeps reappearing in anime, video games and drama CDs."
+        es: "Tsuru no Ongaeshi, la gratitud de la grulla, habla de bondad, sacrificio y promesas. Estas conexiones muestran como la leyenda sigue reapareciendo en anime, videojuegos, musica y drama CD.",
+        en: "Tsuru no Ongaeshi, the Crane's Gratitude, speaks of kindness, sacrifice and promises. These connections show how the legend keeps reappearing in anime, video games, music and drama CDs."
       },
       entries: [
         {
@@ -911,6 +993,41 @@ window.AKAI_HANA_POP_CULTURE = {
             en: "Official Source - SEGA Puyo Puyo Portal"
           },
           sourceUrl: "https://puyo.sega.jp/portal/topics/goods/20140125_000849/"
+        },
+        {
+          id: "tsuru-myuk-yukiuta",
+          categoryId: "other-pop-culture",
+          title: {
+            es: "MYUK - 雪唄 - yukiuta",
+            en: "MYUK - 雪唄 - yukiuta"
+          },
+          franchise: {
+            es: "Musica · Sony Music",
+            en: "Music · Sony Music"
+          },
+          classification: {
+            es: "Conexion oficial confirmada",
+            en: "Confirmed Official Connection"
+          },
+          image: "./assets/images/pop-tsuru-myuk-yukuta-art.png?v=tsuru-myuk-01",
+          imageFit: "contain",
+          shortDescription: {
+            es: "Sony Music identifica oficialmente la cancion como inspirada en el cuento japones Tsuru no Ongaeshi.",
+            en: "Sony Music officially identifies the song as inspired by the Japanese folktale Tsuru no Ongaeshi."
+          },
+          fullDescription: {
+            es: "La ficha oficial de Sony Music para 雪唄 - yukiuta indica que la cancion esta inspirada en el cuento japones Tsuru no Ongaeshi. Es una conexion musical moderna confirmada directamente por una fuente oficial, no una asociacion visual o tematica general.",
+            en: "Sony Music's official page for 雪唄 - yukiuta states that the song was inspired by the Japanese folktale Tsuru no Ongaeshi. It is a confirmed modern music connection from an official source, not a broad visual or thematic association."
+          },
+          context: {
+            es: "La entrada queda en Otra pop culture porque conecta la leyenda con musica contemporanea y conserva la fuente oficial como criterio principal.",
+            en: "This entry remains in Other Pop Culture because it connects the legend with contemporary music while keeping the official source as the main standard."
+          },
+          sourceLabel: {
+            es: "Sony Music · discografia oficial",
+            en: "Sony Music · Official Discography"
+          },
+          sourceUrl: "https://www.sonymusic.co.jp/artist/myuk/discography/AIXX02840B01A"
         }
       ]
     },
@@ -1310,6 +1427,41 @@ window.AKAI_HANA_POP_CULTURE = {
         en: "Kuchisake-onna, the slit-mouthed woman, is one of Japan's most recognisable urban legends. These references show how her question, mask and figure continue to appear across manga, cinema and video games."
       },
       entries: [
+        {
+          id: "kuchisake-kamui-episode-4",
+          categoryId: "anime-manga",
+          title: {
+            es: "Ushiro no Shomen Kamui-san · Episodio 4",
+            en: "Ushiro no Shomen Kamui-san · Episode 4"
+          },
+          franchise: {
+            es: "Anime · Zero-G / ZG-R",
+            en: "Anime · Zero-G / ZG-R"
+          },
+          classification: {
+            es: "Referencia explícita oficial",
+            en: "Official Explicit Reference"
+          },
+          image: "./assets/images/pop-kuchisake-kamui-episode-4.jpg?v=kuchisake-kamui-01",
+          imageFit: "contain",
+          shortDescription: {
+            es: "El episodio 4 presenta directamente a Kuchisake-onna y construye su encuentro alrededor de la pregunta «¿Soy bonita?».",
+            en: "Episode 4 directly features Kuchisake-onna and builds her encounter around the question, “Am I beautiful?”"
+          },
+          fullDescription: {
+            es: "La web oficial identifica el episodio 4 como «Kuchisake-onna / Rokurokubi». En la historia, Kuchisake-onna se acerca a Shizuka con su pregunta característica y la persigue hasta una escuela vacía, convirtiendo la leyenda urbana en una parte central del episodio.",
+            en: "The official website identifies Episode 4 as “Kuchisake-onna / Rokurokubi.” In the story, Kuchisake-onna approaches Shizuka with her characteristic question and pursues her into an empty school, making the urban legend central to the episode."
+          },
+          context: {
+            es: "Pasa el filtro Akaihana porque la fuente oficial nombra a Kuchisake-onna, muestra al personaje y basa una de las dos historias del episodio directamente en su leyenda.",
+            en: "It passes the Akaihana filter because the official source names Kuchisake-onna, shows the character and bases one of the episode's two stories directly on her legend."
+          },
+          sourceLabel: {
+            es: "Sitio oficial del anime · Episodio 4",
+            en: "Official Anime Site · Episode 4"
+          },
+          sourceUrl: "https://kamuisan.deregula.com/story/"
+        },
         {
           id: "kuchisake-even-if-you-slit-my-mouth",
           categoryId: "anime-manga",
