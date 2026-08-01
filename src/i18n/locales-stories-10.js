@@ -53,9 +53,24 @@ window.AKAI_HANA_LOCALES = {
     "stories": {
       "eyebrow": "Archivo de historias",
       "title": "Stories",
+      "lead": "Una biblioteca en crecimiento sobre folklore japonés, simbolismo y arte del tatuaje.",
       "openStory": "Abrir historia {title}",
       "backToArchive": "Volver a Stories",
       "galleryTitle": "Galería visual",
+      "searchPlaceholder": "Buscar una historia...",
+      "counter": "{count} historias disponibles",
+      "newThisWeek": "Nuevas esta semana",
+      "newLabel": "Nueva",
+      "collectionTitle": "La colección",
+      "loadMore": "Cargar más historias",
+      "noResults": "No se encontraron historias.",
+      "filters": {
+        "all": "Todas",
+        "yokai": "Yōkai",
+        "creatures": "Criaturas",
+        "legends": "Leyendas",
+        "symbols": "Símbolos"
+      },
       "items": [
         {
           "id": "higanbana",
@@ -1200,6 +1215,198 @@ window.AKAI_HANA_LOCALES = {
             }
           ],
           "quote": "En el fondo del agua, duerme una hermosa oscuridad."
+        },
+        {
+          "id": "tengu",
+          "number": "13",
+          "title": "Tengu",
+          "cardTitle": "Tengu",
+          "eyebrow": "Folklore japonés de montaña",
+          "japaneseName": "天狗",
+          "romanized": "El espíritu de la montaña",
+          "lead": "Espíritu de bosques y montañas, el tengu simboliza poder, disciplina, protección y el castigo de la soberbia.",
+          "cardImage": {
+            "src": "./assets/images/story-tengu-lore.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Panel narrativo de Tengu con guardián de montaña, simbología y tatuaje.",
+            "position": "34% 24%"
+          },
+          "heroImage": {
+            "src": "./assets/images/story-tengu-banner.png",
+            "width": 1916,
+            "height": 821,
+            "alt": "Banner cinematográfico de Tengu bajo la luna roja en montañas japonesas.",
+            "position": "50% 50%"
+          },
+          "sections": [
+            {
+              "eyebrow": "¿Qué es?",
+              "title": "El guardián severo de la montaña",
+              "paragraphs": [
+                "Tengu es una figura del folklore japonés asociada a bosques, montañas sagradas, templos y caminos apartados.",
+                "Puede aparecer como yokai, espíritu guardián o maestro implacable. Su rostro rojo, nariz larga, alas oscuras y abanico de plumas hablan de vigilancia, disciplina y poder espiritual."
+              ]
+            },
+            {
+              "eyebrow": "La leyenda",
+              "title": "No te vuelvas arrogante",
+              "paragraphs": [
+                "En muchas historias, el Tengu observa a monjes, viajeros y guerreros. Protege lugares sagrados, pero también castiga el orgullo y el ego desmedido.",
+                "A veces guía a quien muestra respeto. Otras veces pone a prueba a quien se acerca a la montaña sin humildad."
+              ]
+            },
+            {
+              "eyebrow": "Significados",
+              "title": "Disciplina, protección y prueba interior",
+              "paragraphs": [
+                "El Tengu representa poder espiritual, autocontrol, protección de montañas y templos, castigo de la soberbia y sabiduría nacida de la prueba."
+              ],
+              "list": [
+                "Poder espiritual",
+                "Disciplina y autocontrol",
+                "Protección de lugares sagrados",
+                "Castigo de la soberbia",
+                "Sabiduría nacida de la prueba"
+              ]
+            },
+            {
+              "eyebrow": "Simbología",
+              "title": "Rostro rojo, alas negras y abanico de plumas",
+              "paragraphs": [
+                "El rostro rojo habla de autoridad, poder y orgullo. La nariz larga simboliza ego, vigilancia e identidad Tengu.",
+                "El abanico de plumas evoca viento, cambio y poder sobrenatural, mientras que las alas negras representan libertad, ascenso y presencia espiritual."
+              ]
+            },
+            {
+              "eyebrow": "En el arte del tatuaje",
+              "title": "Un diseño de fuerza y respeto",
+              "paragraphs": [
+                "El Tengu funciona muy bien en composiciones de espalda, brazo o pierna con montañas, torii, hojas de arce, humo y luna roja.",
+                "En tatuaje simboliza protección, disciplina, respeto por la naturaleza y una fuerza feroz guiada por la conciencia."
+              ]
+            },
+            {
+              "eyebrow": "Origen y folklore",
+              "title": "De espíritu temido a guardián ambiguo",
+              "paragraphs": [
+                "La figura del Tengu evolucionó con el tiempo desde un espíritu temido hasta convertirse en guardián ambiguo de montañas y templos.",
+                "Entre demonio, maestro y protector, sigue siendo una de las presencias más fascinantes del imaginario japonés."
+              ]
+            }
+          ],
+          "galleryTitle": "Galería de Tengu",
+          "gallery": [
+            {
+              "src": "./assets/images/story-tengu-banner.png",
+              "width": 1916,
+              "height": 821,
+              "alt": "Banner de Tengu con luna roja, montaña y guardián alado."
+            },
+            {
+              "src": "./assets/images/story-tengu-lore.png",
+              "width": 1024,
+              "height": 1536,
+              "alt": "Panel completo de Tengu con historia, significados, simbología y arte de tatuaje."
+            }
+          ],
+          "quote": "La montaña observa. Domina tu corazón."
+        },
+        {
+          "id": "kaguya-hime",
+          "number": "14",
+          "title": "Kaguya-hime",
+          "cardTitle": "Kaguya-hime",
+          "eyebrow": "Leyendas japonesas",
+          "japaneseName": "かぐや姫",
+          "romanized": "La princesa de la Luna",
+          "lead": "Nacida de un tallo de bambú, Kaguya-hime representa la belleza efímera, la nostalgia, el misterio y un destino imposible de retener.",
+          "cardImage": {
+            "src": "./assets/images/story-kaguya-hime-lore.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Panel narrativo de Kaguya-hime con princesa lunar, bambú, simbología y tatuaje.",
+            "position": "34% 32%"
+          },
+          "heroImage": {
+            "src": "./assets/images/story-kaguya-hime-banner.png",
+            "width": 1916,
+            "height": 821,
+            "alt": "Banner cinematográfico de Kaguya-hime bajo la luna llena y bosque de bambú.",
+            "position": "50% 50%"
+          },
+          "sections": [
+            {
+              "eyebrow": "¿Qué es?",
+              "title": "La princesa que pertenece a la Luna",
+              "paragraphs": [
+                "Kaguya-hime es una de las figuras más emblemáticas de la tradición japonesa. Protagonista de El cuento del cortador de bambú, representa la belleza imposible, lo celestial y la nostalgia de aquello que no puede quedarse para siempre.",
+                "Su historia une misterio, amor imposible, despedida y la tensión entre el mundo humano y un origen sobrenatural."
+              ]
+            },
+            {
+              "eyebrow": "La leyenda",
+              "title": "La luz dentro del bambú",
+              "paragraphs": [
+                "Un anciano cortador de bambú encuentra a una niña diminuta dentro de un tallo luminoso. La cría como a su hija y, con el tiempo, se convierte en una joven de belleza incomparable.",
+                "Nobles y pretendientes intentan conquistarla, pero Kaguya-hime les impone pruebas imposibles. Finalmente revela que no pertenece del todo a este mundo y regresa a la Luna, dejando tras de sí amor, tristeza y asombro."
+              ]
+            },
+            {
+              "eyebrow": "Significados",
+              "title": "Belleza efímera y destino imposible",
+              "paragraphs": [
+                "Kaguya-hime habla de la belleza delicada que no puede poseerse, de la nostalgia por un lugar al que se debe volver y de los vínculos que duelen precisamente porque fueron luminosos."
+              ],
+              "list": [
+                "Belleza efímera",
+                "Nostalgia y despedida",
+                "Misterio celestial",
+                "Amor imposible",
+                "Pureza, elegancia y melancolía"
+              ]
+            },
+            {
+              "eyebrow": "Simbología",
+              "title": "Luna, bambú y luz",
+              "paragraphs": [
+                "La Luna representa misterio, eternidad y origen celestial. El bambú habla de nacimiento, pureza y conexión con la naturaleza.",
+                "La luz brillante simboliza lo sagrado, lo efímero y lo inalcanzable, mientras el kimono Heian evoca nobleza, tradición y belleza serena."
+              ]
+            },
+            {
+              "eyebrow": "En el arte del tatuaje",
+              "title": "Una composición poética y lunar",
+              "paragraphs": [
+                "Kaguya-hime se convierte en una pieza elegante cuando se combina con luna llena, bambú, flores nocturnas, nubes y detalles dorados.",
+                "Es ideal para composiciones de espalda, muslo o brazo donde la figura femenina y el paisaje cuenten una historia silenciosa."
+              ]
+            },
+            {
+              "eyebrow": "Origen y literatura",
+              "title": "El cuento del cortador de bambú",
+              "paragraphs": [
+                "El relato de Kaguya-hime procede de El cuento del cortador de bambú, considerado uno de los textos narrativos más antiguos de Japón.",
+                "Entre literatura, folklore y mito, la princesa de la Luna ha permanecido como símbolo de lo bello, lo breve y lo inalcanzable."
+              ]
+            }
+          ],
+          "galleryTitle": "Galería de Kaguya-hime",
+          "gallery": [
+            {
+              "src": "./assets/images/story-kaguya-hime-banner.png",
+              "width": 1916,
+              "height": 821,
+              "alt": "Banner de Kaguya-hime con princesa lunar, bambú y luna llena."
+            },
+            {
+              "src": "./assets/images/story-kaguya-hime-lore.png",
+              "width": 1024,
+              "height": 1536,
+              "alt": "Panel completo de Kaguya-hime con historia, significados, simbología y arte de tatuaje."
+            }
+          ],
+          "quote": "La Luna la llama. La tierra aún la recuerda."
         }
       ]
     },
@@ -1975,9 +2182,24 @@ window.AKAI_HANA_LOCALES = {
     "stories": {
       "eyebrow": "Story archive",
       "title": "Stories",
+      "lead": "A growing library of Japanese folklore, symbolism and tattoo inspiration.",
       "openStory": "Open story {title}",
       "backToArchive": "Back to Stories",
       "galleryTitle": "Visual gallery",
+      "searchPlaceholder": "Search a story...",
+      "counter": "{count} stories available",
+      "newThisWeek": "New this week",
+      "newLabel": "New",
+      "collectionTitle": "The collection",
+      "loadMore": "Load more stories",
+      "noResults": "No stories found.",
+      "filters": {
+        "all": "All",
+        "yokai": "Yōkai",
+        "creatures": "Creatures",
+        "legends": "Legends",
+        "symbols": "Symbols"
+      },
       "items": [
         {
           "id": "higanbana",
@@ -3122,6 +3344,198 @@ window.AKAI_HANA_LOCALES = {
             }
           ],
           "quote": "In the depths of the water, a beautiful darkness sleeps."
+        },
+        {
+          "id": "tengu",
+          "number": "13",
+          "title": "Tengu",
+          "cardTitle": "Tengu",
+          "eyebrow": "Japanese mountain folklore",
+          "japaneseName": "天狗",
+          "romanized": "The Spirit of the Mountain",
+          "lead": "A spirit of forests and mountains, the tengu symbolizes power, discipline, protection and the punishment of arrogance.",
+          "cardImage": {
+            "src": "./assets/images/story-tengu-lore.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Tengu narrative panel with mountain guardian, symbolism and tattoo art.",
+            "position": "34% 24%"
+          },
+          "heroImage": {
+            "src": "./assets/images/story-tengu-banner.png",
+            "width": 1916,
+            "height": 821,
+            "alt": "Cinematic Tengu banner beneath a red moon in Japanese mountains.",
+            "position": "50% 50%"
+          },
+          "sections": [
+            {
+              "eyebrow": "What is it?",
+              "title": "The severe guardian of the mountain",
+              "paragraphs": [
+                "Tengu is a figure of Japanese folklore associated with forests, sacred mountains, temples and remote paths.",
+                "It may appear as a yokai, a guardian spirit or a ruthless teacher. Its red face, long nose, dark wings and feather fan speak of vigilance, discipline and spiritual power."
+              ]
+            },
+            {
+              "eyebrow": "The legend",
+              "title": "Do not become arrogant",
+              "paragraphs": [
+                "In many stories, the Tengu watches monks, travellers and warriors. It protects sacred places, but also punishes pride and unchecked ego.",
+                "Sometimes it guides those who show respect. Other times it tests anyone who approaches the mountain without humility."
+              ]
+            },
+            {
+              "eyebrow": "Meanings",
+              "title": "Discipline, protection and inner trial",
+              "paragraphs": [
+                "The Tengu represents spiritual power, self-control, protection of mountains and temples, punishment of arrogance and wisdom born from being tested."
+              ],
+              "list": [
+                "Spiritual power",
+                "Discipline and self-control",
+                "Protection of sacred places",
+                "Punishment of arrogance",
+                "Wisdom born from trial"
+              ]
+            },
+            {
+              "eyebrow": "Symbolism",
+              "title": "Red face, black wings and feather fan",
+              "paragraphs": [
+                "The red face speaks of authority, power and pride. The long nose symbolizes ego, vigilance and Tengu identity.",
+                "The feather fan evokes wind, change and supernatural force, while the black wings represent freedom, ascent and spiritual presence."
+              ]
+            },
+            {
+              "eyebrow": "In tattoo art",
+              "title": "A design of strength and respect",
+              "paragraphs": [
+                "Tengu works beautifully in back, arm or leg compositions with mountains, torii, maple leaves, smoke and a red moon.",
+                "In tattoo art it symbolizes protection, discipline, respect for nature and a fierce strength guided by awareness."
+              ]
+            },
+            {
+              "eyebrow": "Origin and folklore",
+              "title": "From feared spirit to ambiguous guardian",
+              "paragraphs": [
+                "The figure of the Tengu evolved over time from a feared spirit into an ambiguous guardian of mountains and temples.",
+                "Between demon, master and protector, it remains one of the most fascinating presences in Japanese imagination."
+              ]
+            }
+          ],
+          "galleryTitle": "Tengu gallery",
+          "gallery": [
+            {
+              "src": "./assets/images/story-tengu-banner.png",
+              "width": 1916,
+              "height": 821,
+              "alt": "Tengu banner with red moon, mountain and winged guardian."
+            },
+            {
+              "src": "./assets/images/story-tengu-lore.png",
+              "width": 1024,
+              "height": 1536,
+              "alt": "Complete Tengu panel with story, meanings, symbolism and tattoo art."
+            }
+          ],
+          "quote": "The mountain watches. Master your heart."
+        },
+        {
+          "id": "kaguya-hime",
+          "number": "14",
+          "title": "Kaguya-hime",
+          "cardTitle": "Kaguya-hime",
+          "eyebrow": "Japanese legends",
+          "japaneseName": "かぐや姫",
+          "romanized": "The Princess of the Moon",
+          "lead": "Born from a bamboo stalk, Kaguya-hime represents fleeting beauty, nostalgia, mystery and a destiny that cannot be held.",
+          "cardImage": {
+            "src": "./assets/images/story-kaguya-hime-lore.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Kaguya-hime narrative panel with moon princess, bamboo, symbolism and tattoo art.",
+            "position": "34% 32%"
+          },
+          "heroImage": {
+            "src": "./assets/images/story-kaguya-hime-banner.png",
+            "width": 1916,
+            "height": 821,
+            "alt": "Cinematic Kaguya-hime banner beneath a full moon and bamboo forest.",
+            "position": "50% 50%"
+          },
+          "sections": [
+            {
+              "eyebrow": "What is it?",
+              "title": "The princess who belongs to the Moon",
+              "paragraphs": [
+                "Kaguya-hime is one of the most emblematic figures in Japanese tradition. The protagonist of The Tale of the Bamboo Cutter, she represents impossible beauty, the celestial and the nostalgia of what cannot remain forever.",
+                "Her story joins mystery, impossible love, farewell and the tension between the human world and a supernatural origin."
+              ]
+            },
+            {
+              "eyebrow": "The legend",
+              "title": "The light inside the bamboo",
+              "paragraphs": [
+                "An old bamboo cutter finds a tiny girl inside a glowing bamboo stalk. He raises her as his daughter and, with time, she becomes a young woman of incomparable beauty.",
+                "Nobles and suitors try to win her, but Kaguya-hime gives them impossible trials. At last she reveals that she does not fully belong to this world and returns to the Moon, leaving love, sorrow and wonder behind."
+              ]
+            },
+            {
+              "eyebrow": "Meanings",
+              "title": "Fleeting beauty and impossible destiny",
+              "paragraphs": [
+                "Kaguya-hime speaks of delicate beauty that cannot be possessed, nostalgia for a place one must return to and bonds that hurt precisely because they once shone."
+              ],
+              "list": [
+                "Fleeting beauty",
+                "Nostalgia and farewell",
+                "Celestial mystery",
+                "Impossible love",
+                "Purity, elegance and melancholy"
+              ]
+            },
+            {
+              "eyebrow": "Symbolism",
+              "title": "Moon, bamboo and light",
+              "paragraphs": [
+                "The Moon represents mystery, eternity and celestial origin. Bamboo speaks of birth, purity and connection with nature.",
+                "Bright light symbolizes the sacred, the ephemeral and the unreachable, while the Heian kimono evokes nobility, tradition and serene beauty."
+              ]
+            },
+            {
+              "eyebrow": "In tattoo art",
+              "title": "A poetic lunar composition",
+              "paragraphs": [
+                "Kaguya-hime becomes an elegant piece when combined with full moon, bamboo, night flowers, clouds and golden details.",
+                "It is ideal for back, thigh or arm compositions where the feminine figure and landscape tell a silent story."
+              ]
+            },
+            {
+              "eyebrow": "Origin and literature",
+              "title": "The Tale of the Bamboo Cutter",
+              "paragraphs": [
+                "The tale of Kaguya-hime comes from The Tale of the Bamboo Cutter, considered one of Japan's oldest narrative texts.",
+                "Between literature, folklore and myth, the Moon princess has remained a symbol of the beautiful, the brief and the unreachable."
+              ]
+            }
+          ],
+          "galleryTitle": "Kaguya-hime gallery",
+          "gallery": [
+            {
+              "src": "./assets/images/story-kaguya-hime-banner.png",
+              "width": 1916,
+              "height": 821,
+              "alt": "Kaguya-hime banner with moon princess, bamboo and full moon."
+            },
+            {
+              "src": "./assets/images/story-kaguya-hime-lore.png",
+              "width": 1024,
+              "height": 1536,
+              "alt": "Complete Kaguya-hime panel with story, meanings, symbolism and tattoo art."
+            }
+          ],
+          "quote": "The Moon calls her back. The earth still longs for her."
         }
       ]
     },

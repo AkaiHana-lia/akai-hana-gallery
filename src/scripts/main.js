@@ -64,8 +64,73 @@ let revealObserver = null;
 let lightboxProjectId = null;
 let lastFocusedElement = null;
 let activeStoryId = null;
+let activeStoryFilter = "all";
+let storySearchTerm = "";
+let visibleStoryCount = 12;
 let activePopCultureThemeId = window.AKAI_HANA_POP_CULTURE?.defaultTheme || "kitsune";
 let activePopCultureCategoryId = null;
+
+const storyLibraryFilters = ["all", "yokai", "creatures", "legends", "symbols"];
+const storyLibraryMeta = {
+  higanbana: {
+    categories: ["symbols"],
+    keywords: ["red spider lily", "spider lily", "higanbana", "lycoris", "flower", "death", "farewell", "memory", "symbol"]
+  },
+  kitsune: {
+    categories: ["yokai", "creatures"],
+    keywords: ["kitsune", "fox", "nine tails", "nine-tailed", "inari", "yokai", "creature", "transformation", "狐"]
+  },
+  koi: {
+    categories: ["creatures", "symbols"],
+    keywords: ["koi", "carp", "fish", "waterfall", "dragon gate", "perseverance", "transformation", "symbol", "鯉"]
+  },
+  ryu: {
+    categories: ["creatures", "symbols"],
+    keywords: ["ryu", "ryū", "dragon", "tatsu", "water", "protection", "power", "creature", "symbol", "龍"]
+  },
+  hannya: {
+    categories: ["yokai", "symbols"],
+    keywords: ["hannya", "mask", "noh", "oni", "jealousy", "pain", "rage", "symbol", "般若"]
+  },
+  "yuki-onna": {
+    categories: ["yokai", "legends"],
+    keywords: ["yuki-onna", "yuki onna", "snow", "winter", "woman of snow", "ghost", "yokai", "legend", "雪女"]
+  },
+  baku: {
+    categories: ["yokai", "creatures"],
+    keywords: ["baku", "dream", "nightmare", "eater", "tapir", "yokai", "creature", "獏"]
+  },
+  "tsuru-no-ongaeshi": {
+    categories: ["legends", "creatures"],
+    keywords: ["tsuru", "crane", "ongaeshi", "gratitude", "weaving", "legend", "creature", "鶴"]
+  },
+  "akai-ito": {
+    categories: ["legends", "symbols"],
+    keywords: ["akai ito", "red thread", "thread of fate", "destiny", "love", "bond", "legend", "symbol", "赤い糸"]
+  },
+  "shuten-doji": {
+    categories: ["yokai", "legends"],
+    keywords: ["shuten-doji", "shuten dōji", "oni", "demon", "sake", "mount oe", "raiko", "yokai", "legend", "酒呑童子"]
+  },
+  "kuchisake-onna": {
+    categories: ["yokai", "legends"],
+    keywords: ["kuchisake", "kuchisake-onna", "slit mouthed woman", "mask", "urban legend", "yokai", "legend", "口裂け女"]
+  },
+  "nure-onna": {
+    categories: ["yokai", "creatures"],
+    keywords: ["nure-onna", "wet woman", "water", "serpent", "snake", "river", "yokai", "creature", "濡女"]
+  },
+  tengu: {
+    categories: ["yokai", "legends"],
+    keywords: ["tengu", "mountain", "mountains", "forest", "guardian", "yamabushi", "wings", "feather fan", "pride", "discipline", "protection", "yokai", "legend", "天狗"],
+    isNew: true
+  },
+  "kaguya-hime": {
+    categories: ["legends", "symbols"],
+    keywords: ["kaguya-hime", "kaguya", "moon", "princess", "bamboo", "celestial", "beauty", "farewell", "nostalgia", "immortality", "legend", "symbol", "かぐや姫"],
+    isNew: true
+  }
+};
 
 function getInitialLocale() {
   const params = new URLSearchParams(window.location.search);
@@ -393,32 +458,174 @@ function renderStoryImage(image, className, isPriority = false) {
   return element;
 }
 
+function getStoryMeta(story) {
+  return {
+    categories: story.categories || storyLibraryMeta[story.id]?.categories || [],
+    keywords: story.keywords || storyLibraryMeta[story.id]?.keywords || [],
+    isNew: Boolean(story.isNew || storyLibraryMeta[story.id]?.isNew)
+  };
+}
+
+function getOrderedStories(stories) {
+  return [...stories].sort((first, second) => Number(second.number || 0) - Number(first.number || 0));
+}
+
+function getFilteredStories(stories) {
+  const normalizedSearch = storySearchTerm.trim().toLowerCase();
+
+  return stories.filter((story) => {
+    const meta = getStoryMeta(story);
+    const matchesFilter = activeStoryFilter === "all" || meta.categories.includes(activeStoryFilter);
+    if (!matchesFilter) return false;
+
+    if (!normalizedSearch) return true;
+
+    const searchableText = [
+      story.title,
+      story.cardTitle,
+      story.eyebrow,
+      story.japaneseName,
+      story.romanized,
+      story.lead,
+      ...meta.categories.map((category) => dictionary.stories?.filters?.[category] || category),
+      ...meta.keywords
+    ]
+      .filter(Boolean)
+      .join(" ")
+      .toLowerCase();
+
+    return searchableText.includes(normalizedSearch);
+  });
+}
+
+function renderStoryCard(story, index, options = {}) {
+  const meta = getStoryMeta(story);
+  const card = createElement("button", {
+    className: `story-card reveal${options.isNewSection || meta.isNew ? " story-card--new" : ""}`,
+    attributes: {
+      type: "button",
+      "data-story-card": story.id,
+      "aria-label": interpolate(dictionary.stories.openStory, { title: story.title })
+    }
+  });
+  const content = createElement("span", { className: "story-card__content" });
+  const heading = createElement("span", { className: "story-card__heading" });
+
+  heading.append(
+    createElement("span", { className: "story-card__number", text: story.number || String(index + 1).padStart(2, "0") }),
+    createElement("span", { className: "story-card__title", text: story.cardTitle || story.title })
+  );
+  content.append(heading);
+
+  if (meta.isNew) {
+    content.append(createElement("span", { className: "story-card__badge", text: dictionary.stories?.newLabel || "New" }));
+  }
+
+  card.append(renderStoryImage(story.cardImage, "story-card__image", index < 2), content);
+  card.addEventListener("click", () => openStory(story.id));
+  return card;
+}
+
+function renderStorySection(title, stories, className) {
+  const section = createElement("section", { className: `stories-library__section ${className}` });
+  section.append(createElement("h3", { className: "stories-library__title", text: title }));
+
+  const grid = createElement("div", { className: "stories-library__grid" });
+  stories.forEach((story, index) => grid.append(renderStoryCard(story, index, { isNewSection: className.includes("new") })));
+  section.append(grid);
+  return section;
+}
+
 function renderStories() {
   if (!mountPoints.storiesIndex || !mountPoints.storyReader || !mountPoints.storyDetail) return;
 
-  const stories = getStories();
+  const stories = getOrderedStories(getStories());
   const activeStory = stories.find((story) => story.id === activeStoryId);
   clear(mountPoints.storiesIndex);
 
-  stories.forEach((story, index) => {
-    const card = createElement("button", {
-      className: "story-card reveal",
+  const library = createElement("div", { className: "stories-library" });
+  const toolbar = createElement("div", { className: "stories-toolbar" });
+  const searchInput = createElement("input", {
+    className: "stories-search__input",
+    attributes: {
+      type: "search",
+      placeholder: dictionary.stories?.searchPlaceholder || "Search a story...",
+      value: storySearchTerm,
+      "data-story-search": "",
+      "aria-label": dictionary.stories?.searchPlaceholder || "Search a story..."
+    }
+  });
+  const filters = createElement("div", { className: "stories-filters", attributes: { role: "list" } });
+  const filteredStories = getFilteredStories(stories);
+  const counter = createElement("p", {
+    className: "stories-count",
+    text: interpolate(dictionary.stories?.counter || "{count} stories available", { count: filteredStories.length })
+  });
+
+  searchInput.addEventListener("input", (event) => {
+    storySearchTerm = event.target.value;
+    visibleStoryCount = 12;
+    renderStories();
+    mountPoints.storiesIndex.querySelector(".stories-search__input")?.focus();
+  });
+
+  storyLibraryFilters.forEach((filter) => {
+    const filterButton = createElement("button", {
+      className: `stories-filter${activeStoryFilter === filter ? " is-active" : ""}`,
+      text: dictionary.stories?.filters?.[filter] || filter,
       attributes: {
         type: "button",
-        "data-story-card": story.id,
-        "aria-label": interpolate(dictionary.stories.openStory, { title: story.title })
+        "data-story-filter": filter,
+        "aria-pressed": activeStoryFilter === filter ? "true" : "false"
       }
     });
-    const content = createElement("span", { className: "story-card__content" });
-
-    content.append(
-      createElement("span", { className: "story-card__number", text: story.number || String(index + 1).padStart(2, "0") }),
-      createElement("span", { className: "story-card__title", text: story.cardTitle || story.title })
-    );
-    card.append(renderStoryImage(story.cardImage, "story-card__image", index < 2), content);
-    card.addEventListener("click", () => openStory(story.id));
-    mountPoints.storiesIndex.append(card);
+    filterButton.addEventListener("click", () => {
+      activeStoryFilter = filter;
+      visibleStoryCount = 12;
+      renderStories();
+    });
+    filters.append(filterButton);
   });
+
+  const searchLabel = createElement("label", { className: "stories-search" });
+  searchLabel.append(searchInput);
+  toolbar.append(searchLabel, filters, counter);
+  library.append(toolbar);
+
+  const newStories = stories.filter((story) => getStoryMeta(story).isNew);
+  if (newStories.length) {
+    library.append(renderStorySection(dictionary.stories?.newThisWeek || "New this week", newStories, "stories-library__section--new"));
+  }
+
+  const collection = createElement("section", { className: "stories-library__section stories-library__section--collection" });
+  const collectionGrid = createElement("div", { className: "stories-library__grid" });
+  collection.append(createElement("h3", { className: "stories-library__title", text: dictionary.stories?.collectionTitle || "The collection" }));
+
+  filteredStories.slice(0, visibleStoryCount).forEach((story, index) => {
+    collectionGrid.append(renderStoryCard(story, index));
+  });
+
+  if (!filteredStories.length) {
+    collection.append(createElement("p", { className: "stories-empty", text: dictionary.stories?.noResults || "No stories found." }));
+  } else {
+    collection.append(collectionGrid);
+  }
+
+  if (filteredStories.length > visibleStoryCount) {
+    const loadMore = createElement("button", {
+      className: "stories-load-more",
+      text: dictionary.stories?.loadMore || "Load more stories",
+      attributes: { type: "button", "data-stories-load-more": "" }
+    });
+    loadMore.addEventListener("click", () => {
+      visibleStoryCount += 12;
+      renderStories();
+    });
+    collection.append(loadMore);
+  }
+
+  library.append(collection);
+  mountPoints.storiesIndex.append(library);
 
   if (activeStory) {
     renderStoryDetail(activeStory);
