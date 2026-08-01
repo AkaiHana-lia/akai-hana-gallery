@@ -6802,7 +6802,8 @@ body[data-page="contact"] #contact {
   }
 
   .pop-culture__theme-grid {
-    grid-template-columns: repeat(7, 128px);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    overflow-x: visible;
   }
 
   .pop-theme-card {
