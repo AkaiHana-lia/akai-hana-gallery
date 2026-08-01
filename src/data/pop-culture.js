@@ -86,9 +86,10 @@ window.AKAI_HANA_POP_CULTURE = {
             en: "The flowers reinforce the scene's themes of death, farewell, remembrance and the boundary between the living and the dead. No official creator statement explicitly explaining the flower symbolism has been located, so this connection is presented as strong probable symbolic use rather than officially confirmed inspiration."
           },
           sourceLabel: {
-            es: "Arte oficial - Ufotable",
-            en: "Official Artwork - Ufotable"
-          }
+            es: "Ver en Crunchyroll",
+            en: "Watch on Crunchyroll"
+          },
+          sourceUrl: "https://www.crunchyroll.com/es-es/series/G8DHV7809/demon-slayer-kimetsu-no-yaiba-infinity-castle-i"
         }
       ]
     },
