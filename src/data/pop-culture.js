@@ -727,6 +727,42 @@ window.AKAI_HANA_POP_CULTURE = {
           sourceUrl: "https://www.toei-anim.co.jp/kitaro/character/yokai.php"
         },
         {
+          id: "yuki-onna-unsociable-widow",
+          categoryId: "anime-manga",
+          title: {
+            es: "The Unsociable Widow Yuki-Onna",
+            en: "The Unsociable Widow Yuki-Onna"
+          },
+          franchise: {
+            es: "AnimeFesta - anime",
+            en: "AnimeFesta - Anime"
+          },
+          year: "2026",
+          classification: {
+            es: "Referencia explicita oficial",
+            en: "Official Explicit Reference"
+          },
+          image: "./assets/images/pop-yuki-onna-unsociable-widow.png?v=yuki-widow-01",
+          imageFit: "contain",
+          shortDescription: {
+            es: "La web oficial identifica a Yukino Mifuyu como una Yuki-onna que controla el frio y el hielo.",
+            en: "The official site identifies Yukino Mifuyu as a Yuki-onna who controls cold and ice."
+          },
+          fullDescription: {
+            es: "The Unsociable Widow Yuki-Onna presenta a Yukino Mifuyu como una mujer de nieve vinculada al frio y al hielo. La entrada se incluye como referencia folklorica explicita porque el propio material oficial usa Yuki-onna como identidad del personaje.",
+            en: "The Unsociable Widow Yuki-Onna presents Yukino Mifuyu as a snow woman connected with cold and ice. This entry is included as an explicit folkloric reference because the official material uses Yuki-onna as the character identity."
+          },
+          context: {
+            es: "La conexion es valida por nombrar directamente a Yuki-onna, aunque se mantiene una lectura editorial prudente por el tono adulto-romance de la obra.",
+            en: "The connection is valid because it directly names Yuki-onna, while keeping cautious editorial wording because of the work's adult-romance tone."
+          },
+          sourceLabel: {
+            es: "Fuente oficial - AnimeFesta",
+            en: "Official Source - AnimeFesta"
+          },
+          sourceUrl: "https://anime-yukionna.af-original.com/"
+        },
+        {
           id: "yuki-onna-nichibunken-traditions",
           categoryId: "cultural-origin",
           title: {
@@ -1078,6 +1114,47 @@ window.AKAI_HANA_POP_CULTURE = {
             en: "Sony Music · Official Discography"
           },
           sourceUrl: "https://www.sonymusic.co.jp/artist/myuk/discography/AIXX02840B01A"
+        },
+        {
+          id: "tsuru-ballet-return-of-favor",
+          categoryId: "other-pop-culture",
+          title: {
+            es: "with Love: Ballet - Tsuru no Ongaeshi",
+            en: "with Love: Ballet - Tsuru no Ongaeshi"
+          },
+          franchise: {
+            es: "Escena / ballet / taiko",
+            en: "Stage / Ballet / Taiko"
+          },
+          year: "2026",
+          classification: {
+            es: "Adaptacion directa oficial",
+            en: "Official Direct Adaptation"
+          },
+          image: "./assets/images/pop-tsuru-ballet-love.png?v=tsuru-ballet-01",
+          imageFit: "contain",
+          shortDescription: {
+            es: "PASONA y Sunrise Tokyo presentan una obra de ballet y taiko basada directamente en Tsuru no Ongaeshi.",
+            en: "PASONA and Sunrise Tokyo present a ballet and taiko stage work based directly on Tsuru no Ongaeshi."
+          },
+          fullDescription: {
+            es: "with Love: Ballet - Tsuru no Ongaeshi lleva la leyenda de la grulla agradecida al escenario mediante ballet y percusion japonesa. La informacion oficial la vincula directamente con el cuento japones Tsuru no Ongaeshi y su tema de gratitud.",
+            en: "with Love: Ballet - Tsuru no Ongaeshi brings the grateful crane legend to the stage through ballet and Japanese percussion. Official information directly connects it with the Japanese folktale Tsuru no Ongaeshi and its theme of gratitude."
+          },
+          context: {
+            es: "Se clasifica como adaptacion directa porque la obra usa el titulo de la leyenda y la presenta como base explicita del montaje escenico.",
+            en: "It is classified as a direct adaptation because the work uses the legend title and presents it as the explicit basis for the stage production."
+          },
+          sourceLabel: {
+            es: "Fuente oficial - Sunrise Tokyo",
+            en: "Official Source - Sunrise Tokyo"
+          },
+          sourceUrl: "https://sunrisetokyo.com/detail/34923/",
+          secondarySourceLabel: {
+            es: "Fuente oficial - Awaji Ballet",
+            en: "Official Source - Awaji Ballet"
+          },
+          secondarySourceUrl: "https://awajiballet.com/tsurunooongaeshi"
         }
       ]
     },
@@ -2128,21 +2205,24 @@ window.AKAI_HANA_POP_CULTURE = {
           title: { es: "Tengu Tosen / \u5929\u72D7\u5200\u6226", en: "Tengu Tosen / \u5929\u72D7\u5200\u6226" },
           franchise: { es: "Proyecto anime", en: "Anime Project" },
           classification: { es: "Reinterpretacion explicita", en: "Explicit Reinterpretation" },
-          image: "./assets/images/pop-tengu-tosen.png",
+          image: "./assets/images/pop-tengu-tosen-episode-update.png?v=tengu-tosen-update-01",
+          imageFit: "contain",
           shortDescription: {
-            es: "El proyecto oficial usa Tengu, Daitengu y Kurama Tengu directamente en su concepto.",
-            en: "The official project uses Tengu, Daitengu and Kurama Tengu directly in its concept."
+            es: "El proyecto oficial usa Tengu, Daitengu y Kurama Tengu directamente en su concepto y ya cuenta con episodio 1 publicado.",
+            en: "The official project uses Tengu, Daitengu and Kurama Tengu directly in its concept and now has Episode 1 released."
           },
           fullDescription: {
-            es: "Tengu Tosen, proyecto de Bandai Namco y Plott, toma el Tengu como nucleo conceptual. La referencia es fuerte porque el nombre y las variantes Tengu aparecen en la base oficial de la obra.",
-            en: "Tengu Tosen, a Bandai Namco and Plott project, uses Tengu as its conceptual core. The reference is strong because the name and Tengu variants appear in the official basis of the work."
+            es: "Tengu Tosen, proyecto de Bandai Namco y Plott, toma el Tengu como nucleo conceptual. La publicacion oficial del episodio 1 refuerza la ficha porque la obra usa Tengu, Daitengu y Kurama Tengu como parte directa de su identidad narrativa.",
+            en: "Tengu Tosen, a Bandai Namco and Plott project, uses Tengu as its conceptual core. The official Episode 1 release strengthens the entry because the work uses Tengu, Daitengu and Kurama Tengu as a direct part of its narrative identity."
           },
           context: {
-            es: "Se clasifica como reinterpretacion explicita por su uso directo del vocabulario y jerarquia Tengu.",
-            en: "It is classified as an explicit reinterpretation because it directly uses Tengu vocabulary and hierarchy."
+            es: "Se clasifica como reinterpretacion explicita y actualizacion de fuente por su uso directo del vocabulario Tengu y por el lanzamiento oficial del primer episodio.",
+            en: "It is classified as an explicit reinterpretation and source update because it directly uses Tengu vocabulary and now has an official first-episode release."
           },
-          sourceLabel: { es: "PR Times - anuncio oficial", en: "PR Times - Official Announcement" },
-          sourceUrl: "https://prtimes.jp/main/html/rd/p/000002138.000051316.html"
+          sourceLabel: { es: "PR Times - episodio 1", en: "PR Times - Episode 1" },
+          sourceUrl: "https://prtimes.jp/main/html/rd/p/000000221.000047837.html",
+          secondarySourceLabel: { es: "YouTube oficial - Tengu Tosen", en: "Official YouTube - Tengu Tosen" },
+          secondarySourceUrl: "https://www.youtube.com/@tengutosen"
         },
         {
           id: "tengu-demon-slayer-urokodaki",
@@ -2202,6 +2282,32 @@ window.AKAI_HANA_POP_CULTURE = {
         en: "Kaguya-hime, the moon princess, connects impossible beauty, bamboo, celestial origin and farewell. These references show her presence across cinema, anime, games and manga."
       },
       entries: [
+        {
+          id: "kaguya-cosmic-princess",
+          categoryId: "cinema",
+          title: { es: "Cosmic Princess Kaguya!", en: "Cosmic Princess Kaguya!" },
+          franchise: { es: "Netflix Anime Film", en: "Netflix Anime Film" },
+          year: "2026",
+          classification: { es: "Reinterpretacion oficial", en: "Official Reinterpretation" },
+          image: "./assets/images/pop-kaguya-cosmic-princess.png?v=kaguya-cosmic-01",
+          imageFit: "contain",
+          shortDescription: {
+            es: "La web oficial presenta la historia mas antigua de Japon renacida a traves de una puesta en escena moderna.",
+            en: "The official site frames Japan's oldest tale as reborn through a modern stage story."
+          },
+          fullDescription: {
+            es: "Cosmic Princess Kaguya! reinterpreta Kaguya-hime desde una lectura contemporanea de anime y espectaculo escenico. El material oficial la conecta con Taketori Monogatari y con la princesa Kaguya como base del relato.",
+            en: "Cosmic Princess Kaguya! reinterprets Kaguya-hime through a contemporary anime and stage-performance lens. Official material connects it with Taketori Monogatari and Princess Kaguya as the story foundation."
+          },
+          context: {
+            es: "La entrada se marca como reinterpretacion oficial porque los materiales enlazan directamente la pelicula con Taketori Monogatari y Kaguya-hime.",
+            en: "This entry is marked as an official reinterpretation because the materials directly link the film with Taketori Monogatari and Kaguya-hime."
+          },
+          sourceLabel: { es: "Web oficial - Cosmic Princess Kaguya!", en: "Official Site - Cosmic Princess Kaguya!" },
+          sourceUrl: "https://cho-kaguyahime.com/",
+          secondarySourceLabel: { es: "Netflix - anuncio oficial", en: "Netflix - Official Announcement" },
+          secondarySourceUrl: "https://about.netflix.com/ja/news/cosmic-princess-kaguya-main-trailer"
+        },
         {
           id: "kaguya-ghibli-princess-kaguya",
           categoryId: "cinema",
