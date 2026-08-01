@@ -2027,7 +2027,7 @@ window.AKAI_HANA_POP_CULTURE = {
       title: "Tengu",
       kanji: "\u5929\u72D7",
       image: "./assets/images/story-tengu-card.png",
-      icon: "./assets/images/story-tengu-banner.png",
+      icon: "./assets/images/story-tengu-card.png",
       intro: {
         es: "Tengu, guardian y espiritu de la montana, aparece en la cultura pop moderna como yokai, mentor severo, criatura alada y simbolo de disciplina.",
         en: "Tengu, guardian and mountain spirit, appears in modern pop culture as yokai, stern mentor, winged creature and symbol of discipline."
@@ -2039,7 +2039,7 @@ window.AKAI_HANA_POP_CULTURE = {
           title: { es: "WITCH WATCH - Kanshi Kazamatsuri", en: "WITCH WATCH - Kanshi Kazamatsuri" },
           franchise: { es: "Anime", en: "Anime" },
           classification: { es: "Referencia oficial explicita", en: "Explicit Official Reference" },
-          image: "./assets/images/story-tengu-card.png?v=tengu-pop-01",
+          image: "./assets/images/pop-tengu-witch-watch.png",
           shortDescription: {
             es: "La web oficial identifica a Kanshi Kazamatsuri directamente como un Tengu.",
             en: "The official anime site identifies Kanshi Kazamatsuri directly as a Tengu."
@@ -2061,7 +2061,7 @@ window.AKAI_HANA_POP_CULTURE = {
           title: { es: "Digimon - Tengumon", en: "Digimon - Tengumon" },
           franchise: { es: "Anime / videojuegos", en: "Anime / Games" },
           classification: { es: "Referencia oficial explicita", en: "Explicit Official Reference" },
-          image: "./assets/images/story-tengu-card.png?v=tengu-pop-01",
+          image: "./assets/images/pop-tengu-digimon-tengumon.png",
           shortDescription: {
             es: "La Digimon Encyclopedia describe a Tengumon como un gran Digimon Tengu que vive en las montanas.",
             en: "The Digimon Encyclopedia describes Tengumon as a great Tengu Digimon living in the mountains."
@@ -2084,7 +2084,7 @@ window.AKAI_HANA_POP_CULTURE = {
           franchise: { es: "Pelicula / anime", en: "Movie / Anime" },
           year: "2026",
           classification: { es: "Referencia oficial explicita", en: "Explicit Official Reference" },
-          image: "./assets/images/story-tengu-banner.png?v=tengu-pop-01",
+          image: "./assets/images/pop-tengu-shinchan-2026.png",
           shortDescription: {
             es: "Material oficial presenta a Shin-chan en forma Tengu dentro del mundo yokai.",
             en: "Official materials present Shin-chan in a Tengu form inside the yokai world."
@@ -2106,7 +2106,7 @@ window.AKAI_HANA_POP_CULTURE = {
           title: { es: "Tengu no Daidokoro", en: "Tengu no Daidokoro" },
           franchise: { es: "Manga / live action", en: "Manga / Live Action" },
           classification: { es: "Reinterpretacion explicita", en: "Explicit Reinterpretation" },
-          image: "./assets/images/story-tengu-card.png?v=tengu-pop-01",
+          image: "./assets/images/pop-tengu-daidokoro.png",
           shortDescription: {
             es: "Kodansha presenta una historia contemporanea sobre una familia descendiente de Tengu.",
             en: "Kodansha presents a contemporary story about a family descended from Tengu."
@@ -2128,7 +2128,7 @@ window.AKAI_HANA_POP_CULTURE = {
           title: { es: "Tengu Tosen / \u5929\u72D7\u5200\u6226", en: "Tengu Tosen / \u5929\u72D7\u5200\u6226" },
           franchise: { es: "Proyecto anime", en: "Anime Project" },
           classification: { es: "Reinterpretacion explicita", en: "Explicit Reinterpretation" },
-          image: "./assets/images/story-tengu-banner.png?v=tengu-pop-01",
+          image: "./assets/images/pop-tengu-tosen.png",
           shortDescription: {
             es: "El proyecto oficial usa Tengu, Daitengu y Kurama Tengu directamente en su concepto.",
             en: "The official project uses Tengu, Daitengu and Kurama Tengu directly in its concept."
@@ -2150,7 +2150,7 @@ window.AKAI_HANA_POP_CULTURE = {
           title: { es: "Demon Slayer - Sakonji Urokodaki", en: "Demon Slayer - Sakonji Urokodaki" },
           franchise: { es: "Anime", en: "Anime" },
           classification: { es: "Iconografia Tengu", en: "Tengu Iconography" },
-          image: "./assets/images/story-tengu-card.png?v=tengu-pop-01",
+          image: "./assets/images/pop-tengu-urokodaki.png",
           shortDescription: {
             es: "Urokodaki esta definido oficialmente por su mascara Tengu dentro de una franquicia anime mayor.",
             en: "Urokodaki is officially defined through his Tengu mask inside a major anime franchise."
@@ -2172,7 +2172,7 @@ window.AKAI_HANA_POP_CULTURE = {
           title: { es: "The Eccentric Family / Uchoten Kazoku", en: "The Eccentric Family / Uchoten Kazoku" },
           franchise: { es: "Anime", en: "Anime" },
           classification: { es: "Referencia oficial explicita", en: "Explicit Official Reference" },
-          image: "./assets/images/story-tengu-banner.png?v=tengu-pop-01",
+          image: "./assets/images/pop-tengu-eccentric-family.png",
           shortDescription: {
             es: "El mundo oficial del anime incluye a los Tengu como uno de sus grupos sobrenaturales centrales en Kioto.",
             en: "The official anime world includes Tengu as one of its core supernatural groups in Kyoto."
@@ -2196,7 +2196,7 @@ window.AKAI_HANA_POP_CULTURE = {
       title: "Kaguya-hime",
       kanji: "\u304B\u3050\u3084\u59EB",
       image: "./assets/images/story-kaguya-hime-card.png",
-      icon: "./assets/images/story-kaguya-hime-banner.png",
+      icon: "./assets/images/story-kaguya-hime-card.png",
       intro: {
         es: "Kaguya-hime, la princesa de la luna, conecta belleza imposible, bambu, origen celestial y despedida. Estas referencias muestran su presencia en cine, anime, videojuegos y manga.",
         en: "Kaguya-hime, the moon princess, connects impossible beauty, bamboo, celestial origin and farewell. These references show her presence across cinema, anime, games and manga."
@@ -2208,7 +2208,7 @@ window.AKAI_HANA_POP_CULTURE = {
           title: { es: "The Tale of the Princess Kaguya", en: "The Tale of the Princess Kaguya" },
           franchise: { es: "Pelicula / anime", en: "Movie / Anime" },
           classification: { es: "Adaptacion oficial confirmada", en: "Confirmed Official Adaptation" },
-          image: "./assets/images/story-kaguya-hime-banner.png?v=kaguya-pop-01",
+          image: "./assets/images/pop-kaguya-ghibli.png",
           shortDescription: {
             es: "Studio Ghibli identifica la pelicula como basada en Taketori Monogatari, El cuento del cortador de bambu.",
             en: "Studio Ghibli identifies the film as based on Taketori Monogatari, The Tale of the Bamboo Cutter."
@@ -2230,7 +2230,7 @@ window.AKAI_HANA_POP_CULTURE = {
           title: { es: "Digimon - Kaguyamon", en: "Digimon - Kaguyamon" },
           franchise: { es: "Anime / videojuegos", en: "Anime / Games" },
           classification: { es: "Referencia oficial confirmada", en: "Confirmed Official Reference" },
-          image: "./assets/images/story-kaguya-hime-card.png?v=kaguya-pop-01",
+          image: "./assets/images/pop-kaguya-digimon-kaguyamon.png",
           shortDescription: {
             es: "La Digimon Encyclopedia vincula a Kaguyamon con una antigua princesa japonesa y elementos de luna y bambu.",
             en: "The Digimon Encyclopedia connects Kaguyamon with an ancient Japanese princess and moon and bamboo elements."
@@ -2252,7 +2252,7 @@ window.AKAI_HANA_POP_CULTURE = {
           title: { es: "Okami - Kaguya", en: "Okami - Kaguya" },
           franchise: { es: "Videojuego", en: "Video Game" },
           classification: { es: "Referencia oficial confirmada", en: "Confirmed Official Reference" },
-          image: "./assets/images/story-kaguya-hime-banner.png?v=kaguya-pop-01",
+          image: "./assets/images/pop-kaguya-okami.png",
           shortDescription: {
             es: "El manual oficial presenta a Kaguya, la Moonlight Beauty, junto al cortador de bambu.",
             en: "The official manual presents Kaguya, the Moonlight Beauty, alongside the bamboo cutter."
@@ -2274,7 +2274,7 @@ window.AKAI_HANA_POP_CULTURE = {
           title: { es: "Doraemon - Dora Kaguya", en: "Doraemon - Dora Kaguya" },
           franchise: { es: "Anime", en: "Anime" },
           classification: { es: "Adaptacion / parodia explicita", en: "Explicit Adaptation / Parody" },
-          image: "./assets/images/story-kaguya-hime-card.png?v=kaguya-pop-01",
+          image: "./assets/images/pop-kaguya-doraemon.png",
           shortDescription: {
             es: "Doraemon Channel presenta un relato ludico que entra directamente en Taketori Monogatari.",
             en: "Doraemon Channel presents a playful retelling that directly enters Taketori Monogatari."
@@ -2296,7 +2296,7 @@ window.AKAI_HANA_POP_CULTURE = {
           title: { es: "Fly Me to the Moon / Tonikawa", en: "Fly Me to the Moon / Tonikawa" },
           franchise: { es: "Manga / anime", en: "Manga / Anime" },
           classification: { es: "Reinterpretacion explicita", en: "Explicit Reinterpretation" },
-          image: "./assets/images/story-kaguya-hime-banner.png?v=kaguya-pop-01",
+          image: "./assets/images/pop-kaguya-tonikawa.png",
           shortDescription: {
             es: "Material oficial revisita la leyenda de la princesa Kaguya y sus motivos lunares.",
             en: "Official material revisits the legend of Princess Kaguya and its lunar motifs."
@@ -2318,7 +2318,7 @@ window.AKAI_HANA_POP_CULTURE = {
           title: { es: "Sailor Moon - Princess Kaguya's Lover", en: "Sailor Moon - Princess Kaguya's Lover" },
           franchise: { es: "Anime / musical", en: "Anime / Musical" },
           classification: { es: "Referencia oficial explicita", en: "Explicit Official Reference" },
-          image: "./assets/images/story-kaguya-hime-card.png?v=kaguya-pop-01",
+          image: "./assets/images/pop-kaguya-sailor-moon.png",
           shortDescription: {
             es: "El musical oficial usa el titulo Princess Kaguya's Lover y la figura Princess Snow Kaguya.",
             en: "The official musical uses the title Princess Kaguya's Lover and the figure Princess Snow Kaguya."
@@ -2340,7 +2340,7 @@ window.AKAI_HANA_POP_CULTURE = {
           title: { es: "Warriors Orochi 3 Ultimate - Kaguya", en: "Warriors Orochi 3 Ultimate - Kaguya" },
           franchise: { es: "Videojuego", en: "Video Game" },
           classification: { es: "Reinterpretacion explicita", en: "Explicit Reinterpretation" },
-          image: "./assets/images/story-kaguya-hime-banner.png?v=kaguya-pop-01",
+          image: "./assets/images/pop-kaguya-warriors-orochi.png",
           shortDescription: {
             es: "Koei Tecmo presenta a Kaguya como princesa lunar cuyos poderes envian heroes al pasado.",
             en: "Koei Tecmo presents Kaguya as a moon princess whose powers send heroes to the past."
