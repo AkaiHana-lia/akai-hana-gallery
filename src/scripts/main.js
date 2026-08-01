@@ -66,7 +66,7 @@ let lastFocusedElement = null;
 let activeStoryId = null;
 let activeStoryFilter = "all";
 let storySearchTerm = "";
-let visibleStoryCount = 12;
+let visibleStoryCount = 14;
 let activePopCultureThemeId = window.AKAI_HANA_POP_CULTURE?.defaultTheme || "kitsune";
 let activePopCultureCategoryId = null;
 
@@ -467,7 +467,7 @@ function getStoryMeta(story) {
 }
 
 function getOrderedStories(stories) {
-  return [...stories].sort((first, second) => Number(second.number || 0) - Number(first.number || 0));
+  return [...stories].sort((first, second) => Number(first.number || 0) - Number(second.number || 0));
 }
 
 function getFilteredStories(stories) {
@@ -564,7 +564,7 @@ function renderStories() {
 
   searchInput.addEventListener("input", (event) => {
     storySearchTerm = event.target.value;
-    visibleStoryCount = 12;
+    visibleStoryCount = 14;
     renderStories();
     mountPoints.storiesIndex.querySelector(".stories-search__input")?.focus();
   });
@@ -581,7 +581,7 @@ function renderStories() {
     });
     filterButton.addEventListener("click", () => {
       activeStoryFilter = filter;
-      visibleStoryCount = 12;
+      visibleStoryCount = 14;
       renderStories();
     });
     filters.append(filterButton);
@@ -591,11 +591,6 @@ function renderStories() {
   searchLabel.append(searchInput);
   toolbar.append(searchLabel, filters, counter);
   library.append(toolbar);
-
-  const newStories = stories.filter((story) => getStoryMeta(story).isNew);
-  if (newStories.length) {
-    library.append(renderStorySection(dictionary.stories?.newThisWeek || "New this week", newStories, "stories-library__section--new"));
-  }
 
   const collection = createElement("section", { className: "stories-library__section stories-library__section--collection" });
   const collectionGrid = createElement("div", { className: "stories-library__grid" });

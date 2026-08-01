@@ -1210,11 +1210,11 @@
         "romanized": "The Spirit of the Mountain",
         "lead": "A spirit of forests and mountains, the tengu symbolizes power, discipline, protection and the punishment of arrogance.",
         "cardImage": {
-          "src": "./assets/images/story-tengu-lore.png",
+          "src": "./assets/images/story-tengu-card.png",
           "width": 1024,
           "height": 1536,
           "alt": "Tengu narrative panel with mountain guardian, symbolism and tattoo art.",
-          "position": "34% 24%"
+          "position": "50% 45%"
         },
         "heroImage": {
           "src": "./assets/images/story-tengu-banner.png",
@@ -1306,11 +1306,11 @@
         "romanized": "The Princess of the Moon",
         "lead": "Born from a bamboo stalk, Kaguya-hime represents fleeting beauty, nostalgia, mystery and a destiny that cannot be held.",
         "cardImage": {
-          "src": "./assets/images/story-kaguya-hime-lore.png",
-          "width": 1024,
+          "src": "./assets/images/story-kaguya-hime-card.png",
+          "width": 1025,
           "height": 1536,
           "alt": "Kaguya-hime narrative panel with moon princess, bamboo, symbolism and tattoo art.",
-          "position": "34% 32%"
+          "position": "50% 44%"
         },
         "heroImage": {
           "src": "./assets/images/story-kaguya-hime-banner.png",

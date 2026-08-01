@@ -1226,7 +1226,7 @@ window.AKAI_HANA_LOCALES = {
           "romanized": "El espíritu de la montaña",
           "lead": "Espíritu de bosques y montañas, el tengu simboliza poder, disciplina, protección y el castigo de la soberbia.",
           "cardImage": {
-            "src": "./assets/images/story-tengu-lore.png",
+            "src": "./assets/images/story-tengu-card.png",
             "width": 1024,
             "height": 1536,
             "alt": "Panel narrativo de Tengu con guardián de montaña, simbología y tatuaje.",
@@ -1304,7 +1304,7 @@ window.AKAI_HANA_LOCALES = {
               "alt": "Banner de Tengu con luna roja, montaña y guardián alado."
             },
             {
-              "src": "./assets/images/story-tengu-lore.png",
+              "src": "./assets/images/story-tengu-card.png",
               "width": 1024,
               "height": 1536,
               "alt": "Panel completo de Tengu con historia, significados, simbología y arte de tatuaje."
@@ -1322,7 +1322,7 @@ window.AKAI_HANA_LOCALES = {
           "romanized": "La princesa de la Luna",
           "lead": "Nacida de un tallo de bambú, Kaguya-hime representa la belleza efímera, la nostalgia, el misterio y un destino imposible de retener.",
           "cardImage": {
-            "src": "./assets/images/story-kaguya-hime-lore.png",
+            "src": "./assets/images/story-kaguya-hime-card.png",
             "width": 1024,
             "height": 1536,
             "alt": "Panel narrativo de Kaguya-hime con princesa lunar, bambú, simbología y tatuaje.",
@@ -1400,7 +1400,7 @@ window.AKAI_HANA_LOCALES = {
               "alt": "Banner de Kaguya-hime con princesa lunar, bambú y luna llena."
             },
             {
-              "src": "./assets/images/story-kaguya-hime-lore.png",
+              "src": "./assets/images/story-kaguya-hime-card.png",
               "width": 1024,
               "height": 1536,
               "alt": "Panel completo de Kaguya-hime con historia, significados, simbología y arte de tatuaje."
@@ -3355,7 +3355,7 @@ window.AKAI_HANA_LOCALES = {
           "romanized": "The Spirit of the Mountain",
           "lead": "A spirit of forests and mountains, the tengu symbolizes power, discipline, protection and the punishment of arrogance.",
           "cardImage": {
-            "src": "./assets/images/story-tengu-lore.png",
+            "src": "./assets/images/story-tengu-card.png",
             "width": 1024,
             "height": 1536,
             "alt": "Tengu narrative panel with mountain guardian, symbolism and tattoo art.",
@@ -3451,7 +3451,7 @@ window.AKAI_HANA_LOCALES = {
           "romanized": "The Princess of the Moon",
           "lead": "Born from a bamboo stalk, Kaguya-hime represents fleeting beauty, nostalgia, mystery and a destiny that cannot be held.",
           "cardImage": {
-            "src": "./assets/images/story-kaguya-hime-lore.png",
+            "src": "./assets/images/story-kaguya-hime-card.png",
             "width": 1024,
             "height": 1536,
             "alt": "Kaguya-hime narrative panel with moon princess, bamboo, symbolism and tattoo art.",
