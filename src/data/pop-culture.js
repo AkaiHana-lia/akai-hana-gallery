@@ -1,5 +1,5 @@
 window.AKAI_HANA_POP_CULTURE = {
-  defaultTheme: "kitsune",
+  defaultTheme: "red-spider-lily",
   ui: {
     title: {
       es: "POP CULTURE",
@@ -44,8 +44,57 @@ window.AKAI_HANA_POP_CULTURE = {
   ],
   themes: [
     {
-      id: "kitsune",
+      id: "red-spider-lily",
       number: "01",
+      title: "Red Spider Lily",
+      kanji: "彼岸花",
+      image: "./assets/images/story-card-higanbana-tattoo.png",
+      icon: "./assets/images/story-higanbana-cover.png",
+      intro: {
+        es: "La higanbana, o red spider lily, conecta duelo, despedida, recuerdo y el limite entre la vida y la muerte. Estas referencias se presentan con lenguaje prudente cuando no existe confirmacion explicita de autor.",
+        en: "The higanbana, or red spider lily, connects mourning, farewell, remembrance and the boundary between life and death. These references use cautious wording when no explicit creator confirmation has been found."
+      },
+      entries: [
+        {
+          id: "red-spider-lily-demon-slayer-infinity-castle",
+          categoryId: "anime-manga",
+          title: {
+            es: "Demon Slayer: Infinity Castle - Zenitsu y Jigoro",
+            en: "Demon Slayer: Infinity Castle - Zenitsu and Jigoro"
+          },
+          franchise: {
+            es: "Anime / Cine",
+            en: "Anime / Cinema"
+          },
+          year: "2025",
+          classification: {
+            es: "Uso simbolico probable fuerte",
+            en: "Strong Probable Symbolic Use"
+          },
+          image: "./assets/images/pop-red-spider-lily-demon-slayer-zenitsu-jigoro.png?v=red-spider-lily-pop-01",
+          imageFit: "contain",
+          shortDescription: {
+            es: "La imagen oficial de aniversario de Ufotable situa a Zenitsu y Jigoro dentro de un campo de higanbana, reforzando despedida, memoria y frontera entre vivos y muertos.",
+            en: "Ufotable's official anniversary artwork places Zenitsu and Jigoro within a field of higanbana, reinforcing farewell, memory and the boundary between the living and the dead."
+          },
+          fullDescription: {
+            es: "Tras el enfrentamiento final de Zenitsu con Kaigaku, su vinculo emocional con su maestro fallecido Jigoro queda representado mediante una imagen llena de red spider lilies. La ilustracion oficial de primer aniversario de Ufotable para Infinity Castle, titulada Zenitsu and Grandpa, coloca a ambos personajes en un campo de higanbana.",
+            en: "Following Zenitsu's final confrontation with Kaigaku, his emotional connection with his deceased master Jigoro is represented through imagery filled with red spider lilies. Ufotable's official first-anniversary artwork for Infinity Castle, titled Zenitsu and Grandpa, places the two characters within a field of higanbana."
+          },
+          context: {
+            es: "Las flores refuerzan los temas de muerte, despedida, recuerdo y el limite entre los vivos y los muertos. No se ha localizado una declaracion oficial del creador que explique explicitamente el simbolismo floral, por lo que esta conexion se presenta como uso simbolico probable fuerte, no como inspiracion oficialmente confirmada.",
+            en: "The flowers reinforce the scene's themes of death, farewell, remembrance and the boundary between the living and the dead. No official creator statement explicitly explaining the flower symbolism has been located, so this connection is presented as strong probable symbolic use rather than officially confirmed inspiration."
+          },
+          sourceLabel: {
+            es: "Arte oficial - Ufotable",
+            en: "Official Artwork - Ufotable"
+          }
+        }
+      ]
+    },
+    {
+      id: "kitsune",
+      number: "02",
       title: "Kitsune",
       kanji: "狐",
       image: "./assets/images/story-card-kitsune-tattoo.png",
@@ -222,7 +271,7 @@ window.AKAI_HANA_POP_CULTURE = {
     },
     {
       id: "koi",
-      number: "02",
+      number: "03",
       title: "Koi",
       kanji: "鯉",
       image: "./assets/images/story-card-koi-tattoo.png",
@@ -315,7 +364,7 @@ window.AKAI_HANA_POP_CULTURE = {
     },
     {
       id: "ryu",
-      number: "03",
+      number: "04",
       title: "Ryu",
       kanji: "\u9F8D",
       image: "./assets/images/story-card-ryu-tattoo.png",
@@ -434,7 +483,7 @@ window.AKAI_HANA_POP_CULTURE = {
     },
     {
       id: "hannya",
-      number: "04",
+      number: "05",
       title: "Hannya",
       kanji: "\u822C\u82E5",
       image: "./assets/images/story-card-hannya-tattoo.png",
@@ -550,7 +599,7 @@ window.AKAI_HANA_POP_CULTURE = {
     },
     {
       id: "yuki-onna",
-      number: "05",
+      number: "06",
       title: "Yuki-onna",
       kanji: "\u96EA\u5973",
       image: "./assets/images/story-card-yuki-onna.png",
@@ -749,7 +798,7 @@ window.AKAI_HANA_POP_CULTURE = {
     },
     {
       id: "baku",
-      number: "06",
+      number: "07",
       title: "Baku",
       kanji: "\u734F",
       image: "./assets/images/story-card-baku-tattoo.png",
@@ -874,7 +923,7 @@ window.AKAI_HANA_POP_CULTURE = {
     },
     {
       id: "tsuru",
-      number: "07",
+      number: "08",
       title: "Tsuru",
       kanji: "鶴",
       image: "./assets/images/story-card-tsuru-tattoo.png",
