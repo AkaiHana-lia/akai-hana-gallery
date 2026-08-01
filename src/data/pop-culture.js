@@ -2020,6 +2020,343 @@ window.AKAI_HANA_POP_CULTURE = {
           sourceUrl: "https://dengekibunko.jp/product/c3/200811000243.html"
         }
       ]
+    },
+    {
+      id: "tengu",
+      number: "13",
+      title: "Tengu",
+      kanji: "\u5929\u72D7",
+      image: "./assets/images/story-tengu-card.png",
+      icon: "./assets/images/story-tengu-banner.png",
+      intro: {
+        es: "Tengu, guardian y espiritu de la montana, aparece en la cultura pop moderna como yokai, mentor severo, criatura alada y simbolo de disciplina.",
+        en: "Tengu, guardian and mountain spirit, appears in modern pop culture as yokai, stern mentor, winged creature and symbol of discipline."
+      },
+      entries: [
+        {
+          id: "tengu-witch-watch-kanshi",
+          categoryId: "anime-manga",
+          title: { es: "WITCH WATCH - Kanshi Kazamatsuri", en: "WITCH WATCH - Kanshi Kazamatsuri" },
+          franchise: { es: "Anime", en: "Anime" },
+          classification: { es: "Referencia oficial explicita", en: "Explicit Official Reference" },
+          image: "./assets/images/story-tengu-card.png?v=tengu-pop-01",
+          shortDescription: {
+            es: "La web oficial identifica a Kanshi Kazamatsuri directamente como un Tengu.",
+            en: "The official anime site identifies Kanshi Kazamatsuri directly as a Tengu."
+          },
+          fullDescription: {
+            es: "WITCH WATCH incluye a Kanshi Kazamatsuri como una referencia moderna clara al Tengu. La conexion no depende de una lectura visual: la fuente oficial lo identifica directamente como Tengu.",
+            en: "WITCH WATCH includes Kanshi Kazamatsuri as a clear modern Tengu reference. The connection does not depend on visual interpretation: the official source directly identifies him as Tengu."
+          },
+          context: {
+            es: "Pasa el filtro Akaihana porque es una referencia nominal explicita, no una asociacion estetica o una suposicion.",
+            en: "It passes the Akaihana filter because it is an explicit named reference, not an aesthetic association or a guess."
+          },
+          sourceLabel: { es: "WITCH WATCH - personajes", en: "WITCH WATCH - Characters" },
+          sourceUrl: "https://witchwatch-anime.com/character/"
+        },
+        {
+          id: "tengu-digimon-tengumon",
+          categoryId: "anime-manga",
+          title: { es: "Digimon - Tengumon", en: "Digimon - Tengumon" },
+          franchise: { es: "Anime / videojuegos", en: "Anime / Games" },
+          classification: { es: "Referencia oficial explicita", en: "Explicit Official Reference" },
+          image: "./assets/images/story-tengu-card.png?v=tengu-pop-01",
+          shortDescription: {
+            es: "La Digimon Encyclopedia describe a Tengumon como un gran Digimon Tengu que vive en las montanas.",
+            en: "The Digimon Encyclopedia describes Tengumon as a great Tengu Digimon living in the mountains."
+          },
+          fullDescription: {
+            es: "Tengumon convierte la figura del Tengu en criatura digital dentro de Digimon. La identidad es explicita en la propia franquicia, que lo define como un gran Tengu Digimon vinculado a las montanas.",
+            en: "Tengumon turns the Tengu figure into a digital creature within Digimon. The identity is explicit inside the franchise itself, which defines it as a great Tengu Digimon tied to the mountains."
+          },
+          context: {
+            es: "La conexion es fuerte porque mantiene el nombre, el tipo de criatura y el territorio montanoso asociado al folclore.",
+            en: "The connection is strong because it keeps the name, creature type and mountainous territory associated with the folklore."
+          },
+          sourceLabel: { es: "Digimon Encyclopedia", en: "Digimon Encyclopedia" },
+          sourceUrl: "https://digimon.net/reference_en/detail.php?directory_name=tengumon"
+        },
+        {
+          id: "tengu-crayon-shinchan-2026",
+          categoryId: "cinema",
+          title: { es: "Crayon Shin-chan 2026 - Tengu Shin-chan", en: "Crayon Shin-chan 2026 - Tengu Shin-chan" },
+          franchise: { es: "Pelicula / anime", en: "Movie / Anime" },
+          year: "2026",
+          classification: { es: "Referencia oficial explicita", en: "Explicit Official Reference" },
+          image: "./assets/images/story-tengu-banner.png?v=tengu-pop-01",
+          shortDescription: {
+            es: "Material oficial presenta a Shin-chan en forma Tengu dentro del mundo yokai.",
+            en: "Official materials present Shin-chan in a Tengu form inside the yokai world."
+          },
+          fullDescription: {
+            es: "Crayon Shin-chan 2026 usa el Tengu como transformacion juguetona y reconocible dentro de un contexto yokai. La referencia aparece en materiales oficiales de la pelicula.",
+            en: "Crayon Shin-chan 2026 uses Tengu as a playful and recognisable transformation inside a yokai context. The reference appears in official movie materials."
+          },
+          context: {
+            es: "La entrada se marca como reinterpretacion directa y ludica del Tengu moderno.",
+            en: "This entry is marked as a direct and playful reinterpretation of modern Tengu."
+          },
+          sourceLabel: { es: "Crayon Shin-chan Movie 2026", en: "Crayon Shin-chan Movie 2026" },
+          sourceUrl: "https://www.shinchan-movie.com/2026/20260220/news/"
+        },
+        {
+          id: "tengu-no-daidokoro",
+          categoryId: "anime-manga",
+          title: { es: "Tengu no Daidokoro", en: "Tengu no Daidokoro" },
+          franchise: { es: "Manga / live action", en: "Manga / Live Action" },
+          classification: { es: "Reinterpretacion explicita", en: "Explicit Reinterpretation" },
+          image: "./assets/images/story-tengu-card.png?v=tengu-pop-01",
+          shortDescription: {
+            es: "Kodansha presenta una historia contemporanea sobre una familia descendiente de Tengu.",
+            en: "Kodansha presents a contemporary story about a family descended from Tengu."
+          },
+          fullDescription: {
+            es: "Tengu no Daidokoro lleva el folclore Tengu a una lectura domestica y contemporanea. La obra no usa solo iconografia: su concepto gira alrededor de una familia vinculada directamente a los Tengu.",
+            en: "Tengu no Daidokoro brings Tengu folklore into a domestic and contemporary reading. The work does not only use iconography: its concept revolves around a family directly connected to Tengu."
+          },
+          context: {
+            es: "Es una reinterpretacion moderna de la herencia Tengu dentro de manga y adaptacion live action.",
+            en: "It is a modern reinterpretation of Tengu lineage within manga and live action."
+          },
+          sourceLabel: { es: "Kodansha Afternoon", en: "Kodansha Afternoon" },
+          sourceUrl: "https://afternoon.kodansha.co.jp/c/tengunodaidokoro/"
+        },
+        {
+          id: "tengu-tosen",
+          categoryId: "anime-manga",
+          title: { es: "Tengu Tosen / \u5929\u72D7\u5200\u6226", en: "Tengu Tosen / \u5929\u72D7\u5200\u6226" },
+          franchise: { es: "Proyecto anime", en: "Anime Project" },
+          classification: { es: "Reinterpretacion explicita", en: "Explicit Reinterpretation" },
+          image: "./assets/images/story-tengu-banner.png?v=tengu-pop-01",
+          shortDescription: {
+            es: "El proyecto oficial usa Tengu, Daitengu y Kurama Tengu directamente en su concepto.",
+            en: "The official project uses Tengu, Daitengu and Kurama Tengu directly in its concept."
+          },
+          fullDescription: {
+            es: "Tengu Tosen, proyecto de Bandai Namco y Plott, toma el Tengu como nucleo conceptual. La referencia es fuerte porque el nombre y las variantes Tengu aparecen en la base oficial de la obra.",
+            en: "Tengu Tosen, a Bandai Namco and Plott project, uses Tengu as its conceptual core. The reference is strong because the name and Tengu variants appear in the official basis of the work."
+          },
+          context: {
+            es: "Se clasifica como reinterpretacion explicita por su uso directo del vocabulario y jerarquia Tengu.",
+            en: "It is classified as an explicit reinterpretation because it directly uses Tengu vocabulary and hierarchy."
+          },
+          sourceLabel: { es: "PR Times - anuncio oficial", en: "PR Times - Official Announcement" },
+          sourceUrl: "https://prtimes.jp/main/html/rd/p/000002138.000051316.html"
+        },
+        {
+          id: "tengu-demon-slayer-urokodaki",
+          categoryId: "anime-manga",
+          title: { es: "Demon Slayer - Sakonji Urokodaki", en: "Demon Slayer - Sakonji Urokodaki" },
+          franchise: { es: "Anime", en: "Anime" },
+          classification: { es: "Iconografia Tengu", en: "Tengu Iconography" },
+          image: "./assets/images/story-tengu-card.png?v=tengu-pop-01",
+          shortDescription: {
+            es: "Urokodaki esta definido oficialmente por su mascara Tengu dentro de una franquicia anime mayor.",
+            en: "Urokodaki is officially defined through his Tengu mask inside a major anime franchise."
+          },
+          fullDescription: {
+            es: "Sakonji Urokodaki incorpora el rostro Tengu como iconografia central de personaje. En esta ficha se incluye como presencia visual oficial del Tengu, no como adaptacion completa de la leyenda.",
+            en: "Sakonji Urokodaki incorporates the Tengu face as central character iconography. This entry includes him as official visual Tengu presence, not as a full adaptation of the legend."
+          },
+          context: {
+            es: "La formulacion se mantiene prudente: Tengu como mascara e iconografia explicita dentro de Demon Slayer.",
+            en: "The wording remains cautious: Tengu as explicit mask and iconography inside Demon Slayer."
+          },
+          sourceLabel: { es: "Kimetsu no Yaiba - personajes", en: "Kimetsu no Yaiba - Characters" },
+          sourceUrl: "https://kimetsu.com/anime/risshihen/character/?chara=urokodaki"
+        },
+        {
+          id: "tengu-eccentric-family",
+          categoryId: "anime-manga",
+          title: { es: "The Eccentric Family / Uchoten Kazoku", en: "The Eccentric Family / Uchoten Kazoku" },
+          franchise: { es: "Anime", en: "Anime" },
+          classification: { es: "Referencia oficial explicita", en: "Explicit Official Reference" },
+          image: "./assets/images/story-tengu-banner.png?v=tengu-pop-01",
+          shortDescription: {
+            es: "El mundo oficial del anime incluye a los Tengu como uno de sus grupos sobrenaturales centrales en Kioto.",
+            en: "The official anime world includes Tengu as one of its core supernatural groups in Kyoto."
+          },
+          fullDescription: {
+            es: "The Eccentric Family integra Tengu en su mapa sobrenatural de Kioto junto a otros seres del folclore. La conexion es clara porque la obra los trata como grupo dentro de su mundo narrativo.",
+            en: "The Eccentric Family integrates Tengu into its supernatural map of Kyoto alongside other folkloric beings. The connection is clear because the work treats them as a group inside its narrative world."
+          },
+          context: {
+            es: "Funciona como uso moderno fuerte de mitologia Tengu dentro de una serie anime contemporanea.",
+            en: "It works as a strong modern use of Tengu mythology inside a contemporary anime series."
+          },
+          sourceLabel: { es: "Uchoten Kazoku - personajes", en: "Uchoten Kazoku - Characters" },
+          sourceUrl: "https://uchoten-anime.com/season1/character/"
+        }
+      ]
+    },
+    {
+      id: "kaguya-hime",
+      number: "14",
+      title: "Kaguya-hime",
+      kanji: "\u304B\u3050\u3084\u59EB",
+      image: "./assets/images/story-kaguya-hime-card.png",
+      icon: "./assets/images/story-kaguya-hime-banner.png",
+      intro: {
+        es: "Kaguya-hime, la princesa de la luna, conecta belleza imposible, bambu, origen celestial y despedida. Estas referencias muestran su presencia en cine, anime, videojuegos y manga.",
+        en: "Kaguya-hime, the moon princess, connects impossible beauty, bamboo, celestial origin and farewell. These references show her presence across cinema, anime, games and manga."
+      },
+      entries: [
+        {
+          id: "kaguya-ghibli-princess-kaguya",
+          categoryId: "cinema",
+          title: { es: "The Tale of the Princess Kaguya", en: "The Tale of the Princess Kaguya" },
+          franchise: { es: "Pelicula / anime", en: "Movie / Anime" },
+          classification: { es: "Adaptacion oficial confirmada", en: "Confirmed Official Adaptation" },
+          image: "./assets/images/story-kaguya-hime-banner.png?v=kaguya-pop-01",
+          shortDescription: {
+            es: "Studio Ghibli identifica la pelicula como basada en Taketori Monogatari, El cuento del cortador de bambu.",
+            en: "Studio Ghibli identifies the film as based on Taketori Monogatari, The Tale of the Bamboo Cutter."
+          },
+          fullDescription: {
+            es: "The Tale of the Princess Kaguya es una adaptacion moderna directa de Kaguya-hime. Studio Ghibli la presenta oficialmente como obra basada en Taketori Monogatari, el relato clasico de la princesa encontrada dentro del bambu.",
+            en: "The Tale of the Princess Kaguya is a direct modern adaptation of Kaguya-hime. Studio Ghibli officially presents it as a work based on Taketori Monogatari, the classic tale of the princess found inside bamboo."
+          },
+          context: {
+            es: "Es la referencia cinematografica principal porque adapta de forma frontal la estructura, origen y despedida del mito.",
+            en: "It is the main cinematic reference because it directly adapts the structure, origin and farewell of the myth."
+          },
+          sourceLabel: { es: "Studio Ghibli - ficha oficial", en: "Studio Ghibli - Official Page" },
+          sourceUrl: "https://www.ghibli.jp/works/kaguyahime/"
+        },
+        {
+          id: "kaguya-digimon-kaguyamon",
+          categoryId: "anime-manga",
+          title: { es: "Digimon - Kaguyamon", en: "Digimon - Kaguyamon" },
+          franchise: { es: "Anime / videojuegos", en: "Anime / Games" },
+          classification: { es: "Referencia oficial confirmada", en: "Confirmed Official Reference" },
+          image: "./assets/images/story-kaguya-hime-card.png?v=kaguya-pop-01",
+          shortDescription: {
+            es: "La Digimon Encyclopedia vincula a Kaguyamon con una antigua princesa japonesa y elementos de luna y bambu.",
+            en: "The Digimon Encyclopedia connects Kaguyamon with an ancient Japanese princess and moon and bamboo elements."
+          },
+          fullDescription: {
+            es: "Kaguyamon reinterpreta a Kaguya-hime dentro del universo Digimon. La fuente oficial la relaciona con una antigua leyenda de princesa japonesa y refuerza el vinculo con bambu, luna y ataques nombrados.",
+            en: "Kaguyamon reinterprets Kaguya-hime inside the Digimon universe. The official source connects her with an ancient Japanese princess legend and reinforces the link through bamboo, moon and named attacks."
+          },
+          context: {
+            es: "La conexion es explicita porque combina nombre, simbolos lunares y bambu, todos centrales en Kaguya-hime.",
+            en: "The connection is explicit because it combines name, lunar symbols and bamboo, all central to Kaguya-hime."
+          },
+          sourceLabel: { es: "Digimon Encyclopedia", en: "Digimon Encyclopedia" },
+          sourceUrl: "https://digimon.net/reference/detail.php?directory_name=kaguyamon"
+        },
+        {
+          id: "kaguya-okami",
+          categoryId: "video-games",
+          title: { es: "Okami - Kaguya", en: "Okami - Kaguya" },
+          franchise: { es: "Videojuego", en: "Video Game" },
+          classification: { es: "Referencia oficial confirmada", en: "Confirmed Official Reference" },
+          image: "./assets/images/story-kaguya-hime-banner.png?v=kaguya-pop-01",
+          shortDescription: {
+            es: "El manual oficial presenta a Kaguya, la Moonlight Beauty, junto al cortador de bambu.",
+            en: "The official manual presents Kaguya, the Moonlight Beauty, alongside the bamboo cutter."
+          },
+          fullDescription: {
+            es: "Okami recupera a Kaguya como figura lunar y la acerca al relato tradicional mediante su relacion con el cortador de bambu. La conexion con Kaguya-hime aparece dentro del propio material oficial del juego.",
+            en: "Okami recovers Kaguya as a lunar figure and keeps her close to the traditional tale through her bond with the bamboo cutter. The Kaguya-hime connection appears inside the game's official material."
+          },
+          context: {
+            es: "Es una reinterpretacion de videojuego muy cercana al mito por su origen lunar y su relacion con Taketori.",
+            en: "It is a game reinterpretation very close to the myth through lunar origin and the Taketori bond."
+          },
+          sourceLabel: { es: "Capcom - manual oficial de Okami", en: "Capcom - Okami Official Manual" },
+          sourceUrl: "https://static.capcom.com/okami/manuals/Wii_Okami_Manual.pdf"
+        },
+        {
+          id: "kaguya-doraemon-dora-kaguya",
+          categoryId: "anime-manga",
+          title: { es: "Doraemon - Dora Kaguya", en: "Doraemon - Dora Kaguya" },
+          franchise: { es: "Anime", en: "Anime" },
+          classification: { es: "Adaptacion / parodia explicita", en: "Explicit Adaptation / Parody" },
+          image: "./assets/images/story-kaguya-hime-card.png?v=kaguya-pop-01",
+          shortDescription: {
+            es: "Doraemon Channel presenta un relato ludico que entra directamente en Taketori Monogatari.",
+            en: "Doraemon Channel presents a playful retelling that directly enters Taketori Monogatari."
+          },
+          fullDescription: {
+            es: "Dora Kaguya reinterpreta Kaguya-hime desde el tono comico de Doraemon. La fuente oficial lo vincula directamente con Taketori Monogatari, transformando el cuento en una adaptacion familiar.",
+            en: "Dora Kaguya reinterprets Kaguya-hime through Doraemon's comic tone. The official source links it directly with Taketori Monogatari, turning the tale into a family-friendly adaptation."
+          },
+          context: {
+            es: "La conexion es clara porque no es solo una princesa lunar generica: la obra entra en el relato de Taketori.",
+            en: "The connection is clear because this is not just a generic moon princess: the work enters the Taketori tale."
+          },
+          sourceLabel: { es: "Doraemon Channel", en: "Doraemon Channel" },
+          sourceUrl: "https://dora-world.com/contents/1569"
+        },
+        {
+          id: "kaguya-tonikawa",
+          categoryId: "anime-manga",
+          title: { es: "Fly Me to the Moon / Tonikawa", en: "Fly Me to the Moon / Tonikawa" },
+          franchise: { es: "Manga / anime", en: "Manga / Anime" },
+          classification: { es: "Reinterpretacion explicita", en: "Explicit Reinterpretation" },
+          image: "./assets/images/story-kaguya-hime-banner.png?v=kaguya-pop-01",
+          shortDescription: {
+            es: "Material oficial revisita la leyenda de la princesa Kaguya y sus motivos lunares.",
+            en: "Official material revisits the legend of Princess Kaguya and its lunar motifs."
+          },
+          fullDescription: {
+            es: "Tonikawa incorpora a Kaguya y elementos del relato clasico: origen lunar, pretendientes, pruebas imposibles y destino ligado a la Luna. La obra convierte el mito en una reinterpretacion romantica moderna.",
+            en: "Tonikawa includes Kaguya and elements of the classic tale: lunar origin, suitors, impossible tasks and destiny tied to the Moon. The work turns the myth into a modern romantic reinterpretation."
+          },
+          context: {
+            es: "La entrada funciona como puente entre cuento clasico, romance contemporaneo y misterio lunar.",
+            en: "This entry works as a bridge between classic tale, contemporary romance and lunar mystery."
+          },
+          sourceLabel: { es: "Tonikawa - personaje Kaguya Gekko", en: "Tonikawa - Kaguya Gekko Character" },
+          sourceUrl: "https://tonikawa.com/character/kaguya-gekko/"
+        },
+        {
+          id: "kaguya-sailor-moon-princess-kaguya",
+          categoryId: "anime-manga",
+          title: { es: "Sailor Moon - Princess Kaguya's Lover", en: "Sailor Moon - Princess Kaguya's Lover" },
+          franchise: { es: "Anime / musical", en: "Anime / Musical" },
+          classification: { es: "Referencia oficial explicita", en: "Explicit Official Reference" },
+          image: "./assets/images/story-kaguya-hime-card.png?v=kaguya-pop-01",
+          shortDescription: {
+            es: "El musical oficial usa el titulo Princess Kaguya's Lover y la figura Princess Snow Kaguya.",
+            en: "The official musical uses the title Princess Kaguya's Lover and the figure Princess Snow Kaguya."
+          },
+          fullDescription: {
+            es: "Sailor Moon reinterpreta el imaginario de Kaguya dentro de su mitologia lunar mediante Princess Kaguya's Lover y Princess Snow Kaguya. La conexion es explicita en el titulo y el material oficial.",
+            en: "Sailor Moon reinterprets Kaguya imagery inside its lunar mythology through Princess Kaguya's Lover and Princess Snow Kaguya. The connection is explicit in the title and official material."
+          },
+          context: {
+            es: "La entrada se mantiene en anime y musical porque vincula la princesa lunar con un universo pop profundamente asociado a la Luna.",
+            en: "This entry remains in anime and musical because it links the moon princess with a pop universe deeply associated with the Moon."
+          },
+          sourceLabel: { es: "Sailor Moon - musical oficial", en: "Sailor Moon - Official Musical" },
+          sourceUrl: "https://sailormoon-official.com/stage/information/musical_0401.php"
+        },
+        {
+          id: "kaguya-warriors-orochi-3",
+          categoryId: "video-games",
+          title: { es: "Warriors Orochi 3 Ultimate - Kaguya", en: "Warriors Orochi 3 Ultimate - Kaguya" },
+          franchise: { es: "Videojuego", en: "Video Game" },
+          classification: { es: "Reinterpretacion explicita", en: "Explicit Reinterpretation" },
+          image: "./assets/images/story-kaguya-hime-banner.png?v=kaguya-pop-01",
+          shortDescription: {
+            es: "Koei Tecmo presenta a Kaguya como princesa lunar cuyos poderes envian heroes al pasado.",
+            en: "Koei Tecmo presents Kaguya as a moon princess whose powers send heroes to the past."
+          },
+          fullDescription: {
+            es: "Warriors Orochi 3 Ultimate traslada a Kaguya-hime al terreno de la fantasia historica y la accion. Su identidad como princesa lunar y su poder de alterar el tiempo crean una relectura pop clara del arquetipo.",
+            en: "Warriors Orochi 3 Ultimate moves Kaguya-hime into historical fantasy and action. Her identity as a moon princess and her power to alter time create a clear pop reinterpretation of the archetype."
+          },
+          context: {
+            es: "La conexion se marca como reinterpretacion explicita por conservar a Kaguya como princesa lunar dentro de una narrativa moderna.",
+            en: "The connection is marked as an explicit reinterpretation because it keeps Kaguya as a moon princess inside a modern narrative."
+          },
+          sourceLabel: { es: "Koei Tecmo - noticia oficial", en: "Koei Tecmo - Official News" },
+          sourceUrl: "https://www.koeitecmoamerica.com/news/warriors-orochi-3-ultimate-definitive-edition-slashes-its-way-onto-pc-via-steam/"
+        }
+      ]
     }
   ]
 };
