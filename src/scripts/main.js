@@ -123,12 +123,10 @@ const storyLibraryMeta = {
   tengu: {
     categories: ["yokai", "legends"],
     keywords: ["tengu", "mountain", "mountains", "forest", "guardian", "yamabushi", "wings", "feather fan", "pride", "discipline", "protection", "yokai", "legend", "天狗"],
-    isNew: true
   },
   "kaguya-hime": {
     categories: ["legends", "symbols"],
     keywords: ["kaguya-hime", "kaguya", "moon", "princess", "bamboo", "celestial", "beauty", "farewell", "nostalgia", "immortality", "legend", "symbol", "かぐや姫"],
-    isNew: true
   },
   jorogumo: {
     categories: ["yokai", "creatures"],
@@ -173,7 +171,13 @@ async function loadDictionary(nextLocale) {
   }
 
   try {
-    return await response.json();
+    const loadedDictionary = await response.json();
+
+    if (fallbackDictionary?.stories) {
+      loadedDictionary.stories = JSON.parse(JSON.stringify(fallbackDictionary.stories));
+    }
+
+    return loadedDictionary;
   } catch (error) {
     if (fallbackDictionary) return JSON.parse(JSON.stringify(fallbackDictionary));
     throw error;
