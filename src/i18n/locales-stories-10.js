@@ -1407,6 +1407,201 @@ window.AKAI_HANA_LOCALES = {
             }
           ],
           "quote": "La Luna la llama. La tierra aún la recuerda."
+        },
+        {
+          "id": "jorogumo",
+          "number": "15",
+          "title": "Jorōgumo",
+          "cardTitle": "Jorōgumo",
+          "eyebrow": "Yōkai japonés",
+          "japaneseName": "絡新婦",
+          "romanized": "La mujer araña",
+          "lead": "Entre hilos invisibles, belleza y peligro, Jorōgumo representa la seducción, el engaño y la trampa que se oculta bajo una apariencia fascinante.",
+          "cardImage": {
+            "src": "./assets/images/story-card-jorogumo-tattoo.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Tatuaje de Jorōgumo con mujer araña, telarañas, flores rojas y paisaje japonés.",
+            "position": "50% 48%"
+          },
+          "heroImage": {
+            "src": "./assets/images/story-jorogumo-banner.png",
+            "width": 1916,
+            "height": 821,
+            "alt": "Banner cinematográfico de Jorōgumo entre telarañas, flores rojas y cascadas japonesas.",
+            "position": "50% 50%"
+          },
+          "sections": [
+            {
+              "eyebrow": "¿Qué es?",
+              "title": "La belleza que teje una trampa",
+              "paragraphs": [
+                "Jorōgumo es un yōkai con forma de araña que, al alcanzar gran edad y poder, puede transformarse en una mujer hermosa.",
+                "Su leyenda une encanto, deseo y peligro: una presencia cautivadora que esconde una red invisible."
+              ]
+            },
+            {
+              "eyebrow": "La leyenda",
+              "title": "Hilos de belleza que conducen a la muerte",
+              "paragraphs": [
+                "En muchas versiones, Jorōgumo habita bosques, puentes o cascadas apartadas. Allí espera a viajeros solitarios y los envuelve con conversación, música o deseo.",
+                "Cuando la presa baja la guardia, la mujer revela su verdadera naturaleza arácnida y la atrapa entre hilos invisibles.",
+                "Su belleza no es una promesa de amor, sino una trampa tejida con paciencia."
+              ]
+            },
+            {
+              "eyebrow": "Significados",
+              "title": "Deseo, engaño y poder oculto",
+              "paragraphs": [
+                "Jorōgumo representa la belleza convertida en peligro, la seducción que engaña y el precio de dejarse llevar por la ilusión.",
+                "También habla de transformación, dualidad y poder femenino oscuro: una fuerza delicada en apariencia, pero letal en el fondo."
+              ]
+            },
+            {
+              "eyebrow": "Simbología",
+              "title": "Telaraña, araña y shamisen",
+              "paragraphs": [
+                "La telaraña simboliza destino, trampa y conexiones invisibles. La araña habla de paciencia, inteligencia y control.",
+                "El shamisen aparece en muchas reinterpretaciones como llamada hipnótica: música, encanto y peligro reunidos en una sola imagen."
+              ]
+            },
+            {
+              "eyebrow": "En el arte del tatuaje",
+              "title": "Sensual, oscura y fatal",
+              "paragraphs": [
+                "En tatuaje, Jorōgumo permite composiciones intensas con telarañas, flores rojas, cascadas, arañas y una figura femenina magnética.",
+                "Funciona muy bien para piezas que mezclan belleza, misterio y una sensación de peligro elegante."
+              ]
+            },
+            {
+              "eyebrow": "Origen y folklore",
+              "title": "De araña real a mito seductor",
+              "paragraphs": [
+                "El nombre Jorōgumo también se asocia a una especie real de araña y, en la tradición popular, dio forma a una de las figuras más inquietantes del imaginario japonés.",
+                "Entre advertencia, deseo y fascinación, sigue siendo una presencia seductora del folklore japonés."
+              ]
+            }
+          ],
+          "galleryTitle": "Galería de Jorōgumo",
+          "gallery": [
+            {
+              "src": "./assets/images/story-jorogumo-banner.png",
+              "width": 1916,
+              "height": 821,
+              "alt": "Banner de Jorōgumo con mujer araña, telarañas y jardín oscuro."
+            },
+            {
+              "src": "./assets/images/story-jorogumo-lore.png",
+              "width": 1024,
+              "height": 1536,
+              "alt": "Panel completo de Jorōgumo con historia, significados, simbología y arte de tatuaje."
+            },
+            {
+              "src": "./assets/images/story-card-jorogumo-tattoo.png",
+              "width": 1024,
+              "height": 1536,
+              "alt": "Detalle de tatuaje Jorōgumo con mujer araña y telarañas.",
+              "position": "50% 48%"
+            }
+          ],
+          "quote": "Toca su red y quizá no puedas volver."
+        },
+        {
+          "id": "yatagarasu",
+          "number": "16",
+          "title": "Yatagarasu",
+          "cardTitle": "Yatagarasu",
+          "eyebrow": "Mitología japonesa",
+          "japaneseName": "八咫烏",
+          "romanized": "El cuervo divino",
+          "lead": "Yatagarasu representa la guía sagrada, el destino, la protección y la luz que señala el camino correcto.",
+          "cardImage": {
+            "src": "./assets/images/story-card-yatagarasu-tattoo.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Tatuaje de Yatagarasu con cuervo divino, sol rojo, torii y nubes japonesas.",
+            "position": "50% 46%"
+          },
+          "heroImage": {
+            "src": "./assets/images/story-yatagarasu-banner.png",
+            "width": 1916,
+            "height": 821,
+            "alt": "Banner cinematográfico de Yatagarasu con cuervo divino, eclipse solar y paisaje japonés.",
+            "position": "50% 50%"
+          },
+          "sections": [
+            {
+              "eyebrow": "¿Qué es?",
+              "title": "El cuervo que guía bajo el sol",
+              "paragraphs": [
+                "Yatagarasu es el legendario cuervo de tres patas de la mitología japonesa, asociado al sol, la voluntad celestial y el camino correcto.",
+                "No aparece como una criatura de oscuridad, sino como un mensajero sagrado que orienta cuando el destino parece incierto."
+              ]
+            },
+            {
+              "eyebrow": "La leyenda",
+              "title": "La guía del Emperador Jimmu",
+              "paragraphs": [
+                "En los relatos antiguos, Yatagarasu fue enviado por los cielos para guiar al Emperador Jimmu a través de tierras difíciles hasta su destino.",
+                "Desde entonces, el cuervo sagrado se convirtió en símbolo de dirección, intervención divina y victoria guiada por la sabiduría."
+              ]
+            },
+            {
+              "eyebrow": "Significados",
+              "title": "Guía, destino y claridad",
+              "paragraphs": [
+                "Yatagarasu representa guía divina, dirección, protección espiritual, renacimiento y claridad.",
+                "Su presencia recuerda que incluso en la niebla o la duda existe una señal capaz de marcar el camino."
+              ]
+            },
+            {
+              "eyebrow": "Simbología",
+              "title": "Tres patas, sol y torii",
+              "paragraphs": [
+                "El cuervo de tres patas une cielo, tierra y humanidad. El sol simboliza verdad y energía divina; las alas hablan de libertad, avance y protección.",
+                "El torii refuerza la idea de paso sagrado: cruzar hacia una dirección correcta."
+              ]
+            },
+            {
+              "eyebrow": "En el arte del tatuaje",
+              "title": "Protección y destino",
+              "paragraphs": [
+                "En tatuaje, Yatagarasu funciona con discos solares, montañas, nubes, arquitectura sagrada y formas de alas poderosas.",
+                "Es una pieza ideal para quienes buscan un símbolo de protección, dirección y claridad interior."
+              ]
+            },
+            {
+              "eyebrow": "Origen y folklore",
+              "title": "Una señal enviada por el cielo",
+              "paragraphs": [
+                "Yatagarasu aparece en los textos más antiguos de la mitología japonesa y sigue siendo una figura venerada de guía, poder solar e intervención celestial.",
+                "Más que un ave, es una señal: la certeza de que el camino existe."
+              ]
+            }
+          ],
+          "galleryTitle": "Galería de Yatagarasu",
+          "gallery": [
+            {
+              "src": "./assets/images/story-yatagarasu-banner.png",
+              "width": 1916,
+              "height": 821,
+              "alt": "Banner de Yatagarasu con cuervo divino, sol y paisaje sagrado."
+            },
+            {
+              "src": "./assets/images/story-yatagarasu-lore.png",
+              "width": 1024,
+              "height": 1536,
+              "alt": "Panel completo de Yatagarasu con historia, significados, simbología y arte de tatuaje."
+            },
+            {
+              "src": "./assets/images/story-card-yatagarasu-tattoo.png",
+              "width": 1024,
+              "height": 1536,
+              "alt": "Detalle de tatuaje Yatagarasu con cuervo negro y sol rojo.",
+              "position": "50% 46%"
+            }
+          ],
+          "quote": "Donde guía el sol sagrado, no hay duda."
         }
       ]
     },
@@ -3536,6 +3731,201 @@ window.AKAI_HANA_LOCALES = {
             }
           ],
           "quote": "The Moon calls her back. The earth still longs for her."
+        },
+        {
+          "id": "jorogumo",
+          "number": "15",
+          "title": "Jorōgumo",
+          "cardTitle": "Jorōgumo",
+          "eyebrow": "Japanese yōkai",
+          "japaneseName": "絡新婦",
+          "romanized": "The spider woman",
+          "lead": "Among invisible threads, beauty and danger, Jorōgumo represents seduction, deception and the trap hidden beneath a fascinating appearance.",
+          "cardImage": {
+            "src": "./assets/images/story-card-jorogumo-tattoo.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Jorōgumo tattoo with spider woman, webs, red flowers and Japanese scenery.",
+            "position": "50% 48%"
+          },
+          "heroImage": {
+            "src": "./assets/images/story-jorogumo-banner.png",
+            "width": 1916,
+            "height": 821,
+            "alt": "Cinematic Jorōgumo banner among webs, red flowers and Japanese waterfalls.",
+            "position": "50% 50%"
+          },
+          "sections": [
+            {
+              "eyebrow": "What is it?",
+              "title": "The beauty that weaves a trap",
+              "paragraphs": [
+                "Jorōgumo is a spider yōkai that, after reaching great age and power, can transform into a beautiful woman.",
+                "Her legend brings together charm, desire and danger: a captivating presence hiding an invisible web."
+              ]
+            },
+            {
+              "eyebrow": "The legend",
+              "title": "Threads of beauty may lead to death",
+              "paragraphs": [
+                "In many versions, Jorōgumo lives near forests, bridges or secluded waterfalls. There she waits for lonely travelers and surrounds them with conversation, music or desire.",
+                "When the victim lowers their guard, the woman reveals her arachnid nature and traps them in invisible threads.",
+                "Her beauty is not a promise of love, but a trap woven with patience."
+              ]
+            },
+            {
+              "eyebrow": "Meanings",
+              "title": "Desire, deception and hidden power",
+              "paragraphs": [
+                "Jorōgumo represents beauty turned into danger, seduction that deceives and the price of surrendering to illusion.",
+                "She also speaks of transformation, duality and dark feminine power: a force delicate in appearance, but lethal underneath."
+              ]
+            },
+            {
+              "eyebrow": "Symbolism",
+              "title": "Web, spider and shamisen",
+              "paragraphs": [
+                "The web symbolizes destiny, traps and invisible connections. The spider speaks of patience, intelligence and control.",
+                "The shamisen appears in many reinterpretations as a hypnotic call: music, charm and danger gathered into one image."
+              ]
+            },
+            {
+              "eyebrow": "In tattoo art",
+              "title": "Sensual, dark and fatal",
+              "paragraphs": [
+                "In tattoo art, Jorōgumo allows intense compositions with webs, red flowers, waterfalls, spiders and a magnetic female figure.",
+                "It works beautifully for pieces that mix beauty, mystery and an elegant sense of danger."
+              ]
+            },
+            {
+              "eyebrow": "Origin and folklore",
+              "title": "From real spider to seductive myth",
+              "paragraphs": [
+                "The name Jorōgumo is also linked to a real spider species and, in popular tradition, shaped one of the most unsettling figures in Japanese imagination.",
+                "Between warning, desire and fascination, she remains one of folklore's most seductive presences."
+              ]
+            }
+          ],
+          "galleryTitle": "Jorōgumo gallery",
+          "gallery": [
+            {
+              "src": "./assets/images/story-jorogumo-banner.png",
+              "width": 1916,
+              "height": 821,
+              "alt": "Jorōgumo banner with spider woman, webs and dark garden."
+            },
+            {
+              "src": "./assets/images/story-jorogumo-lore.png",
+              "width": 1024,
+              "height": 1536,
+              "alt": "Complete Jorōgumo panel with story, meanings, symbolism and tattoo art."
+            },
+            {
+              "src": "./assets/images/story-card-jorogumo-tattoo.png",
+              "width": 1024,
+              "height": 1536,
+              "alt": "Jorōgumo tattoo detail with spider woman and webs.",
+              "position": "50% 48%"
+            }
+          ],
+          "quote": "Touch her web, and you may never return."
+        },
+        {
+          "id": "yatagarasu",
+          "number": "16",
+          "title": "Yatagarasu",
+          "cardTitle": "Yatagarasu",
+          "eyebrow": "Japanese mythology",
+          "japaneseName": "八咫烏",
+          "romanized": "The divine crow",
+          "lead": "Yatagarasu represents sacred guidance, destiny, protection and the light that shows the correct path.",
+          "cardImage": {
+            "src": "./assets/images/story-card-yatagarasu-tattoo.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Yatagarasu tattoo with divine crow, red sun, torii and Japanese clouds.",
+            "position": "50% 46%"
+          },
+          "heroImage": {
+            "src": "./assets/images/story-yatagarasu-banner.png",
+            "width": 1916,
+            "height": 821,
+            "alt": "Cinematic Yatagarasu banner with divine crow, solar eclipse and Japanese landscape.",
+            "position": "50% 50%"
+          },
+          "sections": [
+            {
+              "eyebrow": "What is it?",
+              "title": "The crow that guides beneath the sun",
+              "paragraphs": [
+                "Yatagarasu is the legendary three-legged crow of Japanese mythology, associated with the sun, celestial will and the correct path.",
+                "It is not a creature of darkness, but a sacred messenger that gives direction when destiny feels uncertain."
+              ]
+            },
+            {
+              "eyebrow": "The legend",
+              "title": "The guide of Emperor Jimmu",
+              "paragraphs": [
+                "In ancient accounts, Yatagarasu was sent by the heavens to guide Emperor Jimmu through difficult lands toward his destination.",
+                "Since then, the sacred crow became a symbol of direction, divine intervention and victory guided by wisdom."
+              ]
+            },
+            {
+              "eyebrow": "Meanings",
+              "title": "Guidance, destiny and clarity",
+              "paragraphs": [
+                "Yatagarasu represents divine guidance, direction, spiritual protection, rebirth and clarity.",
+                "Its presence reminds us that even in mist or doubt, there can be a sign capable of marking the way."
+              ]
+            },
+            {
+              "eyebrow": "Symbolism",
+              "title": "Three legs, sun and torii",
+              "paragraphs": [
+                "The three-legged crow links heaven, earth and humanity. The sun symbolizes truth and divine energy; the wings speak of freedom, movement and protection.",
+                "The torii strengthens the idea of a sacred passage: crossing toward the right direction."
+              ]
+            },
+            {
+              "eyebrow": "In tattoo art",
+              "title": "Protection and destiny",
+              "paragraphs": [
+                "In tattoo art, Yatagarasu works beautifully with solar discs, mountains, clouds, sacred architecture and powerful wing forms.",
+                "It is ideal for anyone seeking a symbol of protection, direction and inner clarity."
+              ]
+            },
+            {
+              "eyebrow": "Origin and folklore",
+              "title": "A sign sent by the heavens",
+              "paragraphs": [
+                "Yatagarasu appears in some of the oldest texts of Japanese mythology and remains a revered figure of guidance, solar power and celestial intervention.",
+                "More than a bird, it is a sign: the certainty that a path exists."
+              ]
+            }
+          ],
+          "galleryTitle": "Yatagarasu gallery",
+          "gallery": [
+            {
+              "src": "./assets/images/story-yatagarasu-banner.png",
+              "width": 1916,
+              "height": 821,
+              "alt": "Yatagarasu banner with divine crow, sun and sacred landscape."
+            },
+            {
+              "src": "./assets/images/story-yatagarasu-lore.png",
+              "width": 1024,
+              "height": 1536,
+              "alt": "Complete Yatagarasu panel with story, meanings, symbolism and tattoo art."
+            },
+            {
+              "src": "./assets/images/story-card-yatagarasu-tattoo.png",
+              "width": 1024,
+              "height": 1536,
+              "alt": "Yatagarasu tattoo detail with black crow and red sun.",
+              "position": "50% 46%"
+            }
+          ],
+          "quote": "Where the sacred sun guides, there is no doubt."
         }
       ]
     },

@@ -66,7 +66,7 @@ let lastFocusedElement = null;
 let activeStoryId = null;
 let activeStoryFilter = "all";
 let storySearchTerm = "";
-let visibleStoryCount = 14;
+let visibleStoryCount = 16;
 let activePopCultureThemeId = window.AKAI_HANA_POP_CULTURE?.defaultTheme || "kitsune";
 let activePopCultureCategoryId = null;
 
@@ -128,6 +128,16 @@ const storyLibraryMeta = {
   "kaguya-hime": {
     categories: ["legends", "symbols"],
     keywords: ["kaguya-hime", "kaguya", "moon", "princess", "bamboo", "celestial", "beauty", "farewell", "nostalgia", "immortality", "legend", "symbol", "かぐや姫"],
+    isNew: true
+  },
+  jorogumo: {
+    categories: ["yokai", "creatures"],
+    keywords: ["jorogumo", "jorōgumo", "spider woman", "spider", "web", "seduction", "deception", "shamisen", "waterfall", "forest", "yokai", "creature", "絡新婦"],
+    isNew: true
+  },
+  yatagarasu: {
+    categories: ["legends", "symbols", "creatures"],
+    keywords: ["yatagarasu", "three-legged crow", "crow", "raven", "sun", "guide", "destiny", "protection", "victory", "divine", "legend", "symbol", "八咫烏"],
     isNew: true
   }
 };
@@ -564,7 +574,7 @@ function renderStories() {
 
   searchInput.addEventListener("input", (event) => {
     storySearchTerm = event.target.value;
-    visibleStoryCount = 14;
+    visibleStoryCount = 16;
     renderStories();
     mountPoints.storiesIndex.querySelector(".stories-search__input")?.focus();
   });
@@ -581,7 +591,7 @@ function renderStories() {
     });
     filterButton.addEventListener("click", () => {
       activeStoryFilter = filter;
-      visibleStoryCount = 14;
+      visibleStoryCount = 16;
       renderStories();
     });
     filters.append(filterButton);
