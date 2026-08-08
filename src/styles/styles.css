@@ -6724,6 +6724,11 @@ body[data-page="contact"] #contact {
   border-radius: 8px;
 }
 
+.pop-culture-detail__image[data-pop-layout="landscape"] {
+  aspect-ratio: 16 / 10;
+  align-self: center;
+}
+
 .pop-culture-detail__copy {
   display: grid;
   align-content: center;

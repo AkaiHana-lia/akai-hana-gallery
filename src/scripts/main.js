@@ -911,7 +911,7 @@ function openPopCultureDetail(entry, theme) {
   copy.append(...detailNodes);
 
   mountPoints.popCultureDetailBody.append(
-    createElement("img", { className: "pop-culture-detail__image", attributes: { src: entry.image, alt: "", loading: "eager", decoding: "async", "data-pop-fit": entry.imageFit || "cover" } }),
+    createElement("img", { className: "pop-culture-detail__image", attributes: { src: entry.image, alt: "", loading: "eager", decoding: "async", "data-pop-fit": entry.imageFit || "cover", "data-pop-layout": theme?.detailImageLayout || "portrait" } }),
     copy
   );
   mountPoints.popCultureDetail.hidden = false;

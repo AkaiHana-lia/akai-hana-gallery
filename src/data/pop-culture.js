@@ -2471,6 +2471,7 @@ window.AKAI_HANA_POP_CULTURE = {
       kanji: "\u7d61\u65b0\u5a66",
       image: "./assets/images/story-card-jorogumo-tattoo.png",
       icon: "./assets/images/story-card-jorogumo-tattoo.png",
+      detailImageLayout: "landscape",
       intro: {
         es: "Jorogumo, la mujer arana del folclore japones, reaparece en anime, videojuegos y proyectos culturales como una figura seductora, paciente y peligrosa.",
         en: "Jorogumo, the spider woman of Japanese folklore, reappears across anime, games and cultural projects as a seductive, patient and dangerous figure."
@@ -2506,6 +2507,7 @@ window.AKAI_HANA_POP_CULTURE = {
           franchise: { es: "Anime / Videojuego", en: "Anime / Game" },
           classification: { es: "Referencia oficial explicita", en: "Explicit Official Reference" },
           image: "./assets/images/pop-jorogumo-yokai-watch.png",
+          imageFit: "contain",
           shortDescription: {
             es: "El episodio oficial y el material de Yo-kai Watch 4 nombran directamente a Jorogumo.",
             en: "The official episode and Yo-kai Watch 4 material directly name Jorogumo."
@@ -2528,6 +2530,7 @@ window.AKAI_HANA_POP_CULTURE = {
           franchise: { es: "Videojuego", en: "Video Game" },
           classification: { es: "Evento explicito de Ubisoft", en: "Explicit Ubisoft Event" },
           image: "./assets/images/pop-jorogumo-for-honor.png",
+          imageFit: "contain",
           shortDescription: {
             es: "Ubisoft nombra su evento de Halloween y a su jefa aracnida como Jorogumo.",
             en: "Ubisoft names its Halloween event and mythic arachnid boss after Jorogumo."
@@ -2573,6 +2576,7 @@ window.AKAI_HANA_POP_CULTURE = {
           franchise: { es: "Animacion / Proyecto cultural", en: "Animation / Cultural Project" },
           classification: { es: "Animacion cultural oficial", en: "Official Cultural Animation" },
           image: "./assets/images/pop-jorogumo-aki-kono.png",
+          imageFit: "contain",
           shortDescription: {
             es: "La Agencia para Asuntos Culturales de Japon presenta una animacion donde una arana se convierte en una mujer bella.",
             en: "Japan's Agency for Cultural Affairs presents an animation in which a spider becomes a beautiful woman."
@@ -2595,6 +2599,7 @@ window.AKAI_HANA_POP_CULTURE = {
           franchise: { es: "Videojuegos / Novela / Musica", en: "Games / Novel / Music" },
           classification: { es: "Referencia oficial explicita", en: "Explicit Official Reference" },
           image: "./assets/images/pop-jorogumo-sega-kotonoha.png",
+          imageFit: "contain",
           shortDescription: {
             es: "La historia oficial de SEGA nombra a la criatura como Jorogumo y describe su descendencia aracnida.",
             en: "SEGA's official story names the creature as Jorogumo and describes her arachnid offspring."
