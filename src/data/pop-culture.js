@@ -2463,6 +2463,280 @@ window.AKAI_HANA_POP_CULTURE = {
           sourceUrl: "https://www.koeitecmoamerica.com/news/warriors-orochi-3-ultimate-definitive-edition-slashes-its-way-onto-pc-via-steam/"
         }
       ]
+    },
+    {
+      id: "jorogumo",
+      number: "15",
+      title: "Jorogumo",
+      kanji: "\u7d61\u65b0\u5a66",
+      image: "./assets/images/story-card-jorogumo-tattoo.png",
+      icon: "./assets/images/story-card-jorogumo-tattoo.png",
+      intro: {
+        es: "Jorogumo, la mujer arana del folclore japones, reaparece en anime, videojuegos y proyectos culturales como una figura seductora, paciente y peligrosa.",
+        en: "Jorogumo, the spider woman of Japanese folklore, reappears across anime, games and cultural projects as a seductive, patient and dangerous figure."
+      },
+      entries: [
+        {
+          id: "jorogumo-kakuriyo-suzuran",
+          categoryId: "anime-manga",
+          title: { es: "Kakuriyo no Yadomeshi - Suzuran", en: "Kakuriyo no Yadomeshi - Suzuran" },
+          franchise: { es: "Anime", en: "Anime" },
+          classification: { es: "Referencia oficial explicita", en: "Explicit Official Reference" },
+          image: "./assets/images/pop-jorogumo-kakuriyo-suzuran.png",
+          imageFit: "contain",
+          shortDescription: {
+            es: "El perfil oficial identifica a Suzuran como Jorogumo y la presenta como una geisha de la capital.",
+            en: "The official profile identifies Suzuran as Jorogumo and presents her as a geisha in the capital."
+          },
+          fullDescription: {
+            es: "Kakuriyo no Yadomeshi incorpora de forma directa a Jorogumo mediante Suzuran. Su identidad sobrenatural y su elegante apariencia humana mantienen la dualidad tradicional de la mujer arana.",
+            en: "Kakuriyo no Yadomeshi directly incorporates Jorogumo through Suzuran. Her supernatural identity and elegant human appearance preserve the spider woman's traditional duality."
+          },
+          context: {
+            es: "Conexion explicita porque el perfil oficial emplea el nombre Jorogumo.",
+            en: "An explicit connection because the official profile uses the name Jorogumo."
+          },
+          sourceLabel: { es: "Kakuriyo - personaje oficial", en: "Kakuriyo - Official Character" },
+          sourceUrl: "https://kakuriyo-anime.com/1st/sp/character/chara13.php"
+        },
+        {
+          id: "jorogumo-yokai-watch",
+          categoryId: "anime-manga",
+          title: { es: "Yo-kai Watch Shadowside / Yo-kai Watch 4", en: "Yo-kai Watch Shadowside / Yo-kai Watch 4" },
+          franchise: { es: "Anime / Videojuego", en: "Anime / Game" },
+          classification: { es: "Referencia oficial explicita", en: "Explicit Official Reference" },
+          image: "./assets/images/pop-jorogumo-yokai-watch.png",
+          shortDescription: {
+            es: "El episodio oficial y el material de Yo-kai Watch 4 nombran directamente a Jorogumo.",
+            en: "The official episode and Yo-kai Watch 4 material directly name Jorogumo."
+          },
+          fullDescription: {
+            es: "La franquicia utiliza a Jorogumo tanto en animacion como en videojuego, conservando su naturaleza aracnida y su capacidad de transformacion como amenaza sobrenatural.",
+            en: "The franchise uses Jorogumo in both animation and games, retaining her arachnid nature and shapeshifting role as a supernatural threat."
+          },
+          context: {
+            es: "Referencia nominal explicita documentada en materiales oficiales.",
+            en: "An explicit named reference documented in official materials."
+          },
+          sourceLabel: { es: "TV Tokyo - episodio oficial", en: "TV Tokyo - Official Episode" },
+          sourceUrl: "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201811/24907_201811091825.html"
+        },
+        {
+          id: "jorogumo-for-honor",
+          categoryId: "video-games",
+          title: { es: "For Honor - Rise / Web of the Jorogumo", en: "For Honor - Rise / Web of the Jorogumo" },
+          franchise: { es: "Videojuego", en: "Video Game" },
+          classification: { es: "Evento explicito de Ubisoft", en: "Explicit Ubisoft Event" },
+          image: "./assets/images/pop-jorogumo-for-honor.png",
+          shortDescription: {
+            es: "Ubisoft nombra su evento de Halloween y a su jefa aracnida como Jorogumo.",
+            en: "Ubisoft names its Halloween event and mythic arachnid boss after Jorogumo."
+          },
+          fullDescription: {
+            es: "Web of the Jorogumo traslada la leyenda a un evento de combate oscuro, donde la criatura conserva la telarana, la emboscada y la figura de reina arana.",
+            en: "Web of the Jorogumo moves the legend into a dark combat event where the creature retains the web, ambush and spider-queen imagery."
+          },
+          context: {
+            es: "Uso oficial y explicito del nombre dentro del evento de Ubisoft.",
+            en: "Official and explicit use of the name within Ubisoft's event."
+          },
+          sourceLabel: { es: "Ubisoft - For Honor", en: "Ubisoft - For Honor" },
+          sourceUrl: "https://www.ubisoft.com/en-us/game/for-honor/news-updates"
+        },
+        {
+          id: "jorogumo-monster-girl-doctor",
+          categoryId: "anime-manga",
+          title: { es: "Monster Girl Doctor - Arachne", en: "Monster Girl Doctor - Arachne" },
+          franchise: { es: "Anime", en: "Anime" },
+          classification: { es: "Reinterpretacion explicita", en: "Explicit Reinterpretation" },
+          image: "./assets/images/pop-jorogumo-monster-girl-doctor.png",
+          imageFit: "contain",
+          shortDescription: {
+            es: "El bestiario oficial relaciona la especie Arachne con Jorogumo y describe sus rasgos de mujer arana.",
+            en: "The official bestiary links the Arachne species to Jorogumo and describes its spider-woman traits."
+          },
+          fullDescription: {
+            es: "Monster Girl Doctor transforma el arquetipo en una especie fantastica contemporanea. Conserva el cuerpo aracnido, los hilos, el veneno y la fuerza sobrenatural.",
+            en: "Monster Girl Doctor turns the archetype into a contemporary fantasy species while retaining the arachnid body, threads, venom and supernatural strength."
+          },
+          context: {
+            es: "Reinterpretacion explicita respaldada por el bestiario oficial de la serie.",
+            en: "An explicit reinterpretation supported by the series' official bestiary."
+          },
+          sourceLabel: { es: "Monster Girl Doctor - bestiario", en: "Monster Girl Doctor - Bestiary" },
+          sourceUrl: "https://mon-isha-anime.com/character/zukan/n07.html"
+        },
+        {
+          id: "jorogumo-aki-kono",
+          categoryId: "other-pop-culture",
+          title: { es: "Aki Kono - Jorogumo", en: "Aki Kono - Jorogumo" },
+          franchise: { es: "Animacion / Proyecto cultural", en: "Animation / Cultural Project" },
+          classification: { es: "Animacion cultural oficial", en: "Official Cultural Animation" },
+          image: "./assets/images/pop-jorogumo-aki-kono.png",
+          shortDescription: {
+            es: "La Agencia para Asuntos Culturales de Japon presenta una animacion donde una arana se convierte en una mujer bella.",
+            en: "Japan's Agency for Cultural Affairs presents an animation in which a spider becomes a beautiful woman."
+          },
+          fullDescription: {
+            es: "La pieza revisita la tradicion de Jorogumo desde la animacion moderna y conserva el nucleo del relato: belleza, seduccion y transformacion aracnida.",
+            en: "The piece revisits the Jorogumo tradition through modern animation and preserves the tale's core: beauty, seduction and arachnid transformation."
+          },
+          context: {
+            es: "Proyecto cultural oficial dedicado directamente a Jorogumo.",
+            en: "An official cultural project directly dedicated to Jorogumo."
+          },
+          sourceLabel: { es: "Agencia para Asuntos Culturales", en: "Agency for Cultural Affairs" },
+          sourceUrl: "https://creators.j-mediaarts.bunka.go.jp/project/jorogumo"
+        },
+        {
+          id: "jorogumo-sega-kotonoha",
+          categoryId: "video-games",
+          title: { es: "SEGA - Kotonoha Project", en: "SEGA - Kotonoha Project" },
+          franchise: { es: "Videojuegos / Novela / Musica", en: "Games / Novel / Music" },
+          classification: { es: "Referencia oficial explicita", en: "Explicit Official Reference" },
+          image: "./assets/images/pop-jorogumo-sega-kotonoha.png",
+          shortDescription: {
+            es: "La historia oficial de SEGA nombra a la criatura como Jorogumo y describe su descendencia aracnida.",
+            en: "SEGA's official story names the creature as Jorogumo and describes her arachnid offspring."
+          },
+          fullDescription: {
+            es: "Kotonoha Project integra el mito en una narrativa multimedia y conserva la identidad de mujer arana y su linaje sobrenatural.",
+            en: "Kotonoha Project integrates the myth into a multimedia narrative while preserving the spider-woman identity and supernatural lineage."
+          },
+          context: {
+            es: "La conexion es explicita en el texto narrativo oficial de SEGA.",
+            en: "The connection is explicit in SEGA's official narrative text."
+          },
+          sourceLabel: { es: "SEGA - Kotonoha Project", en: "SEGA - Kotonoha Project" },
+          sourceUrl: "https://maimai.sega.jp/kotonoha/1st/novel2_1b.html"
+        }
+      ]
+    },
+    {
+      id: "yatagarasu",
+      number: "16",
+      title: "Yatagarasu",
+      kanji: "\u516b\u54ab\u70cf",
+      image: "./assets/images/story-card-yatagarasu-tattoo.png",
+      icon: "./assets/images/story-card-yatagarasu-tattoo.png",
+      intro: {
+        es: "Yatagarasu, el cuervo divino de tres patas, sigue apareciendo en novelas, anime y videojuegos como guia celestial, mensajero y simbolo de direccion.",
+        en: "Yatagarasu, the divine three-legged crow, continues to appear across novels, anime and games as a celestial guide, messenger and symbol of direction."
+      },
+      entries: [
+        {
+          id: "yatagarasu-legendary-birds",
+          categoryId: "anime-manga",
+          title: { es: "Yatagarasu: The Legendary Birds", en: "Yatagarasu: The Legendary Birds" },
+          franchise: { es: "Novelas / Manga", en: "Novels / Manga" },
+          classification: { es: "Serie oficial basada en el mito", en: "Official Myth-Based Series" },
+          image: "./assets/images/pop-yatagarasu-legendary-birds.png",
+          shortDescription: {
+            es: "La web oficial presenta una serie sobre los cuervos legendarios Yatagarasu, capaces de adoptar forma humana.",
+            en: "The official site presents a series about legendary Yatagarasu ravens capable of taking human form."
+          },
+          fullDescription: {
+            es: "La saga convierte la tradicion del cuervo de tres patas en una sociedad fantastica compleja. Mantiene su naturaleza sobrenatural y su relacion con el poder, el linaje y la guia.",
+            en: "The saga turns the three-legged crow tradition into a complex fantasy society while retaining its supernatural nature and links to power, lineage and guidance."
+          },
+          context: {
+            es: "Serie oficial construida expresamente alrededor del nombre y el mito de Yatagarasu.",
+            en: "An official series built expressly around the Yatagarasu name and myth."
+          },
+          sourceLabel: { es: "Bungeishunju - web oficial", en: "Bungeishunju - Official Site" },
+          sourceUrl: "https://books.bunshun.jp/sp/karasu_e"
+        },
+        {
+          id: "yatagarasu-raven-master",
+          categoryId: "anime-manga",
+          title: { es: "The Raven Does Not Choose Its Master", en: "The Raven Does Not Choose Its Master" },
+          franchise: { es: "Anime", en: "Anime" },
+          classification: { es: "Adaptacion oficial explicita", en: "Explicit Official Adaptation" },
+          image: "./assets/images/pop-yatagarasu-raven-master.png",
+          shortDescription: {
+            es: "La adaptacion oficial lleva al anime la corte de Yamauchi y sus cuervos de tres patas que toman forma humana.",
+            en: "The official adaptation brings Yamauchi's court and its human-shifting three-legged ravens to anime."
+          },
+          fullDescription: {
+            es: "El anime adapta directamente la serie Yatagarasu y convierte su mitologia en un drama palaciego de alianzas, linajes y transformaciones.",
+            en: "The anime directly adapts the Yatagarasu series, turning its mythology into a court drama of alliances, lineages and transformations."
+          },
+          context: {
+            es: "Adaptacion explicita del universo literario Yatagarasu.",
+            en: "An explicit adaptation of the literary Yatagarasu universe."
+          },
+          sourceLabel: { es: "NHK - web oficial", en: "NHK - Official Site" },
+          sourceUrl: "https://nhk-character.com/karasu/"
+        },
+        {
+          id: "yatagarasu-digimon",
+          categoryId: "anime-manga",
+          title: { es: "Digimon - Yatagaramon", en: "Digimon - Yatagaramon" },
+          franchise: { es: "Anime / Videojuegos", en: "Anime / Games" },
+          classification: { es: "Referencia oficial explicita", en: "Explicit Official Reference" },
+          image: "./assets/images/pop-yatagarasu-digimon-yatagaramon.png",
+          imageFit: "contain",
+          shortDescription: {
+            es: "La enciclopedia oficial describe a Yatagaramon como un ave misteriosa de tres patas que guia a los elegidos.",
+            en: "The official encyclopedia describes Yatagaramon as a mysterious three-legged bird that guides chosen people."
+          },
+          fullDescription: {
+            es: "Digimon conserva los rasgos esenciales del mito: tres patas, caracter sagrado y funcion de guia. El nombre hace explicita la referencia a Yatagarasu.",
+            en: "Digimon preserves the myth's essential traits: three legs, sacred character and a guiding role. The name makes the Yatagarasu reference explicit."
+          },
+          context: {
+            es: "Referencia nominal y visual confirmada por la enciclopedia oficial de Digimon.",
+            en: "A named and visual reference confirmed by the official Digimon encyclopedia."
+          },
+          sourceLabel: { es: "Digimon Encyclopedia", en: "Digimon Encyclopedia" },
+          sourceUrl: "https://digimon.net/reference_en/detail.php?directory_name=yatagaramon"
+        },
+        {
+          id: "yatagarasu-touhou-utsuho",
+          categoryId: "video-games",
+          title: { es: "Touhou - Utsuho Reiuji", en: "Touhou - Utsuho Reiuji" },
+          franchise: { es: "Videojuego", en: "Game" },
+          classification: { es: "Referencia oficial explicita", en: "Explicit Official Reference" },
+          image: "./assets/images/pop-yatagarasu-touhou-utsuho.png",
+          imageFit: "contain",
+          shortDescription: {
+            es: "El material oficial de Danmaku Kagura identifica a Utsuho como una hell raven que alberga el poder de Yatagarasu.",
+            en: "Official Danmaku Kagura material identifies Utsuho as a hell raven who houses Yatagarasu's power."
+          },
+          fullDescription: {
+            es: "Utsuho reinterpreta la energia solar del cuervo divino mediante fusion nuclear. Su tercer ojo y su poder del sol trasladan el simbolismo celestial al universo Touhou.",
+            en: "Utsuho reinterprets the divine crow's solar energy through nuclear fusion. Her third eye and power of the sun move the celestial symbolism into the Touhou universe."
+          },
+          context: {
+            es: "Conexion explicita porque el material oficial nombra directamente a Yatagarasu como fuente de su poder.",
+            en: "An explicit connection because official material directly names Yatagarasu as the source of her power."
+          },
+          sourceLabel: { es: "Danmaku Kagura - personaje", en: "Danmaku Kagura - Character" },
+          sourceUrl: "https://danmaku.jp/archive/character/c072/"
+        },
+        {
+          id: "yatagarasu-soul-hackers-2",
+          categoryId: "video-games",
+          title: { es: "Soul Hackers 2 - Yatagarasu", en: "Soul Hackers 2 - Yatagarasu" },
+          franchise: { es: "Videojuego", en: "Video Game" },
+          classification: { es: "Nombre oficial explicito", en: "Explicit Official Name" },
+          image: "./assets/images/pop-yatagarasu-soul-hackers-2.png",
+          shortDescription: {
+            es: "Atlus presenta a Yatagarasu como una de las facciones de invocadores de demonios de Soul Hackers 2.",
+            en: "Atlus presents Yatagarasu as one of the demon-summoner factions in Soul Hackers 2."
+          },
+          fullDescription: {
+            es: "El juego reutiliza el nombre de Yatagarasu para una sociedad secreta vinculada al orden y la proteccion de Japon, manteniendo su funcion de guia y autoridad.",
+            en: "The game reuses the Yatagarasu name for a secret society tied to order and the protection of Japan, preserving its role as guide and authority."
+          },
+          context: {
+            es: "Uso oficial del nombre para una organizacion central del videojuego.",
+            en: "Official use of the name for a central organization in the game."
+          },
+          sourceLabel: { es: "Soul Hackers 2 - web oficial", en: "Soul Hackers 2 - Official Site" },
+          sourceUrl: "https://soulhackers2.atlus.com/"
+        }
+      ]
     }
   ]
 };
