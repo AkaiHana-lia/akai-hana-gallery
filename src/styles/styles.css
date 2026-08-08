@@ -4692,6 +4692,18 @@ body[data-page="home"] .intro__grid {
   padding-inline: 22px;
 }
 
+.stories-library__closing {
+  width: min(680px, 100%);
+  margin: 12px auto 0;
+  padding-top: 14px;
+  border-top: 1px solid rgba(212, 175, 55, 0.22);
+  color: rgba(246, 231, 207, 0.72);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.9rem;
+  line-height: 1.55;
+  text-align: center;
+}
+
 .story-card {
   position: relative;
   width: 100%;

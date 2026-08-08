@@ -633,6 +633,11 @@ function renderStories() {
     collection.append(loadMore);
   }
 
+  collection.append(createElement("p", {
+    className: "stories-library__closing",
+    text: dictionary.stories?.closing || "New stories every week. A living collection of Japanese folklore, symbolism and art."
+  }));
+
   library.append(collection);
   mountPoints.storiesIndex.append(library);
 
