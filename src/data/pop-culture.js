@@ -2742,6 +2742,444 @@ window.AKAI_HANA_POP_CULTURE = {
           sourceUrl: "https://soulhackers2.atlus.com/"
         }
       ]
+    },
+    {
+      id: "nekomata",
+      number: "17",
+      title: "Nekomata",
+      kanji: "猫又",
+      image: "./assets/images/story-nekomata-art.png",
+      icon: "./assets/images/story-nekomata-art.png",
+      intro: {
+        es: "Referencias modernas verificadas que identifican de forma explícita al Nekomata: el gato yōkai de dos colas vinculado con la transformación y el mundo espiritual.",
+        en: "Verified modern references that explicitly identify the Nekomata: the two-tailed cat yōkai associated with transformation and the spirit world."
+      },
+      entries: [
+        {
+          id: "nekomata-genshin-kirara",
+          categoryId: "video-games",
+          title: "Genshin Impact - Kirara",
+          franchise: { es: "Videojuego", en: "Video Game" },
+          classification: { es: "Referencia oficial explícita", en: "Explicit Official Reference" },
+          image: "./assets/images/pop-nekomata-genshin-kirara.png",
+          imageFit: "contain",
+          shortDescription: {
+            es: "HoYoverse identifica directamente a Kirara como una nekomata que trabaja como mensajera en Inazuma.",
+            en: "HoYoverse directly identifies Kirara as a nekomata working as a courier in Inazuma."
+          },
+          fullDescription: {
+            es: "El perfil oficial de Kirara la presenta como una nekomata de Inazuma y vincula su identidad sobrenatural con sus dos colas, su agilidad y su trabajo para Komaniya Express.",
+            en: "Kirara's official profile presents her as an Inazuman nekomata and connects her supernatural identity with her two tails, agility and work for Komaniya Express."
+          },
+          context: {
+            es: "La conexión es textual y oficial; no se deduce únicamente de su apariencia felina.",
+            en: "The connection is textual and official rather than inferred from feline imagery alone."
+          },
+          sourceLabel: { es: "HoYoverse - perfil oficial", en: "HoYoverse - Official Profile" },
+          sourceUrl: "https://genshin.hoyoverse.com/en/news/detail/111514"
+        },
+        {
+          id: "nekomata-ghostwire-tokyo",
+          categoryId: "video-games",
+          title: "Ghostwire: Tokyo - Nekomata",
+          franchise: { es: "Videojuego", en: "Video Game" },
+          classification: { es: "Referencia oficial explícita", en: "Explicit Official Reference" },
+          image: "./assets/images/pop-nekomata-ghostwire-tokyo.png",
+          shortDescription: {
+            es: "Bethesda presenta a los Nekomata como gatos yōkai de dos colas que gestionan tiendas y coleccionan reliquias por Tokio.",
+            en: "Bethesda presents Nekomata as two-tailed cat yōkai who run shops and collect relics across Tokyo."
+          },
+          fullDescription: {
+            es: "En Ghostwire: Tokyo, los Nekomata son comerciantes sobrenaturales que recompensan al jugador por recuperar reliquias y objetos curiosos de la ciudad.",
+            en: "In Ghostwire: Tokyo, Nekomata are supernatural shopkeepers who reward the player for recovering relics and unusual objects around the city."
+          },
+          context: {
+            es: "Una reinterpretación moderna que conserva nombre, dos colas, naturaleza yōkai e inteligencia humana.",
+            en: "A modern reinterpretation preserving the name, two tails, yōkai nature and human-like intelligence."
+          },
+          sourceLabel: { es: "Bethesda - guía oficial", en: "Bethesda - Official Guide" },
+          sourceUrl: "https://bethesda.net/en-US/news/ghostwire-tokyo-visitors-and-yokai-guide"
+        },
+        {
+          id: "nekomata-oni-no-hanayome-tokichi",
+          categoryId: "anime-manga",
+          title: "Oni no Hanayome - Tōkichi Nekota",
+          franchise: { es: "Anime / Acción real · 2026", en: "Anime / Live Action · 2026" },
+          classification: { es: "Referencia oficial explícita", en: "Explicit Official Reference" },
+          image: "./assets/images/pop-nekomata-oni-no-hanayome.png",
+          imageFit: "contain",
+          shortDescription: {
+            es: "El perfil oficial del anime identifica a Tōkichi Nekota como un ayakashi Nekomata.",
+            en: "The official anime profile identifies Tōkichi Nekota as a Nekomata ayakashi."
+          },
+          fullDescription: {
+            es: "La ficha oficial del personaje utiliza de forma explícita la identidad Nekomata dentro del mundo de ayakashi de Oni no Hanayome.",
+            en: "The official character profile explicitly uses the Nekomata identity within Oni no Hanayome's world of ayakashi."
+          },
+          context: {
+            es: "Es una referencia contemporánea confirmada por el material oficial de la producción.",
+            en: "This is a contemporary reference confirmed by the production's official material."
+          },
+          sourceLabel: { es: "Oni no Hanayome - personajes", en: "Oni no Hanayome - Characters" },
+          sourceUrl: "https://onihana-anime.com/chara/"
+        },
+        {
+          id: "nekomata-kurobei",
+          categoryId: "anime-manga",
+          title: "Nekomata Kurobei",
+          franchise: { es: "Manga · 2026", en: "Manga · 2026" },
+          classification: { es: "Reinterpretación directa", en: "Direct Reinterpretation" },
+          image: "./assets/images/pop-nekomata-kurobei.png",
+          imageFit: "contain",
+          shortDescription: {
+            es: "La sinopsis de Akita Shoten presenta a Kurobei, un Nekomata que viaja por el Edo sobrenatural.",
+            en: "Akita Shoten's synopsis stars Kurobei, a Nekomata travelling through supernatural Edo."
+          },
+          fullDescription: {
+            es: "Kurobei recorre Edo enfrentándose a posesiones y sucesos sobrenaturales. El propio título y la sinopsis oficial definen su naturaleza Nekomata.",
+            en: "Kurobei travels through Edo while exorcising possessions and supernatural incidents. The title and official synopsis directly define his Nekomata nature."
+          },
+          context: {
+            es: "La criatura folclórica es el protagonista explícito de la obra, no una asociación visual secundaria.",
+            en: "The folkloric creature is the explicit protagonist of the work, not a secondary visual association."
+          },
+          sourceLabel: { es: "Akita Shoten - ficha oficial", en: "Akita Shoten - Official Page" },
+          sourceUrl: "https://www.akitashoten.co.jp/comics/4253010652"
+        },
+        {
+          id: "nekomata-yokai-watch-4",
+          categoryId: "video-games",
+          title: "Yo-kai Watch 4 - Nekomata",
+          franchise: { es: "Anime / Videojuego", en: "Anime / Video Game" },
+          classification: { es: "Referencia oficial explícita", en: "Explicit Official Reference" },
+          image: "./assets/images/pop-nekomata-yokai-watch-4.png",
+          imageFit: "contain",
+          shortDescription: {
+            es: "Level-5 describe a Nekomata como un gato que se convirtió en yōkai tras vivir durante muchos años.",
+            en: "Level-5 describes Nekomata as a cat that became a yōkai after living for a very long time."
+          },
+          fullDescription: {
+            es: "La descripción oficial recupera directamente el concepto clásico: un gato longevo que adquiere naturaleza y poderes sobrenaturales.",
+            en: "The official description directly uses the classic concept: a long-lived cat that gains supernatural nature and powers."
+          },
+          context: {
+            es: "Nombre, origen y transformación coinciden de forma explícita con la tradición del Nekomata.",
+            en: "Name, origin and transformation explicitly match the Nekomata tradition."
+          },
+          sourceLabel: { es: "Yo-kai Watch 4 - web oficial", en: "Yo-kai Watch 4 - Official Site" },
+          sourceUrl: "https://www.youkai-watch.jp/yw4/game/game04.html"
+        },
+        {
+          id: "nekomata-terrified-teacher-tamao",
+          categoryId: "anime-manga",
+          title: "A Terrified Teacher - Tamao Akisame",
+          franchise: { es: "Anime", en: "Anime" },
+          classification: { es: "Referencia oficial explícita", en: "Explicit Official Reference" },
+          image: "./assets/images/pop-nekomata-terrified-teacher.png",
+          imageFit: "contain",
+          shortDescription: {
+            es: "El perfil oficial identifica a Tamao Akisame como un Nekomata.",
+            en: "The official character profile identifies Tamao Akisame as a Nekomata."
+          },
+          fullDescription: {
+            es: "La web de la serie presenta a Tamao Akisame dentro del elenco de yōkai y confirma expresamente su identidad Nekomata.",
+            en: "The series website presents Tamao Akisame among its yōkai cast and expressly confirms his Nekomata identity."
+          },
+          context: {
+            es: "La clasificación se apoya en la identidad declarada por la franquicia, no solo en la apariencia.",
+            en: "The classification relies on the identity stated by the franchise, not appearance alone."
+          },
+          sourceLabel: { es: "Web oficial - personajes", en: "Official Site - Characters" },
+          sourceUrl: "https://youkaigakkou.com/character/"
+        },
+        {
+          id: "nekomata-nioh",
+          categoryId: "video-games",
+          title: "Nioh - Nekomata",
+          franchise: { es: "Videojuego", en: "Video Game" },
+          classification: { es: "Referencia oficial explícita", en: "Explicit Official Reference" },
+          image: "./assets/images/pop-nekomata-nioh.png",
+          shortDescription: {
+            es: "Koei Tecmo incluye a Nekomata entre los espíritus guardianes de Nioh: Dragon of the North.",
+            en: "Koei Tecmo lists Nekomata among the Guardian Spirits in Nioh: Dragon of the North."
+          },
+          fullDescription: {
+            es: "Nekomata aparece como espíritu guardián y más tarde regresa dentro de la franquicia, conservando su nombre y naturaleza sobrenatural felina.",
+            en: "Nekomata appears as a Guardian Spirit and later returns within the franchise, preserving the name and supernatural feline nature."
+          },
+          context: {
+            es: "Uso oficial y nominal del Nekomata dentro de una reinterpretación de los yōkai japoneses.",
+            en: "An official named use of the Nekomata within a reinterpretation of Japanese yōkai."
+          },
+          sourceLabel: { es: "Koei Tecmo - Nioh", en: "Koei Tecmo - Nioh" },
+          sourceUrl: "https://www.gamecity.ne.jp/nioh/dlc.html"
+        },
+        {
+          id: "nekomata-disgaea",
+          categoryId: "video-games",
+          title: "Disgaea - Nekomata",
+          franchise: { es: "Videojuego · Referencia secundaria", en: "Video Game · Secondary Reference" },
+          classification: { es: "Clase o raza con nombre explícito", en: "Explicit Named Race / Class" },
+          image: "./assets/images/pop-nekomata-disgaea.png",
+          shortDescription: {
+            es: "NIS utiliza Nekomata como clase o raza demoníaca explícita dentro de la franquicia Disgaea.",
+            en: "NIS uses Nekomata as an explicit demon class or race within the Disgaea franchise."
+          },
+          fullDescription: {
+            es: "La franquicia incorpora Nekomata a su sistema de criaturas y clases, utilizando directamente el nombre folclórico.",
+            en: "The franchise incorporates Nekomata into its creature and class system, directly using the folkloric name."
+          },
+          context: {
+            es: "Se presenta como referencia pop culture secundaria por su adaptación al sistema de clases del videojuego.",
+            en: "It is presented as a secondary pop-culture reference because the concept is adapted into the game's class system."
+          },
+          sourceLabel: { es: "NIS America - sistema", en: "NIS America - System" },
+          sourceUrl: "https://nisamerica.com/disgaea/d5-complete/sp/system.html"
+        }
+      ]
+    },
+    {
+      id: "kappa",
+      number: "18",
+      title: "Kappa",
+      kanji: "河童",
+      image: "./assets/images/story-card-kappa-tattoo.png",
+      icon: "./assets/images/story-card-kappa-tattoo.png",
+      intro: {
+        es: "Conexiones modernas verificadas que presentan al Kappa de forma explícita: el yōkai acuático asociado con ríos, platos de agua, pepinos, astucia y respeto.",
+        en: "Verified modern connections that explicitly present the Kappa: the aquatic yōkai associated with rivers, water dishes, cucumbers, cunning and respect."
+      },
+      entries: [
+        {
+          id: "kappa-sarazanmai-keppi",
+          categoryId: "anime-manga",
+          title: "Sarazanmai - Keppi",
+          franchise: { es: "Anime", en: "Anime" },
+          classification: { es: "Referencia oficial explícita", en: "Explicit Official Reference" },
+          image: "./assets/images/pop-kappa-sarazanmai-keppi.png",
+          imageFit: "contain",
+          shortDescription: {
+            es: "Los materiales oficiales sitúan a Keppi y al Reino Kappa en el centro de la serie.",
+            en: "Official materials place Keppi and the Kappa Kingdom at the centre of the series."
+          },
+          fullDescription: {
+            es: "Sarazanmai construye su historia alrededor de Keppi, príncipe heredero del Reino Kappa, y de humanos transformados en kappas.",
+            en: "Sarazanmai builds its story around Keppi, crown prince of the Kappa Kingdom, and humans transformed into kappas."
+          },
+          context: {
+            es: "La identidad Kappa es explícita y estructural dentro de la narrativa, no una semejanza visual.",
+            en: "The Kappa identity is explicit and structural to the narrative, not a visual resemblance."
+          },
+          sourceLabel: { es: "Sarazanmai - personaje oficial", en: "Sarazanmai - Official Character" },
+          sourceUrl: "https://sarazanmai.com/april/chara/keppi.html"
+        },
+        {
+          id: "kappa-yokai-watch-4",
+          categoryId: "video-games",
+          title: "Yo-kai Watch 4 - Kappa",
+          franchise: { es: "Videojuego / Anime", en: "Game / Anime Franchise" },
+          classification: { es: "Referencia oficial explícita", en: "Explicit Official Reference" },
+          image: "./assets/images/pop-kappa-yokai-watch-4.png",
+          imageFit: "contain",
+          shortDescription: {
+            es: "Level-5 identifica directamente al personaje como 河童, un Kappa que vive integrado en la sociedad humana.",
+            en: "Level-5 directly identifies the character as 河童, a Kappa now living inside human society."
+          },
+          fullDescription: {
+            es: "Yo-kai Watch 4 adapta la figura del Kappa al mundo moderno manteniendo su nombre, plato craneal y naturaleza yōkai.",
+            en: "Yo-kai Watch 4 adapts the Kappa to the modern world while retaining its name, head dish and yōkai nature."
+          },
+          context: {
+            es: "Una reinterpretación oficial y explícita del Kappa folclórico.",
+            en: "An official and explicit reinterpretation of the folkloric Kappa."
+          },
+          sourceLabel: { es: "Yo-kai Watch 4 - web oficial", en: "Yo-kai Watch 4 - Official Site" },
+          sourceUrl: "https://www.youkai-watch.jp/yw4/game/game04.html"
+        },
+        {
+          id: "kappa-onmyoji",
+          categoryId: "video-games",
+          title: "Onmyoji - Kappa",
+          franchise: { es: "Videojuego", en: "Video Game" },
+          classification: { es: "Referencia oficial explícita", en: "Explicit Official Reference" },
+          image: "./assets/images/pop-kappa-onmyoji.png",
+          imageFit: "contain",
+          shortDescription: {
+            es: "NetEase incluye a Kappa como shikigami oficial y utiliza directamente el nombre del yōkai.",
+            en: "NetEase lists Kappa as an official shikigami and directly uses the yōkai name."
+          },
+          fullDescription: {
+            es: "Onmyoji convierte al Kappa en un shikigami jugable dentro de su reinterpretación de espíritus y criaturas japonesas.",
+            en: "Onmyoji turns Kappa into a playable shikigami within its reinterpretation of Japanese spirits and creatures."
+          },
+          context: {
+            es: "La identidad del personaje está confirmada por el listado oficial de la franquicia.",
+            en: "The character's identity is confirmed by the franchise's official roster."
+          },
+          sourceLabel: { es: "Onmyoji - shikigami oficial", en: "Onmyoji - Official Shikigami" },
+          sourceUrl: "https://en.onmyojigame.com/m/shikigami/209.html"
+        },
+        {
+          id: "kappa-summer-days-with-coo",
+          categoryId: "cinema",
+          title: { es: "El verano de Coo", en: "Summer Days with Coo" },
+          franchise: { es: "Película de anime", en: "Anime Film" },
+          classification: { es: "Reinterpretación directa del Kappa", en: "Direct Kappa Reinterpretation" },
+          image: "./assets/images/pop-kappa-summer-days-coo.png",
+          imageFit: "contain",
+          shortDescription: {
+            es: "Shochiku presenta la película como la historia de un niño y un joven Kappa llamado Coo.",
+            en: "Shochiku presents the film as the story of a boy and a young Kappa named Coo."
+          },
+          fullDescription: {
+            es: "Coo es recuperado de una piedra y llevado a la vida contemporánea, donde la película explora la supervivencia de una criatura folclórica en el mundo moderno.",
+            en: "Coo is recovered from stone and brought into contemporary life, where the film explores a folkloric creature surviving in the modern world."
+          },
+          context: {
+            es: "Una reinterpretación cinematográfica directa y central del Kappa.",
+            en: "A direct cinematic reinterpretation in which the Kappa is central."
+          },
+          sourceLabel: { es: "Shochiku - ficha de la película", en: "Shochiku - Film Page" },
+          sourceUrl: "https://www.shochiku.co.jp/cinema/database/04664/"
+        },
+        {
+          id: "kappa-animal-crossing-kappn",
+          categoryId: "video-games",
+          title: "Animal Crossing - Kapp'n",
+          franchise: { es: "Videojuego", en: "Video Game" },
+          classification: { es: "Kappa confirmado por el desarrollador", en: "Developer-confirmed Kappa" },
+          image: "./assets/images/pop-kappa-animal-crossing-kappn.png",
+          imageFit: "contain",
+          shortDescription: {
+            es: "Nintendo identifica explícitamente a Kapp'n como un Kappa conectado con la tradición sobrenatural japonesa.",
+            en: "Nintendo explicitly identifies Kapp'n as a Kappa connected to Japanese supernatural tradition."
+          },
+          fullDescription: {
+            es: "Kapp'n transforma al Kappa en un marinero amable y musical, conservando el plato craneal y la identidad de la criatura.",
+            en: "Kapp'n transforms the Kappa into a friendly musical sailor while retaining the head dish and the creature's identity."
+          },
+          context: {
+            es: "La conexión ha sido identificada explícitamente por Nintendo en material oficial.",
+            en: "The connection has been explicitly identified by Nintendo in official material."
+          },
+          sourceLabel: { es: "Nintendo Play - Kapp'n", en: "Nintendo Play - Kapp'n" },
+          sourceUrl: "https://play.nintendo.com/themes/friends/kappn/"
+        },
+        {
+          id: "kappa-natsume-book-of-friends",
+          categoryId: "anime-manga",
+          title: { es: "Natsume Yūjin-chō - Kappa", en: "Natsume's Book of Friends - Kappa" },
+          franchise: { es: "Anime", en: "Anime" },
+          classification: { es: "Referencia oficial explícita", en: "Explicit Official Reference" },
+          image: "./assets/images/pop-kappa-natsume.png",
+          imageFit: "contain",
+          shortDescription: {
+            es: "La página oficial identifica al personaje como 河童の妖怪, un yōkai Kappa ayudado por Natsume.",
+            en: "The official character page identifies him as 河童の妖怪, a Kappa yōkai rescued by Natsume."
+          },
+          fullDescription: {
+            es: "Tras ser auxiliado en un caluroso día de verano, el Kappa llama a Natsume su jefe y permanece dentro del grupo de yōkai recurrentes de la serie.",
+            en: "After being rescued on a hot summer day, the Kappa calls Natsume his boss and remains among the series' recurring yōkai."
+          },
+          context: {
+            es: "La web oficial utiliza directamente el nombre y la clasificación yōkai.",
+            en: "The official website directly uses the name and yōkai classification."
+          },
+          sourceLabel: { es: "Natsume Yūjin-chō - personaje", en: "Natsume's Book of Friends - Character" },
+          sourceUrl: "https://www.natsume-anime.jp/character/%E6%B2%B3%E7%AB%A5"
+        },
+        {
+          id: "kappa-hanakappa",
+          categoryId: "anime-manga",
+          title: "Hanakappa",
+          franchise: { es: "Anime infantil", en: "TV Anime / Children's Media" },
+          classification: { es: "Obra Kappa explícita", en: "Explicit Kappa Media" },
+          image: "./assets/images/pop-kappa-hanakappa.png",
+          imageFit: "contain",
+          shortDescription: {
+            es: "El anime oficial está protagonizado por Hanakappa y su familia Kappa.",
+            en: "The official long-running anime centres on Hanakappa and his Kappa family."
+          },
+          fullDescription: {
+            es: "Hanakappa transforma al Kappa en un universo infantil luminoso, manteniendo la identidad de la criatura en el nombre y la familia protagonista.",
+            en: "Hanakappa reworks the Kappa into a bright children's character world while retaining the creature's identity in the name and central family."
+          },
+          context: {
+            es: "Una adaptación explícita de la figura Kappa para público infantil.",
+            en: "An explicit adaptation of the Kappa figure for children's media."
+          },
+          sourceLabel: { es: "Hanakappa - web oficial", en: "Hanakappa - Official Site" },
+          sourceUrl: "https://www.hanakappa.jp/"
+        },
+        {
+          id: "kappa-shabake",
+          categoryId: "anime-manga",
+          title: "Shabake - Aka Kappa & Ao Kappa",
+          franchise: { es: "Anime", en: "Anime" },
+          classification: { es: "Referencia oficial explícita", en: "Explicit Official Reference" },
+          image: "./assets/images/pop-kappa-shabake.png",
+          shortDescription: {
+            es: "La sección oficial de personajes presenta a Aka Kappa y Ao Kappa como habitantes Kappa del mundo yōkai de Shabake.",
+            en: "The official character section presents Aka Kappa and Ao Kappa as Kappa living in Shabake's yōkai world."
+          },
+          fullDescription: {
+            es: "Shabake incorpora dos Kappa reconocibles por el plato de agua y su identidad acuática dentro del universo sobrenatural de la obra.",
+            en: "Shabake includes two Kappa recognizable by their water dishes and aquatic identity within the work's supernatural universe."
+          },
+          context: {
+            es: "Los nombres de los personajes y su naturaleza Kappa aparecen en el material oficial.",
+            en: "The characters' names and Kappa nature appear in official material."
+          },
+          sourceLabel: { es: "Shabake - web oficial", en: "Shabake - Official Site" },
+          sourceUrl: "https://shabake-official.com/"
+        },
+        {
+          id: "kappa-sanrio-kappy",
+          categoryId: "other-pop-culture",
+          title: "Sanrio - Kappa no Kappy",
+          franchise: { es: "Personaje / Pop Culture", en: "Character / Pop Culture" },
+          classification: { es: "Personaje Kappa oficial", en: "Official Kappa Character" },
+          image: "./assets/images/pop-kappa-sanrio-kappy.png",
+          imageFit: "contain",
+          shortDescription: {
+            es: "El perfil oficial de Sanrio presenta a Kappa no Kappy como un Kappa amistoso con plato en la cabeza y amor por los pepinos.",
+            en: "Sanrio's official profile presents Kappa no Kappy as a friendly Kappa with a dish on his head and a love of cucumbers."
+          },
+          fullDescription: {
+            es: "Sanrio adapta los rasgos clásicos del Kappa a un personaje amable: plato craneal, color verde y predilección por los pepinos.",
+            en: "Sanrio adapts the Kappa's classic traits into a friendly character: head dish, green coloring and fondness for cucumbers."
+          },
+          context: {
+            es: "Una reinterpretación oficial del Kappa dentro del diseño de personajes y la cultura popular japonesa.",
+            en: "An official Kappa reinterpretation within Japanese character design and popular culture."
+          },
+          sourceLabel: { es: "Sanrio - perfil oficial", en: "Sanrio - Official Profile" },
+          sourceUrl: "https://www.sanrio.co.jp/characters/kappanokappy/"
+        },
+        {
+          id: "kappa-one-piece-kawamatsu",
+          categoryId: "anime-manga",
+          title: "One Piece - Kawamatsu",
+          franchise: { es: "Anime / Manga", en: "Anime / Manga" },
+          classification: { es: "Referencia oficial explícita", en: "Explicit Official Reference" },
+          image: "./assets/images/pop-kappa-one-piece-kawamatsu.png",
+          imageFit: "contain",
+          shortDescription: {
+            es: "El perfil oficial de One Piece presenta a Kawamatsu con el sobrenombre Kappa no Kawamatsu.",
+            en: "The official One Piece character profile gives Kawamatsu the epithet Kappa no Kawamatsu."
+          },
+          fullDescription: {
+            es: "Kawamatsu es un gyojin vinculado explícitamente al Kappa mediante su sobrenombre oficial y su estilo de espada Kappa-ryu dentro del arco del País de Wano.",
+            en: "Kawamatsu is a fish-man explicitly connected to the Kappa through his official epithet and his Kappa-ryu sword style in the Wano Country arc."
+          },
+          context: {
+            es: "Es una referencia oficial explícita al Kappa, no una adaptación literal del yōkai folclórico.",
+            en: "This is an explicit official Kappa reference, not a literal adaptation of the folkloric yōkai."
+          },
+          sourceLabel: { es: "One Piece - perfil oficial de Kawamatsu", en: "One Piece - Official Kawamatsu Profile" },
+          sourceUrl: "https://one-piece.com/character/kawamatsu/index.html"
+        }
+      ]
     }
   ]
 };
