@@ -1603,6 +1603,206 @@ window.AKAI_HANA_LOCALES = {
             }
           ],
           "quote": "Donde guía el sol sagrado, no hay duda."
+        },
+        {
+          "id": "nekomata",
+          "number": "17",
+          "title": "Nekomata",
+          "cardTitle": "Nekomata",
+          "eyebrow": "Yōkai japonés",
+          "japaneseName": "猫又",
+          "romanized": "El gato de dos colas",
+          "lead": "Sabiduría, misterio y transformación. Nekomata camina entre el mundo humano y el espiritual como guardián de una naturaleza imposible de dominar.",
+          "cardImage": {
+            "src": "./assets/images/story-nekomata-art.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Ilustración de Nekomata negro con dos colas, luna, fuego espiritual y motivos japoneses.",
+            "position": "50% 48%"
+          },
+          "heroImage": {
+            "src": "./assets/images/story-nekomata-banner.png",
+            "width": 1983,
+            "height": 793,
+            "alt": "Banner de Nekomata con gato de dos colas, luna, fuego espiritual y paisaje japonés nocturno.",
+            "position": "50% 50%"
+          },
+          "sections": [
+            {
+              "eyebrow": "¿Qué es?",
+              "title": "El gato que cruza al mundo espiritual",
+              "paragraphs": [
+                "Nekomata es un yōkai del folklore japonés que nace cuando un gato doméstico alcanza una edad avanzada y adquiere poderes sobrenaturales.",
+                "Su rasgo más distintivo son sus dos colas, símbolo de la transformación de un animal familiar en un ser que ya pertenece al mundo espiritual."
+              ]
+            },
+            {
+              "eyebrow": "Origen y folklore",
+              "title": "Siglos de misterio felino",
+              "paragraphs": [
+                "La palabra Nekomata aparece por primera vez en 1233 en el Meigetsuki, un diario de la era Kamakura.",
+                "Durante el periodo Edo se popularizó la creencia de que los gatos viejos podían convertirse en Nekomata. Aparece en libros de yōkai como el Hyakki Yagyō de Toriyama Sekien, representado con dos colas y comportamiento humano."
+              ]
+            },
+            {
+              "eyebrow": "La leyenda",
+              "title": "La verdad revelada en Yamato Kaiki",
+              "paragraphs": [
+                "Una historia de 1708 cuenta que, en la casa de un samurái, comenzaron a oírse ruidos, puertas que se abrían solas y pasos nocturnos sin explicación.",
+                "Cuando un sirviente descubrió al viejo gato llevando un shikigami con el nombre de su señor, comprendieron que se había convertido en Nekomata. Al morir el animal, los fenómenos cesaron y la paz regresó."
+              ]
+            },
+            {
+              "eyebrow": "Aspecto y poderes",
+              "title": "Fuego, espíritus y dos colas",
+              "paragraphs": [
+                "Puede adoptar forma de gato grande o humana, hablar, caminar en dos patas y mostrar una inteligencia superior.",
+                "Se dice que manipula a los humanos, crea ilusiones, invoca fuego fatuo, controla espíritus y protege con ferocidad a quienes lo trataron con respeto."
+              ]
+            },
+            {
+              "eyebrow": "Simbología",
+              "title": "Dualidad, percepción y libertad",
+              "paragraphs": [
+                "Las dos colas representan dualidad y transformación. El fuego fatuo simboliza poder espiritual; los ojos agudos, percepción e inteligencia.",
+                "El puente entre mundos, la muerte, la vida y la independencia completan una figura que no puede ser dominada con facilidad."
+              ]
+            },
+            {
+              "eyebrow": "En el arte del tatuaje",
+              "title": "Un guardián entre dos mundos",
+              "paragraphs": [
+                "Nekomata simboliza transformación, protección del hogar, sabiduría ancestral y poder oculto.",
+                "En tatuaje japonés suele representar la dualidad entre el mundo humano y el espiritual: un guardián que vigila en silencio y castiga a quien rompe el equilibrio."
+              ]
+            }
+          ],
+          "galleryTitle": "Galería de Nekomata",
+          "gallery": [
+            {
+              "src": "./assets/images/story-nekomata-banner.png",
+              "width": 1983,
+              "height": 793,
+              "alt": "Banner de Nekomata con gato de dos colas y paisaje japonés."
+            },
+            {
+              "src": "./assets/images/story-nekomata-lore.png",
+              "width": 1024,
+              "height": 1536,
+              "alt": "Panel completo de Nekomata con leyenda, poderes, simbología y arte del tatuaje."
+            },
+            {
+              "src": "./assets/images/story-nekomata-art.png",
+              "width": 1024,
+              "height": 1536,
+              "alt": "Ilustración tradicional de Nekomata negro con dos colas, luna y fuego espiritual."
+            },
+            {
+              "src": "./assets/images/story-card-nekomata-tattoo.png",
+              "width": 1024,
+              "height": 1536,
+              "alt": "Composición de tatuaje Nekomata con gato negro, torii, luna y máscara oni.",
+              "position": "50% 48%"
+            }
+          ],
+          "quote": "El gato que ya no es gato observa desde las sombras."
+        },
+        {
+          "id": "kappa",
+          "number": "18",
+          "title": "Kappa",
+          "cardTitle": "Kappa",
+          "eyebrow": "Yōkai japonés",
+          "japaneseName": "河童",
+          "romanized": "El espíritu del río",
+          "lead": "Agua, astucia y respeto. El Kappa recuerda que la naturaleza puede ofrecer conocimiento o peligro según la forma en que la tratamos.",
+          "cardImage": {
+            "src": "./assets/images/story-card-kappa-tattoo.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Tatuaje de Kappa junto a un río, con luna, torii, lotos y pepinos.",
+            "position": "50% 46%"
+          },
+          "heroImage": {
+            "src": "./assets/images/story-kappa-banner.png",
+            "width": 1916,
+            "height": 821,
+            "alt": "Banner cinematográfico de Kappa junto a un estanque japonés bajo la luna.",
+            "position": "50% 50%"
+          },
+          "sections": [
+            {
+              "eyebrow": "¿Qué es?",
+              "title": "El espíritu que habita ríos y estanques",
+              "paragraphs": [
+                "El Kappa es uno de los yōkai acuáticos más conocidos del folklore japonés, asociado a ríos, estanques y canales.",
+                "Es una criatura traviesa, peligrosa e inteligente, reconocible por su caparazón, sus manos palmeadas y el plato de agua sobre la cabeza que contiene su fuerza."
+              ]
+            },
+            {
+              "eyebrow": "La leyenda",
+              "title": "El río recuerda el respeto",
+              "paragraphs": [
+                "El Kappa observa a los viajeros desde las sombras y puede acercarse con curiosidad, proponer juegos o lanzar desafíos peligrosos.",
+                "Si se le ofende o se pierde el juego, puede arrastrar a su víctima a las profundidades. Sin embargo, ama los pepinos y respeta profundamente la cortesía: una reverencia puede hacer que derrame el agua de su plato y pierda su poder."
+              ]
+            },
+            {
+              "eyebrow": "Significados",
+              "title": "Naturaleza, peligro y disciplina",
+              "paragraphs": [
+                "Kappa representa respeto por la naturaleza, peligro del agua, travesura, inteligencia y disciplina.",
+                "Su historia enseña que el equilibrio entre miedo y conocimiento puede convertir una amenaza en alianza."
+              ]
+            },
+            {
+              "eyebrow": "Simbología",
+              "title": "Agua, caparazón, pepino y reverencia",
+              "paragraphs": [
+                "El plato de agua es fuente de poder y vida; el caparazón representa protección y vínculo con lo ancestral.",
+                "El pepino simboliza ofrenda y apaciguamiento, mientras el río y el loto hablan de fluidez, profundidad y pureza espiritual."
+              ]
+            },
+            {
+              "eyebrow": "En el arte del tatuaje",
+              "title": "Texturas de agua y folklore",
+              "paragraphs": [
+                "Kappa funciona especialmente bien en composiciones con agua, lotos, juncos y ondas, donde sus escamas, caparazón y piel húmeda crean una pieza rica en detalle.",
+                "Simboliza protección, advertencia y sabiduría, y encaja en estilos japoneses tradicionales, neotradicionales, realistas oscuros e ilustrativos."
+              ]
+            },
+            {
+              "eyebrow": "Origen y folklore",
+              "title": "Una presencia antigua en las aguas de Japón",
+              "paragraphs": [
+                "El Kappa aparece en relatos japoneses desde la época Heian, aunque su naturaleza cambia según la región.",
+                "Sus múltiples versiones van desde bromista hasta guardián de los ríos, y lo han convertido en uno de los yōkai más reconocibles del arte y los cuentos populares."
+              ]
+            }
+          ],
+          "galleryTitle": "Galería de Kappa",
+          "gallery": [
+            {
+              "src": "./assets/images/story-kappa-banner.png",
+              "width": 1916,
+              "height": 821,
+              "alt": "Banner de Kappa junto a un estanque, torii y luna llena."
+            },
+            {
+              "src": "./assets/images/story-kappa-lore.png",
+              "width": 1024,
+              "height": 1536,
+              "alt": "Panel completo de Kappa con historia, significados, simbología y ejemplos de tatuaje."
+            },
+            {
+              "src": "./assets/images/story-card-kappa-tattoo.png",
+              "width": 1024,
+              "height": 1536,
+              "alt": "Tatuaje de espalda de Kappa junto a un río con lotos, luna y pepinos.",
+              "position": "50% 46%"
+            }
+          ],
+          "quote": "Respeta el agua, o el río te recordará."
         }
       ]
     },
@@ -3928,6 +4128,206 @@ window.AKAI_HANA_LOCALES = {
             }
           ],
           "quote": "Where the sacred sun guides, there is no doubt."
+        },
+        {
+          "id": "nekomata",
+          "number": "17",
+          "title": "Nekomata",
+          "cardTitle": "Nekomata",
+          "eyebrow": "Japanese yōkai",
+          "japaneseName": "猫又",
+          "romanized": "The two-tailed cat",
+          "lead": "Wisdom, mystery and transformation. Nekomata walks between the human and spiritual worlds as the guardian of a nature that cannot be tamed.",
+          "cardImage": {
+            "src": "./assets/images/story-nekomata-art.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Nekomata artwork with black two-tailed cat, moon, spirit fire and Japanese motifs.",
+            "position": "50% 48%"
+          },
+          "heroImage": {
+            "src": "./assets/images/story-nekomata-banner.png",
+            "width": 1983,
+            "height": 793,
+            "alt": "Nekomata banner with two-tailed cat, moon, spirit fire and a nocturnal Japanese landscape.",
+            "position": "50% 50%"
+          },
+          "sections": [
+            {
+              "eyebrow": "What is it?",
+              "title": "The cat that crosses into the spirit world",
+              "paragraphs": [
+                "Nekomata is a yōkai from Japanese folklore, born when a domestic cat reaches an advanced age and gains supernatural powers.",
+                "Its most distinctive feature is its pair of tails, symbolizing the transformation of a familiar animal into a being that now belongs to the spirit world."
+              ]
+            },
+            {
+              "eyebrow": "Origin and folklore",
+              "title": "Centuries of feline mystery",
+              "paragraphs": [
+                "The word Nekomata first appeared in 1233 in the Meigetsuki, a diary from the Kamakura period.",
+                "During the Edo period, the belief that old cats could become Nekomata became widespread. It appears in yōkai books such as Toriyama Sekien's Hyakki Yagyō, depicted with two tails and human behavior."
+              ]
+            },
+            {
+              "eyebrow": "The legend",
+              "title": "The truth revealed in Yamato Kaiki",
+              "paragraphs": [
+                "A story from 1708 tells how unexplained noises, opening doors and nocturnal footsteps began to haunt a samurai's home.",
+                "When a servant discovered the old cat carrying a shikigami bearing its master's name, they understood that it had become a Nekomata. When the animal died, the disturbances stopped and peace returned."
+              ]
+            },
+            {
+              "eyebrow": "Appearance and powers",
+              "title": "Fire, spirits and two tails",
+              "paragraphs": [
+                "It may take the form of a large cat or a human, speak, walk on two legs and display superior intelligence.",
+                "It is said to manipulate humans, create illusions, summon ghostly fire, control spirits and fiercely protect those who treated it with respect."
+              ]
+            },
+            {
+              "eyebrow": "Symbolism",
+              "title": "Duality, perception and freedom",
+              "paragraphs": [
+                "The two tails represent duality and transformation. Ghostly fire symbolizes spiritual power, while sharp eyes evoke perception and intelligence.",
+                "The bridge between worlds, death, life and independence complete the image of a being that cannot easily be controlled."
+              ]
+            },
+            {
+              "eyebrow": "In tattoo art",
+              "title": "A guardian between two worlds",
+              "paragraphs": [
+                "Nekomata symbolizes transformation, protection of the home, ancestral wisdom and hidden power.",
+                "In Japanese tattoo art it often represents the duality between the human and spiritual worlds: a guardian that watches in silence and punishes anyone who breaks the balance."
+              ]
+            }
+          ],
+          "galleryTitle": "Nekomata gallery",
+          "gallery": [
+            {
+              "src": "./assets/images/story-nekomata-banner.png",
+              "width": 1983,
+              "height": 793,
+              "alt": "Nekomata banner with two-tailed cat and Japanese landscape."
+            },
+            {
+              "src": "./assets/images/story-nekomata-lore.png",
+              "width": 1024,
+              "height": 1536,
+              "alt": "Complete Nekomata panel with legend, powers, symbolism and tattoo art."
+            },
+            {
+              "src": "./assets/images/story-nekomata-art.png",
+              "width": 1024,
+              "height": 1536,
+              "alt": "Traditional Nekomata artwork with black two-tailed cat, moon and spirit fire."
+            },
+            {
+              "src": "./assets/images/story-card-nekomata-tattoo.png",
+              "width": 1024,
+              "height": 1536,
+              "alt": "Nekomata tattoo composition with black cat, torii, moon and oni mask.",
+              "position": "50% 48%"
+            }
+          ],
+          "quote": "The cat that is no longer a cat watches from the shadows."
+        },
+        {
+          "id": "kappa",
+          "number": "18",
+          "title": "Kappa",
+          "cardTitle": "Kappa",
+          "eyebrow": "Japanese yōkai",
+          "japaneseName": "河童",
+          "romanized": "The river spirit",
+          "lead": "Water, cunning and respect. Kappa reminds us that nature may offer knowledge or danger depending on how we treat it.",
+          "cardImage": {
+            "src": "./assets/images/story-card-kappa-tattoo.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Kappa tattoo beside a river with moon, torii, lotus flowers and cucumbers.",
+            "position": "50% 46%"
+          },
+          "heroImage": {
+            "src": "./assets/images/story-kappa-banner.png",
+            "width": 1916,
+            "height": 821,
+            "alt": "Cinematic Kappa banner beside a Japanese pond beneath the moon.",
+            "position": "50% 50%"
+          },
+          "sections": [
+            {
+              "eyebrow": "What is it?",
+              "title": "The spirit that inhabits rivers and ponds",
+              "paragraphs": [
+                "Kappa is one of the best-known aquatic yōkai in Japanese folklore, associated with rivers, ponds and canals.",
+                "It is mischievous, dangerous and intelligent, recognizable by its shell, webbed hands and the water-filled dish on its head that contains its strength."
+              ]
+            },
+            {
+              "eyebrow": "The legend",
+              "title": "The river remembers respect",
+              "paragraphs": [
+                "Kappa watches travelers from the shadows and may approach with curiosity, propose games or issue dangerous challenges.",
+                "If offended, or if the game is lost, it may drag its victim into the depths. Yet it loves cucumbers and deeply respects courtesy: a bow may cause it to spill the water from its dish and lose its power."
+              ]
+            },
+            {
+              "eyebrow": "Meanings",
+              "title": "Nature, danger and discipline",
+              "paragraphs": [
+                "Kappa represents respect for nature, the danger of water, mischief, intelligence and discipline.",
+                "Its story teaches that the balance between fear and knowledge can turn a threat into an ally."
+              ]
+            },
+            {
+              "eyebrow": "Symbolism",
+              "title": "Water, shell, cucumber and reverence",
+              "paragraphs": [
+                "The water dish is a source of power and life; the shell represents protection and a bond with the ancient world.",
+                "The cucumber symbolizes offering and appeasement, while river and lotus speak of flow, depth and spiritual purity."
+              ]
+            },
+            {
+              "eyebrow": "In tattoo art",
+              "title": "Textures of water and folklore",
+              "paragraphs": [
+                "Kappa works especially well in compositions with water, lotus flowers, reeds and waves, where its scales, shell and wet skin create a richly detailed piece.",
+                "It symbolizes protection, warning and wisdom, and fits traditional Japanese, neo-traditional, dark realistic and illustrative styles."
+              ]
+            },
+            {
+              "eyebrow": "Origin and folklore",
+              "title": "An ancient presence in Japan's waters",
+              "paragraphs": [
+                "Kappa appears in Japanese accounts from as early as the Heian period, although its nature varies from region to region.",
+                "Its many versions range from prankster to river guardian, making it one of the most recognizable yōkai in popular tales and art."
+              ]
+            }
+          ],
+          "galleryTitle": "Kappa gallery",
+          "gallery": [
+            {
+              "src": "./assets/images/story-kappa-banner.png",
+              "width": 1916,
+              "height": 821,
+              "alt": "Kappa banner beside a pond, torii and full moon."
+            },
+            {
+              "src": "./assets/images/story-kappa-lore.png",
+              "width": 1024,
+              "height": 1536,
+              "alt": "Complete Kappa panel with story, meanings, symbolism and tattoo examples."
+            },
+            {
+              "src": "./assets/images/story-card-kappa-tattoo.png",
+              "width": 1024,
+              "height": 1536,
+              "alt": "Kappa back tattoo beside a river with lotus flowers, moon and cucumbers.",
+              "position": "50% 46%"
+            }
+          ],
+          "quote": "Respect the water, or the river will remember you."
         }
       ]
     },

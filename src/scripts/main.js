@@ -66,7 +66,7 @@ let lastFocusedElement = null;
 let activeStoryId = null;
 let activeStoryFilter = "all";
 let storySearchTerm = "";
-let visibleStoryCount = 16;
+let visibleStoryCount = 18;
 let activePopCultureThemeId = window.AKAI_HANA_POP_CULTURE?.defaultTheme || "kitsune";
 let activePopCultureCategoryId = null;
 
@@ -130,12 +130,20 @@ const storyLibraryMeta = {
   },
   jorogumo: {
     categories: ["yokai", "creatures"],
-    keywords: ["jorogumo", "jorōgumo", "spider woman", "spider", "web", "seduction", "deception", "shamisen", "waterfall", "forest", "yokai", "creature", "絡新婦"],
-    isNew: true
+    keywords: ["jorogumo", "jorōgumo", "spider woman", "spider", "web", "seduction", "deception", "shamisen", "waterfall", "forest", "yokai", "creature", "絡新婦"]
   },
   yatagarasu: {
     categories: ["legends", "symbols", "creatures"],
-    keywords: ["yatagarasu", "three-legged crow", "crow", "raven", "sun", "guide", "destiny", "protection", "victory", "divine", "legend", "symbol", "八咫烏"],
+    keywords: ["yatagarasu", "three-legged crow", "crow", "raven", "sun", "guide", "destiny", "protection", "victory", "divine", "legend", "symbol", "八咫烏"]
+  },
+  nekomata: {
+    categories: ["yokai", "creatures"],
+    keywords: ["nekomata", "two-tailed cat", "cat", "bakeneko", "spirit fire", "transformation", "protection", "yokai", "creature", "猫又"],
+    isNew: true
+  },
+  kappa: {
+    categories: ["yokai", "creatures", "legends"],
+    keywords: ["kappa", "river spirit", "water", "cucumber", "shell", "river", "respect", "yokai", "creature", "legend", "河童"],
     isNew: true
   }
 };
@@ -578,7 +586,7 @@ function renderStories() {
 
   searchInput.addEventListener("input", (event) => {
     storySearchTerm = event.target.value;
-    visibleStoryCount = 16;
+    visibleStoryCount = 18;
     renderStories();
     mountPoints.storiesIndex.querySelector(".stories-search__input")?.focus();
   });
@@ -595,7 +603,7 @@ function renderStories() {
     });
     filterButton.addEventListener("click", () => {
       activeStoryFilter = filter;
-      visibleStoryCount = 16;
+      visibleStoryCount = 18;
       renderStories();
     });
     filters.append(filterButton);

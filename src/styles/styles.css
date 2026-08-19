@@ -4665,7 +4665,7 @@ body[data-page="home"] .intro__grid {
 
 .stories-library__grid {
   display: grid;
-  grid-template-columns: repeat(8, minmax(0, 1fr));
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 12px;
 }
 
@@ -4817,7 +4817,7 @@ body[data-page="home"] .intro__grid {
 
 @media (max-width: 1680px) {
   .stories-library__grid {
-    grid-template-columns: repeat(7, minmax(0, 1fr));
+    grid-template-columns: repeat(6, minmax(0, 1fr));
   }
 }
 
