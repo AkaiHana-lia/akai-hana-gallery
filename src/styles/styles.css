@@ -4485,9 +4485,9 @@ body[data-page="home"] .intro__grid {
   position: relative;
   isolation: isolate;
   min-height: 100svh;
-  padding: calc(var(--header-height) + 22px) clamp(20px, 3.5vw, 56px) clamp(48px, 5.5vw, 80px);
+  padding: calc(var(--header-height) + 4px) clamp(18px, 2vw, 36px) clamp(38px, 4vw, 58px);
   overflow-x: hidden;
-  background: #030303;
+  background: #030303 url("../../assets/images/stories-akaihana-model-background.png") right top / cover no-repeat;
 }
 
 .stories-section::before,
@@ -4500,16 +4500,16 @@ body[data-page="home"] .intro__grid {
 
 .stories-section::before {
   z-index: 0;
-  background: url("../../assets/images/stories-sakura-background.png") center / cover no-repeat;
-  filter: saturate(1.2) contrast(1.08) brightness(1.06);
+  background: url("../../assets/images/stories-akaihana-model-background.png") left top / 88% auto no-repeat;
+  -webkit-mask-image: linear-gradient(90deg, #000 0%, #000 80%, transparent 90%);
+  mask-image: linear-gradient(90deg, #000 0%, #000 80%, transparent 90%);
 }
 
 .stories-section::after {
   z-index: 0;
   background:
-    radial-gradient(circle at 50% 36%, rgba(3, 3, 3, 0.06), rgba(3, 3, 3, 0.48) 76%),
-    linear-gradient(90deg, rgba(3, 3, 3, 0.5), rgba(3, 3, 3, 0.18) 48%, rgba(3, 3, 3, 0.42)),
-    linear-gradient(180deg, rgba(3, 3, 3, 0.24), rgba(3, 3, 3, 0.14) 42%, rgba(3, 3, 3, 0.6));
+    linear-gradient(90deg, rgba(3, 3, 3, 0.28) 0%, rgba(3, 3, 3, 0.2) 30%, rgba(3, 3, 3, 0.1) 48%, rgba(3, 3, 3, 0.2) 100%),
+    linear-gradient(180deg, rgba(3, 3, 3, 0.2), rgba(3, 3, 3, 0.06) 24%, rgba(3, 3, 3, 0.1) 72%, rgba(3, 3, 3, 0.34));
 }
 
 .stories-section.is-reading {
@@ -4519,14 +4519,17 @@ body[data-page="home"] .intro__grid {
 .stories-layout {
   position: relative;
   z-index: 1;
-  width: min(1380px, 100%);
+  width: min(1040px, 56.5vw);
   max-width: none;
+  margin-right: auto;
+  margin-left: 34vw;
   display: grid;
   gap: 0;
 }
 
 .stories-section.is-reading .stories-layout {
   width: 100%;
+  margin-inline: 0;
 }
 
 .stories-section.is-reading .stories-heading,
@@ -4565,12 +4568,12 @@ body[data-page="home"] .intro__grid {
 
 .stories-library {
   display: grid;
-  gap: clamp(30px, 3vw, 42px);
+  gap: clamp(24px, 2.2vw, 34px);
 }
 
 .stories-toolbar {
-  width: min(1000px, 100%);
-  margin: 0 auto;
+  width: min(82%, 820px);
+  margin: 0 auto 0 0;
   display: grid;
   grid-template-columns: minmax(220px, 1fr) auto;
   align-items: center;
@@ -4578,9 +4581,9 @@ body[data-page="home"] .intro__grid {
   padding: 12px 14px;
   border: 1px solid rgba(212, 175, 55, 0.18);
   border-radius: var(--radius);
-  background: rgba(5, 5, 5, 0.5);
-  box-shadow: 0 18px 64px rgba(0, 0, 0, 0.28);
-  backdrop-filter: blur(12px);
+  background: rgba(5, 5, 5, 0.34);
+  box-shadow: 0 14px 48px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(8px);
 }
 
 .stories-search {
@@ -4609,6 +4612,15 @@ body[data-page="home"] .intro__grid {
   flex-wrap: wrap;
   justify-content: flex-end;
   gap: 8px;
+}
+
+.stories-toolbar .stories-filters {
+  gap: 6px;
+}
+
+.stories-toolbar .stories-filter {
+  padding-inline: 8px;
+  font-size: 0.7rem;
 }
 
 .stories-filter,
@@ -4650,7 +4662,7 @@ body[data-page="home"] .intro__grid {
 
 .stories-library__section {
   display: grid;
-  gap: clamp(18px, 1.7vw, 24px);
+  gap: clamp(16px, 1.4vw, 21px);
 }
 
 .stories-library__title {
@@ -4666,7 +4678,7 @@ body[data-page="home"] .intro__grid {
 .stories-library__grid {
   display: grid;
   grid-template-columns: repeat(6, minmax(0, 1fr));
-  gap: clamp(16px, 1.35vw, 20px);
+  gap: clamp(14px, 1vw, 17px);
 }
 
 .stories-library__section--new .stories-library__grid {
@@ -4694,8 +4706,8 @@ body[data-page="home"] .intro__grid {
 
 .stories-library__closing {
   width: min(680px, 100%);
-  margin: 20px auto 0;
-  padding-top: 18px;
+  margin: 16px auto 0;
+  padding-top: 16px;
   border-top: 1px solid rgba(212, 175, 55, 0.22);
   color: rgba(246, 231, 207, 0.72);
   font-family: Georgia, "Times New Roman", serif;
@@ -4747,18 +4759,18 @@ body[data-page="home"] .intro__grid {
   z-index: 2;
   align-self: end;
   display: grid;
-  gap: 6px;
-  padding: 11px;
+  gap: 5px;
+  padding: 9px;
 }
 
 .story-card__heading {
   display: grid;
-  gap: 6px;
+  gap: 4px;
 }
 
 .story-card__number {
   color: var(--gold);
-  font-size: 0.7rem;
+  font-size: 0.62rem;
   font-weight: 800;
   letter-spacing: 0.28em;
   text-transform: uppercase;
@@ -4769,7 +4781,7 @@ body[data-page="home"] .intro__grid {
   max-width: 12ch;
   color: var(--text);
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.16rem;
+  font-size: clamp(0.88rem, 0.92vw, 1rem);
   font-weight: 400;
   letter-spacing: 0;
   line-height: 0.96;
@@ -4777,12 +4789,12 @@ body[data-page="home"] .intro__grid {
 
 .story-card__badge {
   width: fit-content;
-  padding: 4px 8px;
+  padding: 3px 7px;
   border: 1px solid rgba(212, 175, 55, 0.45);
   border-radius: 999px;
   background: rgba(182, 0, 0, 0.54);
   color: var(--text);
-  font-size: 0.63rem;
+  font-size: 0.56rem;
   font-weight: 900;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -4821,13 +4833,43 @@ body[data-page="home"] .intro__grid {
   }
 }
 
-@media (max-width: 1380px) {
+@media (max-width: 1600px) {
+  .stories-layout {
+    width: min(940px, 63vw);
+    margin-left: 34vw;
+  }
+
   .stories-library__grid {
-    grid-template-columns: repeat(6, minmax(0, 1fr));
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 1380px) {
+  .stories-layout {
+    width: min(900px, 65vw);
+  }
+
+  .stories-library__grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
 
 @media (max-width: 1180px) {
+  .stories-section::before {
+    background-position: 42% top;
+    background-size: auto 100svh;
+    background-repeat: no-repeat;
+  }
+
+  .stories-section::after {
+    background: linear-gradient(180deg, rgba(3, 3, 3, 0.28), rgba(3, 3, 3, 0.18) 38%, rgba(3, 3, 3, 0.62));
+  }
+
+  .stories-layout {
+    width: min(860px, 100%);
+    margin-inline: auto;
+  }
+
   .stories-library__grid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
