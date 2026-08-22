@@ -1413,7 +1413,7 @@
   "hero": {
     "eyebrow": "",
     "title": "JAPANESE ART. TIMELESS STORIES. ETERNAL INK.",
-    "lead": "Akai Hana Design Studio creates custom artwork for tattoos, illustration, branding, logos, visual identity and creative projects with a premium Japanese-inspired aesthetic.",
+    "lead": "Akai Hana Design Studio creates custom artwork for tattoos, illustrations and creative projects. From Japanese art, anime, florals and animals to fantasy, symbolism and completely personal concepts — every design begins with an idea and is created exclusively for you.",
     "primaryCta": "View Gallery",
     "secondaryCta": "Book a Project",
     "values": [
@@ -1450,7 +1450,7 @@
     "ariaLabel": "Akai Hana Design Studio benefits",
     "kicker": "Design Studio",
     "title": "Custom design with a Japanese soul.",
-    "body": "We are not a shop and we do not manufacture products. We create bespoke digital designs for tattoos, illustration, branding, logos, visual identity, Japanese art and creative projects that need a memorable presence."
+    "body": "We create custom digital designs for tattoos, illustrations and creative projects. Japan is part of Akai Hana’s soul, but our inspiration has no boundaries: anime, florals, animals, fantasy, symbolism and any idea you want to turn into something unique."
   },
   "customDesigns": {
     "eyebrow": "Services",
@@ -2108,8 +2108,8 @@
   },
   "servicesContact": {
     "eyebrow": "Services and contact",
-    "title": "Art with<br /><span>Japanese</span> soul.",
-    "body": "We design digital artwork inspired by Japanese culture, dark fantasy, symbolism and stories made to feel eternal.",
+    "title": "Art with <span>soul</span>.<br />Made for you.",
+    "body": "We create digital art from whatever inspires you: Japan, anime, florals, animals, fantasy, symbolism or a completely personal story. You bring the idea; we turn it into a unique design.",
     "bullets": {
       "tattoo": "Tattoo-inspired design",
       "illustration": "Original illustration",

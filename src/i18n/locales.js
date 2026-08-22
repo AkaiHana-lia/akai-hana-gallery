@@ -976,7 +976,7 @@ window.AKAI_HANA_LOCALES = {
     "hero": {
       "eyebrow": "",
       "title": "JAPANESE ART. TIMELESS STORIES. ETERNAL INK.",
-      "lead": "Akai Hana Design Studio crea arte personalizado para tatuajes, ilustraciones, branding, logotipos, identidad visual y proyectos creativos con inspiración japonesa premium.",
+      "lead": "Akai Hana Design Studio crea arte personalizado para tatuajes, ilustraciones y proyectos creativos. Desde arte japonés, anime, flores y animales hasta fantasía, simbolismo y conceptos completamente personales: cada diseño nace de una idea y se crea exclusivamente para ti.",
       "primaryCta": "View Gallery",
       "secondaryCta": "Book a Project",
       "values": [
@@ -1013,7 +1013,7 @@ window.AKAI_HANA_LOCALES = {
       "ariaLabel": "Beneficios de Akai Hana Design Studio",
       "kicker": "Design Studio",
       "title": "Diseño personalizado con alma japonesa.",
-      "body": "No somos una tienda ni fabricamos productos. Creamos diseños digitales a medida para tatuajes, ilustraciones, branding, logotipos, identidad visual, arte japonés y proyectos creativos que necesitan una presencia memorable."
+      "body": "Creamos diseños digitales a medida para tatuajes, ilustraciones y proyectos creativos. Japón forma parte del alma de Akai Hana, pero nuestra inspiración no tiene fronteras: anime, flores, animales, fantasía, simbolismo y cualquier idea que quieras convertir en algo único."
     },
     "customDesigns": {
       "eyebrow": "Services",
@@ -1671,8 +1671,8 @@ window.AKAI_HANA_LOCALES = {
     },
     "servicesContact": {
       "eyebrow": "Servicios y contacto",
-      "title": "Arte con<br /><span>alma</span> japonesa.",
-      "body": "Diseñamos arte digital inspirado en la cultura japonesa, la fantasía oscura, el simbolismo y las historias que merecen ser eternas.",
+      "title": "Arte con <span>alma</span>.<br />Personalizado para ti.",
+      "body": "Creamos arte digital a partir de aquello que te inspira: Japón, anime, flores, animales, fantasía, simbolismo o una historia completamente personal. Tú traes la idea; nosotros la convertimos en un diseño único.",
       "bullets": {
         "tattoo": "Diseño inspirado en tatuajes",
         "illustration": "Ilustración original",
@@ -2668,7 +2668,7 @@ window.AKAI_HANA_LOCALES = {
     "hero": {
       "eyebrow": "",
       "title": "JAPANESE ART. TIMELESS STORIES. ETERNAL INK.",
-      "lead": "Akai Hana Design Studio creates custom artwork for tattoos, illustration, branding, logos, visual identity and creative projects with a premium Japanese-inspired aesthetic.",
+      "lead": "Akai Hana Design Studio creates custom artwork for tattoos, illustrations and creative projects. From Japanese art, anime, florals and animals to fantasy, symbolism and completely personal concepts — every design begins with an idea and is created exclusively for you.",
       "primaryCta": "View Gallery",
       "secondaryCta": "Book a Project",
       "values": [
@@ -2705,7 +2705,7 @@ window.AKAI_HANA_LOCALES = {
       "ariaLabel": "Akai Hana Design Studio benefits",
       "kicker": "Design Studio",
       "title": "Custom design with a Japanese soul.",
-      "body": "We are not a shop and we do not manufacture products. We create bespoke digital designs for tattoos, illustration, branding, logos, visual identity, Japanese art and creative projects that need a memorable presence."
+      "body": "We create custom digital designs for tattoos, illustrations and creative projects. Japan is part of Akai Hana’s soul, but our inspiration has no boundaries: anime, florals, animals, fantasy, symbolism and any idea you want to turn into something unique."
     },
     "customDesigns": {
       "eyebrow": "Services",
@@ -3363,8 +3363,8 @@ window.AKAI_HANA_LOCALES = {
     },
     "servicesContact": {
       "eyebrow": "Services and contact",
-      "title": "Art with<br /><span>Japanese</span> soul.",
-      "body": "We design digital artwork inspired by Japanese culture, dark fantasy, symbolism and stories made to feel eternal.",
+      "title": "Art with <span>soul</span>.<br />Made for you.",
+      "body": "We create digital art from whatever inspires you: Japan, anime, florals, animals, fantasy, symbolism or a completely personal story. You bring the idea; we turn it into a unique design.",
       "bullets": {
         "tattoo": "Tattoo-inspired design",
         "illustration": "Original illustration",
