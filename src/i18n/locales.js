@@ -1009,12 +1009,6 @@ window.AKAI_HANA_LOCALES = {
       "titleLineTwo": "JAPANESE SOUL.",
       "titleAccent": "DESIGN STUDIO."
     },
-    "intro": {
-      "ariaLabel": "Beneficios de Akai Hana Design Studio",
-      "kicker": "Design Studio",
-      "title": "Diseño personalizado con alma japonesa.",
-      "body": "Creamos diseños digitales a medida para tatuajes, ilustraciones y proyectos creativos. Japón forma parte del alma de Akai Hana, pero nuestra inspiración no tiene fronteras: anime, flores, animales, fantasía, simbolismo y cualquier idea que quieras convertir en algo único."
-    },
     "customDesigns": {
       "eyebrow": "Services",
       "title": "Servicios de diseño personalizado",
@@ -2700,12 +2694,6 @@ window.AKAI_HANA_LOCALES = {
       "titleLineOne": "CUSTOM ART.",
       "titleLineTwo": "JAPANESE SOUL.",
       "titleAccent": "DESIGN STUDIO."
-    },
-    "intro": {
-      "ariaLabel": "Akai Hana Design Studio benefits",
-      "kicker": "Design Studio",
-      "title": "Custom design with a Japanese soul.",
-      "body": "We create custom digital designs for tattoos, illustrations and creative projects. Japan is part of Akai Hana’s soul, but our inspiration has no boundaries: anime, florals, animals, fantasy, symbolism and any idea you want to turn into something unique."
     },
     "customDesigns": {
       "eyebrow": "Services",
