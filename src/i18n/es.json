@@ -59,8 +59,8 @@
       {
         "id": "higanbana",
         "number": "01",
-        "title": "The Legend of the Red Spider Lily",
-        "cardTitle": "Spider Lily",
+        "title": "La leyenda de Higanbana",
+        "cardTitle": "Higanbana",
         "eyebrow": "Leyendas japonesas",
         "japaneseName": "彼岸花",
         "romanized": "Higanbana",
@@ -69,7 +69,7 @@
           "src": "./assets/images/story-card-higanbana-tattoo.png",
           "width": 900,
           "height": 1200,
-          "alt": "Tatuaje de Red Spider Lily roja con tinta negra sobre brazo.",
+          "alt": "Tatuaje de Higanbana roja con tinta negra sobre brazo.",
           "position": "center center"
         },
         "heroImage": {
@@ -84,7 +84,7 @@
             "eyebrow": "Higanbana",
             "title": "Una flor que nunca debería llevarse a casa",
             "paragraphs": [
-              "En lo profundo del folclore japonés crece una flor distinta a cualquier otra. Conocida como Red Spider Lily, o Higanbana, aparece justo cuando termina el verano y comienza el otoño.",
+              "En lo profundo del folclore japonés crece una flor distinta a cualquier otra. Conocida como Higanbana, aparece justo cuando termina el verano y comienza el otoño.",
               "Sus pétalos carmesí parecen llamas bailando en el viento, cargando una reputación misteriosa durante siglos.",
               "Según la tradición japonesa, estas flores crecen junto a los caminos que guían a las almas hacia el más allá. Por eso suelen encontrarse alrededor de antiguos cementerios y templos, marcando en silencio la frontera entre los vivos y los muertos."
             ]
@@ -95,7 +95,7 @@
             "paragraphs": [
               "Una antigua leyenda habla de dos espíritus. Uno protegía la flor. El otro protegía sus hojas.",
               "Tenían prohibido encontrarse. Cuando las flores florecían, las hojas desaparecían. Cuando las hojas volvían, las flores ya habían caído.",
-              "Condenados a echarse de menos para siempre, la historia se convirtió en símbolo de amor imposible, separación y añoranza eterna. Incluso hoy, muchas personas en Japón asocian la Red Spider Lily con recuerdos que nunca desaparecen del todo."
+              "Condenados a echarse de menos para siempre, la historia se convirtió en símbolo de amor imposible, separación y añoranza eterna. Incluso hoy, muchas personas en Japón asocian la Higanbana con recuerdos que nunca desaparecen del todo."
             ]
           },
           {
@@ -116,7 +116,7 @@
             "eyebrow": "Inspiración para diseño",
             "title": "Belleza dentro de la pérdida",
             "paragraphs": [
-              "En Akai Hana Design Studio vemos la Red Spider Lily como algo más que una flor. Representa memoria, transformación y belleza incluso dentro de la pérdida.",
+              "En Akai Hana Design Studio vemos la Higanbana como algo más que una flor. Representa memoria, transformación y belleza incluso dentro de la pérdida.",
               "Sus pétalos fluidos la convierten en una fuente perfecta de inspiración para tatuajes, ilustración, branding, concept art y piezas editoriales con una presencia delicada pero intensa."
             ]
           }

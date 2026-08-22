@@ -46,13 +46,13 @@ window.AKAI_HANA_POP_CULTURE = {
     {
       id: "red-spider-lily",
       number: "01",
-      title: "Red Spider Lily",
+      title: "Higanbana",
       kanji: "彼岸花",
       image: "./assets/images/story-card-higanbana-tattoo.png",
       icon: "./assets/images/story-higanbana-cover.png",
       intro: {
-        es: "La higanbana, o red spider lily, conecta duelo, despedida, recuerdo y el limite entre la vida y la muerte. Estas referencias se presentan con lenguaje prudente cuando no existe confirmacion explicita de autor.",
-        en: "The higanbana, or red spider lily, connects mourning, farewell, remembrance and the boundary between life and death. These references use cautious wording when no explicit creator confirmation has been found."
+        es: "La Higanbana conecta duelo, despedida, recuerdo y el limite entre la vida y la muerte. Estas referencias se presentan con lenguaje prudente cuando no existe confirmacion explicita de autor.",
+        en: "Higanbana connects mourning, farewell, remembrance and the boundary between life and death. These references use cautious wording when no explicit creator confirmation has been found."
       },
       entries: [
         {
@@ -78,8 +78,8 @@ window.AKAI_HANA_POP_CULTURE = {
             en: "Ufotable's official anniversary artwork places Zenitsu and Jigoro within a field of higanbana, reinforcing farewell, memory and the boundary between the living and the dead."
           },
           fullDescription: {
-            es: "Tras el enfrentamiento final de Zenitsu con Kaigaku, su vinculo emocional con su maestro fallecido Jigoro queda representado mediante una imagen llena de red spider lilies. La ilustracion oficial de primer aniversario de Ufotable para Infinity Castle, titulada Zenitsu and Grandpa, coloca a ambos personajes en un campo de higanbana.",
-            en: "Following Zenitsu's final confrontation with Kaigaku, his emotional connection with his deceased master Jigoro is represented through imagery filled with red spider lilies. Ufotable's official first-anniversary artwork for Infinity Castle, titled Zenitsu and Grandpa, places the two characters within a field of higanbana."
+            es: "Tras el enfrentamiento final de Zenitsu con Kaigaku, su vinculo emocional con su maestro fallecido Jigoro queda representado mediante una imagen llena de Higanbana. La ilustracion oficial de primer aniversario de Ufotable para Infinity Castle, titulada Zenitsu and Grandpa, coloca a ambos personajes en un campo de Higanbana.",
+            en: "Following Zenitsu's final confrontation with Kaigaku, his emotional connection with his deceased master Jigoro is represented through imagery filled with Higanbana. Ufotable's official first-anniversary artwork for Infinity Castle, titled Zenitsu and Grandpa, places the two characters within a field of Higanbana."
           },
           context: {
             es: "Las flores refuerzan los temas de muerte, despedida, recuerdo y el limite entre los vivos y los muertos. No se ha localizado una declaracion oficial del creador que explique explicitamente el simbolismo floral, por lo que esta conexion se presenta como uso simbolico probable fuerte, no como inspiracion oficialmente confirmada.",
