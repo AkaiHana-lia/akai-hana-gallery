@@ -1670,6 +1670,10 @@
     {
       "id": "illustrations",
       "label": "Ilustraciones"
+    },
+    {
+      "id": "anime",
+      "label": "Anime"
     }
   ],
   "patterns": {
@@ -1834,6 +1838,7 @@
       {
         "id": "TD-005",
         "title": "Japanese Style",
+        "isCover": true,
         "categoryId": "tattoo-designs",
         "category": "Tradicional",
         "style": "Tatuaje japonés tradicional de alta calidad",
@@ -1867,6 +1872,7 @@
       {
         "id": "TD-006",
         "title": "Brand Design",
+        "isCover": true,
         "categoryId": "brand-design",
         "category": "Logos · Packaging · Identidad",
         "style": "Branding, logotipos, packaging e identidad visual premium",
@@ -1895,6 +1901,30 @@
           "width": 1122,
           "height": 1402,
           "alt": "Composición premium de branding, logotipos, packaging e identidad visual para empresas."
+        }
+      },
+      {
+        "id": "WP-000",
+        "title": "Akai Warrior",
+        "isCover": true,
+        "categoryId": "wallpapers",
+        "category": "Wallpapers",
+        "style": "Retrato cinematográfico, identidad Akai Hana y atmósfera japonesa",
+        "shortDescription": "La presencia visual de Akai Hana convertida en una portada de gran impacto.",
+        "description": "Wallpaper vertical con una guerrera de cabello carmesí, tatuajes florales y katana dentro de un estudio japonés iluminado con tonos cálidos.",
+        "includes": "Composición vertical en alta resolución y dirección visual cinematográfica.",
+        "uses": "Fondos para móvil, portadas digitales y piezas editoriales.",
+        "examples": "Wallpaper, portada, pantalla de bloqueo.",
+        "tags": [
+          "guerrera",
+          "japonés",
+          "Akai Hana"
+        ],
+        "image": {
+          "src": "./assets/images/gallery/wallpaper-cover-akai-warrior.png",
+          "width": 1122,
+          "height": 1402,
+          "alt": "Guerrera Akai Hana de cabello rojo con tatuajes y katana en un estudio japonés."
         }
       },
       {
@@ -1967,6 +1997,30 @@
         }
       },
       {
+        "id": "AV-000",
+        "title": "Mirror Icon",
+        "isCover": true,
+        "categoryId": "avatar-3d",
+        "category": "Avatar 3D",
+        "style": "Modelado espejo, reflejos metálicos y estética urbana de lujo",
+        "shortDescription": "Una identidad 3D esculpida en luz, metal y presencia.",
+        "description": "Avatar 3D de acabado espejo con gorra de mosaico y cabello metálico, diseñado como una pieza digital de alto impacto.",
+        "includes": "Concepto de personaje, materiales reflectantes y render de alta resolución.",
+        "uses": "Imagen de marca, avatar digital, portada y personaje virtual.",
+        "examples": "Avatar 3D, icono premium, campaña digital.",
+        "tags": [
+          "3D",
+          "metal",
+          "avatar"
+        ],
+        "image": {
+          "src": "./assets/images/gallery/avatar-3d-mirror-la.png",
+          "width": 1024,
+          "height": 1536,
+          "alt": "Avatar 3D femenino cubierto de mosaicos metálicos reflectantes sobre fondo negro."
+        }
+      },
+      {
         "id": "AV-001",
         "title": "Crimson LA",
         "categoryId": "avatar-3d",
@@ -1990,8 +2044,32 @@
         }
       },
       {
+        "id": "AV-002",
+        "title": "Pink Velocity",
+        "categoryId": "avatar-3d",
+        "category": "Avatar 3D",
+        "style": "Retrato 3D pop con visor rosa y acabado brillante",
+        "shortDescription": "Color, actitud y energía digital en una identidad contemporánea.",
+        "description": "Avatar 3D con gorra rosa y blanca, visor translúcido y cabello carmesí con reflejos rubios sobre un cielo azul.",
+        "includes": "Diseño de personaje, dirección de color y render de alta resolución.",
+        "uses": "Perfil digital, redes sociales, avatar de marca y contenido visual.",
+        "examples": "Avatar, icono de perfil, campaña pop.",
+        "tags": [
+          "3D",
+          "rosa",
+          "urbano"
+        ],
+        "image": {
+          "src": "./assets/images/gallery/avatar-3d-pink-la.png",
+          "width": 1122,
+          "height": 1402,
+          "alt": "Avatar 3D femenino con gorra rosa, visor translúcido y cabello rojo y rubio."
+        }
+      },
+      {
         "id": "IL-001",
         "title": "Espíritu Libre",
+        "isCover": true,
         "categoryId": "illustrations",
         "category": "Ilustraciones",
         "style": "Caballo en tinta negra y paisaje costero",
@@ -2014,9 +2092,56 @@
       },
       {
         "id": "IL-002",
+        "title": "Hilo del Destino",
+        "isCover": true,
+        "categoryId": "anime",
+        "category": "Anime",
+        "style": "Anime cinematográfico, hilo rojo y cielo estelar",
+        "shortDescription": "Un encuentro escrito entre estrellas.",
+        "description": "Ilustración anime de una conexión guiada por el hilo rojo del destino bajo una lluvia de estrellas.",
+        "includes": "Composición de personajes, iluminación cinematográfica y acabado de alta resolución.",
+        "uses": "Póster, portada, fondo vertical y encargo personalizado.",
+        "examples": "Ilustración anime, póster, portada digital.",
+        "tags": [
+          "anime",
+          "destino",
+          "hilo rojo"
+        ],
+        "image": {
+          "src": "./assets/images/gallery/anime-cover-red-thread.png",
+          "width": 941,
+          "height": 1672,
+          "alt": "Chica anime de cabello rojo unida por un hilo del destino bajo un cielo estrellado."
+        }
+      },
+      {
+        "id": "AN-002",
+        "title": "Promesa de Cristal",
+        "categoryId": "anime",
+        "category": "Anime",
+        "style": "Fantasía anime, cristal y luz prismática",
+        "shortDescription": "Una promesa florece entre luz y memoria.",
+        "description": "Escena anime luminosa con dos personajes rodeados de vitrales, pétalos y reflejos de cristal.",
+        "includes": "Composición de personajes, atmósfera fantástica y acabado de alta resolución.",
+        "uses": "Póster, portada, arte de personaje y encargo personalizado.",
+        "examples": "Ilustración anime, póster, portada digital.",
+        "tags": [
+          "anime",
+          "fantasía",
+          "cristal"
+        ],
+        "image": {
+          "src": "./assets/images/gallery/anime-crystal-promise.png",
+          "width": 1023,
+          "height": 1537,
+          "alt": "Pareja de fantasía anime rodeada de vitrales, flores y reflejos de cristal."
+        }
+      },
+      {
+        "id": "AN-003",
         "title": "Pirate Legacy",
-        "categoryId": "illustrations",
-        "category": "Ilustraciones",
+        "categoryId": "anime",
+        "category": "Anime",
         "style": "Anime, acuarela digital y contraste cálido frío",
         "shortDescription": "Dos voluntades frente al mismo horizonte.",
         "description": "Composición ilustrada de inspiración anime con dos guerreros, emblema pirata y un cielo dividido entre fuego y océano.",
@@ -2038,8 +2163,8 @@
       {
         "id": "IL-003",
         "title": "Vínculo de Sangre",
-        "categoryId": "illustrations",
-        "category": "Ilustraciones",
+        "categoryId": "anime",
+        "category": "Anime",
         "style": "Anime monocromo, tinta dinámica y dramatismo",
         "shortDescription": "Protección, coraje y un vínculo que atraviesa la oscuridad.",
         "description": "Ilustración en tinta de dos hermanos unidos en una composición de acción, agua y paisaje japonés.",
@@ -2061,8 +2186,8 @@
       {
         "id": "IL-004",
         "title": "Aliento de Fuego",
-        "categoryId": "illustrations",
-        "category": "Ilustraciones",
+        "categoryId": "anime",
+        "category": "Anime",
         "style": "Guerrero en tinta sepia con dragón de fuego",
         "shortDescription": "La determinación toma forma de llama.",
         "description": "Ilustración de acción con un espadachín rodeado por un dragón de fuego en una composición intensa de tinta y luz.",

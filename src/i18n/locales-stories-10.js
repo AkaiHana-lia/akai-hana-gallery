@@ -1671,6 +1671,10 @@ window.AKAI_HANA_LOCALES = {
       {
         "id": "illustrations",
         "label": "Ilustraciones"
+      },
+      {
+        "id": "anime",
+        "label": "Anime"
       }
     ],
     "patterns": {
@@ -1835,6 +1839,7 @@ window.AKAI_HANA_LOCALES = {
         {
           "id": "TD-005",
           "title": "Japanese Style",
+          "isCover": true,
           "categoryId": "tattoo-designs",
           "category": "Tradicional",
           "style": "Tatuaje japonés tradicional de alta calidad",
@@ -1868,6 +1873,7 @@ window.AKAI_HANA_LOCALES = {
         {
           "id": "TD-006",
           "title": "Brand Design",
+          "isCover": true,
           "categoryId": "brand-design",
           "category": "Logos · Packaging · Identidad",
           "style": "Branding, logotipos, packaging e identidad visual premium",
@@ -1896,6 +1902,30 @@ window.AKAI_HANA_LOCALES = {
             "width": 1122,
             "height": 1402,
             "alt": "Composición premium de branding, logotipos, packaging e identidad visual para empresas."
+          }
+        },
+        {
+          "id": "WP-000",
+          "title": "Akai Warrior",
+          "isCover": true,
+          "categoryId": "wallpapers",
+          "category": "Wallpapers",
+          "style": "Retrato cinematográfico, identidad Akai Hana y atmósfera japonesa",
+          "shortDescription": "La presencia visual de Akai Hana convertida en una portada de gran impacto.",
+          "description": "Wallpaper vertical con una guerrera de cabello carmesí, tatuajes florales y katana dentro de un estudio japonés iluminado con tonos cálidos.",
+          "includes": "Composición vertical en alta resolución y dirección visual cinematográfica.",
+          "uses": "Fondos para móvil, portadas digitales y piezas editoriales.",
+          "examples": "Wallpaper, portada, pantalla de bloqueo.",
+          "tags": [
+            "guerrera",
+            "japonés",
+            "Akai Hana"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/wallpaper-cover-akai-warrior.png",
+            "width": 1122,
+            "height": 1402,
+            "alt": "Guerrera Akai Hana de cabello rojo con tatuajes y katana en un estudio japonés."
           }
         },
         {
@@ -1968,6 +1998,30 @@ window.AKAI_HANA_LOCALES = {
           }
         },
         {
+          "id": "AV-000",
+          "title": "Mirror Icon",
+          "isCover": true,
+          "categoryId": "avatar-3d",
+          "category": "Avatar 3D",
+          "style": "Modelado espejo, reflejos metálicos y estética urbana de lujo",
+          "shortDescription": "Una identidad 3D esculpida en luz, metal y presencia.",
+          "description": "Avatar 3D de acabado espejo con gorra de mosaico y cabello metálico, diseñado como una pieza digital de alto impacto.",
+          "includes": "Concepto de personaje, materiales reflectantes y render de alta resolución.",
+          "uses": "Imagen de marca, avatar digital, portada y personaje virtual.",
+          "examples": "Avatar 3D, icono premium, campaña digital.",
+          "tags": [
+            "3D",
+            "metal",
+            "avatar"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/avatar-3d-mirror-la.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Avatar 3D femenino cubierto de mosaicos metálicos reflectantes sobre fondo negro."
+          }
+        },
+        {
           "id": "AV-001",
           "title": "Crimson LA",
           "categoryId": "avatar-3d",
@@ -1991,8 +2045,32 @@ window.AKAI_HANA_LOCALES = {
           }
         },
         {
+          "id": "AV-002",
+          "title": "Pink Velocity",
+          "categoryId": "avatar-3d",
+          "category": "Avatar 3D",
+          "style": "Retrato 3D pop con visor rosa y acabado brillante",
+          "shortDescription": "Color, actitud y energía digital en una identidad contemporánea.",
+          "description": "Avatar 3D con gorra rosa y blanca, visor translúcido y cabello carmesí con reflejos rubios sobre un cielo azul.",
+          "includes": "Diseño de personaje, dirección de color y render de alta resolución.",
+          "uses": "Perfil digital, redes sociales, avatar de marca y contenido visual.",
+          "examples": "Avatar, icono de perfil, campaña pop.",
+          "tags": [
+            "3D",
+            "rosa",
+            "urbano"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/avatar-3d-pink-la.png",
+            "width": 1122,
+            "height": 1402,
+            "alt": "Avatar 3D femenino con gorra rosa, visor translúcido y cabello rojo y rubio."
+          }
+        },
+        {
           "id": "IL-001",
           "title": "Espíritu Libre",
+          "isCover": true,
           "categoryId": "illustrations",
           "category": "Ilustraciones",
           "style": "Caballo en tinta negra y paisaje costero",
@@ -2015,9 +2093,56 @@ window.AKAI_HANA_LOCALES = {
         },
         {
           "id": "IL-002",
+          "title": "Hilo del Destino",
+          "isCover": true,
+          "categoryId": "anime",
+          "category": "Anime",
+          "style": "Anime cinematográfico, hilo rojo y cielo estelar",
+          "shortDescription": "Un encuentro escrito entre estrellas.",
+          "description": "Ilustración anime de una conexión guiada por el hilo rojo del destino bajo una lluvia de estrellas.",
+          "includes": "Composición de personajes, iluminación cinematográfica y acabado de alta resolución.",
+          "uses": "Póster, portada, fondo vertical y encargo personalizado.",
+          "examples": "Ilustración anime, póster, portada digital.",
+          "tags": [
+            "anime",
+            "destino",
+            "hilo rojo"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/anime-cover-red-thread.png",
+            "width": 941,
+            "height": 1672,
+            "alt": "Chica anime de cabello rojo unida por un hilo del destino bajo un cielo estrellado."
+          }
+        },
+        {
+          "id": "AN-002",
+          "title": "Promesa de Cristal",
+          "categoryId": "anime",
+          "category": "Anime",
+          "style": "Fantasía anime, cristal y luz prismática",
+          "shortDescription": "Una promesa florece entre luz y memoria.",
+          "description": "Escena anime luminosa con dos personajes rodeados de vitrales, pétalos y reflejos de cristal.",
+          "includes": "Composición de personajes, atmósfera fantástica y acabado de alta resolución.",
+          "uses": "Póster, portada, arte de personaje y encargo personalizado.",
+          "examples": "Ilustración anime, póster, portada digital.",
+          "tags": [
+            "anime",
+            "fantasía",
+            "cristal"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/anime-crystal-promise.png",
+            "width": 1023,
+            "height": 1537,
+            "alt": "Pareja de fantasía anime rodeada de vitrales, flores y reflejos de cristal."
+          }
+        },
+        {
+          "id": "AN-003",
           "title": "Pirate Legacy",
-          "categoryId": "illustrations",
-          "category": "Ilustraciones",
+          "categoryId": "anime",
+          "category": "Anime",
           "style": "Anime, acuarela digital y contraste cálido frío",
           "shortDescription": "Dos voluntades frente al mismo horizonte.",
           "description": "Composición ilustrada de inspiración anime con dos guerreros, emblema pirata y un cielo dividido entre fuego y océano.",
@@ -2039,8 +2164,8 @@ window.AKAI_HANA_LOCALES = {
         {
           "id": "IL-003",
           "title": "Vínculo de Sangre",
-          "categoryId": "illustrations",
-          "category": "Ilustraciones",
+          "categoryId": "anime",
+          "category": "Anime",
           "style": "Anime monocromo, tinta dinámica y dramatismo",
           "shortDescription": "Protección, coraje y un vínculo que atraviesa la oscuridad.",
           "description": "Ilustración en tinta de dos hermanos unidos en una composición de acción, agua y paisaje japonés.",
@@ -2062,8 +2187,8 @@ window.AKAI_HANA_LOCALES = {
         {
           "id": "IL-004",
           "title": "Aliento de Fuego",
-          "categoryId": "illustrations",
-          "category": "Ilustraciones",
+          "categoryId": "anime",
+          "category": "Anime",
           "style": "Guerrero en tinta sepia con dragón de fuego",
           "shortDescription": "La determinación toma forma de llama.",
           "description": "Ilustración de acción con un espadachín rodeado por un dragón de fuego en una composición intensa de tinta y luz.",
@@ -4086,6 +4211,10 @@ window.AKAI_HANA_LOCALES = {
       {
         "id": "illustrations",
         "label": "Illustrations"
+      },
+      {
+        "id": "anime",
+        "label": "Anime"
       }
     ],
     "patterns": {
@@ -4250,6 +4379,7 @@ window.AKAI_HANA_LOCALES = {
         {
           "id": "TD-005",
           "title": "Japanese Style",
+          "isCover": true,
           "categoryId": "tattoo-designs",
           "category": "Traditional",
           "style": "High-quality traditional Japanese tattoo design",
@@ -4283,6 +4413,7 @@ window.AKAI_HANA_LOCALES = {
         {
           "id": "TD-006",
           "title": "Brand Design",
+          "isCover": true,
           "categoryId": "brand-design",
           "category": "Logos · Packaging · Identity",
           "style": "Creative direction, logos, packaging and premium visual identity",
@@ -4311,6 +4442,30 @@ window.AKAI_HANA_LOCALES = {
             "width": 1122,
             "height": 1402,
             "alt": "Premium creative studio composition with branding, logos, packaging concepts and visual identity for businesses."
+          }
+        },
+        {
+          "id": "WP-000",
+          "title": "Akai Warrior",
+          "isCover": true,
+          "categoryId": "wallpapers",
+          "category": "Wallpapers",
+          "style": "Cinematic portrait, Akai Hana identity and Japanese atmosphere",
+          "shortDescription": "Akai Hana's visual presence transformed into a striking cover.",
+          "description": "Vertical wallpaper featuring a crimson-haired warrior with floral tattoos and a katana inside a warmly lit Japanese studio.",
+          "includes": "High-resolution vertical composition and cinematic art direction.",
+          "uses": "Mobile wallpapers, digital covers and editorial artwork.",
+          "examples": "Wallpaper, cover, lock screen.",
+          "tags": [
+            "warrior",
+            "Japanese",
+            "Akai Hana"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/wallpaper-cover-akai-warrior.png",
+            "width": 1122,
+            "height": 1402,
+            "alt": "Red-haired Akai Hana warrior with tattoos and katana in a Japanese studio."
           }
         },
         {
@@ -4383,6 +4538,30 @@ window.AKAI_HANA_LOCALES = {
           }
         },
         {
+          "id": "AV-000",
+          "title": "Mirror Icon",
+          "isCover": true,
+          "categoryId": "avatar-3d",
+          "category": "3D Avatar",
+          "style": "Mirror modelling, metallic reflections and luxury urban styling",
+          "shortDescription": "A 3D identity sculpted through light, metal and presence.",
+          "description": "Mirror-finished 3D avatar with a mosaic cap and metallic hair, designed as a high-impact digital piece.",
+          "includes": "Character concept, reflective materials and high-resolution render.",
+          "uses": "Brand imagery, digital avatar, cover and virtual character.",
+          "examples": "3D avatar, premium icon, digital campaign.",
+          "tags": [
+            "3D",
+            "metal",
+            "avatar"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/avatar-3d-mirror-la.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Female 3D avatar covered in reflective metallic mosaic tiles against black."
+          }
+        },
+        {
           "id": "AV-001",
           "title": "Crimson LA",
           "categoryId": "avatar-3d",
@@ -4406,8 +4585,32 @@ window.AKAI_HANA_LOCALES = {
           }
         },
         {
+          "id": "AV-002",
+          "title": "Pink Velocity",
+          "categoryId": "avatar-3d",
+          "category": "3D Avatar",
+          "style": "Pop 3D portrait with a pink visor and glossy finish",
+          "shortDescription": "Colour, attitude and digital energy shaped into a modern identity.",
+          "description": "3D avatar with a pink and white cap, translucent visor and crimson hair with blonde highlights against a blue sky.",
+          "includes": "Character design, colour direction and high-resolution render.",
+          "uses": "Digital profile, social media, brand avatar and visual content.",
+          "examples": "Avatar, profile icon, pop campaign.",
+          "tags": [
+            "3D",
+            "pink",
+            "urban"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/avatar-3d-pink-la.png",
+            "width": 1122,
+            "height": 1402,
+            "alt": "Female 3D avatar with a pink cap, translucent visor and red and blonde hair."
+          }
+        },
+        {
           "id": "IL-001",
           "title": "Free Spirit",
+          "isCover": true,
           "categoryId": "illustrations",
           "category": "Illustrations",
           "style": "Black ink horse and coastal landscape",
@@ -4430,9 +4633,56 @@ window.AKAI_HANA_LOCALES = {
         },
         {
           "id": "IL-002",
+          "title": "Thread of Destiny",
+          "isCover": true,
+          "categoryId": "anime",
+          "category": "Anime",
+          "style": "Cinematic anime, red thread and starlit sky",
+          "shortDescription": "A meeting written among the stars.",
+          "description": "An anime illustration of a connection guided by the red thread of destiny beneath a shower of stars.",
+          "includes": "Character composition, cinematic lighting and high-resolution finish.",
+          "uses": "Poster, cover, vertical wallpaper and custom commission.",
+          "examples": "Anime illustration, poster, digital cover.",
+          "tags": [
+            "anime",
+            "destiny",
+            "red thread"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/anime-cover-red-thread.png",
+            "width": 941,
+            "height": 1672,
+            "alt": "Red-haired anime girl connected by a thread of destiny beneath a starlit sky."
+          }
+        },
+        {
+          "id": "AN-002",
+          "title": "Crystal Promise",
+          "categoryId": "anime",
+          "category": "Anime",
+          "style": "Anime fantasy, crystal and prismatic light",
+          "shortDescription": "A promise blooms among light and memory.",
+          "description": "A luminous anime scene with two characters surrounded by stained glass, petals and crystal reflections.",
+          "includes": "Character composition, fantasy atmosphere and high-resolution finish.",
+          "uses": "Poster, cover, character art and custom commission.",
+          "examples": "Anime illustration, poster, digital cover.",
+          "tags": [
+            "anime",
+            "fantasy",
+            "crystal"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/anime-crystal-promise.png",
+            "width": 1023,
+            "height": 1537,
+            "alt": "Anime fantasy couple surrounded by stained glass, flowers and crystal reflections."
+          }
+        },
+        {
+          "id": "AN-003",
           "title": "Pirate Legacy",
-          "categoryId": "illustrations",
-          "category": "Illustrations",
+          "categoryId": "anime",
+          "category": "Anime",
           "style": "Anime, digital watercolour and warm-cool contrast",
           "shortDescription": "Two wills facing the same horizon.",
           "description": "An anime-inspired composition with two warriors, a pirate emblem and a sky divided between fire and ocean.",
@@ -4454,8 +4704,8 @@ window.AKAI_HANA_LOCALES = {
         {
           "id": "IL-003",
           "title": "Blood Bond",
-          "categoryId": "illustrations",
-          "category": "Illustrations",
+          "categoryId": "anime",
+          "category": "Anime",
           "style": "Monochrome anime, dynamic ink and drama",
           "shortDescription": "Protection, courage and a bond that crosses the darkness.",
           "description": "An ink illustration of two siblings united in a composition of action, water and Japanese landscape.",
@@ -4477,8 +4727,8 @@ window.AKAI_HANA_LOCALES = {
         {
           "id": "IL-004",
           "title": "Breath of Fire",
-          "categoryId": "illustrations",
-          "category": "Illustrations",
+          "categoryId": "anime",
+          "category": "Anime",
           "style": "Sepia ink warrior with a fire dragon",
           "shortDescription": "Determination takes the shape of flame.",
           "description": "An action illustration featuring a swordsman surrounded by a fire dragon in an intense composition of ink and light.",

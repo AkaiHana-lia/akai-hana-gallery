@@ -3998,9 +3998,12 @@ body[data-page="home"] .intro__grid {
     url("../../assets/images/gallery-geisha-tattooed-hero.png") center / cover no-repeat;
 }
 
-.gallery-page-hero__inner,
-.gallery-content {
+.gallery-page-hero__inner {
   width: min(1320px, 100%);
+}
+
+.gallery-content {
+  width: min(1500px, 100%);
 }
 
 .gallery-section .gallery-page-hero__copy {
@@ -7704,18 +7707,53 @@ body[data-page="services-contact"] .site-actions {
 
 /* Gallery format layouts: preserve panoramic and portrait artwork proportions. */
 @media (min-width: 1181px) {
+  .gallery-section .gallery-grid[data-active-category="all"] {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: clamp(14px, 1.25vw, 20px);
+  }
+
   .gallery-section .gallery-grid[data-active-category="wallpapers"] {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: clamp(22px, 2.4vw, 34px);
   }
 
   .gallery-section .gallery-grid[data-active-category="avatar-3d"] {
+    grid-template-columns: repeat(3, minmax(260px, 360px));
+    justify-content: center;
+  }
+
+  .gallery-section .gallery-grid[data-active-category="anime"],
+  .gallery-section .gallery-grid[data-active-category="illustrations"] {
+    grid-template-columns: repeat(3, minmax(260px, 1fr));
+  }
+
+  .gallery-section .gallery-grid[data-active-category="brand-design"] {
     grid-template-columns: minmax(300px, 440px);
     justify-content: center;
   }
 }
 
-.gallery-section .art-card[data-category="wallpapers"] .art-card__figure {
+@media (min-width: 1181px) and (max-width: 1400px) {
+  .gallery-section .filter-bar {
+    gap: 10px;
+  }
+
+  .gallery-section .filter-button {
+    min-width: 168px;
+    padding-inline: 18px;
+  }
+}
+
+.gallery-section .gallery-grid[data-active-category="all"] .art-card__figure,
+.gallery-section .art-card[data-cover="true"] .art-card__figure {
+  aspect-ratio: 3 / 4;
+}
+
+.gallery-section .gallery-content {
+  width: min(1500px, 100%);
+}
+
+.gallery-section .art-card[data-category="wallpapers"]:not([data-cover="true"]) .art-card__figure {
   aspect-ratio: 16 / 9;
 }
 
@@ -7724,17 +7762,19 @@ body[data-page="services-contact"] .site-actions {
 }
 
 .gallery-section .art-card[data-category="avatar-3d"] .project-card__image,
+.gallery-section .art-card[data-category="anime"] .project-card__image,
 .gallery-section .art-card[data-category="illustrations"] .project-card__image {
   object-position: center top;
 }
 
 @media (max-width: 760px) {
   .gallery-section .gallery-grid[data-active-category="wallpapers"],
-  .gallery-section .gallery-grid[data-active-category="avatar-3d"] {
+  .gallery-section .gallery-grid[data-active-category="avatar-3d"],
+  .gallery-section .gallery-grid[data-active-category="anime"] {
     grid-template-columns: 1fr;
   }
 
-  .gallery-section .art-card[data-category="wallpapers"] .art-card__figure {
+  .gallery-section .art-card[data-category="wallpapers"]:not([data-cover="true"]) .art-card__figure {
     aspect-ratio: 16 / 10;
   }
 }

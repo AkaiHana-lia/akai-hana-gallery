@@ -58,7 +58,7 @@ const mountPoints = {
 
 let locale = getInitialLocale();
 let dictionary = {};
-let activeFilter = "tattoo-designs";
+let activeFilter = "all";
 let catalogById = new Map();
 let revealObserver = null;
 let lightboxProjectId = null;
@@ -398,9 +398,16 @@ function renderGallery() {
   catalogById = new Map();
   clear(mountPoints.galleryGrid);
   const featuredIds = Array.isArray(dictionary.gallery.featuredIds) ? dictionary.gallery.featuredIds : [];
+  const categoryOrder = new Map(dictionary.categories.map((category, index) => [category.id, index]));
   const galleryItems = featuredIds.length
     ? featuredIds.map((id) => dictionary.gallery.items.find((item) => item.id === id)).filter(Boolean)
-    : dictionary.gallery.items;
+    : [...dictionary.gallery.items].sort((a, b) => {
+        if (Boolean(a.isCover) !== Boolean(b.isCover)) return a.isCover ? -1 : 1;
+        if (a.isCover && b.isCover) {
+          return (categoryOrder.get(a.categoryId) ?? 0) - (categoryOrder.get(b.categoryId) ?? 0);
+        }
+        return 0;
+      });
 
   dictionary.gallery.items.forEach((item) => {
     catalogById.set(item.id, item);
@@ -413,6 +420,7 @@ function renderGallery() {
       attributes: {
         "data-art-card": "",
         "data-category": item.categoryId,
+        "data-cover": item.isCover ? "true" : "false",
         "data-project-id": item.id
       }
     });
@@ -1088,7 +1096,9 @@ function setFilter(categoryId) {
   }
 
   cards.forEach((card) => {
-    const isVisible = categoryId === "all" || card.dataset.category === categoryId;
+    const isVisible = categoryId === "all"
+      ? card.dataset.cover === "true"
+      : card.dataset.category === categoryId;
     card.hidden = !isVisible;
     if (isVisible) visibleCount += 1;
   });
