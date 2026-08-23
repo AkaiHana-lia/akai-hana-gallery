@@ -65,12 +65,31 @@ let lightboxProjectId = null;
 let lastFocusedElement = null;
 let activeStoryId = null;
 let activeStoryFilter = "all";
-let storySearchTerm = "";
 let visibleStoryCount = 18;
 let activePopCultureThemeId = window.AKAI_HANA_POP_CULTURE?.defaultTheme || "kitsune";
 let activePopCultureCategoryId = null;
 
 const storyLibraryFilters = ["all", "yokai", "creatures", "legends", "symbols"];
+const storyCardImages = {
+  higanbana: { src: "./assets/images/stories/cards/higanbana.png", width: 941, height: 1672 },
+  kitsune: { src: "./assets/images/stories/cards/kitsune.png", width: 941, height: 1672 },
+  koi: { src: "./assets/images/stories/cards/koi.png", width: 941, height: 1672 },
+  ryu: { src: "./assets/images/stories/cards/ryu.png", width: 941, height: 1672 },
+  hannya: { src: "./assets/images/stories/cards/hannya.png", width: 941, height: 1672 },
+  "yuki-onna": { src: "./assets/images/stories/cards/yuki-onna.png", width: 941, height: 1672 },
+  baku: { src: "./assets/images/stories/cards/baku.png", width: 941, height: 1672 },
+  "tsuru-no-ongaeshi": { src: "./assets/images/stories/cards/tsuru-no-ongaeshi.png", width: 941, height: 1672 },
+  "akai-ito": { src: "./assets/images/stories/cards/akai-ito.png", width: 941, height: 1672 },
+  "shuten-doji": { src: "./assets/images/stories/cards/shuten-doji.png", width: 1024, height: 1536 },
+  "kuchisake-onna": { src: "./assets/images/stories/cards/kuchisake-onna.png", width: 1023, height: 1537 },
+  "nure-onna": { src: "./assets/images/stories/cards/nure-onna.png", width: 1023, height: 1537 },
+  tengu: { src: "./assets/images/stories/cards/tengu.png", width: 1023, height: 1537 },
+  "kaguya-hime": { src: "./assets/images/stories/cards/kaguya-hime.png", width: 1023, height: 1537 },
+  jorogumo: { src: "./assets/images/stories/cards/jorogumo.png", width: 941, height: 1672 },
+  yatagarasu: { src: "./assets/images/stories/cards/yatagarasu.png", width: 941, height: 1672 },
+  nekomata: { src: "./assets/images/stories/cards/nekomata.png", width: 941, height: 1672 },
+  kappa: { src: "./assets/images/stories/cards/kappa.png", width: 1023, height: 1537 }
+};
 const storyLibraryMeta = {
   higanbana: {
     categories: ["symbols"],
@@ -493,30 +512,9 @@ function getOrderedStories(stories) {
 }
 
 function getFilteredStories(stories) {
-  const normalizedSearch = storySearchTerm.trim().toLowerCase();
-
   return stories.filter((story) => {
     const meta = getStoryMeta(story);
-    const matchesFilter = activeStoryFilter === "all" || meta.categories.includes(activeStoryFilter);
-    if (!matchesFilter) return false;
-
-    if (!normalizedSearch) return true;
-
-    const searchableText = [
-      story.title,
-      story.cardTitle,
-      story.eyebrow,
-      story.japaneseName,
-      story.romanized,
-      story.lead,
-      ...meta.categories.map((category) => dictionary.stories?.filters?.[category] || category),
-      ...meta.keywords
-    ]
-      .filter(Boolean)
-      .join(" ")
-      .toLowerCase();
-
-    return searchableText.includes(normalizedSearch);
+    return activeStoryFilter === "all" || meta.categories.includes(activeStoryFilter);
   });
 }
 
@@ -543,7 +541,8 @@ function renderStoryCard(story, index, options = {}) {
     content.append(createElement("span", { className: "story-card__badge", text: dictionary.stories?.newLabel || "New" }));
   }
 
-  card.append(renderStoryImage(story.cardImage, "story-card__image", index < 2), content);
+  const cardImage = { ...story.cardImage, ...storyCardImages[story.id] };
+  card.append(renderStoryImage(cardImage, "story-card__image", index < 2), content);
   card.addEventListener("click", () => openStory(story.id));
   return card;
 }
@@ -566,53 +565,7 @@ function renderStories() {
   clear(mountPoints.storiesIndex);
 
   const library = createElement("div", { className: "stories-library" });
-  const toolbar = createElement("div", { className: "stories-toolbar" });
-  const searchInput = createElement("input", {
-    className: "stories-search__input",
-    attributes: {
-      type: "search",
-      placeholder: dictionary.stories?.searchPlaceholder || "Search a story...",
-      value: storySearchTerm,
-      "data-story-search": "",
-      "aria-label": dictionary.stories?.searchPlaceholder || "Search a story..."
-    }
-  });
-  const filters = createElement("div", { className: "stories-filters", attributes: { role: "list" } });
   const filteredStories = getFilteredStories(stories);
-  const counter = createElement("p", {
-    className: "stories-count",
-    text: interpolate(dictionary.stories?.counter || "{count} stories available", { count: filteredStories.length })
-  });
-
-  searchInput.addEventListener("input", (event) => {
-    storySearchTerm = event.target.value;
-    visibleStoryCount = 18;
-    renderStories();
-    mountPoints.storiesIndex.querySelector(".stories-search__input")?.focus();
-  });
-
-  storyLibraryFilters.forEach((filter) => {
-    const filterButton = createElement("button", {
-      className: `stories-filter${activeStoryFilter === filter ? " is-active" : ""}`,
-      text: dictionary.stories?.filters?.[filter] || filter,
-      attributes: {
-        type: "button",
-        "data-story-filter": filter,
-        "aria-pressed": activeStoryFilter === filter ? "true" : "false"
-      }
-    });
-    filterButton.addEventListener("click", () => {
-      activeStoryFilter = filter;
-      visibleStoryCount = 18;
-      renderStories();
-    });
-    filters.append(filterButton);
-  });
-
-  const searchLabel = createElement("label", { className: "stories-search" });
-  searchLabel.append(searchInput);
-  toolbar.append(searchLabel, filters, counter);
-  library.append(toolbar);
 
   const collection = createElement("section", { className: "stories-library__section stories-library__section--collection" });
   const collectionGrid = createElement("div", { className: "stories-library__grid" });
@@ -660,6 +613,13 @@ function renderStories() {
 function renderStoryDetail(story) {
   clear(mountPoints.storyDetail);
 
+  const galleryImages = Array.isArray(story.gallery) ? [...story.gallery] : [];
+  const cardTattoo = story.cardImage?.src?.includes("tattoo") ? story.cardImage : null;
+
+  if (cardTattoo && !galleryImages.some((image) => image.src === cardTattoo.src)) {
+    galleryImages.push(cardTattoo);
+  }
+
   const detail = createElement("div", { className: `story-detail story-detail--${story.id}` });
   const hero = createElement("section", { className: "story-detail__hero" });
   const heroFigure = createElement("figure", { className: "story-detail__hero-figure" });
@@ -705,12 +665,12 @@ function renderStoryDetail(story) {
     bodyContent.append(sectionElement);
   });
 
-  if (Array.isArray(story.gallery) && story.gallery.length) {
+  if (galleryImages.length) {
     const gallery = createElement("section", { className: "story-gallery" });
     const galleryGrid = createElement("div", { className: "story-gallery__grid" });
 
     gallery.append(createElement("h2", { text: story.galleryTitle || dictionary.stories.galleryTitle }));
-    story.gallery.forEach((image) => {
+    galleryImages.forEach((image) => {
       const figure = createElement("figure", { className: "story-gallery__item" });
       figure.append(renderStoryImage(image, "story-gallery__image"));
       galleryGrid.append(figure);
