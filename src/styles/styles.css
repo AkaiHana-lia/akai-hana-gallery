@@ -7806,6 +7806,11 @@ body[data-page="services-contact"] .site-actions {
   margin-inline: auto;
 }
 
+/* Keep category projects hidden until their cover is opened. */
+.gallery-section .art-card[hidden] {
+  display: none !important;
+}
+
 .gallery-section .art-card,
 .gallery-section .art-card:nth-child(1),
 .gallery-section .art-card:nth-child(4),
@@ -7974,8 +7979,8 @@ body[data-page="services-contact"] .site-actions {
   }
   .gallery-section .art-card[data-category="wallpapers"]:not([data-cover="true"]) .art-card__figure { aspect-ratio: 16 / 9; }
   .gallery-section .gallery-grid[data-active-category="avatar-3d"] {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    max-width: 1000px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    max-width: 1320px;
   }
 }
 
