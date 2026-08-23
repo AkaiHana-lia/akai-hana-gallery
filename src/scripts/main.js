@@ -58,7 +58,7 @@ const mountPoints = {
 
 let locale = getInitialLocale();
 let dictionary = {};
-let activeFilter = "all";
+let activeFilter = "tattoo-designs";
 let catalogById = new Map();
 let revealObserver = null;
 let lightboxProjectId = null;
@@ -1082,6 +1082,10 @@ function setFilter(categoryId) {
   let visibleCount = 0;
   const cards = Array.from(document.querySelectorAll("[data-art-card]"));
   const buttons = Array.from(document.querySelectorAll("[data-filter]"));
+
+  if (mountPoints.galleryGrid) {
+    mountPoints.galleryGrid.dataset.activeCategory = categoryId;
+  }
 
   cards.forEach((card) => {
     const isVisible = categoryId === "all" || card.dataset.category === categoryId;

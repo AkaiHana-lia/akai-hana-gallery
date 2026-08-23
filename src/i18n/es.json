@@ -1652,32 +1652,24 @@
   },
   "categories": [
     {
-      "id": "all",
-      "label": "Todo"
+      "id": "wallpapers",
+      "label": "Wallpapers"
+    },
+    {
+      "id": "avatar-3d",
+      "label": "Avatar 3D"
+    },
+    {
+      "id": "brand-design",
+      "label": "Brand Design"
     },
     {
       "id": "tattoo-designs",
-      "label": "Diseños de tatuaje"
+      "label": "Tatuajes"
     },
     {
       "id": "illustrations",
       "label": "Ilustraciones"
-    },
-    {
-      "id": "japanese-art",
-      "label": "Arte japonés"
-    },
-    {
-      "id": "brand-design",
-      "label": "Diseño de marca"
-    },
-    {
-      "id": "black-grey",
-      "label": "Negro y gris"
-    },
-    {
-      "id": "anime-gaming",
-      "label": "Anime / Gaming"
     }
   ],
   "patterns": {
@@ -1691,7 +1683,7 @@
   "gallery": {
     "eyebrow": "",
     "title": "Galería",
-    "body": "Una colección cuidada de diseños originales inspirados en la cultura japonesa, la mitología y el arte atemporal.",
+    "body": "Una colección cuidada de diseños originales inspirados en la cultura, la mitología y el arte atemporal.",
     "notice": {
       "icon": "i",
       "title": "Diseños digitales para inspiración y referencia.",
@@ -1710,7 +1702,7 @@
       {
         "id": "TD-001",
         "title": "Yasuo",
-        "categoryId": "anime-gaming",
+        "categoryId": "tattoo-designs",
         "category": "Gaming / Anime",
         "style": "Guerrero anime, tinta oscura y energía legendaria",
         "shortDescription": "Una pieza intensa para transformar un personaje en icono visual.",
@@ -1776,7 +1768,7 @@
       {
         "id": "TD-003",
         "title": "Final Fantasy VII",
-        "categoryId": "anime-gaming",
+        "categoryId": "tattoo-designs",
         "category": "Gaming",
         "style": "Espada, ruinas futuristas y nostalgia oscura",
         "shortDescription": "Una referencia de videojuego convertida en pieza cinematográfica.",
@@ -1809,7 +1801,7 @@
       {
         "id": "TD-004",
         "title": "Realistic",
-        "categoryId": "black-grey",
+        "categoryId": "tattoo-designs",
         "category": "Negro y gris",
         "style": "Ojo hiperrealista, lágrima y emoción contenida",
         "shortDescription": "Ojo hiperrealista llorando. Sin retrato completo.",
@@ -1842,7 +1834,7 @@
       {
         "id": "TD-005",
         "title": "Japanese Style",
-        "categoryId": "japanese-art",
+        "categoryId": "tattoo-designs",
         "category": "Tradicional",
         "style": "Tatuaje japonés tradicional de alta calidad",
         "shortDescription": "Una pieza grande, ornamental y preparada para tener presencia.",
@@ -1903,6 +1895,305 @@
           "width": 1122,
           "height": 1402,
           "alt": "Composición premium de branding, logotipos, packaging e identidad visual para empresas."
+        }
+      },
+      {
+        "id": "WP-001",
+        "title": "Santuario Kitsune",
+        "categoryId": "wallpapers",
+        "category": "Wallpapers",
+        "style": "Paisaje japonés, kitsune blanco y luz sakura",
+        "shortDescription": "Un horizonte sereno donde el espíritu kitsune custodia el lago.",
+        "description": "Wallpaper panorámico de fantasía japonesa con un kitsune blanco frente al Fuji y un santuario entre cerezos.",
+        "includes": "Composición panorámica en alta resolución y adaptación visual para escritorio.",
+        "uses": "Fondos de escritorio, cabeceras digitales y ambientación de marca.",
+        "examples": "Wallpaper, banner, portada digital.",
+        "tags": [
+          "fantasía",
+          "kitsune",
+          "sakura"
+        ],
+        "image": {
+          "src": "./assets/images/gallery/wallpaper-kitsune-sakura.jpg",
+          "width": 1672,
+          "height": 941,
+          "alt": "Kitsune blanco junto a un lago con Fuji, pagoda y cerezos al atardecer."
+        }
+      },
+      {
+        "id": "WP-002",
+        "title": "Crimson Wings",
+        "categoryId": "wallpapers",
+        "category": "Wallpapers",
+        "style": "Mariposa carmesí, flores y paisaje japonés nocturno",
+        "shortDescription": "Color, transformación y belleza suspendidos sobre un jardín nocturno.",
+        "description": "Una mariposa monumental en tonos carmesí y violeta emerge entre flores, tinta y arquitectura japonesa.",
+        "includes": "Arte panorámico en alta resolución y composición lista para pantalla.",
+        "uses": "Fondos de escritorio, portadas y piezas visuales digitales.",
+        "examples": "Wallpaper, banner, arte ambiental.",
+        "tags": [
+          "mariposa",
+          "flores",
+          "sakura"
+        ],
+        "image": {
+          "src": "./assets/images/gallery/wallpaper-butterfly-sakura.jpg",
+          "width": 1536,
+          "height": 1024,
+          "alt": "Gran mariposa roja y violeta rodeada de flores ante un paisaje japonés nocturno."
+        }
+      },
+      {
+        "id": "WP-003",
+        "title": "Aurora",
+        "categoryId": "wallpapers",
+        "category": "Wallpapers",
+        "style": "Aurora boreal, cielo estrellado y silueta contemplativa",
+        "shortDescription": "La noche se abre en luz sobre un horizonte silencioso.",
+        "description": "Una escena cinematográfica bajo auroras verdes, con una figura contemplando el cielo desde la oscuridad.",
+        "includes": "Imagen panorámica en alta resolución optimizada para escritorio.",
+        "uses": "Wallpapers, portadas atmosféricas y fondos digitales.",
+        "examples": "Wallpaper, banner, cubierta visual.",
+        "tags": [
+          "aurora",
+          "noche",
+          "paisaje"
+        ],
+        "image": {
+          "src": "./assets/images/gallery/wallpaper-aurora.jpg",
+          "width": 1672,
+          "height": 941,
+          "alt": "Aurora boreal verde sobre un cielo estrellado y una silueta junto a un coche."
+        }
+      },
+      {
+        "id": "AV-001",
+        "title": "Crimson LA",
+        "categoryId": "avatar-3d",
+        "category": "Avatar 3D",
+        "style": "Retrato 3D estilizado, acabado brillante y estética urbana",
+        "shortDescription": "Una identidad digital audaz con energía pop y acabado coleccionable.",
+        "description": "Avatar 3D de estética urbana con cabello carmesí, gorra oscura y visor rojo, modelado como una pieza digital premium.",
+        "includes": "Concepto de personaje, dirección de color y render de alta resolución.",
+        "uses": "Avatar de marca, perfil digital, personaje virtual y contenido social.",
+        "examples": "Avatar 3D, icono de perfil, personaje de marca.",
+        "tags": [
+          "3D",
+          "avatar",
+          "urbano"
+        ],
+        "image": {
+          "src": "./assets/images/gallery/avatar-3d-crimson-la.jpg",
+          "width": 1122,
+          "height": 1402,
+          "alt": "Avatar 3D femenino con cabello rojo, gorra azul oscura y visor carmesí."
+        }
+      },
+      {
+        "id": "IL-001",
+        "title": "Espíritu Libre",
+        "categoryId": "illustrations",
+        "category": "Ilustraciones",
+        "style": "Caballo en tinta negra y paisaje costero",
+        "shortDescription": "Fuerza y libertad avanzando frente al mar.",
+        "description": "Ilustración monocroma de un caballo negro en movimiento, integrado con flores, costa y luz de horizonte.",
+        "includes": "Ilustración detallada en alta resolución y composición editorial.",
+        "uses": "Póster, lámina, portada e inspiración artística.",
+        "examples": "Ilustración, póster, arte editorial.",
+        "tags": [
+          "caballo",
+          "tinta",
+          "naturaleza"
+        ],
+        "image": {
+          "src": "./assets/images/gallery/illustration-black-horse.jpg",
+          "width": 1054,
+          "height": 1492,
+          "alt": "Caballo negro ilustrado en tinta ante una costa con flores y árboles."
+        }
+      },
+      {
+        "id": "IL-002",
+        "title": "Pirate Legacy",
+        "categoryId": "illustrations",
+        "category": "Ilustraciones",
+        "style": "Anime, acuarela digital y contraste cálido frío",
+        "shortDescription": "Dos voluntades frente al mismo horizonte.",
+        "description": "Composición ilustrada de inspiración anime con dos guerreros, emblema pirata y un cielo dividido entre fuego y océano.",
+        "includes": "Composición de personajes, color y acabado de alta resolución.",
+        "uses": "Póster, fan art personalizado y portada digital.",
+        "examples": "Ilustración anime, póster, print.",
+        "tags": [
+          "anime",
+          "piratas",
+          "personajes"
+        ],
+        "image": {
+          "src": "./assets/images/gallery/illustration-luffy-zoro.jpg",
+          "width": 1024,
+          "height": 1536,
+          "alt": "Ilustración de dos guerreros anime ante un cielo de fuego y mar."
+        }
+      },
+      {
+        "id": "IL-003",
+        "title": "Vínculo de Sangre",
+        "categoryId": "illustrations",
+        "category": "Ilustraciones",
+        "style": "Anime monocromo, tinta dinámica y dramatismo",
+        "shortDescription": "Protección, coraje y un vínculo que atraviesa la oscuridad.",
+        "description": "Ilustración en tinta de dos hermanos unidos en una composición de acción, agua y paisaje japonés.",
+        "includes": "Diseño de personajes, tinta digital y composición vertical.",
+        "uses": "Póster, portada, lámina y encargo personalizado.",
+        "examples": "Ilustración anime, print, portada.",
+        "tags": [
+          "anime",
+          "hermanos",
+          "tinta"
+        ],
+        "image": {
+          "src": "./assets/images/gallery/illustration-tanjiro-nezuko.jpg",
+          "width": 1086,
+          "height": 1448,
+          "alt": "Dos personajes anime protegiéndose entre tinta, agua y un paisaje japonés."
+        }
+      },
+      {
+        "id": "IL-004",
+        "title": "Aliento de Fuego",
+        "categoryId": "illustrations",
+        "category": "Ilustraciones",
+        "style": "Guerrero en tinta sepia con dragón de fuego",
+        "shortDescription": "La determinación toma forma de llama.",
+        "description": "Ilustración de acción con un espadachín rodeado por un dragón de fuego en una composición intensa de tinta y luz.",
+        "includes": "Ilustración vertical, efectos de tinta y acabado de alta resolución.",
+        "uses": "Póster, portada y arte de personaje.",
+        "examples": "Ilustración anime, póster, print.",
+        "tags": [
+          "dragón",
+          "fuego",
+          "anime"
+        ],
+        "image": {
+          "src": "./assets/images/gallery/illustration-tanjiro-dragon.jpg",
+          "width": 1086,
+          "height": 1448,
+          "alt": "Guerrero anime con katana rodeado por un dragón de fuego en tinta sepia."
+        }
+      },
+      {
+        "id": "IL-005",
+        "title": "Jardín Akai Hana",
+        "categoryId": "illustrations",
+        "category": "Ilustraciones",
+        "style": "Acuarela floral con sakura, loto y peonías",
+        "shortDescription": "Un jardín delicado donde cada flor guarda una intención.",
+        "description": "Composición botánica en acuarela con flores de cerezo, loto y peonías en una paleta rosa, tinta y marfil.",
+        "includes": "Ilustración floral en alta resolución y composición vertical.",
+        "uses": "Lámina, invitación, portada y diseño decorativo.",
+        "examples": "Arte floral, póster, diseño editorial.",
+        "tags": [
+          "flores",
+          "sakura",
+          "acuarela"
+        ],
+        "image": {
+          "src": "./assets/images/gallery/illustration-sakura-lotus.jpg",
+          "width": 1086,
+          "height": 1448,
+          "alt": "Composición de flores de cerezo, loto y peonías en acuarela rosa y gris."
+        }
+      },
+      {
+        "id": "IL-006",
+        "title": "Akai Ito",
+        "categoryId": "illustrations",
+        "category": "Ilustraciones",
+        "style": "Línea fina, hilo rojo y simbolismo romántico",
+        "shortDescription": "Dos destinos unidos por un hilo que nunca se rompe.",
+        "description": "Ilustración minimalista de una pareja conectada por el hilo rojo del destino entre flores, humo y dos corazones.",
+        "includes": "Concepto simbólico, línea fina y composición personalizada.",
+        "uses": "Regalo, lámina, invitación y recuerdo personal.",
+        "examples": "Ilustración romántica, print, portada.",
+        "tags": [
+          "akai ito",
+          "amor",
+          "línea fina"
+        ],
+        "image": {
+          "src": "./assets/images/gallery/illustration-akai-ito.jpg",
+          "width": 1122,
+          "height": 1402,
+          "alt": "Pareja unida por un hilo rojo entre flores y corazones en tinta fina."
+        }
+      },
+      {
+        "id": "IL-007",
+        "title": "Open Road",
+        "categoryId": "illustrations",
+        "category": "Ilustraciones",
+        "style": "Motocicleta monocroma y paisaje de montaña",
+        "shortDescription": "La carretera empieza donde termina el ruido.",
+        "description": "Ilustración de una motocicleta clásica frente a una carretera de montaña, trabajada con textura de grafito y acuarela.",
+        "includes": "Ilustración mecánica detallada y paisaje en alta resolución.",
+        "uses": "Póster, portada, regalo y arte para motoristas.",
+        "examples": "Ilustración de vehículo, print, póster.",
+        "tags": [
+          "moto",
+          "montaña",
+          "monocromo"
+        ],
+        "image": {
+          "src": "./assets/images/gallery/illustration-motorcycle.jpg",
+          "width": 1024,
+          "height": 1536,
+          "alt": "Motocicleta negra ilustrada ante una carretera y montañas en estilo monocromo."
+        }
+      },
+      {
+        "id": "IL-008",
+        "title": "Sakura Minimal",
+        "categoryId": "illustrations",
+        "category": "Ilustraciones",
+        "style": "Botánica minimalista en acuarela rosa",
+        "shortDescription": "La belleza de lo esencial en una sola rama.",
+        "description": "Ilustración vertical y luminosa de flores de cerezo trazadas con línea delicada y suaves lavados de acuarela.",
+        "includes": "Arte botánico minimalista y archivo de alta resolución.",
+        "uses": "Lámina, papelería, portada y decoración.",
+        "examples": "Arte floral, print, diseño editorial.",
+        "tags": [
+          "sakura",
+          "minimalista",
+          "acuarela"
+        ],
+        "image": {
+          "src": "./assets/images/gallery/illustration-sakura-minimal.jpg",
+          "width": 1086,
+          "height": 1448,
+          "alt": "Rama vertical de flores de cerezo rosas en acuarela minimalista."
+        }
+      },
+      {
+        "id": "IL-009",
+        "title": "Espíritu Leal",
+        "categoryId": "illustrations",
+        "category": "Ilustraciones",
+        "style": "Retrato animal, luna roja y tinta expresiva",
+        "shortDescription": "Lealtad, memoria y protección bajo una luna carmesí.",
+        "description": "Retrato ilustrado de un perro entre pinceladas negras, símbolos y una gran luna roja de fondo.",
+        "includes": "Retrato animal personalizado y composición artística en alta resolución.",
+        "uses": "Retrato conmemorativo, póster y regalo personal.",
+        "examples": "Retrato de mascota, print, ilustración personalizada.",
+        "tags": [
+          "perro",
+          "retrato",
+          "luna roja"
+        ],
+        "image": {
+          "src": "./assets/images/gallery/illustration-dog-red-moon.jpg",
+          "width": 1122,
+          "height": 1402,
+          "alt": "Retrato ilustrado de un perro ante una luna roja con tinta negra y carmesí."
         }
       }
     ],

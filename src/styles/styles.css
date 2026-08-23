@@ -4103,12 +4103,15 @@ body[data-page="home"] .intro__grid {
 .gallery-section .filter-bar {
   justify-content: center;
   flex-wrap: wrap;
-  gap: 12px;
-  margin: -12px auto 22px;
+  gap: 16px;
+  margin: -12px auto 28px;
 }
 
 .gallery-section .filter-button {
-  min-width: 110px;
+  min-width: 190px;
+  min-height: 54px;
+  padding: 14px 24px;
+  font-size: 0.82rem;
 }
 
 .gallery-section .gallery-grid {
@@ -7696,6 +7699,43 @@ body[data-page="services-contact"] .site-actions {
   .reveal {
     opacity: 1;
     transform: none;
+  }
+}
+
+/* Gallery format layouts: preserve panoramic and portrait artwork proportions. */
+@media (min-width: 1181px) {
+  .gallery-section .gallery-grid[data-active-category="wallpapers"] {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: clamp(22px, 2.4vw, 34px);
+  }
+
+  .gallery-section .gallery-grid[data-active-category="avatar-3d"] {
+    grid-template-columns: minmax(300px, 440px);
+    justify-content: center;
+  }
+}
+
+.gallery-section .art-card[data-category="wallpapers"] .art-card__figure {
+  aspect-ratio: 16 / 9;
+}
+
+.gallery-section .art-card[data-category="wallpapers"] .project-card__image {
+  object-position: center;
+}
+
+.gallery-section .art-card[data-category="avatar-3d"] .project-card__image,
+.gallery-section .art-card[data-category="illustrations"] .project-card__image {
+  object-position: center top;
+}
+
+@media (max-width: 760px) {
+  .gallery-section .gallery-grid[data-active-category="wallpapers"],
+  .gallery-section .gallery-grid[data-active-category="avatar-3d"] {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-section .art-card[data-category="wallpapers"] .art-card__figure {
+    aspect-ratio: 16 / 10;
   }
 }
 

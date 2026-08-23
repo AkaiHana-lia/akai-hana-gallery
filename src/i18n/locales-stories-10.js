@@ -53,25 +53,9 @@ window.AKAI_HANA_LOCALES = {
     "stories": {
       "eyebrow": "Archivo de historias",
       "title": "Stories",
-      "lead": "Una biblioteca en crecimiento sobre folklore japonés, simbolismo y arte del tatuaje.",
       "openStory": "Abrir historia {title}",
       "backToArchive": "Volver a Stories",
       "galleryTitle": "Galería visual",
-      "searchPlaceholder": "Buscar una historia...",
-      "counter": "{count} historias disponibles",
-      "closing": "Nuevas historias cada semana. Una colección viva de folklore japonés, simbolismo y arte.",
-      "newThisWeek": "Nuevas esta semana",
-      "newLabel": "Nueva",
-      "collectionTitle": "La colección",
-      "loadMore": "Cargar más historias",
-      "noResults": "No se encontraron historias.",
-      "filters": {
-        "all": "Todas",
-        "yokai": "Yōkai",
-        "creatures": "Criaturas",
-        "legends": "Leyendas",
-        "symbols": "Símbolos"
-      },
       "items": [
         {
           "id": "higanbana",
@@ -795,7 +779,7 @@ window.AKAI_HANA_LOCALES = {
           "number": "09",
           "title": "Akai Ito",
           "eyebrow": "Leyendas japonesas y destino",
-          "japaneseName": "\u8D64\u3044\u7CF8",
+          "japaneseName": "赤い糸",
           "romanized": "El hilo rojo del destino",
           "lead": "Un hilo rojo invisible conecta a las almas destinadas a encontrarse, sin importar el tiempo, el lugar o las circunstancias.",
           "cardImage": {
@@ -1231,7 +1215,7 @@ window.AKAI_HANA_LOCALES = {
             "width": 1024,
             "height": 1536,
             "alt": "Panel narrativo de Tengu con guardián de montaña, simbología y tatuaje.",
-            "position": "34% 24%"
+            "position": "50% 45%"
           },
           "heroImage": {
             "src": "./assets/images/story-tengu-banner.png",
@@ -1305,7 +1289,7 @@ window.AKAI_HANA_LOCALES = {
               "alt": "Banner de Tengu con luna roja, montaña y guardián alado."
             },
             {
-              "src": "./assets/images/story-tengu-card.png",
+              "src": "./assets/images/story-tengu-lore.png",
               "width": 1024,
               "height": 1536,
               "alt": "Panel completo de Tengu con historia, significados, simbología y arte de tatuaje."
@@ -1324,10 +1308,10 @@ window.AKAI_HANA_LOCALES = {
           "lead": "Nacida de un tallo de bambú, Kaguya-hime representa la belleza efímera, la nostalgia, el misterio y un destino imposible de retener.",
           "cardImage": {
             "src": "./assets/images/story-kaguya-hime-card.png",
-            "width": 1024,
+            "width": 1025,
             "height": 1536,
             "alt": "Panel narrativo de Kaguya-hime con princesa lunar, bambú, simbología y tatuaje.",
-            "position": "34% 32%"
+            "position": "50% 44%"
           },
           "heroImage": {
             "src": "./assets/images/story-kaguya-hime-banner.png",
@@ -1401,410 +1385,31 @@ window.AKAI_HANA_LOCALES = {
               "alt": "Banner de Kaguya-hime con princesa lunar, bambú y luna llena."
             },
             {
-              "src": "./assets/images/story-kaguya-hime-card.png",
+              "src": "./assets/images/story-kaguya-hime-lore.png",
               "width": 1024,
               "height": 1536,
               "alt": "Panel completo de Kaguya-hime con historia, significados, simbología y arte de tatuaje."
             }
           ],
           "quote": "La Luna la llama. La tierra aún la recuerda."
-        },
-        {
-          "id": "jorogumo",
-          "number": "15",
-          "title": "Jorōgumo",
-          "cardTitle": "Jorōgumo",
-          "eyebrow": "Yōkai japonés",
-          "japaneseName": "絡新婦",
-          "romanized": "La mujer araña",
-          "lead": "Entre hilos invisibles, belleza y peligro, Jorōgumo representa la seducción, el engaño y la trampa que se oculta bajo una apariencia fascinante.",
-          "cardImage": {
-            "src": "./assets/images/story-card-jorogumo-tattoo.png",
-            "width": 1024,
-            "height": 1536,
-            "alt": "Tatuaje de Jorōgumo con mujer araña, telarañas, flores rojas y paisaje japonés.",
-            "position": "50% 48%"
-          },
-          "heroImage": {
-            "src": "./assets/images/story-jorogumo-banner.png",
-            "width": 1916,
-            "height": 821,
-            "alt": "Banner cinematográfico de Jorōgumo entre telarañas, flores rojas y cascadas japonesas.",
-            "position": "50% 50%"
-          },
-          "sections": [
-            {
-              "eyebrow": "¿Qué es?",
-              "title": "La belleza que teje una trampa",
-              "paragraphs": [
-                "Jorōgumo es un yōkai con forma de araña que, al alcanzar gran edad y poder, puede transformarse en una mujer hermosa.",
-                "Su leyenda une encanto, deseo y peligro: una presencia cautivadora que esconde una red invisible."
-              ]
-            },
-            {
-              "eyebrow": "La leyenda",
-              "title": "Hilos de belleza que conducen a la muerte",
-              "paragraphs": [
-                "En muchas versiones, Jorōgumo habita bosques, puentes o cascadas apartadas. Allí espera a viajeros solitarios y los envuelve con conversación, música o deseo.",
-                "Cuando la presa baja la guardia, la mujer revela su verdadera naturaleza arácnida y la atrapa entre hilos invisibles.",
-                "Su belleza no es una promesa de amor, sino una trampa tejida con paciencia."
-              ]
-            },
-            {
-              "eyebrow": "Significados",
-              "title": "Deseo, engaño y poder oculto",
-              "paragraphs": [
-                "Jorōgumo representa la belleza convertida en peligro, la seducción que engaña y el precio de dejarse llevar por la ilusión.",
-                "También habla de transformación, dualidad y poder femenino oscuro: una fuerza delicada en apariencia, pero letal en el fondo."
-              ]
-            },
-            {
-              "eyebrow": "Simbología",
-              "title": "Telaraña, araña y shamisen",
-              "paragraphs": [
-                "La telaraña simboliza destino, trampa y conexiones invisibles. La araña habla de paciencia, inteligencia y control.",
-                "El shamisen aparece en muchas reinterpretaciones como llamada hipnótica: música, encanto y peligro reunidos en una sola imagen."
-              ]
-            },
-            {
-              "eyebrow": "En el arte del tatuaje",
-              "title": "Sensual, oscura y fatal",
-              "paragraphs": [
-                "En tatuaje, Jorōgumo permite composiciones intensas con telarañas, flores rojas, cascadas, arañas y una figura femenina magnética.",
-                "Funciona muy bien para piezas que mezclan belleza, misterio y una sensación de peligro elegante."
-              ]
-            },
-            {
-              "eyebrow": "Origen y folklore",
-              "title": "De araña real a mito seductor",
-              "paragraphs": [
-                "El nombre Jorōgumo también se asocia a una especie real de araña y, en la tradición popular, dio forma a una de las figuras más inquietantes del imaginario japonés.",
-                "Entre advertencia, deseo y fascinación, sigue siendo una presencia seductora del folklore japonés."
-              ]
-            }
-          ],
-          "galleryTitle": "Galería de Jorōgumo",
-          "gallery": [
-            {
-              "src": "./assets/images/story-jorogumo-banner.png",
-              "width": 1916,
-              "height": 821,
-              "alt": "Banner de Jorōgumo con mujer araña, telarañas y jardín oscuro."
-            },
-            {
-              "src": "./assets/images/story-jorogumo-lore.png",
-              "width": 1024,
-              "height": 1536,
-              "alt": "Panel completo de Jorōgumo con historia, significados, simbología y arte de tatuaje."
-            },
-            {
-              "src": "./assets/images/story-card-jorogumo-tattoo.png",
-              "width": 1024,
-              "height": 1536,
-              "alt": "Detalle de tatuaje Jorōgumo con mujer araña y telarañas.",
-              "position": "50% 48%"
-            }
-          ],
-          "quote": "Toca su red y quizá no puedas volver."
-        },
-        {
-          "id": "yatagarasu",
-          "number": "16",
-          "title": "Yatagarasu",
-          "cardTitle": "Yatagarasu",
-          "eyebrow": "Mitología japonesa",
-          "japaneseName": "八咫烏",
-          "romanized": "El cuervo divino",
-          "lead": "Yatagarasu representa la guía sagrada, el destino, la protección y la luz que señala el camino correcto.",
-          "cardImage": {
-            "src": "./assets/images/story-card-yatagarasu-tattoo.png",
-            "width": 1024,
-            "height": 1536,
-            "alt": "Tatuaje de Yatagarasu con cuervo divino, sol rojo, torii y nubes japonesas.",
-            "position": "50% 46%"
-          },
-          "heroImage": {
-            "src": "./assets/images/story-yatagarasu-banner.png",
-            "width": 1916,
-            "height": 821,
-            "alt": "Banner cinematográfico de Yatagarasu con cuervo divino, eclipse solar y paisaje japonés.",
-            "position": "50% 50%"
-          },
-          "sections": [
-            {
-              "eyebrow": "¿Qué es?",
-              "title": "El cuervo que guía bajo el sol",
-              "paragraphs": [
-                "Yatagarasu es el legendario cuervo de tres patas de la mitología japonesa, asociado al sol, la voluntad celestial y el camino correcto.",
-                "No aparece como una criatura de oscuridad, sino como un mensajero sagrado que orienta cuando el destino parece incierto."
-              ]
-            },
-            {
-              "eyebrow": "La leyenda",
-              "title": "La guía del Emperador Jimmu",
-              "paragraphs": [
-                "En los relatos antiguos, Yatagarasu fue enviado por los cielos para guiar al Emperador Jimmu a través de tierras difíciles hasta su destino.",
-                "Desde entonces, el cuervo sagrado se convirtió en símbolo de dirección, intervención divina y victoria guiada por la sabiduría."
-              ]
-            },
-            {
-              "eyebrow": "Significados",
-              "title": "Guía, destino y claridad",
-              "paragraphs": [
-                "Yatagarasu representa guía divina, dirección, protección espiritual, renacimiento y claridad.",
-                "Su presencia recuerda que incluso en la niebla o la duda existe una señal capaz de marcar el camino."
-              ]
-            },
-            {
-              "eyebrow": "Simbología",
-              "title": "Tres patas, sol y torii",
-              "paragraphs": [
-                "El cuervo de tres patas une cielo, tierra y humanidad. El sol simboliza verdad y energía divina; las alas hablan de libertad, avance y protección.",
-                "El torii refuerza la idea de paso sagrado: cruzar hacia una dirección correcta."
-              ]
-            },
-            {
-              "eyebrow": "En el arte del tatuaje",
-              "title": "Protección y destino",
-              "paragraphs": [
-                "En tatuaje, Yatagarasu funciona con discos solares, montañas, nubes, arquitectura sagrada y formas de alas poderosas.",
-                "Es una pieza ideal para quienes buscan un símbolo de protección, dirección y claridad interior."
-              ]
-            },
-            {
-              "eyebrow": "Origen y folklore",
-              "title": "Una señal enviada por el cielo",
-              "paragraphs": [
-                "Yatagarasu aparece en los textos más antiguos de la mitología japonesa y sigue siendo una figura venerada de guía, poder solar e intervención celestial.",
-                "Más que un ave, es una señal: la certeza de que el camino existe."
-              ]
-            }
-          ],
-          "galleryTitle": "Galería de Yatagarasu",
-          "gallery": [
-            {
-              "src": "./assets/images/story-yatagarasu-banner.png",
-              "width": 1916,
-              "height": 821,
-              "alt": "Banner de Yatagarasu con cuervo divino, sol y paisaje sagrado."
-            },
-            {
-              "src": "./assets/images/story-yatagarasu-lore.png",
-              "width": 1024,
-              "height": 1536,
-              "alt": "Panel completo de Yatagarasu con historia, significados, simbología y arte de tatuaje."
-            },
-            {
-              "src": "./assets/images/story-card-yatagarasu-tattoo.png",
-              "width": 1024,
-              "height": 1536,
-              "alt": "Detalle de tatuaje Yatagarasu con cuervo negro y sol rojo.",
-              "position": "50% 46%"
-            }
-          ],
-          "quote": "Donde guía el sol sagrado, no hay duda."
-        },
-        {
-          "id": "nekomata",
-          "number": "17",
-          "title": "Nekomata",
-          "cardTitle": "Nekomata",
-          "eyebrow": "Yōkai japonés",
-          "japaneseName": "猫又",
-          "romanized": "El gato de dos colas",
-          "lead": "Sabiduría, misterio y transformación. Nekomata camina entre el mundo humano y el espiritual como guardián de una naturaleza imposible de dominar.",
-          "cardImage": {
-            "src": "./assets/images/story-nekomata-art.png",
-            "width": 1024,
-            "height": 1536,
-            "alt": "Ilustración de Nekomata negro con dos colas, luna, fuego espiritual y motivos japoneses.",
-            "position": "50% 48%"
-          },
-          "heroImage": {
-            "src": "./assets/images/story-nekomata-banner.png",
-            "width": 1983,
-            "height": 793,
-            "alt": "Banner de Nekomata con gato de dos colas, luna, fuego espiritual y paisaje japonés nocturno.",
-            "position": "50% 50%"
-          },
-          "sections": [
-            {
-              "eyebrow": "¿Qué es?",
-              "title": "El gato que cruza al mundo espiritual",
-              "paragraphs": [
-                "Nekomata es un yōkai del folklore japonés que nace cuando un gato doméstico alcanza una edad avanzada y adquiere poderes sobrenaturales.",
-                "Su rasgo más distintivo son sus dos colas, símbolo de la transformación de un animal familiar en un ser que ya pertenece al mundo espiritual."
-              ]
-            },
-            {
-              "eyebrow": "Origen y folklore",
-              "title": "Siglos de misterio felino",
-              "paragraphs": [
-                "La palabra Nekomata aparece por primera vez en 1233 en el Meigetsuki, un diario de la era Kamakura.",
-                "Durante el periodo Edo se popularizó la creencia de que los gatos viejos podían convertirse en Nekomata. Aparece en libros de yōkai como el Hyakki Yagyō de Toriyama Sekien, representado con dos colas y comportamiento humano."
-              ]
-            },
-            {
-              "eyebrow": "La leyenda",
-              "title": "La verdad revelada en Yamato Kaiki",
-              "paragraphs": [
-                "Una historia de 1708 cuenta que, en la casa de un samurái, comenzaron a oírse ruidos, puertas que se abrían solas y pasos nocturnos sin explicación.",
-                "Cuando un sirviente descubrió al viejo gato llevando un shikigami con el nombre de su señor, comprendieron que se había convertido en Nekomata. Al morir el animal, los fenómenos cesaron y la paz regresó."
-              ]
-            },
-            {
-              "eyebrow": "Aspecto y poderes",
-              "title": "Fuego, espíritus y dos colas",
-              "paragraphs": [
-                "Puede adoptar forma de gato grande o humana, hablar, caminar en dos patas y mostrar una inteligencia superior.",
-                "Se dice que manipula a los humanos, crea ilusiones, invoca fuego fatuo, controla espíritus y protege con ferocidad a quienes lo trataron con respeto."
-              ]
-            },
-            {
-              "eyebrow": "Simbología",
-              "title": "Dualidad, percepción y libertad",
-              "paragraphs": [
-                "Las dos colas representan dualidad y transformación. El fuego fatuo simboliza poder espiritual; los ojos agudos, percepción e inteligencia.",
-                "El puente entre mundos, la muerte, la vida y la independencia completan una figura que no puede ser dominada con facilidad."
-              ]
-            },
-            {
-              "eyebrow": "En el arte del tatuaje",
-              "title": "Un guardián entre dos mundos",
-              "paragraphs": [
-                "Nekomata simboliza transformación, protección del hogar, sabiduría ancestral y poder oculto.",
-                "En tatuaje japonés suele representar la dualidad entre el mundo humano y el espiritual: un guardián que vigila en silencio y castiga a quien rompe el equilibrio."
-              ]
-            }
-          ],
-          "galleryTitle": "Galería de Nekomata",
-          "gallery": [
-            {
-              "src": "./assets/images/story-nekomata-banner.png",
-              "width": 1983,
-              "height": 793,
-              "alt": "Banner de Nekomata con gato de dos colas y paisaje japonés."
-            },
-            {
-              "src": "./assets/images/story-nekomata-lore.png",
-              "width": 1024,
-              "height": 1536,
-              "alt": "Panel completo de Nekomata con leyenda, poderes, simbología y arte del tatuaje."
-            },
-            {
-              "src": "./assets/images/story-nekomata-art.png",
-              "width": 1024,
-              "height": 1536,
-              "alt": "Ilustración tradicional de Nekomata negro con dos colas, luna y fuego espiritual."
-            },
-            {
-              "src": "./assets/images/story-card-nekomata-tattoo.png",
-              "width": 1024,
-              "height": 1536,
-              "alt": "Composición de tatuaje Nekomata con gato negro, torii, luna y máscara oni.",
-              "position": "50% 48%"
-            }
-          ],
-          "quote": "El gato que ya no es gato observa desde las sombras."
-        },
-        {
-          "id": "kappa",
-          "number": "18",
-          "title": "Kappa",
-          "cardTitle": "Kappa",
-          "eyebrow": "Yōkai japonés",
-          "japaneseName": "河童",
-          "romanized": "El espíritu del río",
-          "lead": "Agua, astucia y respeto. El Kappa recuerda que la naturaleza puede ofrecer conocimiento o peligro según la forma en que la tratamos.",
-          "cardImage": {
-            "src": "./assets/images/story-card-kappa-tattoo.png",
-            "width": 1024,
-            "height": 1536,
-            "alt": "Tatuaje de Kappa junto a un río, con luna, torii, lotos y pepinos.",
-            "position": "50% 46%"
-          },
-          "heroImage": {
-            "src": "./assets/images/story-kappa-banner.png",
-            "width": 1916,
-            "height": 821,
-            "alt": "Banner cinematográfico de Kappa junto a un estanque japonés bajo la luna.",
-            "position": "50% 50%"
-          },
-          "sections": [
-            {
-              "eyebrow": "¿Qué es?",
-              "title": "El espíritu que habita ríos y estanques",
-              "paragraphs": [
-                "El Kappa es uno de los yōkai acuáticos más conocidos del folklore japonés, asociado a ríos, estanques y canales.",
-                "Es una criatura traviesa, peligrosa e inteligente, reconocible por su caparazón, sus manos palmeadas y el plato de agua sobre la cabeza que contiene su fuerza."
-              ]
-            },
-            {
-              "eyebrow": "La leyenda",
-              "title": "El río recuerda el respeto",
-              "paragraphs": [
-                "El Kappa observa a los viajeros desde las sombras y puede acercarse con curiosidad, proponer juegos o lanzar desafíos peligrosos.",
-                "Si se le ofende o se pierde el juego, puede arrastrar a su víctima a las profundidades. Sin embargo, ama los pepinos y respeta profundamente la cortesía: una reverencia puede hacer que derrame el agua de su plato y pierda su poder."
-              ]
-            },
-            {
-              "eyebrow": "Significados",
-              "title": "Naturaleza, peligro y disciplina",
-              "paragraphs": [
-                "Kappa representa respeto por la naturaleza, peligro del agua, travesura, inteligencia y disciplina.",
-                "Su historia enseña que el equilibrio entre miedo y conocimiento puede convertir una amenaza en alianza."
-              ]
-            },
-            {
-              "eyebrow": "Simbología",
-              "title": "Agua, caparazón, pepino y reverencia",
-              "paragraphs": [
-                "El plato de agua es fuente de poder y vida; el caparazón representa protección y vínculo con lo ancestral.",
-                "El pepino simboliza ofrenda y apaciguamiento, mientras el río y el loto hablan de fluidez, profundidad y pureza espiritual."
-              ]
-            },
-            {
-              "eyebrow": "En el arte del tatuaje",
-              "title": "Texturas de agua y folklore",
-              "paragraphs": [
-                "Kappa funciona especialmente bien en composiciones con agua, lotos, juncos y ondas, donde sus escamas, caparazón y piel húmeda crean una pieza rica en detalle.",
-                "Simboliza protección, advertencia y sabiduría, y encaja en estilos japoneses tradicionales, neotradicionales, realistas oscuros e ilustrativos."
-              ]
-            },
-            {
-              "eyebrow": "Origen y folklore",
-              "title": "Una presencia antigua en las aguas de Japón",
-              "paragraphs": [
-                "El Kappa aparece en relatos japoneses desde la época Heian, aunque su naturaleza cambia según la región.",
-                "Sus múltiples versiones van desde bromista hasta guardián de los ríos, y lo han convertido en uno de los yōkai más reconocibles del arte y los cuentos populares."
-              ]
-            }
-          ],
-          "galleryTitle": "Galería de Kappa",
-          "gallery": [
-            {
-              "src": "./assets/images/story-kappa-banner.png",
-              "width": 1916,
-              "height": 821,
-              "alt": "Banner de Kappa junto a un estanque, torii y luna llena."
-            },
-            {
-              "src": "./assets/images/story-kappa-lore.png",
-              "width": 1024,
-              "height": 1536,
-              "alt": "Panel completo de Kappa con historia, significados, simbología y ejemplos de tatuaje."
-            },
-            {
-              "src": "./assets/images/story-card-kappa-tattoo.png",
-              "width": 1024,
-              "height": 1536,
-              "alt": "Tatuaje de espalda de Kappa junto a un río con lotos, luna y pepinos.",
-              "position": "50% 46%"
-            }
-          ],
-          "quote": "Respeta el agua, o el río te recordará."
         }
-      ]
+      ],
+      "lead": "Una biblioteca en crecimiento sobre folklore japonés, simbolismo y arte del tatuaje.",
+      "searchPlaceholder": "Buscar una historia...",
+      "counter": "{count} historias disponibles",
+      "closing": "Nuevas historias cada semana. Una colección viva de folklore japonés, simbolismo y arte.",
+      "newThisWeek": "Nuevas esta semana",
+      "newLabel": "Nueva",
+      "collectionTitle": "La colección",
+      "loadMore": "Cargar más historias",
+      "noResults": "No se encontraron historias.",
+      "filters": {
+        "all": "Todas",
+        "yokai": "Yōkai",
+        "creatures": "Criaturas",
+        "legends": "Leyendas",
+        "symbols": "Símbolos"
+      }
     },
     "hero": {
       "eyebrow": "",
@@ -2048,32 +1653,24 @@ window.AKAI_HANA_LOCALES = {
     },
     "categories": [
       {
-        "id": "all",
-        "label": "Todo"
+        "id": "wallpapers",
+        "label": "Wallpapers"
+      },
+      {
+        "id": "avatar-3d",
+        "label": "Avatar 3D"
+      },
+      {
+        "id": "brand-design",
+        "label": "Brand Design"
       },
       {
         "id": "tattoo-designs",
-        "label": "Diseños de tatuaje"
+        "label": "Tatuajes"
       },
       {
         "id": "illustrations",
         "label": "Ilustraciones"
-      },
-      {
-        "id": "japanese-art",
-        "label": "Arte japonés"
-      },
-      {
-        "id": "brand-design",
-        "label": "Diseño de marca"
-      },
-      {
-        "id": "black-grey",
-        "label": "Negro y gris"
-      },
-      {
-        "id": "anime-gaming",
-        "label": "Anime / Gaming"
       }
     ],
     "patterns": {
@@ -2087,7 +1684,7 @@ window.AKAI_HANA_LOCALES = {
     "gallery": {
       "eyebrow": "",
       "title": "Galería",
-      "body": "Una colección cuidada de diseños originales inspirados en la cultura japonesa, la mitología y el arte atemporal.",
+      "body": "Una colección cuidada de diseños originales inspirados en la cultura, la mitología y el arte atemporal.",
       "notice": {
         "icon": "i",
         "title": "Diseños digitales para inspiración y referencia.",
@@ -2106,7 +1703,7 @@ window.AKAI_HANA_LOCALES = {
         {
           "id": "TD-001",
           "title": "Yasuo",
-          "categoryId": "anime-gaming",
+          "categoryId": "tattoo-designs",
           "category": "Gaming / Anime",
           "style": "Guerrero anime, tinta oscura y energía legendaria",
           "shortDescription": "Una pieza intensa para transformar un personaje en icono visual.",
@@ -2172,7 +1769,7 @@ window.AKAI_HANA_LOCALES = {
         {
           "id": "TD-003",
           "title": "Final Fantasy VII",
-          "categoryId": "anime-gaming",
+          "categoryId": "tattoo-designs",
           "category": "Gaming",
           "style": "Espada, ruinas futuristas y nostalgia oscura",
           "shortDescription": "Una referencia de videojuego convertida en pieza cinematográfica.",
@@ -2205,7 +1802,7 @@ window.AKAI_HANA_LOCALES = {
         {
           "id": "TD-004",
           "title": "Realistic",
-          "categoryId": "black-grey",
+          "categoryId": "tattoo-designs",
           "category": "Negro y gris",
           "style": "Ojo hiperrealista, lágrima y emoción contenida",
           "shortDescription": "Ojo hiperrealista llorando. Sin retrato completo.",
@@ -2238,7 +1835,7 @@ window.AKAI_HANA_LOCALES = {
         {
           "id": "TD-005",
           "title": "Japanese Style",
-          "categoryId": "japanese-art",
+          "categoryId": "tattoo-designs",
           "category": "Tradicional",
           "style": "Tatuaje japonés tradicional de alta calidad",
           "shortDescription": "Una pieza grande, ornamental y preparada para tener presencia.",
@@ -2299,6 +1896,305 @@ window.AKAI_HANA_LOCALES = {
             "width": 1122,
             "height": 1402,
             "alt": "Composición premium de branding, logotipos, packaging e identidad visual para empresas."
+          }
+        },
+        {
+          "id": "WP-001",
+          "title": "Santuario Kitsune",
+          "categoryId": "wallpapers",
+          "category": "Wallpapers",
+          "style": "Paisaje japonés, kitsune blanco y luz sakura",
+          "shortDescription": "Un horizonte sereno donde el espíritu kitsune custodia el lago.",
+          "description": "Wallpaper panorámico de fantasía japonesa con un kitsune blanco frente al Fuji y un santuario entre cerezos.",
+          "includes": "Composición panorámica en alta resolución y adaptación visual para escritorio.",
+          "uses": "Fondos de escritorio, cabeceras digitales y ambientación de marca.",
+          "examples": "Wallpaper, banner, portada digital.",
+          "tags": [
+            "fantasía",
+            "kitsune",
+            "sakura"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/wallpaper-kitsune-sakura.jpg",
+            "width": 1672,
+            "height": 941,
+            "alt": "Kitsune blanco junto a un lago con Fuji, pagoda y cerezos al atardecer."
+          }
+        },
+        {
+          "id": "WP-002",
+          "title": "Crimson Wings",
+          "categoryId": "wallpapers",
+          "category": "Wallpapers",
+          "style": "Mariposa carmesí, flores y paisaje japonés nocturno",
+          "shortDescription": "Color, transformación y belleza suspendidos sobre un jardín nocturno.",
+          "description": "Una mariposa monumental en tonos carmesí y violeta emerge entre flores, tinta y arquitectura japonesa.",
+          "includes": "Arte panorámico en alta resolución y composición lista para pantalla.",
+          "uses": "Fondos de escritorio, portadas y piezas visuales digitales.",
+          "examples": "Wallpaper, banner, arte ambiental.",
+          "tags": [
+            "mariposa",
+            "flores",
+            "sakura"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/wallpaper-butterfly-sakura.jpg",
+            "width": 1536,
+            "height": 1024,
+            "alt": "Gran mariposa roja y violeta rodeada de flores ante un paisaje japonés nocturno."
+          }
+        },
+        {
+          "id": "WP-003",
+          "title": "Aurora",
+          "categoryId": "wallpapers",
+          "category": "Wallpapers",
+          "style": "Aurora boreal, cielo estrellado y silueta contemplativa",
+          "shortDescription": "La noche se abre en luz sobre un horizonte silencioso.",
+          "description": "Una escena cinematográfica bajo auroras verdes, con una figura contemplando el cielo desde la oscuridad.",
+          "includes": "Imagen panorámica en alta resolución optimizada para escritorio.",
+          "uses": "Wallpapers, portadas atmosféricas y fondos digitales.",
+          "examples": "Wallpaper, banner, cubierta visual.",
+          "tags": [
+            "aurora",
+            "noche",
+            "paisaje"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/wallpaper-aurora.jpg",
+            "width": 1672,
+            "height": 941,
+            "alt": "Aurora boreal verde sobre un cielo estrellado y una silueta junto a un coche."
+          }
+        },
+        {
+          "id": "AV-001",
+          "title": "Crimson LA",
+          "categoryId": "avatar-3d",
+          "category": "Avatar 3D",
+          "style": "Retrato 3D estilizado, acabado brillante y estética urbana",
+          "shortDescription": "Una identidad digital audaz con energía pop y acabado coleccionable.",
+          "description": "Avatar 3D de estética urbana con cabello carmesí, gorra oscura y visor rojo, modelado como una pieza digital premium.",
+          "includes": "Concepto de personaje, dirección de color y render de alta resolución.",
+          "uses": "Avatar de marca, perfil digital, personaje virtual y contenido social.",
+          "examples": "Avatar 3D, icono de perfil, personaje de marca.",
+          "tags": [
+            "3D",
+            "avatar",
+            "urbano"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/avatar-3d-crimson-la.jpg",
+            "width": 1122,
+            "height": 1402,
+            "alt": "Avatar 3D femenino con cabello rojo, gorra azul oscura y visor carmesí."
+          }
+        },
+        {
+          "id": "IL-001",
+          "title": "Espíritu Libre",
+          "categoryId": "illustrations",
+          "category": "Ilustraciones",
+          "style": "Caballo en tinta negra y paisaje costero",
+          "shortDescription": "Fuerza y libertad avanzando frente al mar.",
+          "description": "Ilustración monocroma de un caballo negro en movimiento, integrado con flores, costa y luz de horizonte.",
+          "includes": "Ilustración detallada en alta resolución y composición editorial.",
+          "uses": "Póster, lámina, portada e inspiración artística.",
+          "examples": "Ilustración, póster, arte editorial.",
+          "tags": [
+            "caballo",
+            "tinta",
+            "naturaleza"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/illustration-black-horse.jpg",
+            "width": 1054,
+            "height": 1492,
+            "alt": "Caballo negro ilustrado en tinta ante una costa con flores y árboles."
+          }
+        },
+        {
+          "id": "IL-002",
+          "title": "Pirate Legacy",
+          "categoryId": "illustrations",
+          "category": "Ilustraciones",
+          "style": "Anime, acuarela digital y contraste cálido frío",
+          "shortDescription": "Dos voluntades frente al mismo horizonte.",
+          "description": "Composición ilustrada de inspiración anime con dos guerreros, emblema pirata y un cielo dividido entre fuego y océano.",
+          "includes": "Composición de personajes, color y acabado de alta resolución.",
+          "uses": "Póster, fan art personalizado y portada digital.",
+          "examples": "Ilustración anime, póster, print.",
+          "tags": [
+            "anime",
+            "piratas",
+            "personajes"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/illustration-luffy-zoro.jpg",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Ilustración de dos guerreros anime ante un cielo de fuego y mar."
+          }
+        },
+        {
+          "id": "IL-003",
+          "title": "Vínculo de Sangre",
+          "categoryId": "illustrations",
+          "category": "Ilustraciones",
+          "style": "Anime monocromo, tinta dinámica y dramatismo",
+          "shortDescription": "Protección, coraje y un vínculo que atraviesa la oscuridad.",
+          "description": "Ilustración en tinta de dos hermanos unidos en una composición de acción, agua y paisaje japonés.",
+          "includes": "Diseño de personajes, tinta digital y composición vertical.",
+          "uses": "Póster, portada, lámina y encargo personalizado.",
+          "examples": "Ilustración anime, print, portada.",
+          "tags": [
+            "anime",
+            "hermanos",
+            "tinta"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/illustration-tanjiro-nezuko.jpg",
+            "width": 1086,
+            "height": 1448,
+            "alt": "Dos personajes anime protegiéndose entre tinta, agua y un paisaje japonés."
+          }
+        },
+        {
+          "id": "IL-004",
+          "title": "Aliento de Fuego",
+          "categoryId": "illustrations",
+          "category": "Ilustraciones",
+          "style": "Guerrero en tinta sepia con dragón de fuego",
+          "shortDescription": "La determinación toma forma de llama.",
+          "description": "Ilustración de acción con un espadachín rodeado por un dragón de fuego en una composición intensa de tinta y luz.",
+          "includes": "Ilustración vertical, efectos de tinta y acabado de alta resolución.",
+          "uses": "Póster, portada y arte de personaje.",
+          "examples": "Ilustración anime, póster, print.",
+          "tags": [
+            "dragón",
+            "fuego",
+            "anime"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/illustration-tanjiro-dragon.jpg",
+            "width": 1086,
+            "height": 1448,
+            "alt": "Guerrero anime con katana rodeado por un dragón de fuego en tinta sepia."
+          }
+        },
+        {
+          "id": "IL-005",
+          "title": "Jardín Akai Hana",
+          "categoryId": "illustrations",
+          "category": "Ilustraciones",
+          "style": "Acuarela floral con sakura, loto y peonías",
+          "shortDescription": "Un jardín delicado donde cada flor guarda una intención.",
+          "description": "Composición botánica en acuarela con flores de cerezo, loto y peonías en una paleta rosa, tinta y marfil.",
+          "includes": "Ilustración floral en alta resolución y composición vertical.",
+          "uses": "Lámina, invitación, portada y diseño decorativo.",
+          "examples": "Arte floral, póster, diseño editorial.",
+          "tags": [
+            "flores",
+            "sakura",
+            "acuarela"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/illustration-sakura-lotus.jpg",
+            "width": 1086,
+            "height": 1448,
+            "alt": "Composición de flores de cerezo, loto y peonías en acuarela rosa y gris."
+          }
+        },
+        {
+          "id": "IL-006",
+          "title": "Akai Ito",
+          "categoryId": "illustrations",
+          "category": "Ilustraciones",
+          "style": "Línea fina, hilo rojo y simbolismo romántico",
+          "shortDescription": "Dos destinos unidos por un hilo que nunca se rompe.",
+          "description": "Ilustración minimalista de una pareja conectada por el hilo rojo del destino entre flores, humo y dos corazones.",
+          "includes": "Concepto simbólico, línea fina y composición personalizada.",
+          "uses": "Regalo, lámina, invitación y recuerdo personal.",
+          "examples": "Ilustración romántica, print, portada.",
+          "tags": [
+            "akai ito",
+            "amor",
+            "línea fina"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/illustration-akai-ito.jpg",
+            "width": 1122,
+            "height": 1402,
+            "alt": "Pareja unida por un hilo rojo entre flores y corazones en tinta fina."
+          }
+        },
+        {
+          "id": "IL-007",
+          "title": "Open Road",
+          "categoryId": "illustrations",
+          "category": "Ilustraciones",
+          "style": "Motocicleta monocroma y paisaje de montaña",
+          "shortDescription": "La carretera empieza donde termina el ruido.",
+          "description": "Ilustración de una motocicleta clásica frente a una carretera de montaña, trabajada con textura de grafito y acuarela.",
+          "includes": "Ilustración mecánica detallada y paisaje en alta resolución.",
+          "uses": "Póster, portada, regalo y arte para motoristas.",
+          "examples": "Ilustración de vehículo, print, póster.",
+          "tags": [
+            "moto",
+            "montaña",
+            "monocromo"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/illustration-motorcycle.jpg",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Motocicleta negra ilustrada ante una carretera y montañas en estilo monocromo."
+          }
+        },
+        {
+          "id": "IL-008",
+          "title": "Sakura Minimal",
+          "categoryId": "illustrations",
+          "category": "Ilustraciones",
+          "style": "Botánica minimalista en acuarela rosa",
+          "shortDescription": "La belleza de lo esencial en una sola rama.",
+          "description": "Ilustración vertical y luminosa de flores de cerezo trazadas con línea delicada y suaves lavados de acuarela.",
+          "includes": "Arte botánico minimalista y archivo de alta resolución.",
+          "uses": "Lámina, papelería, portada y decoración.",
+          "examples": "Arte floral, print, diseño editorial.",
+          "tags": [
+            "sakura",
+            "minimalista",
+            "acuarela"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/illustration-sakura-minimal.jpg",
+            "width": 1086,
+            "height": 1448,
+            "alt": "Rama vertical de flores de cerezo rosas en acuarela minimalista."
+          }
+        },
+        {
+          "id": "IL-009",
+          "title": "Espíritu Leal",
+          "categoryId": "illustrations",
+          "category": "Ilustraciones",
+          "style": "Retrato animal, luna roja y tinta expresiva",
+          "shortDescription": "Lealtad, memoria y protección bajo una luna carmesí.",
+          "description": "Retrato ilustrado de un perro entre pinceladas negras, símbolos y una gran luna roja de fondo.",
+          "includes": "Retrato animal personalizado y composición artística en alta resolución.",
+          "uses": "Retrato conmemorativo, póster y regalo personal.",
+          "examples": "Retrato de mascota, print, ilustración personalizada.",
+          "tags": [
+            "perro",
+            "retrato",
+            "luna roja"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/illustration-dog-red-moon.jpg",
+            "width": 1122,
+            "height": 1402,
+            "alt": "Retrato ilustrado de un perro ante una luna roja con tinta negra y carmesí."
           }
         }
       ],
@@ -2572,25 +2468,9 @@ window.AKAI_HANA_LOCALES = {
     "stories": {
       "eyebrow": "Story archive",
       "title": "Stories",
-      "lead": "A growing library of Japanese folklore, symbolism and tattoo inspiration.",
       "openStory": "Open story {title}",
       "backToArchive": "Back to Stories",
       "galleryTitle": "Visual gallery",
-      "searchPlaceholder": "Search a story...",
-      "counter": "{count} stories available",
-      "closing": "New stories every week. A living collection of Japanese folklore, symbolism and art.",
-      "newThisWeek": "New this week",
-      "newLabel": "New",
-      "collectionTitle": "The collection",
-      "loadMore": "Load more stories",
-      "noResults": "No stories found.",
-      "filters": {
-        "all": "All",
-        "yokai": "Yōkai",
-        "creatures": "Creatures",
-        "legends": "Legends",
-        "symbols": "Symbols"
-      },
       "items": [
         {
           "id": "higanbana",
@@ -3314,7 +3194,7 @@ window.AKAI_HANA_LOCALES = {
           "number": "09",
           "title": "Akai Ito",
           "eyebrow": "Japanese legends and fate",
-          "japaneseName": "\u8D64\u3044\u7CF8",
+          "japaneseName": "赤い糸",
           "romanized": "The red thread of fate",
           "lead": "An invisible red thread connects souls destined to meet, no matter time, place or circumstance.",
           "cardImage": {
@@ -3750,7 +3630,7 @@ window.AKAI_HANA_LOCALES = {
             "width": 1024,
             "height": 1536,
             "alt": "Tengu narrative panel with mountain guardian, symbolism and tattoo art.",
-            "position": "34% 24%"
+            "position": "50% 45%"
           },
           "heroImage": {
             "src": "./assets/images/story-tengu-banner.png",
@@ -3843,10 +3723,10 @@ window.AKAI_HANA_LOCALES = {
           "lead": "Born from a bamboo stalk, Kaguya-hime represents fleeting beauty, nostalgia, mystery and a destiny that cannot be held.",
           "cardImage": {
             "src": "./assets/images/story-kaguya-hime-card.png",
-            "width": 1024,
+            "width": 1025,
             "height": 1536,
             "alt": "Kaguya-hime narrative panel with moon princess, bamboo, symbolism and tattoo art.",
-            "position": "34% 32%"
+            "position": "50% 44%"
           },
           "heroImage": {
             "src": "./assets/images/story-kaguya-hime-banner.png",
@@ -3927,403 +3807,24 @@ window.AKAI_HANA_LOCALES = {
             }
           ],
           "quote": "The Moon calls her back. The earth still longs for her."
-        },
-        {
-          "id": "jorogumo",
-          "number": "15",
-          "title": "Jorōgumo",
-          "cardTitle": "Jorōgumo",
-          "eyebrow": "Japanese yōkai",
-          "japaneseName": "絡新婦",
-          "romanized": "The spider woman",
-          "lead": "Among invisible threads, beauty and danger, Jorōgumo represents seduction, deception and the trap hidden beneath a fascinating appearance.",
-          "cardImage": {
-            "src": "./assets/images/story-card-jorogumo-tattoo.png",
-            "width": 1024,
-            "height": 1536,
-            "alt": "Jorōgumo tattoo with spider woman, webs, red flowers and Japanese scenery.",
-            "position": "50% 48%"
-          },
-          "heroImage": {
-            "src": "./assets/images/story-jorogumo-banner.png",
-            "width": 1916,
-            "height": 821,
-            "alt": "Cinematic Jorōgumo banner among webs, red flowers and Japanese waterfalls.",
-            "position": "50% 50%"
-          },
-          "sections": [
-            {
-              "eyebrow": "What is it?",
-              "title": "The beauty that weaves a trap",
-              "paragraphs": [
-                "Jorōgumo is a spider yōkai that, after reaching great age and power, can transform into a beautiful woman.",
-                "Her legend brings together charm, desire and danger: a captivating presence hiding an invisible web."
-              ]
-            },
-            {
-              "eyebrow": "The legend",
-              "title": "Threads of beauty may lead to death",
-              "paragraphs": [
-                "In many versions, Jorōgumo lives near forests, bridges or secluded waterfalls. There she waits for lonely travelers and surrounds them with conversation, music or desire.",
-                "When the victim lowers their guard, the woman reveals her arachnid nature and traps them in invisible threads.",
-                "Her beauty is not a promise of love, but a trap woven with patience."
-              ]
-            },
-            {
-              "eyebrow": "Meanings",
-              "title": "Desire, deception and hidden power",
-              "paragraphs": [
-                "Jorōgumo represents beauty turned into danger, seduction that deceives and the price of surrendering to illusion.",
-                "She also speaks of transformation, duality and dark feminine power: a force delicate in appearance, but lethal underneath."
-              ]
-            },
-            {
-              "eyebrow": "Symbolism",
-              "title": "Web, spider and shamisen",
-              "paragraphs": [
-                "The web symbolizes destiny, traps and invisible connections. The spider speaks of patience, intelligence and control.",
-                "The shamisen appears in many reinterpretations as a hypnotic call: music, charm and danger gathered into one image."
-              ]
-            },
-            {
-              "eyebrow": "In tattoo art",
-              "title": "Sensual, dark and fatal",
-              "paragraphs": [
-                "In tattoo art, Jorōgumo allows intense compositions with webs, red flowers, waterfalls, spiders and a magnetic female figure.",
-                "It works beautifully for pieces that mix beauty, mystery and an elegant sense of danger."
-              ]
-            },
-            {
-              "eyebrow": "Origin and folklore",
-              "title": "From real spider to seductive myth",
-              "paragraphs": [
-                "The name Jorōgumo is also linked to a real spider species and, in popular tradition, shaped one of the most unsettling figures in Japanese imagination.",
-                "Between warning, desire and fascination, she remains one of folklore's most seductive presences."
-              ]
-            }
-          ],
-          "galleryTitle": "Jorōgumo gallery",
-          "gallery": [
-            {
-              "src": "./assets/images/story-jorogumo-banner.png",
-              "width": 1916,
-              "height": 821,
-              "alt": "Jorōgumo banner with spider woman, webs and dark garden."
-            },
-            {
-              "src": "./assets/images/story-jorogumo-lore.png",
-              "width": 1024,
-              "height": 1536,
-              "alt": "Complete Jorōgumo panel with story, meanings, symbolism and tattoo art."
-            },
-            {
-              "src": "./assets/images/story-card-jorogumo-tattoo.png",
-              "width": 1024,
-              "height": 1536,
-              "alt": "Jorōgumo tattoo detail with spider woman and webs.",
-              "position": "50% 48%"
-            }
-          ],
-          "quote": "Touch her web, and you may never return."
-        },
-        {
-          "id": "yatagarasu",
-          "number": "16",
-          "title": "Yatagarasu",
-          "cardTitle": "Yatagarasu",
-          "eyebrow": "Japanese mythology",
-          "japaneseName": "八咫烏",
-          "romanized": "The divine crow",
-          "lead": "Yatagarasu represents sacred guidance, destiny, protection and the light that shows the correct path.",
-          "cardImage": {
-            "src": "./assets/images/story-card-yatagarasu-tattoo.png",
-            "width": 1024,
-            "height": 1536,
-            "alt": "Yatagarasu tattoo with divine crow, red sun, torii and Japanese clouds.",
-            "position": "50% 46%"
-          },
-          "heroImage": {
-            "src": "./assets/images/story-yatagarasu-banner.png",
-            "width": 1916,
-            "height": 821,
-            "alt": "Cinematic Yatagarasu banner with divine crow, solar eclipse and Japanese landscape.",
-            "position": "50% 50%"
-          },
-          "sections": [
-            {
-              "eyebrow": "What is it?",
-              "title": "The crow that guides beneath the sun",
-              "paragraphs": [
-                "Yatagarasu is the legendary three-legged crow of Japanese mythology, associated with the sun, celestial will and the correct path.",
-                "It is not a creature of darkness, but a sacred messenger that gives direction when destiny feels uncertain."
-              ]
-            },
-            {
-              "eyebrow": "The legend",
-              "title": "The guide of Emperor Jimmu",
-              "paragraphs": [
-                "In ancient accounts, Yatagarasu was sent by the heavens to guide Emperor Jimmu through difficult lands toward his destination.",
-                "Since then, the sacred crow became a symbol of direction, divine intervention and victory guided by wisdom."
-              ]
-            },
-            {
-              "eyebrow": "Meanings",
-              "title": "Guidance, destiny and clarity",
-              "paragraphs": [
-                "Yatagarasu represents divine guidance, direction, spiritual protection, rebirth and clarity.",
-                "Its presence reminds us that even in mist or doubt, there can be a sign capable of marking the way."
-              ]
-            },
-            {
-              "eyebrow": "Symbolism",
-              "title": "Three legs, sun and torii",
-              "paragraphs": [
-                "The three-legged crow links heaven, earth and humanity. The sun symbolizes truth and divine energy; the wings speak of freedom, movement and protection.",
-                "The torii strengthens the idea of a sacred passage: crossing toward the right direction."
-              ]
-            },
-            {
-              "eyebrow": "In tattoo art",
-              "title": "Protection and destiny",
-              "paragraphs": [
-                "In tattoo art, Yatagarasu works beautifully with solar discs, mountains, clouds, sacred architecture and powerful wing forms.",
-                "It is ideal for anyone seeking a symbol of protection, direction and inner clarity."
-              ]
-            },
-            {
-              "eyebrow": "Origin and folklore",
-              "title": "A sign sent by the heavens",
-              "paragraphs": [
-                "Yatagarasu appears in some of the oldest texts of Japanese mythology and remains a revered figure of guidance, solar power and celestial intervention.",
-                "More than a bird, it is a sign: the certainty that a path exists."
-              ]
-            }
-          ],
-          "galleryTitle": "Yatagarasu gallery",
-          "gallery": [
-            {
-              "src": "./assets/images/story-yatagarasu-banner.png",
-              "width": 1916,
-              "height": 821,
-              "alt": "Yatagarasu banner with divine crow, sun and sacred landscape."
-            },
-            {
-              "src": "./assets/images/story-yatagarasu-lore.png",
-              "width": 1024,
-              "height": 1536,
-              "alt": "Complete Yatagarasu panel with story, meanings, symbolism and tattoo art."
-            },
-            {
-              "src": "./assets/images/story-card-yatagarasu-tattoo.png",
-              "width": 1024,
-              "height": 1536,
-              "alt": "Yatagarasu tattoo detail with black crow and red sun.",
-              "position": "50% 46%"
-            }
-          ],
-          "quote": "Where the sacred sun guides, there is no doubt."
-        },
-        {
-          "id": "nekomata",
-          "number": "17",
-          "title": "Nekomata",
-          "cardTitle": "Nekomata",
-          "eyebrow": "Japanese yōkai",
-          "japaneseName": "猫又",
-          "romanized": "The two-tailed cat",
-          "lead": "Wisdom, mystery and transformation. Nekomata walks between the human and spiritual worlds as the guardian of a nature that cannot be tamed.",
-          "cardImage": {
-            "src": "./assets/images/story-nekomata-art.png",
-            "width": 1024,
-            "height": 1536,
-            "alt": "Nekomata artwork with black two-tailed cat, moon, spirit fire and Japanese motifs.",
-            "position": "50% 48%"
-          },
-          "heroImage": {
-            "src": "./assets/images/story-nekomata-banner.png",
-            "width": 1983,
-            "height": 793,
-            "alt": "Nekomata banner with two-tailed cat, moon, spirit fire and a nocturnal Japanese landscape.",
-            "position": "50% 50%"
-          },
-          "sections": [
-            {
-              "eyebrow": "What is it?",
-              "title": "The cat that crosses into the spirit world",
-              "paragraphs": [
-                "Nekomata is a yōkai from Japanese folklore, born when a domestic cat reaches an advanced age and gains supernatural powers.",
-                "Its most distinctive feature is its pair of tails, symbolizing the transformation of a familiar animal into a being that now belongs to the spirit world."
-              ]
-            },
-            {
-              "eyebrow": "Origin and folklore",
-              "title": "Centuries of feline mystery",
-              "paragraphs": [
-                "The word Nekomata first appeared in 1233 in the Meigetsuki, a diary from the Kamakura period.",
-                "During the Edo period, the belief that old cats could become Nekomata became widespread. It appears in yōkai books such as Toriyama Sekien's Hyakki Yagyō, depicted with two tails and human behavior."
-              ]
-            },
-            {
-              "eyebrow": "The legend",
-              "title": "The truth revealed in Yamato Kaiki",
-              "paragraphs": [
-                "A story from 1708 tells how unexplained noises, opening doors and nocturnal footsteps began to haunt a samurai's home.",
-                "When a servant discovered the old cat carrying a shikigami bearing its master's name, they understood that it had become a Nekomata. When the animal died, the disturbances stopped and peace returned."
-              ]
-            },
-            {
-              "eyebrow": "Appearance and powers",
-              "title": "Fire, spirits and two tails",
-              "paragraphs": [
-                "It may take the form of a large cat or a human, speak, walk on two legs and display superior intelligence.",
-                "It is said to manipulate humans, create illusions, summon ghostly fire, control spirits and fiercely protect those who treated it with respect."
-              ]
-            },
-            {
-              "eyebrow": "Symbolism",
-              "title": "Duality, perception and freedom",
-              "paragraphs": [
-                "The two tails represent duality and transformation. Ghostly fire symbolizes spiritual power, while sharp eyes evoke perception and intelligence.",
-                "The bridge between worlds, death, life and independence complete the image of a being that cannot easily be controlled."
-              ]
-            },
-            {
-              "eyebrow": "In tattoo art",
-              "title": "A guardian between two worlds",
-              "paragraphs": [
-                "Nekomata symbolizes transformation, protection of the home, ancestral wisdom and hidden power.",
-                "In Japanese tattoo art it often represents the duality between the human and spiritual worlds: a guardian that watches in silence and punishes anyone who breaks the balance."
-              ]
-            }
-          ],
-          "galleryTitle": "Nekomata gallery",
-          "gallery": [
-            {
-              "src": "./assets/images/story-nekomata-banner.png",
-              "width": 1983,
-              "height": 793,
-              "alt": "Nekomata banner with two-tailed cat and Japanese landscape."
-            },
-            {
-              "src": "./assets/images/story-nekomata-lore.png",
-              "width": 1024,
-              "height": 1536,
-              "alt": "Complete Nekomata panel with legend, powers, symbolism and tattoo art."
-            },
-            {
-              "src": "./assets/images/story-nekomata-art.png",
-              "width": 1024,
-              "height": 1536,
-              "alt": "Traditional Nekomata artwork with black two-tailed cat, moon and spirit fire."
-            },
-            {
-              "src": "./assets/images/story-card-nekomata-tattoo.png",
-              "width": 1024,
-              "height": 1536,
-              "alt": "Nekomata tattoo composition with black cat, torii, moon and oni mask.",
-              "position": "50% 48%"
-            }
-          ],
-          "quote": "The cat that is no longer a cat watches from the shadows."
-        },
-        {
-          "id": "kappa",
-          "number": "18",
-          "title": "Kappa",
-          "cardTitle": "Kappa",
-          "eyebrow": "Japanese yōkai",
-          "japaneseName": "河童",
-          "romanized": "The river spirit",
-          "lead": "Water, cunning and respect. Kappa reminds us that nature may offer knowledge or danger depending on how we treat it.",
-          "cardImage": {
-            "src": "./assets/images/story-card-kappa-tattoo.png",
-            "width": 1024,
-            "height": 1536,
-            "alt": "Kappa tattoo beside a river with moon, torii, lotus flowers and cucumbers.",
-            "position": "50% 46%"
-          },
-          "heroImage": {
-            "src": "./assets/images/story-kappa-banner.png",
-            "width": 1916,
-            "height": 821,
-            "alt": "Cinematic Kappa banner beside a Japanese pond beneath the moon.",
-            "position": "50% 50%"
-          },
-          "sections": [
-            {
-              "eyebrow": "What is it?",
-              "title": "The spirit that inhabits rivers and ponds",
-              "paragraphs": [
-                "Kappa is one of the best-known aquatic yōkai in Japanese folklore, associated with rivers, ponds and canals.",
-                "It is mischievous, dangerous and intelligent, recognizable by its shell, webbed hands and the water-filled dish on its head that contains its strength."
-              ]
-            },
-            {
-              "eyebrow": "The legend",
-              "title": "The river remembers respect",
-              "paragraphs": [
-                "Kappa watches travelers from the shadows and may approach with curiosity, propose games or issue dangerous challenges.",
-                "If offended, or if the game is lost, it may drag its victim into the depths. Yet it loves cucumbers and deeply respects courtesy: a bow may cause it to spill the water from its dish and lose its power."
-              ]
-            },
-            {
-              "eyebrow": "Meanings",
-              "title": "Nature, danger and discipline",
-              "paragraphs": [
-                "Kappa represents respect for nature, the danger of water, mischief, intelligence and discipline.",
-                "Its story teaches that the balance between fear and knowledge can turn a threat into an ally."
-              ]
-            },
-            {
-              "eyebrow": "Symbolism",
-              "title": "Water, shell, cucumber and reverence",
-              "paragraphs": [
-                "The water dish is a source of power and life; the shell represents protection and a bond with the ancient world.",
-                "The cucumber symbolizes offering and appeasement, while river and lotus speak of flow, depth and spiritual purity."
-              ]
-            },
-            {
-              "eyebrow": "In tattoo art",
-              "title": "Textures of water and folklore",
-              "paragraphs": [
-                "Kappa works especially well in compositions with water, lotus flowers, reeds and waves, where its scales, shell and wet skin create a richly detailed piece.",
-                "It symbolizes protection, warning and wisdom, and fits traditional Japanese, neo-traditional, dark realistic and illustrative styles."
-              ]
-            },
-            {
-              "eyebrow": "Origin and folklore",
-              "title": "An ancient presence in Japan's waters",
-              "paragraphs": [
-                "Kappa appears in Japanese accounts from as early as the Heian period, although its nature varies from region to region.",
-                "Its many versions range from prankster to river guardian, making it one of the most recognizable yōkai in popular tales and art."
-              ]
-            }
-          ],
-          "galleryTitle": "Kappa gallery",
-          "gallery": [
-            {
-              "src": "./assets/images/story-kappa-banner.png",
-              "width": 1916,
-              "height": 821,
-              "alt": "Kappa banner beside a pond, torii and full moon."
-            },
-            {
-              "src": "./assets/images/story-kappa-lore.png",
-              "width": 1024,
-              "height": 1536,
-              "alt": "Complete Kappa panel with story, meanings, symbolism and tattoo examples."
-            },
-            {
-              "src": "./assets/images/story-card-kappa-tattoo.png",
-              "width": 1024,
-              "height": 1536,
-              "alt": "Kappa back tattoo beside a river with lotus flowers, moon and cucumbers.",
-              "position": "50% 46%"
-            }
-          ],
-          "quote": "Respect the water, or the river will remember you."
         }
-      ]
+      ],
+      "lead": "A growing library of Japanese folklore, symbolism and tattoo inspiration.",
+      "searchPlaceholder": "Search a story...",
+      "counter": "{count} stories available",
+      "closing": "New stories every week. A living collection of Japanese folklore, symbolism and art.",
+      "newThisWeek": "New this week",
+      "newLabel": "New",
+      "collectionTitle": "The collection",
+      "loadMore": "Load more stories",
+      "noResults": "No stories found.",
+      "filters": {
+        "all": "All",
+        "yokai": "Yōkai",
+        "creatures": "Creatures",
+        "legends": "Legends",
+        "symbols": "Symbols"
+      }
     },
     "hero": {
       "eyebrow": "",
@@ -4567,32 +4068,24 @@ window.AKAI_HANA_LOCALES = {
     },
     "categories": [
       {
-        "id": "all",
-        "label": "All"
+        "id": "wallpapers",
+        "label": "Wallpapers"
       },
       {
-        "id": "tattoo-designs",
-        "label": "Tattoo Designs"
-      },
-      {
-        "id": "illustrations",
-        "label": "Illustrations"
-      },
-      {
-        "id": "japanese-art",
-        "label": "Japanese Art"
+        "id": "avatar-3d",
+        "label": "3D Avatar"
       },
       {
         "id": "brand-design",
         "label": "Brand Design"
       },
       {
-        "id": "black-grey",
-        "label": "Black & Grey"
+        "id": "tattoo-designs",
+        "label": "Tattoos"
       },
       {
-        "id": "anime-gaming",
-        "label": "Anime / Gaming"
+        "id": "illustrations",
+        "label": "Illustrations"
       }
     ],
     "patterns": {
@@ -4606,7 +4099,7 @@ window.AKAI_HANA_LOCALES = {
     "gallery": {
       "eyebrow": "",
       "title": "Gallery",
-      "body": "A curated collection of original designs inspired by Japanese culture, mythology and timeless art.",
+      "body": "A curated collection of original designs inspired by culture, mythology and timeless art.",
       "notice": {
         "icon": "i",
         "title": "Digital designs for inspiration and reference.",
@@ -4625,7 +4118,7 @@ window.AKAI_HANA_LOCALES = {
         {
           "id": "TD-001",
           "title": "Yasuo",
-          "categoryId": "anime-gaming",
+          "categoryId": "tattoo-designs",
           "category": "Gaming / Anime",
           "style": "Anime warrior, dark ink and legendary energy",
           "shortDescription": "An intense piece that turns a character into a visual icon.",
@@ -4691,7 +4184,7 @@ window.AKAI_HANA_LOCALES = {
         {
           "id": "TD-003",
           "title": "Final Fantasy VII",
-          "categoryId": "anime-gaming",
+          "categoryId": "tattoo-designs",
           "category": "Gaming",
           "style": "Sword, futuristic ruins and dark nostalgia",
           "shortDescription": "A videogame reference turned into a cinematic piece.",
@@ -4724,7 +4217,7 @@ window.AKAI_HANA_LOCALES = {
         {
           "id": "TD-004",
           "title": "Realistic",
-          "categoryId": "black-grey",
+          "categoryId": "tattoo-designs",
           "category": "Black & Grey",
           "style": "Hyperrealistic eye, tear and restrained emotion",
           "shortDescription": "A crying hyperrealistic eye. Not a full portrait.",
@@ -4757,7 +4250,7 @@ window.AKAI_HANA_LOCALES = {
         {
           "id": "TD-005",
           "title": "Japanese Style",
-          "categoryId": "japanese-art",
+          "categoryId": "tattoo-designs",
           "category": "Traditional",
           "style": "High-quality traditional Japanese tattoo design",
           "shortDescription": "A large ornamental piece made to hold presence.",
@@ -4818,6 +4311,305 @@ window.AKAI_HANA_LOCALES = {
             "width": 1122,
             "height": 1402,
             "alt": "Premium creative studio composition with branding, logos, packaging concepts and visual identity for businesses."
+          }
+        },
+        {
+          "id": "WP-001",
+          "title": "Kitsune Sanctuary",
+          "categoryId": "wallpapers",
+          "category": "Wallpapers",
+          "style": "Japanese landscape, white kitsune and sakura light",
+          "shortDescription": "A serene horizon where the kitsune spirit watches over the lake.",
+          "description": "A panoramic Japanese fantasy wallpaper featuring a white kitsune before Mount Fuji and a shrine among cherry blossoms.",
+          "includes": "High-resolution panoramic composition and a desktop-ready visual treatment.",
+          "uses": "Desktop backgrounds, digital headers and brand atmosphere.",
+          "examples": "Wallpaper, banner, digital cover.",
+          "tags": [
+            "fantasy",
+            "kitsune",
+            "sakura"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/wallpaper-kitsune-sakura.jpg",
+            "width": 1672,
+            "height": 941,
+            "alt": "White kitsune beside a lake with Mount Fuji, a pagoda and cherry blossoms at sunset."
+          }
+        },
+        {
+          "id": "WP-002",
+          "title": "Crimson Wings",
+          "categoryId": "wallpapers",
+          "category": "Wallpapers",
+          "style": "Crimson butterfly, flowers and a nocturnal Japanese landscape",
+          "shortDescription": "Colour, transformation and beauty suspended over a midnight garden.",
+          "description": "A monumental crimson and violet butterfly emerges among flowers, ink and Japanese architecture.",
+          "includes": "High-resolution panoramic artwork composed for widescreen display.",
+          "uses": "Desktop backgrounds, covers and digital visual pieces.",
+          "examples": "Wallpaper, banner, atmospheric art.",
+          "tags": [
+            "butterfly",
+            "flowers",
+            "sakura"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/wallpaper-butterfly-sakura.jpg",
+            "width": 1536,
+            "height": 1024,
+            "alt": "Large red and violet butterfly surrounded by flowers in a nocturnal Japanese landscape."
+          }
+        },
+        {
+          "id": "WP-003",
+          "title": "Aurora",
+          "categoryId": "wallpapers",
+          "category": "Wallpapers",
+          "style": "Northern lights, starry sky and contemplative silhouette",
+          "shortDescription": "The night opens into light above a silent horizon.",
+          "description": "A cinematic scene beneath green auroras, with a solitary figure contemplating the sky from the darkness.",
+          "includes": "High-resolution panoramic image optimised for desktop.",
+          "uses": "Wallpapers, atmospheric covers and digital backgrounds.",
+          "examples": "Wallpaper, banner, visual cover.",
+          "tags": [
+            "aurora",
+            "night",
+            "landscape"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/wallpaper-aurora.jpg",
+            "width": 1672,
+            "height": 941,
+            "alt": "Green northern lights above a starry sky and a silhouette beside a car."
+          }
+        },
+        {
+          "id": "AV-001",
+          "title": "Crimson LA",
+          "categoryId": "avatar-3d",
+          "category": "3D Avatar",
+          "style": "Stylised 3D portrait, glossy finish and urban aesthetic",
+          "shortDescription": "A bold digital identity with pop energy and a collectible finish.",
+          "description": "An urban 3D avatar with crimson hair, a dark cap and red visor, modelled as a premium digital piece.",
+          "includes": "Character concept, colour direction and high-resolution render.",
+          "uses": "Brand avatar, digital profile, virtual character and social content.",
+          "examples": "3D avatar, profile icon, brand character.",
+          "tags": [
+            "3D",
+            "avatar",
+            "urban"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/avatar-3d-crimson-la.jpg",
+            "width": 1122,
+            "height": 1402,
+            "alt": "Female 3D avatar with red hair, dark blue cap and crimson visor."
+          }
+        },
+        {
+          "id": "IL-001",
+          "title": "Free Spirit",
+          "categoryId": "illustrations",
+          "category": "Illustrations",
+          "style": "Black ink horse and coastal landscape",
+          "shortDescription": "Strength and freedom moving towards the sea.",
+          "description": "A monochrome illustration of a black horse in motion, integrated with flowers, coastline and horizon light.",
+          "includes": "Detailed high-resolution illustration and editorial composition.",
+          "uses": "Poster, art print, cover and creative inspiration.",
+          "examples": "Illustration, poster, editorial artwork.",
+          "tags": [
+            "horse",
+            "ink",
+            "nature"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/illustration-black-horse.jpg",
+            "width": 1054,
+            "height": 1492,
+            "alt": "Black horse illustrated in ink before a coast with flowers and trees."
+          }
+        },
+        {
+          "id": "IL-002",
+          "title": "Pirate Legacy",
+          "categoryId": "illustrations",
+          "category": "Illustrations",
+          "style": "Anime, digital watercolour and warm-cool contrast",
+          "shortDescription": "Two wills facing the same horizon.",
+          "description": "An anime-inspired composition with two warriors, a pirate emblem and a sky divided between fire and ocean.",
+          "includes": "Character composition, colour direction and high-resolution finish.",
+          "uses": "Poster, custom fan artwork and digital cover.",
+          "examples": "Anime illustration, poster, print.",
+          "tags": [
+            "anime",
+            "pirates",
+            "characters"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/illustration-luffy-zoro.jpg",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Illustration of two anime warriors before a sky of fire and sea."
+          }
+        },
+        {
+          "id": "IL-003",
+          "title": "Blood Bond",
+          "categoryId": "illustrations",
+          "category": "Illustrations",
+          "style": "Monochrome anime, dynamic ink and drama",
+          "shortDescription": "Protection, courage and a bond that crosses the darkness.",
+          "description": "An ink illustration of two siblings united in a composition of action, water and Japanese landscape.",
+          "includes": "Character design, digital ink and vertical composition.",
+          "uses": "Poster, cover, art print and custom commission.",
+          "examples": "Anime illustration, print, cover.",
+          "tags": [
+            "anime",
+            "siblings",
+            "ink"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/illustration-tanjiro-nezuko.jpg",
+            "width": 1086,
+            "height": 1448,
+            "alt": "Two anime characters protecting each other among ink, water and a Japanese landscape."
+          }
+        },
+        {
+          "id": "IL-004",
+          "title": "Breath of Fire",
+          "categoryId": "illustrations",
+          "category": "Illustrations",
+          "style": "Sepia ink warrior with a fire dragon",
+          "shortDescription": "Determination takes the shape of flame.",
+          "description": "An action illustration featuring a swordsman surrounded by a fire dragon in an intense composition of ink and light.",
+          "includes": "Vertical illustration, ink effects and high-resolution finish.",
+          "uses": "Poster, cover and character artwork.",
+          "examples": "Anime illustration, poster, print.",
+          "tags": [
+            "dragon",
+            "fire",
+            "anime"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/illustration-tanjiro-dragon.jpg",
+            "width": 1086,
+            "height": 1448,
+            "alt": "Anime warrior with a katana surrounded by a sepia ink fire dragon."
+          }
+        },
+        {
+          "id": "IL-005",
+          "title": "Akai Hana Garden",
+          "categoryId": "illustrations",
+          "category": "Illustrations",
+          "style": "Floral watercolour with sakura, lotus and peonies",
+          "shortDescription": "A delicate garden where every flower holds an intention.",
+          "description": "A botanical watercolour composition with cherry blossoms, lotus and peonies in a palette of pink, ink and ivory.",
+          "includes": "High-resolution floral illustration and vertical composition.",
+          "uses": "Art print, invitation, cover and decorative design.",
+          "examples": "Floral art, poster, editorial design.",
+          "tags": [
+            "flowers",
+            "sakura",
+            "watercolour"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/illustration-sakura-lotus.jpg",
+            "width": 1086,
+            "height": 1448,
+            "alt": "Cherry blossom, lotus and peony composition in pink and grey watercolour."
+          }
+        },
+        {
+          "id": "IL-006",
+          "title": "Akai Ito",
+          "categoryId": "illustrations",
+          "category": "Illustrations",
+          "style": "Fine line, red thread and romantic symbolism",
+          "shortDescription": "Two destinies joined by a thread that never breaks.",
+          "description": "A minimalist illustration of a couple connected by the red thread of fate among flowers, smoke and two hearts.",
+          "includes": "Symbolic concept, fine line and custom composition.",
+          "uses": "Gift, art print, invitation and personal keepsake.",
+          "examples": "Romantic illustration, print, cover.",
+          "tags": [
+            "akai ito",
+            "love",
+            "fine line"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/illustration-akai-ito.jpg",
+            "width": 1122,
+            "height": 1402,
+            "alt": "Couple joined by a red thread among flowers and hearts in fine ink."
+          }
+        },
+        {
+          "id": "IL-007",
+          "title": "Open Road",
+          "categoryId": "illustrations",
+          "category": "Illustrations",
+          "style": "Monochrome motorcycle and mountain landscape",
+          "shortDescription": "The road begins where the noise ends.",
+          "description": "An illustration of a classic motorcycle before a mountain road, rendered with graphite and watercolour texture.",
+          "includes": "Detailed mechanical illustration and high-resolution landscape.",
+          "uses": "Poster, cover, gift and artwork for riders.",
+          "examples": "Vehicle illustration, print, poster.",
+          "tags": [
+            "motorcycle",
+            "mountains",
+            "monochrome"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/illustration-motorcycle.jpg",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Black motorcycle illustrated before a road and mountains in monochrome style."
+          }
+        },
+        {
+          "id": "IL-008",
+          "title": "Sakura Minimal",
+          "categoryId": "illustrations",
+          "category": "Illustrations",
+          "style": "Minimal botanical art in pink watercolour",
+          "shortDescription": "The beauty of the essential in a single branch.",
+          "description": "A bright vertical illustration of cherry blossoms drawn with delicate lines and soft watercolour washes.",
+          "includes": "Minimal botanical artwork and high-resolution file.",
+          "uses": "Art print, stationery, cover and decoration.",
+          "examples": "Floral art, print, editorial design.",
+          "tags": [
+            "sakura",
+            "minimal",
+            "watercolour"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/illustration-sakura-minimal.jpg",
+            "width": 1086,
+            "height": 1448,
+            "alt": "Vertical branch of pink cherry blossoms in minimalist watercolour."
+          }
+        },
+        {
+          "id": "IL-009",
+          "title": "Loyal Spirit",
+          "categoryId": "illustrations",
+          "category": "Illustrations",
+          "style": "Animal portrait, red moon and expressive ink",
+          "shortDescription": "Loyalty, memory and protection beneath a crimson moon.",
+          "description": "An illustrated dog portrait surrounded by black brushwork, symbols and a large red moon.",
+          "includes": "Custom animal portrait and high-resolution artistic composition.",
+          "uses": "Memorial portrait, poster and personal gift.",
+          "examples": "Pet portrait, print, custom illustration.",
+          "tags": [
+            "dog",
+            "portrait",
+            "red moon"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/illustration-dog-red-moon.jpg",
+            "width": 1122,
+            "height": 1402,
+            "alt": "Illustrated dog portrait before a red moon with black and crimson ink."
           }
         }
       ],
