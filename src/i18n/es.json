@@ -1391,6 +1391,401 @@
           }
         ],
         "quote": "La Luna la llama. La tierra aún la recuerda."
+      },
+      {
+        "id": "jorogumo",
+        "number": "15",
+        "title": "Jorōgumo",
+        "cardTitle": "Jorōgumo",
+        "eyebrow": "Yōkai japonés",
+        "japaneseName": "絡新婦",
+        "romanized": "La mujer araña",
+        "lead": "Entre hilos invisibles, belleza y peligro, Jorōgumo representa la seducción, el engaño y la trampa que se oculta bajo una apariencia fascinante.",
+        "cardImage": {
+          "src": "./assets/images/story-card-jorogumo-tattoo.png",
+          "width": 1024,
+          "height": 1536,
+          "alt": "Tatuaje de Jorōgumo con mujer araña, telarañas, flores rojas y paisaje japonés.",
+          "position": "50% 48%"
+        },
+        "heroImage": {
+          "src": "./assets/images/story-jorogumo-banner.png",
+          "width": 1916,
+          "height": 821,
+          "alt": "Banner cinematográfico de Jorōgumo entre telarañas, flores rojas y cascadas japonesas.",
+          "position": "50% 50%"
+        },
+        "sections": [
+          {
+            "eyebrow": "¿Qué es?",
+            "title": "La belleza que teje una trampa",
+            "paragraphs": [
+              "Jorōgumo es un yōkai con forma de araña que, al alcanzar gran edad y poder, puede transformarse en una mujer hermosa.",
+              "Su leyenda une encanto, deseo y peligro: una presencia cautivadora que esconde una red invisible."
+            ]
+          },
+          {
+            "eyebrow": "La leyenda",
+            "title": "Hilos de belleza que conducen a la muerte",
+            "paragraphs": [
+              "En muchas versiones, Jorōgumo habita bosques, puentes o cascadas apartadas. Allí espera a viajeros solitarios y los envuelve con conversación, música o deseo.",
+              "Cuando la presa baja la guardia, la mujer revela su verdadera naturaleza arácnida y la atrapa entre hilos invisibles.",
+              "Su belleza no es una promesa de amor, sino una trampa tejida con paciencia."
+            ]
+          },
+          {
+            "eyebrow": "Significados",
+            "title": "Deseo, engaño y poder oculto",
+            "paragraphs": [
+              "Jorōgumo representa la belleza convertida en peligro, la seducción que engaña y el precio de dejarse llevar por la ilusión.",
+              "También habla de transformación, dualidad y poder femenino oscuro: una fuerza delicada en apariencia, pero letal en el fondo."
+            ]
+          },
+          {
+            "eyebrow": "Simbología",
+            "title": "Telaraña, araña y shamisen",
+            "paragraphs": [
+              "La telaraña simboliza destino, trampa y conexiones invisibles. La araña habla de paciencia, inteligencia y control.",
+              "El shamisen aparece en muchas reinterpretaciones como llamada hipnótica: música, encanto y peligro reunidos en una sola imagen."
+            ]
+          },
+          {
+            "eyebrow": "En el arte del tatuaje",
+            "title": "Sensual, oscura y fatal",
+            "paragraphs": [
+              "En tatuaje, Jorōgumo permite composiciones intensas con telarañas, flores rojas, cascadas, arañas y una figura femenina magnética.",
+              "Funciona muy bien para piezas que mezclan belleza, misterio y una sensación de peligro elegante."
+            ]
+          },
+          {
+            "eyebrow": "Origen y folklore",
+            "title": "De araña real a mito seductor",
+            "paragraphs": [
+              "El nombre Jorōgumo también se asocia a una especie real de araña y, en la tradición popular, dio forma a una de las figuras más inquietantes del imaginario japonés.",
+              "Entre advertencia, deseo y fascinación, sigue siendo una presencia seductora del folklore japonés."
+            ]
+          }
+        ],
+        "galleryTitle": "Galería de Jorōgumo",
+        "gallery": [
+          {
+            "src": "./assets/images/story-jorogumo-banner.png",
+            "width": 1916,
+            "height": 821,
+            "alt": "Banner de Jorōgumo con mujer araña, telarañas y jardín oscuro."
+          },
+          {
+            "src": "./assets/images/story-jorogumo-lore.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Panel completo de Jorōgumo con historia, significados, simbología y arte de tatuaje."
+          },
+          {
+            "src": "./assets/images/story-card-jorogumo-tattoo.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Detalle de tatuaje Jorōgumo con mujer araña y telarañas.",
+            "position": "50% 48%"
+          }
+        ],
+        "quote": "Toca su red y quizá no puedas volver."
+      },
+      {
+        "id": "yatagarasu",
+        "number": "16",
+        "title": "Yatagarasu",
+        "cardTitle": "Yatagarasu",
+        "eyebrow": "Mitología japonesa",
+        "japaneseName": "八咫烏",
+        "romanized": "El cuervo divino",
+        "lead": "Yatagarasu representa la guía sagrada, el destino, la protección y la luz que señala el camino correcto.",
+        "cardImage": {
+          "src": "./assets/images/story-card-yatagarasu-tattoo.png",
+          "width": 1024,
+          "height": 1536,
+          "alt": "Tatuaje de Yatagarasu con cuervo divino, sol rojo, torii y nubes japonesas.",
+          "position": "50% 46%"
+        },
+        "heroImage": {
+          "src": "./assets/images/story-yatagarasu-banner.png",
+          "width": 1916,
+          "height": 821,
+          "alt": "Banner cinematográfico de Yatagarasu con cuervo divino, eclipse solar y paisaje japonés.",
+          "position": "50% 50%"
+        },
+        "sections": [
+          {
+            "eyebrow": "¿Qué es?",
+            "title": "El cuervo que guía bajo el sol",
+            "paragraphs": [
+              "Yatagarasu es el legendario cuervo de tres patas de la mitología japonesa, asociado al sol, la voluntad celestial y el camino correcto.",
+              "No aparece como una criatura de oscuridad, sino como un mensajero sagrado que orienta cuando el destino parece incierto."
+            ]
+          },
+          {
+            "eyebrow": "La leyenda",
+            "title": "La guía del Emperador Jimmu",
+            "paragraphs": [
+              "En los relatos antiguos, Yatagarasu fue enviado por los cielos para guiar al Emperador Jimmu a través de tierras difíciles hasta su destino.",
+              "Desde entonces, el cuervo sagrado se convirtió en símbolo de dirección, intervención divina y victoria guiada por la sabiduría."
+            ]
+          },
+          {
+            "eyebrow": "Significados",
+            "title": "Guía, destino y claridad",
+            "paragraphs": [
+              "Yatagarasu representa guía divina, dirección, protección espiritual, renacimiento y claridad.",
+              "Su presencia recuerda que incluso en la niebla o la duda existe una señal capaz de marcar el camino."
+            ]
+          },
+          {
+            "eyebrow": "Simbología",
+            "title": "Tres patas, sol y torii",
+            "paragraphs": [
+              "El cuervo de tres patas une cielo, tierra y humanidad. El sol simboliza verdad y energía divina; las alas hablan de libertad, avance y protección.",
+              "El torii refuerza la idea de paso sagrado: cruzar hacia una dirección correcta."
+            ]
+          },
+          {
+            "eyebrow": "En el arte del tatuaje",
+            "title": "Protección y destino",
+            "paragraphs": [
+              "En tatuaje, Yatagarasu funciona con discos solares, montañas, nubes, arquitectura sagrada y formas de alas poderosas.",
+              "Es una pieza ideal para quienes buscan un símbolo de protección, dirección y claridad interior."
+            ]
+          },
+          {
+            "eyebrow": "Origen y folklore",
+            "title": "Una señal enviada por el cielo",
+            "paragraphs": [
+              "Yatagarasu aparece en los textos más antiguos de la mitología japonesa y sigue siendo una figura venerada de guía, poder solar e intervención celestial.",
+              "Más que un ave, es una señal: la certeza de que el camino existe."
+            ]
+          }
+        ],
+        "galleryTitle": "Galería de Yatagarasu",
+        "gallery": [
+          {
+            "src": "./assets/images/story-yatagarasu-banner.png",
+            "width": 1916,
+            "height": 821,
+            "alt": "Banner de Yatagarasu con cuervo divino, sol y paisaje sagrado."
+          },
+          {
+            "src": "./assets/images/story-yatagarasu-lore.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Panel completo de Yatagarasu con historia, significados, simbología y arte de tatuaje."
+          },
+          {
+            "src": "./assets/images/story-card-yatagarasu-tattoo.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Detalle de tatuaje Yatagarasu con cuervo negro y sol rojo.",
+            "position": "50% 46%"
+          }
+        ],
+        "quote": "Donde guía el sol sagrado, no hay duda."
+      },
+      {
+        "id": "nekomata",
+        "number": "17",
+        "title": "Nekomata",
+        "cardTitle": "Nekomata",
+        "eyebrow": "Yōkai japonés",
+        "japaneseName": "猫又",
+        "romanized": "El gato de dos colas",
+        "lead": "Sabiduría, misterio y transformación. Nekomata camina entre el mundo humano y el espiritual como guardián de una naturaleza imposible de dominar.",
+        "cardImage": {
+          "src": "./assets/images/story-nekomata-art.png",
+          "width": 1024,
+          "height": 1536,
+          "alt": "Ilustración de Nekomata negro con dos colas, luna, fuego espiritual y motivos japoneses.",
+          "position": "50% 48%"
+        },
+        "heroImage": {
+          "src": "./assets/images/story-nekomata-banner.png",
+          "width": 1983,
+          "height": 793,
+          "alt": "Banner de Nekomata con gato de dos colas, luna, fuego espiritual y paisaje japonés nocturno.",
+          "position": "50% 50%"
+        },
+        "sections": [
+          {
+            "eyebrow": "¿Qué es?",
+            "title": "El gato que cruza al mundo espiritual",
+            "paragraphs": [
+              "Nekomata es un yōkai del folklore japonés que nace cuando un gato doméstico alcanza una edad avanzada y adquiere poderes sobrenaturales.",
+              "Su rasgo más distintivo son sus dos colas, símbolo de la transformación de un animal familiar en un ser que ya pertenece al mundo espiritual."
+            ]
+          },
+          {
+            "eyebrow": "Origen y folklore",
+            "title": "Siglos de misterio felino",
+            "paragraphs": [
+              "La palabra Nekomata aparece por primera vez en 1233 en el Meigetsuki, un diario de la era Kamakura.",
+              "Durante el periodo Edo se popularizó la creencia de que los gatos viejos podían convertirse en Nekomata. Aparece en libros de yōkai como el Hyakki Yagyō de Toriyama Sekien, representado con dos colas y comportamiento humano."
+            ]
+          },
+          {
+            "eyebrow": "La leyenda",
+            "title": "La verdad revelada en Yamato Kaiki",
+            "paragraphs": [
+              "Una historia de 1708 cuenta que, en la casa de un samurái, comenzaron a oírse ruidos, puertas que se abrían solas y pasos nocturnos sin explicación.",
+              "Cuando un sirviente descubrió al viejo gato llevando un shikigami con el nombre de su señor, comprendieron que se había convertido en Nekomata. Al morir el animal, los fenómenos cesaron y la paz regresó."
+            ]
+          },
+          {
+            "eyebrow": "Aspecto y poderes",
+            "title": "Fuego, espíritus y dos colas",
+            "paragraphs": [
+              "Puede adoptar forma de gato grande o humana, hablar, caminar en dos patas y mostrar una inteligencia superior.",
+              "Se dice que manipula a los humanos, crea ilusiones, invoca fuego fatuo, controla espíritus y protege con ferocidad a quienes lo trataron con respeto."
+            ]
+          },
+          {
+            "eyebrow": "Simbología",
+            "title": "Dualidad, percepción y libertad",
+            "paragraphs": [
+              "Las dos colas representan dualidad y transformación. El fuego fatuo simboliza poder espiritual; los ojos agudos, percepción e inteligencia.",
+              "El puente entre mundos, la muerte, la vida y la independencia completan una figura que no puede ser dominada con facilidad."
+            ]
+          },
+          {
+            "eyebrow": "En el arte del tatuaje",
+            "title": "Un guardián entre dos mundos",
+            "paragraphs": [
+              "Nekomata simboliza transformación, protección del hogar, sabiduría ancestral y poder oculto.",
+              "En tatuaje japonés suele representar la dualidad entre el mundo humano y el espiritual: un guardián que vigila en silencio y castiga a quien rompe el equilibrio."
+            ]
+          }
+        ],
+        "galleryTitle": "Galería de Nekomata",
+        "gallery": [
+          {
+            "src": "./assets/images/story-nekomata-banner.png",
+            "width": 1983,
+            "height": 793,
+            "alt": "Banner de Nekomata con gato de dos colas y paisaje japonés."
+          },
+          {
+            "src": "./assets/images/story-nekomata-lore.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Panel completo de Nekomata con leyenda, poderes, simbología y arte del tatuaje."
+          },
+          {
+            "src": "./assets/images/story-nekomata-art.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Ilustración tradicional de Nekomata negro con dos colas, luna y fuego espiritual."
+          },
+          {
+            "src": "./assets/images/story-card-nekomata-tattoo.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Composición de tatuaje Nekomata con gato negro, torii, luna y máscara oni.",
+            "position": "50% 48%"
+          }
+        ],
+        "quote": "El gato que ya no es gato observa desde las sombras."
+      },
+      {
+        "id": "kappa",
+        "number": "18",
+        "title": "Kappa",
+        "cardTitle": "Kappa",
+        "eyebrow": "Yōkai japonés",
+        "japaneseName": "河童",
+        "romanized": "El espíritu del río",
+        "lead": "Agua, astucia y respeto. El Kappa recuerda que la naturaleza puede ofrecer conocimiento o peligro según la forma en que la tratamos.",
+        "cardImage": {
+          "src": "./assets/images/story-card-kappa-tattoo.png",
+          "width": 1024,
+          "height": 1536,
+          "alt": "Tatuaje de Kappa junto a un río, con luna, torii, lotos y pepinos.",
+          "position": "50% 46%"
+        },
+        "heroImage": {
+          "src": "./assets/images/story-kappa-banner.png",
+          "width": 1916,
+          "height": 821,
+          "alt": "Banner cinematográfico de Kappa junto a un estanque japonés bajo la luna.",
+          "position": "50% 50%"
+        },
+        "sections": [
+          {
+            "eyebrow": "¿Qué es?",
+            "title": "El espíritu que habita ríos y estanques",
+            "paragraphs": [
+              "El Kappa es uno de los yōkai acuáticos más conocidos del folklore japonés, asociado a ríos, estanques y canales.",
+              "Es una criatura traviesa, peligrosa e inteligente, reconocible por su caparazón, sus manos palmeadas y el plato de agua sobre la cabeza que contiene su fuerza."
+            ]
+          },
+          {
+            "eyebrow": "La leyenda",
+            "title": "El río recuerda el respeto",
+            "paragraphs": [
+              "El Kappa observa a los viajeros desde las sombras y puede acercarse con curiosidad, proponer juegos o lanzar desafíos peligrosos.",
+              "Si se le ofende o se pierde el juego, puede arrastrar a su víctima a las profundidades. Sin embargo, ama los pepinos y respeta profundamente la cortesía: una reverencia puede hacer que derrame el agua de su plato y pierda su poder."
+            ]
+          },
+          {
+            "eyebrow": "Significados",
+            "title": "Naturaleza, peligro y disciplina",
+            "paragraphs": [
+              "Kappa representa respeto por la naturaleza, peligro del agua, travesura, inteligencia y disciplina.",
+              "Su historia enseña que el equilibrio entre miedo y conocimiento puede convertir una amenaza en alianza."
+            ]
+          },
+          {
+            "eyebrow": "Simbología",
+            "title": "Agua, caparazón, pepino y reverencia",
+            "paragraphs": [
+              "El plato de agua es fuente de poder y vida; el caparazón representa protección y vínculo con lo ancestral.",
+              "El pepino simboliza ofrenda y apaciguamiento, mientras el río y el loto hablan de fluidez, profundidad y pureza espiritual."
+            ]
+          },
+          {
+            "eyebrow": "En el arte del tatuaje",
+            "title": "Texturas de agua y folklore",
+            "paragraphs": [
+              "Kappa funciona especialmente bien en composiciones con agua, lotos, juncos y ondas, donde sus escamas, caparazón y piel húmeda crean una pieza rica en detalle.",
+              "Simboliza protección, advertencia y sabiduría, y encaja en estilos japoneses tradicionales, neotradicionales, realistas oscuros e ilustrativos."
+            ]
+          },
+          {
+            "eyebrow": "Origen y folklore",
+            "title": "Una presencia antigua en las aguas de Japón",
+            "paragraphs": [
+              "El Kappa aparece en relatos japoneses desde la época Heian, aunque su naturaleza cambia según la región.",
+              "Sus múltiples versiones van desde bromista hasta guardián de los ríos, y lo han convertido en uno de los yōkai más reconocibles del arte y los cuentos populares."
+            ]
+          }
+        ],
+        "galleryTitle": "Galería de Kappa",
+        "gallery": [
+          {
+            "src": "./assets/images/story-kappa-banner.png",
+            "width": 1916,
+            "height": 821,
+            "alt": "Banner de Kappa junto a un estanque, torii y luna llena."
+          },
+          {
+            "src": "./assets/images/story-kappa-lore.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Panel completo de Kappa con historia, significados, simbología y ejemplos de tatuaje."
+          },
+          {
+            "src": "./assets/images/story-card-kappa-tattoo.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Tatuaje de espalda de Kappa junto a un río con lotos, luna y pepinos.",
+            "position": "50% 46%"
+          }
+        ],
+        "quote": "Respeta el agua, o el río te recordará."
       }
     ],
     "lead": "Una biblioteca en crecimiento sobre folklore japonés, simbolismo y arte del tatuaje.",

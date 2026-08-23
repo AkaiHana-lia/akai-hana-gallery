@@ -1391,6 +1391,401 @@
           }
         ],
         "quote": "The Moon calls her back. The earth still longs for her."
+      },
+      {
+        "id": "jorogumo",
+        "number": "15",
+        "title": "Jorōgumo",
+        "cardTitle": "Jorōgumo",
+        "eyebrow": "Japanese yōkai",
+        "japaneseName": "絡新婦",
+        "romanized": "The spider woman",
+        "lead": "Among invisible threads, beauty and danger, Jorōgumo represents seduction, deception and the trap hidden beneath a fascinating appearance.",
+        "cardImage": {
+          "src": "./assets/images/story-card-jorogumo-tattoo.png",
+          "width": 1024,
+          "height": 1536,
+          "alt": "Jorōgumo tattoo with spider woman, webs, red flowers and Japanese scenery.",
+          "position": "50% 48%"
+        },
+        "heroImage": {
+          "src": "./assets/images/story-jorogumo-banner.png",
+          "width": 1916,
+          "height": 821,
+          "alt": "Cinematic Jorōgumo banner among webs, red flowers and Japanese waterfalls.",
+          "position": "50% 50%"
+        },
+        "sections": [
+          {
+            "eyebrow": "What is it?",
+            "title": "The beauty that weaves a trap",
+            "paragraphs": [
+              "Jorōgumo is a spider yōkai that, after reaching great age and power, can transform into a beautiful woman.",
+              "Her legend brings together charm, desire and danger: a captivating presence hiding an invisible web."
+            ]
+          },
+          {
+            "eyebrow": "The legend",
+            "title": "Threads of beauty may lead to death",
+            "paragraphs": [
+              "In many versions, Jorōgumo lives near forests, bridges or secluded waterfalls. There she waits for lonely travelers and surrounds them with conversation, music or desire.",
+              "When the victim lowers their guard, the woman reveals her arachnid nature and traps them in invisible threads.",
+              "Her beauty is not a promise of love, but a trap woven with patience."
+            ]
+          },
+          {
+            "eyebrow": "Meanings",
+            "title": "Desire, deception and hidden power",
+            "paragraphs": [
+              "Jorōgumo represents beauty turned into danger, seduction that deceives and the price of surrendering to illusion.",
+              "She also speaks of transformation, duality and dark feminine power: a force delicate in appearance, but lethal underneath."
+            ]
+          },
+          {
+            "eyebrow": "Symbolism",
+            "title": "Web, spider and shamisen",
+            "paragraphs": [
+              "The web symbolizes destiny, traps and invisible connections. The spider speaks of patience, intelligence and control.",
+              "The shamisen appears in many reinterpretations as a hypnotic call: music, charm and danger gathered into one image."
+            ]
+          },
+          {
+            "eyebrow": "In tattoo art",
+            "title": "Sensual, dark and fatal",
+            "paragraphs": [
+              "In tattoo art, Jorōgumo allows intense compositions with webs, red flowers, waterfalls, spiders and a magnetic female figure.",
+              "It works beautifully for pieces that mix beauty, mystery and an elegant sense of danger."
+            ]
+          },
+          {
+            "eyebrow": "Origin and folklore",
+            "title": "From real spider to seductive myth",
+            "paragraphs": [
+              "The name Jorōgumo is also linked to a real spider species and, in popular tradition, shaped one of the most unsettling figures in Japanese imagination.",
+              "Between warning, desire and fascination, she remains one of folklore's most seductive presences."
+            ]
+          }
+        ],
+        "galleryTitle": "Jorōgumo gallery",
+        "gallery": [
+          {
+            "src": "./assets/images/story-jorogumo-banner.png",
+            "width": 1916,
+            "height": 821,
+            "alt": "Jorōgumo banner with spider woman, webs and dark garden."
+          },
+          {
+            "src": "./assets/images/story-jorogumo-lore.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Complete Jorōgumo panel with story, meanings, symbolism and tattoo art."
+          },
+          {
+            "src": "./assets/images/story-card-jorogumo-tattoo.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Jorōgumo tattoo detail with spider woman and webs.",
+            "position": "50% 48%"
+          }
+        ],
+        "quote": "Touch her web, and you may never return."
+      },
+      {
+        "id": "yatagarasu",
+        "number": "16",
+        "title": "Yatagarasu",
+        "cardTitle": "Yatagarasu",
+        "eyebrow": "Japanese mythology",
+        "japaneseName": "八咫烏",
+        "romanized": "The divine crow",
+        "lead": "Yatagarasu represents sacred guidance, destiny, protection and the light that shows the correct path.",
+        "cardImage": {
+          "src": "./assets/images/story-card-yatagarasu-tattoo.png",
+          "width": 1024,
+          "height": 1536,
+          "alt": "Yatagarasu tattoo with divine crow, red sun, torii and Japanese clouds.",
+          "position": "50% 46%"
+        },
+        "heroImage": {
+          "src": "./assets/images/story-yatagarasu-banner.png",
+          "width": 1916,
+          "height": 821,
+          "alt": "Cinematic Yatagarasu banner with divine crow, solar eclipse and Japanese landscape.",
+          "position": "50% 50%"
+        },
+        "sections": [
+          {
+            "eyebrow": "What is it?",
+            "title": "The crow that guides beneath the sun",
+            "paragraphs": [
+              "Yatagarasu is the legendary three-legged crow of Japanese mythology, associated with the sun, celestial will and the correct path.",
+              "It is not a creature of darkness, but a sacred messenger that gives direction when destiny feels uncertain."
+            ]
+          },
+          {
+            "eyebrow": "The legend",
+            "title": "The guide of Emperor Jimmu",
+            "paragraphs": [
+              "In ancient accounts, Yatagarasu was sent by the heavens to guide Emperor Jimmu through difficult lands toward his destination.",
+              "Since then, the sacred crow became a symbol of direction, divine intervention and victory guided by wisdom."
+            ]
+          },
+          {
+            "eyebrow": "Meanings",
+            "title": "Guidance, destiny and clarity",
+            "paragraphs": [
+              "Yatagarasu represents divine guidance, direction, spiritual protection, rebirth and clarity.",
+              "Its presence reminds us that even in mist or doubt, there can be a sign capable of marking the way."
+            ]
+          },
+          {
+            "eyebrow": "Symbolism",
+            "title": "Three legs, sun and torii",
+            "paragraphs": [
+              "The three-legged crow links heaven, earth and humanity. The sun symbolizes truth and divine energy; the wings speak of freedom, movement and protection.",
+              "The torii strengthens the idea of a sacred passage: crossing toward the right direction."
+            ]
+          },
+          {
+            "eyebrow": "In tattoo art",
+            "title": "Protection and destiny",
+            "paragraphs": [
+              "In tattoo art, Yatagarasu works beautifully with solar discs, mountains, clouds, sacred architecture and powerful wing forms.",
+              "It is ideal for anyone seeking a symbol of protection, direction and inner clarity."
+            ]
+          },
+          {
+            "eyebrow": "Origin and folklore",
+            "title": "A sign sent by the heavens",
+            "paragraphs": [
+              "Yatagarasu appears in some of the oldest texts of Japanese mythology and remains a revered figure of guidance, solar power and celestial intervention.",
+              "More than a bird, it is a sign: the certainty that a path exists."
+            ]
+          }
+        ],
+        "galleryTitle": "Yatagarasu gallery",
+        "gallery": [
+          {
+            "src": "./assets/images/story-yatagarasu-banner.png",
+            "width": 1916,
+            "height": 821,
+            "alt": "Yatagarasu banner with divine crow, sun and sacred landscape."
+          },
+          {
+            "src": "./assets/images/story-yatagarasu-lore.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Complete Yatagarasu panel with story, meanings, symbolism and tattoo art."
+          },
+          {
+            "src": "./assets/images/story-card-yatagarasu-tattoo.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Yatagarasu tattoo detail with black crow and red sun.",
+            "position": "50% 46%"
+          }
+        ],
+        "quote": "Where the sacred sun guides, there is no doubt."
+      },
+      {
+        "id": "nekomata",
+        "number": "17",
+        "title": "Nekomata",
+        "cardTitle": "Nekomata",
+        "eyebrow": "Japanese yōkai",
+        "japaneseName": "猫又",
+        "romanized": "The two-tailed cat",
+        "lead": "Wisdom, mystery and transformation. Nekomata walks between the human and spiritual worlds as the guardian of a nature that cannot be tamed.",
+        "cardImage": {
+          "src": "./assets/images/story-nekomata-art.png",
+          "width": 1024,
+          "height": 1536,
+          "alt": "Nekomata artwork with black two-tailed cat, moon, spirit fire and Japanese motifs.",
+          "position": "50% 48%"
+        },
+        "heroImage": {
+          "src": "./assets/images/story-nekomata-banner.png",
+          "width": 1983,
+          "height": 793,
+          "alt": "Nekomata banner with two-tailed cat, moon, spirit fire and a nocturnal Japanese landscape.",
+          "position": "50% 50%"
+        },
+        "sections": [
+          {
+            "eyebrow": "What is it?",
+            "title": "The cat that crosses into the spirit world",
+            "paragraphs": [
+              "Nekomata is a yōkai from Japanese folklore, born when a domestic cat reaches an advanced age and gains supernatural powers.",
+              "Its most distinctive feature is its pair of tails, symbolizing the transformation of a familiar animal into a being that now belongs to the spirit world."
+            ]
+          },
+          {
+            "eyebrow": "Origin and folklore",
+            "title": "Centuries of feline mystery",
+            "paragraphs": [
+              "The word Nekomata first appeared in 1233 in the Meigetsuki, a diary from the Kamakura period.",
+              "During the Edo period, the belief that old cats could become Nekomata became widespread. It appears in yōkai books such as Toriyama Sekien's Hyakki Yagyō, depicted with two tails and human behavior."
+            ]
+          },
+          {
+            "eyebrow": "The legend",
+            "title": "The truth revealed in Yamato Kaiki",
+            "paragraphs": [
+              "A story from 1708 tells how unexplained noises, opening doors and nocturnal footsteps began to haunt a samurai's home.",
+              "When a servant discovered the old cat carrying a shikigami bearing its master's name, they understood that it had become a Nekomata. When the animal died, the disturbances stopped and peace returned."
+            ]
+          },
+          {
+            "eyebrow": "Appearance and powers",
+            "title": "Fire, spirits and two tails",
+            "paragraphs": [
+              "It may take the form of a large cat or a human, speak, walk on two legs and display superior intelligence.",
+              "It is said to manipulate humans, create illusions, summon ghostly fire, control spirits and fiercely protect those who treated it with respect."
+            ]
+          },
+          {
+            "eyebrow": "Symbolism",
+            "title": "Duality, perception and freedom",
+            "paragraphs": [
+              "The two tails represent duality and transformation. Ghostly fire symbolizes spiritual power, while sharp eyes evoke perception and intelligence.",
+              "The bridge between worlds, death, life and independence complete the image of a being that cannot easily be controlled."
+            ]
+          },
+          {
+            "eyebrow": "In tattoo art",
+            "title": "A guardian between two worlds",
+            "paragraphs": [
+              "Nekomata symbolizes transformation, protection of the home, ancestral wisdom and hidden power.",
+              "In Japanese tattoo art it often represents the duality between the human and spiritual worlds: a guardian that watches in silence and punishes anyone who breaks the balance."
+            ]
+          }
+        ],
+        "galleryTitle": "Nekomata gallery",
+        "gallery": [
+          {
+            "src": "./assets/images/story-nekomata-banner.png",
+            "width": 1983,
+            "height": 793,
+            "alt": "Nekomata banner with two-tailed cat and Japanese landscape."
+          },
+          {
+            "src": "./assets/images/story-nekomata-lore.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Complete Nekomata panel with legend, powers, symbolism and tattoo art."
+          },
+          {
+            "src": "./assets/images/story-nekomata-art.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Traditional Nekomata artwork with black two-tailed cat, moon and spirit fire."
+          },
+          {
+            "src": "./assets/images/story-card-nekomata-tattoo.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Nekomata tattoo composition with black cat, torii, moon and oni mask.",
+            "position": "50% 48%"
+          }
+        ],
+        "quote": "The cat that is no longer a cat watches from the shadows."
+      },
+      {
+        "id": "kappa",
+        "number": "18",
+        "title": "Kappa",
+        "cardTitle": "Kappa",
+        "eyebrow": "Japanese yōkai",
+        "japaneseName": "河童",
+        "romanized": "The river spirit",
+        "lead": "Water, cunning and respect. Kappa reminds us that nature may offer knowledge or danger depending on how we treat it.",
+        "cardImage": {
+          "src": "./assets/images/story-card-kappa-tattoo.png",
+          "width": 1024,
+          "height": 1536,
+          "alt": "Kappa tattoo beside a river with moon, torii, lotus flowers and cucumbers.",
+          "position": "50% 46%"
+        },
+        "heroImage": {
+          "src": "./assets/images/story-kappa-banner.png",
+          "width": 1916,
+          "height": 821,
+          "alt": "Cinematic Kappa banner beside a Japanese pond beneath the moon.",
+          "position": "50% 50%"
+        },
+        "sections": [
+          {
+            "eyebrow": "What is it?",
+            "title": "The spirit that inhabits rivers and ponds",
+            "paragraphs": [
+              "Kappa is one of the best-known aquatic yōkai in Japanese folklore, associated with rivers, ponds and canals.",
+              "It is mischievous, dangerous and intelligent, recognizable by its shell, webbed hands and the water-filled dish on its head that contains its strength."
+            ]
+          },
+          {
+            "eyebrow": "The legend",
+            "title": "The river remembers respect",
+            "paragraphs": [
+              "Kappa watches travelers from the shadows and may approach with curiosity, propose games or issue dangerous challenges.",
+              "If offended, or if the game is lost, it may drag its victim into the depths. Yet it loves cucumbers and deeply respects courtesy: a bow may cause it to spill the water from its dish and lose its power."
+            ]
+          },
+          {
+            "eyebrow": "Meanings",
+            "title": "Nature, danger and discipline",
+            "paragraphs": [
+              "Kappa represents respect for nature, the danger of water, mischief, intelligence and discipline.",
+              "Its story teaches that the balance between fear and knowledge can turn a threat into an ally."
+            ]
+          },
+          {
+            "eyebrow": "Symbolism",
+            "title": "Water, shell, cucumber and reverence",
+            "paragraphs": [
+              "The water dish is a source of power and life; the shell represents protection and a bond with the ancient world.",
+              "The cucumber symbolizes offering and appeasement, while river and lotus speak of flow, depth and spiritual purity."
+            ]
+          },
+          {
+            "eyebrow": "In tattoo art",
+            "title": "Textures of water and folklore",
+            "paragraphs": [
+              "Kappa works especially well in compositions with water, lotus flowers, reeds and waves, where its scales, shell and wet skin create a richly detailed piece.",
+              "It symbolizes protection, warning and wisdom, and fits traditional Japanese, neo-traditional, dark realistic and illustrative styles."
+            ]
+          },
+          {
+            "eyebrow": "Origin and folklore",
+            "title": "An ancient presence in Japan's waters",
+            "paragraphs": [
+              "Kappa appears in Japanese accounts from as early as the Heian period, although its nature varies from region to region.",
+              "Its many versions range from prankster to river guardian, making it one of the most recognizable yōkai in popular tales and art."
+            ]
+          }
+        ],
+        "galleryTitle": "Kappa gallery",
+        "gallery": [
+          {
+            "src": "./assets/images/story-kappa-banner.png",
+            "width": 1916,
+            "height": 821,
+            "alt": "Kappa banner beside a pond, torii and full moon."
+          },
+          {
+            "src": "./assets/images/story-kappa-lore.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Complete Kappa panel with story, meanings, symbolism and tattoo examples."
+          },
+          {
+            "src": "./assets/images/story-card-kappa-tattoo.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Kappa back tattoo beside a river with lotus flowers, moon and cucumbers.",
+            "position": "50% 46%"
+          }
+        ],
+        "quote": "Respect the water, or the river will remember you."
       }
     ],
     "lead": "A growing library of Japanese folklore, symbolism and tattoo inspiration.",
