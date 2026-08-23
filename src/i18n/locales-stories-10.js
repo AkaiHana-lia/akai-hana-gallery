@@ -2048,8 +2048,8 @@ window.AKAI_HANA_LOCALES = {
     },
     "categories": [
       {
-        "id": "wallpapers",
-        "label": "Wallpapers"
+        "id": "custom-creations",
+        "label": "Custom Creations"
       },
       {
         "id": "avatar-3d",
@@ -2099,6 +2099,40 @@ window.AKAI_HANA_LOCALES = {
         "examples": "Ideas de uso"
       },
       "items": [
+        {
+          "id": "TD-COVER",
+          "title": "Pirate Legacy",
+          "isCover": true,
+          "categoryId": "tattoo-designs",
+          "category": "Anime · Gaming",
+          "style": "Composición anime de gran formato con tinta, color y movimiento",
+          "shortDescription": "Una portada de tatuaje potente inspirada en una tripulación legendaria.",
+          "description": "Diseño vertical de tatuaje inspirado en aventura, lealtad y energía pirata, con una composición dinámica de personajes y símbolos reconocibles.",
+          "includes": [
+            "Composición vertical",
+            "Dirección de color",
+            "Flujo corporal",
+            "Archivo de referencia"
+          ],
+          "uses": "Referencia para brazo, pierna, manga completa o pieza anime de gran formato.",
+          "examples": [
+            "anime",
+            "manga",
+            "pierna",
+            "gaming"
+          ],
+          "tags": [
+            "Anime",
+            "Pirate",
+            "Color"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/tattoo-cover-one-piece.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Tatuaje anime de One Piece con Zoro, Luffy y Chopper en una composición vertical."
+          }
+        },
         {
           "id": "TD-001",
           "title": "Yasuo",
@@ -2234,7 +2268,6 @@ window.AKAI_HANA_LOCALES = {
         {
           "id": "TD-005",
           "title": "Japanese Style",
-          "isCover": true,
           "categoryId": "tattoo-designs",
           "category": "Tradicional",
           "style": "Tatuaje japonés tradicional de alta calidad",
@@ -2263,6 +2296,39 @@ window.AKAI_HANA_LOCALES = {
             "width": 1024,
             "height": 1536,
             "alt": "Espalda completa Irezumi con dragón japonés, koi, máscara Hannya y flores."
+          }
+        },
+        {
+          "id": "TD-007",
+          "title": "Shadow Hunter",
+          "categoryId": "tattoo-designs",
+          "category": "Anime · Blackwork",
+          "style": "Blackwork anime, sombras profundas y energía sobrenatural",
+          "shortDescription": "Una pieza vertical oscura diseñada para seguir la anatomía del antebrazo.",
+          "description": "Diseño de tatuaje inspirado en un cazador de sombras, con contraste monocromático, arma central y una composición afilada de estética anime.",
+          "includes": [
+            "Composición para antebrazo",
+            "Dirección blackwork",
+            "Contraste de tinta",
+            "Archivo de referencia"
+          ],
+          "uses": "Referencia para antebrazo, brazo, pierna o pieza anime en negro y gris.",
+          "examples": [
+            "blackwork",
+            "antebrazo",
+            "anime",
+            "espada"
+          ],
+          "tags": [
+            "Anime",
+            "Blackwork",
+            "Shadow"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/tattoo-solo-leveling-blackwork.png",
+            "width": 1086,
+            "height": 1448,
+            "alt": "Tatuaje blackwork de cazador anime con espada sobre el antebrazo."
           }
         },
         {
@@ -2349,8 +2415,11 @@ window.AKAI_HANA_LOCALES = {
           "id": "WP-000",
           "title": "Akai Warrior",
           "isCover": true,
-          "categoryId": "wallpapers",
-          "category": "Wallpapers",
+          "categoryId": "custom-creations",
+          "familyId": "wallpapers",
+          "category": "Custom Creations",
+          "collectionLabel": "WALLPAPER",
+          "layout": "cover",
           "style": "Retrato cinematográfico, identidad Akai Hana y atmósfera japonesa",
           "shortDescription": "La presencia visual de Akai Hana convertida en una portada de gran impacto.",
           "description": "Wallpaper vertical con una guerrera de cabello carmesí, tatuajes florales y katana dentro de un estudio japonés iluminado con tonos cálidos.",
@@ -2372,8 +2441,11 @@ window.AKAI_HANA_LOCALES = {
         {
           "id": "WP-001",
           "title": "Santuario Kitsune",
-          "categoryId": "wallpapers",
+          "categoryId": "custom-creations",
+          "familyId": "wallpapers",
           "category": "Wallpapers",
+          "collectionLabel": "WALLPAPER",
+          "layout": "feature",
           "style": "Paisaje japonés, kitsune blanco y luz sakura",
           "shortDescription": "Un horizonte sereno donde el espíritu kitsune custodia el lago.",
           "description": "Wallpaper panorámico de fantasía japonesa con un kitsune blanco frente al Fuji y un santuario entre cerezos.",
@@ -2395,8 +2467,11 @@ window.AKAI_HANA_LOCALES = {
         {
           "id": "WP-002",
           "title": "Crimson Wings",
-          "categoryId": "wallpapers",
+          "categoryId": "custom-creations",
+          "familyId": "wallpapers",
           "category": "Wallpapers",
+          "collectionLabel": "WALLPAPER",
+          "layout": "wide",
           "style": "Mariposa carmesí, flores y paisaje japonés nocturno",
           "shortDescription": "Color, transformación y belleza suspendidos sobre un jardín nocturno.",
           "description": "Una mariposa monumental en tonos carmesí y violeta emerge entre flores, tinta y arquitectura japonesa.",
@@ -2418,8 +2493,11 @@ window.AKAI_HANA_LOCALES = {
         {
           "id": "WP-003",
           "title": "Aurora",
-          "categoryId": "wallpapers",
+          "categoryId": "custom-creations",
+          "familyId": "wallpapers",
           "category": "Wallpapers",
+          "collectionLabel": "WALLPAPER",
+          "layout": "wide",
           "style": "Aurora boreal, cielo estrellado y silueta contemplativa",
           "shortDescription": "La noche se abre en luz sobre un horizonte silencioso.",
           "description": "Una escena cinematográfica bajo auroras verdes, con una figura contemplando el cielo desde la oscuridad.",
@@ -2436,6 +2514,110 @@ window.AKAI_HANA_LOCALES = {
             "width": 1672,
             "height": 941,
             "alt": "Aurora boreal verde sobre un cielo estrellado y una silueta junto a un coche."
+          }
+        },
+        {
+          "id": "WP-004",
+          "title": "Akai Warrior Mobile",
+          "categoryId": "custom-creations",
+          "familyId": "wallpapers",
+          "category": "Wallpapers",
+          "collectionLabel": "WALLPAPER",
+          "layout": "portrait",
+          "style": "Retrato cinematográfico, identidad Akai Hana y atmósfera japonesa",
+          "shortDescription": "Una portada vertical creada para acompañar la pantalla con carácter propio.",
+          "description": "Wallpaper vertical con una guerrera de cabello carmesí, tatuajes florales y katana dentro de un estudio japonés iluminado con tonos cálidos.",
+          "includes": "Composición vertical en alta resolución y adaptación para pantalla móvil.",
+          "uses": "Fondos para móvil, pantallas de bloqueo y portadas digitales.",
+          "examples": "Wallpaper móvil, lock screen, portada.",
+          "tags": [
+            "wallpaper",
+            "móvil",
+            "Akai Hana"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/wallpaper-cover-akai-warrior.png",
+            "width": 1122,
+            "height": 1402,
+            "alt": "Guerrera Akai Hana de cabello rojo con tatuajes y katana en un estudio japonés."
+          }
+        },
+        {
+          "id": "CC-001",
+          "title": "Akai Expressions",
+          "categoryId": "custom-creations",
+          "familyId": "stickers",
+          "category": "Stickers",
+          "collectionLabel": "STICKERS",
+          "layout": "standard",
+          "style": "Personaje chibi, expresiones y comunicación visual",
+          "shortDescription": "Una colección de emociones convertida en stickers personales y reconocibles.",
+          "description": "Set ilustrado de stickers con un personaje carmesí y quince expresiones pensadas para conversaciones digitales.",
+          "includes": "Diseño de personaje, variantes expresivas y hoja visual de colección.",
+          "uses": "Mensajería, redes sociales, comunidad y regalos digitales.",
+          "examples": "Sticker pack, reacciones, comunidad.",
+          "tags": [
+            "stickers",
+            "chibi",
+            "expresiones"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/custom-stickers-akai.png",
+            "width": 1122,
+            "height": 1498,
+            "alt": "Colección de stickers chibi con distintas expresiones y textos en español."
+          }
+        },
+        {
+          "id": "CC-002",
+          "title": "La Buscadora",
+          "categoryId": "custom-creations",
+          "familyId": "astral-art",
+          "category": "Carta astral",
+          "collectionLabel": "ASTRAL ART",
+          "layout": "portrait",
+          "style": "Tarot personalizado, simbolismo astral y narrativa personal",
+          "shortDescription": "Una identidad interior narrada mediante estrellas, símbolos y arquetipos.",
+          "description": "Carta astral ilustrada en formato tarot que reúne paisaje, luna, balanza, koi y símbolos de evolución personal.",
+          "includes": "Dirección simbólica, composición editorial y arte vertical personalizado.",
+          "uses": "Carta personal, regalo, póster y pieza de memoria.",
+          "examples": "Tarot, carta astral, regalo personalizado.",
+          "tags": [
+            "astral",
+            "tarot",
+            "personalizado"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/custom-astral-la-buscadora.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Carta de tarot personalizada La Buscadora con símbolos astrales y paisaje japonés."
+          }
+        },
+        {
+          "id": "CC-004",
+          "title": "The Odyssey",
+          "categoryId": "custom-creations",
+          "familyId": "posters",
+          "category": "Póster personalizado",
+          "collectionLabel": "POSTER",
+          "layout": "portrait",
+          "style": "Cartel cinematográfico, fantasía épica y dirección de arte",
+          "shortDescription": "Una historia personal elevada al lenguaje visual de una gran producción.",
+          "description": "Cartel de película personalizado con composición épica, protagonistas, reparto y atmósfera cinematográfica.",
+          "includes": "Concepto, composición de cartel, tipografía y acabado de alta resolución.",
+          "uses": "Regalo, póster, celebración, homenaje o pieza de colección.",
+          "examples": "Movie poster, homenaje, regalo personalizado.",
+          "tags": [
+            "poster",
+            "cinema",
+            "custom"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/custom-poster-odyssey.png",
+            "width": 1054,
+            "height": 1492,
+            "alt": "Cartel cinematográfico personalizado The Odyssey con guerreros y estética épica."
           }
         },
         {
@@ -2792,6 +2974,38 @@ window.AKAI_HANA_LOCALES = {
       "openCategory": "Explorar sección",
       "backToOverview": "Volver a la galería",
       "categoryEyebrow": "Colección seleccionada",
+      "customCreations": {
+        "eyebrow": "Archivo creativo",
+        "intro": "Elige una familia para explorar sus proyectos sin mezclar disciplinas.",
+        "openFamily": "Explorar archivo",
+        "back": "Volver a Custom Creations",
+        "families": [
+          {
+            "id": "wallpapers",
+            "label": "WALLPAPERS",
+            "description": "Fondos cinematográficos creados para escritorio, móvil y formatos digitales.",
+            "coverItemId": "WP-001"
+          },
+          {
+            "id": "astral-art",
+            "label": "ASTRAL ART",
+            "description": "Piezas verticales que convierten símbolos y relatos personales en arte.",
+            "coverItemId": "CC-002"
+          },
+          {
+            "id": "stickers",
+            "label": "STICKERS",
+            "description": "Colecciones expresivas y compactas para conversación, comunidad e identidad.",
+            "coverItemId": "CC-001"
+          },
+          {
+            "id": "posters",
+            "label": "POSTERS",
+            "description": "Carteles personalizados con composición y dirección cinematográfica.",
+            "coverItemId": "CC-004"
+          }
+        ]
+      },
       "accent": "Nosotros diseñamos. Tú le das vida.",
       "tagline": "Arte que habla. Diseños que permanecen.",
       "studioNote": {
@@ -5055,8 +5269,8 @@ window.AKAI_HANA_LOCALES = {
     },
     "categories": [
       {
-        "id": "wallpapers",
-        "label": "Wallpapers"
+        "id": "custom-creations",
+        "label": "Custom Creations"
       },
       {
         "id": "avatar-3d",
@@ -5106,6 +5320,40 @@ window.AKAI_HANA_LOCALES = {
         "examples": "Use ideas"
       },
       "items": [
+        {
+          "id": "TD-COVER",
+          "title": "Pirate Legacy",
+          "isCover": true,
+          "categoryId": "tattoo-designs",
+          "category": "Anime · Gaming",
+          "style": "Large-format anime composition with ink, color and movement",
+          "shortDescription": "A powerful tattoo cover inspired by a legendary crew.",
+          "description": "A vertical tattoo design inspired by adventure, loyalty and pirate energy, combining iconic characters and symbols in a dynamic composition.",
+          "includes": [
+            "Vertical composition",
+            "Color direction",
+            "Body flow",
+            "Reference file"
+          ],
+          "uses": "Reference for an arm, leg, full sleeve or large-format anime piece.",
+          "examples": [
+            "anime",
+            "manga",
+            "leg",
+            "gaming"
+          ],
+          "tags": [
+            "Anime",
+            "Pirate",
+            "Color"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/tattoo-cover-one-piece.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "One Piece anime tattoo featuring Zoro, Luffy and Chopper in a vertical composition."
+          }
+        },
         {
           "id": "TD-001",
           "title": "Yasuo",
@@ -5241,7 +5489,6 @@ window.AKAI_HANA_LOCALES = {
         {
           "id": "TD-005",
           "title": "Japanese Style",
-          "isCover": true,
           "categoryId": "tattoo-designs",
           "category": "Traditional",
           "style": "High-quality traditional Japanese tattoo design",
@@ -5270,6 +5517,39 @@ window.AKAI_HANA_LOCALES = {
             "width": 1024,
             "height": 1536,
             "alt": "Full back Irezumi piece with Japanese dragon, koi, Hannya mask and flowers."
+          }
+        },
+        {
+          "id": "TD-007",
+          "title": "Shadow Hunter",
+          "categoryId": "tattoo-designs",
+          "category": "Anime · Blackwork",
+          "style": "Anime blackwork, deep shadows and supernatural energy",
+          "shortDescription": "A dark vertical piece designed to follow the anatomy of the forearm.",
+          "description": "A tattoo design inspired by a shadow hunter, featuring monochrome contrast, a central blade and a sharp anime composition.",
+          "includes": [
+            "Forearm composition",
+            "Blackwork direction",
+            "Ink contrast",
+            "Reference file"
+          ],
+          "uses": "Reference for a forearm, arm, leg or black-and-grey anime piece.",
+          "examples": [
+            "blackwork",
+            "forearm",
+            "anime",
+            "sword"
+          ],
+          "tags": [
+            "Anime",
+            "Blackwork",
+            "Shadow"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/tattoo-solo-leveling-blackwork.png",
+            "width": 1086,
+            "height": 1448,
+            "alt": "Blackwork anime hunter tattoo with a sword on the forearm."
           }
         },
         {
@@ -5356,8 +5636,11 @@ window.AKAI_HANA_LOCALES = {
           "id": "WP-000",
           "title": "Akai Warrior",
           "isCover": true,
-          "categoryId": "wallpapers",
-          "category": "Wallpapers",
+          "categoryId": "custom-creations",
+          "familyId": "wallpapers",
+          "category": "Custom Creations",
+          "collectionLabel": "WALLPAPER",
+          "layout": "cover",
           "style": "Cinematic portrait, Akai Hana identity and Japanese atmosphere",
           "shortDescription": "Akai Hana's visual presence transformed into a striking cover.",
           "description": "Vertical wallpaper featuring a crimson-haired warrior with floral tattoos and a katana inside a warmly lit Japanese studio.",
@@ -5379,8 +5662,11 @@ window.AKAI_HANA_LOCALES = {
         {
           "id": "WP-001",
           "title": "Kitsune Sanctuary",
-          "categoryId": "wallpapers",
+          "categoryId": "custom-creations",
+          "familyId": "wallpapers",
           "category": "Wallpapers",
+          "collectionLabel": "WALLPAPER",
+          "layout": "feature",
           "style": "Japanese landscape, white kitsune and sakura light",
           "shortDescription": "A serene horizon where the kitsune spirit watches over the lake.",
           "description": "A panoramic Japanese fantasy wallpaper featuring a white kitsune before Mount Fuji and a shrine among cherry blossoms.",
@@ -5402,8 +5688,11 @@ window.AKAI_HANA_LOCALES = {
         {
           "id": "WP-002",
           "title": "Crimson Wings",
-          "categoryId": "wallpapers",
+          "categoryId": "custom-creations",
+          "familyId": "wallpapers",
           "category": "Wallpapers",
+          "collectionLabel": "WALLPAPER",
+          "layout": "wide",
           "style": "Crimson butterfly, flowers and a nocturnal Japanese landscape",
           "shortDescription": "Colour, transformation and beauty suspended over a midnight garden.",
           "description": "A monumental crimson and violet butterfly emerges among flowers, ink and Japanese architecture.",
@@ -5425,8 +5714,11 @@ window.AKAI_HANA_LOCALES = {
         {
           "id": "WP-003",
           "title": "Aurora",
-          "categoryId": "wallpapers",
+          "categoryId": "custom-creations",
+          "familyId": "wallpapers",
           "category": "Wallpapers",
+          "collectionLabel": "WALLPAPER",
+          "layout": "wide",
           "style": "Northern lights, starry sky and contemplative silhouette",
           "shortDescription": "The night opens into light above a silent horizon.",
           "description": "A cinematic scene beneath green auroras, with a solitary figure contemplating the sky from the darkness.",
@@ -5443,6 +5735,110 @@ window.AKAI_HANA_LOCALES = {
             "width": 1672,
             "height": 941,
             "alt": "Green northern lights above a starry sky and a silhouette beside a car."
+          }
+        },
+        {
+          "id": "WP-004",
+          "title": "Akai Warrior Mobile",
+          "categoryId": "custom-creations",
+          "familyId": "wallpapers",
+          "category": "Wallpapers",
+          "collectionLabel": "WALLPAPER",
+          "layout": "portrait",
+          "style": "Cinematic Japanese portrait and Akai Hana identity",
+          "shortDescription": "A warrior presence created for a vertical screen.",
+          "description": "A cinematic vertical composition featuring the Akai Hana muse in a Japanese studio, conceived as a premium mobile wallpaper.",
+          "includes": "High-resolution vertical artwork optimised for mobile.",
+          "uses": "Mobile wallpapers, digital covers and editorial artwork.",
+          "examples": "Mobile wallpaper, lock screen, visual cover.",
+          "tags": [
+            "wallpaper",
+            "portrait",
+            "Akai Hana"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/gallery-wallpaper-cover-akai.png",
+            "width": 1122,
+            "height": 1402,
+            "alt": "Akai Hana warrior seated in a Japanese studio with a katana."
+          }
+        },
+        {
+          "id": "CC-001",
+          "title": "Akai Expressions",
+          "categoryId": "custom-creations",
+          "familyId": "stickers",
+          "category": "Stickers",
+          "collectionLabel": "STICKERS",
+          "layout": "standard",
+          "style": "Expressive chibi collection with a personalised character",
+          "shortDescription": "Everyday emotions transformed into a personal visual language.",
+          "description": "A complete collection of personalised stickers with expressive poses and conversational phrases for digital use.",
+          "includes": "Character direction, expression set and high-resolution sticker sheet.",
+          "uses": "Messaging, community, social media and personal branding.",
+          "examples": "Sticker pack, reactions, community assets.",
+          "tags": [
+            "stickers",
+            "chibi",
+            "expressions"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/custom-stickers-akai.png",
+            "width": 1122,
+            "height": 1402,
+            "alt": "Collection of fifteen personalised chibi stickers with Spanish expressions."
+          }
+        },
+        {
+          "id": "CC-002",
+          "title": "The Seeker",
+          "categoryId": "custom-creations",
+          "familyId": "astral-art",
+          "category": "Astral Art",
+          "collectionLabel": "ASTRAL ART",
+          "layout": "portrait",
+          "style": "Personal astrology interpreted as vintage symbolic art",
+          "shortDescription": "An intimate portrait guided by symbols, intuition and personal purpose.",
+          "description": "A custom astral composition in the language of an antique tarot card, integrating personal symbols and a unique visual narrative.",
+          "includes": "Symbolic concept, personalised composition and high-resolution final artwork.",
+          "uses": "Personal art, gifts, print and spiritual projects.",
+          "examples": "Astral card, symbolic portrait, personalised tarot.",
+          "tags": [
+            "astral",
+            "tarot",
+            "personalised"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/custom-astral-la-buscadora.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Vintage astral card titled The Seeker with a red-haired woman and symbolic elements."
+          }
+        },
+        {
+          "id": "CC-004",
+          "title": "The Odyssey",
+          "categoryId": "custom-creations",
+          "familyId": "posters",
+          "category": "Poster",
+          "collectionLabel": "POSTER",
+          "layout": "portrait",
+          "style": "Personalised cinematic poster with epic art direction",
+          "shortDescription": "A personal story elevated to the scale of a cinematic epic.",
+          "description": "A bespoke film poster with cinematic composition, character direction and a complete title treatment.",
+          "includes": "Poster concept, cinematic composition and high-resolution final artwork.",
+          "uses": "Personal gifts, commemorative posters and special events.",
+          "examples": "Film poster, anniversary gift, cinematic portrait.",
+          "tags": [
+            "poster",
+            "cinema",
+            "personalised"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/custom-poster-odyssey.png",
+            "width": 1054,
+            "height": 1475,
+            "alt": "Personalised epic film poster titled The Odyssey."
           }
         },
         {
@@ -5799,6 +6195,38 @@ window.AKAI_HANA_LOCALES = {
       "openCategory": "Explore section",
       "backToOverview": "Back to gallery",
       "categoryEyebrow": "Selected collection",
+      "customCreations": {
+        "eyebrow": "Creative archive",
+        "intro": "Choose a family to explore its projects without mixing disciplines.",
+        "openFamily": "Explore archive",
+        "back": "Back to Custom Creations",
+        "families": [
+          {
+            "id": "wallpapers",
+            "label": "WALLPAPERS",
+            "description": "Cinematic backgrounds created for desktop, mobile and digital formats.",
+            "coverItemId": "WP-001"
+          },
+          {
+            "id": "astral-art",
+            "label": "ASTRAL ART",
+            "description": "Vertical pieces that turn symbols and personal stories into art.",
+            "coverItemId": "CC-002"
+          },
+          {
+            "id": "stickers",
+            "label": "STICKERS",
+            "description": "Expressive compact collections for conversation, community and identity.",
+            "coverItemId": "CC-001"
+          },
+          {
+            "id": "posters",
+            "label": "POSTERS",
+            "description": "Custom posters with cinematic composition and art direction.",
+            "coverItemId": "CC-004"
+          }
+        ]
+      },
       "accent": "We design. You bring it to life.",
       "tagline": "Artwork that speaks. Designs that last.",
       "studioNote": {

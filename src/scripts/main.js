@@ -60,6 +60,7 @@ const mountPoints = {
 let locale = getInitialLocale();
 let dictionary = {};
 let activeFilter = "all";
+let activeGalleryFamily = null;
 let catalogById = new Map();
 let revealObserver = null;
 let lightboxProjectId = null;
@@ -395,6 +396,16 @@ function renderProjectTags(tags = [], limit = tags.length) {
   return tagList;
 }
 
+function getCustomCreationFamilies() {
+  return Array.isArray(dictionary.gallery?.customCreations?.families)
+    ? dictionary.gallery.customCreations.families
+    : [];
+}
+
+function getCustomCreationFamily(familyId) {
+  return getCustomCreationFamilies().find((family) => family.id === familyId);
+}
+
 function renderGallery() {
   if (!mountPoints.galleryGrid || !Array.isArray(dictionary.gallery?.items)) return;
   catalogById = new Map();
@@ -419,13 +430,20 @@ function renderGallery() {
     const categoryLabel = getCategoryLabel(item.categoryId);
     const category = item.category || categoryLabel;
     const displayTitle = item.isCover ? categoryLabel : item.title;
+    const family = item.familyId ? getCustomCreationFamily(item.familyId) : null;
+    const familyOrder = family ? getCustomCreationFamilies().findIndex((entry) => entry.id === family.id) : -1;
+    const isFamilyCover = Boolean(family && family.coverItemId === item.id);
     const article = createElement("article", {
       className: "art-card reveal",
       attributes: {
         "data-art-card": "",
         "data-category": item.categoryId,
         "data-cover": item.isCover ? "true" : "false",
-        "data-project-id": item.id
+        "data-project-id": item.id,
+        "data-layout": item.layout || "standard",
+        "data-family": item.familyId || "",
+        "data-family-cover": isFamilyCover ? "true" : "false",
+        "data-family-order": String(familyOrder)
       }
     });
 
@@ -438,7 +456,9 @@ function renderGallery() {
       }
     });
     const openItem = () => {
-      if (item.isCover && activeFilter === "all") {
+      if (activeFilter === "custom-creations" && !activeGalleryFamily && isFamilyCover) {
+        openGalleryFamily(item.familyId);
+      } else if (item.isCover && activeFilter === "all") {
         openGalleryCategory(item.categoryId);
       } else {
         openLightbox(item.id);
@@ -448,34 +468,46 @@ function renderGallery() {
     const overlay = createElement("div", { className: "art-card__overlay" });
     const overlayContent = createElement("div", { className: "art-card__overlay-content" });
     const overlayCta = createElement("span", {
-      className: "art-card__overlay-cta",
+      className: "art-card__overlay-cta gallery-project-only",
       text: item.isCover ? dictionary.gallery.openCategory : dictionary.actions.viewProject
     });
 
     overlayContent.append(
       createElement("span", {
-        className: "art-card__overlay-meta",
+        className: "art-card__overlay-meta gallery-project-only",
         text: interpolate(dictionary.patterns.projectMeta, { category, id: item.id })
       }),
-      createElement("strong", { text: displayTitle }),
-      overlayCta
+      createElement("strong", { className: "gallery-project-only", text: displayTitle }),
+      overlayCta,
+      createElement("span", { className: "gallery-family-index-only art-card__overlay-meta", text: family?.label || "" }),
+      createElement("strong", { className: "gallery-family-index-only", text: family?.label || "" }),
+      createElement("span", {
+        className: "gallery-family-index-only art-card__overlay-cta",
+        text: dictionary.gallery.customCreations?.openFamily || dictionary.gallery.openCategory
+      })
     );
     overlay.append(overlayContent);
     media.append(renderProjectImage(item, index < 4), overlay);
     figure.append(media);
 
     const bodyContent = createElement("div", { className: "art-card__body" });
+    if (item.collectionLabel) {
+      bodyContent.append(createElement("span", {
+        className: "project-card__collection-label gallery-project-only",
+        text: item.collectionLabel
+      }));
+    }
     const meta = createElement("p", {
-      className: "art-card__meta",
+      className: "art-card__meta gallery-project-only",
       text: interpolate(dictionary.patterns.projectMeta, { category, id: item.id })
     });
-    const title = createElement("h3", { text: displayTitle });
+    const title = createElement("h3", { className: "gallery-project-only", text: displayTitle });
     const style = createElement("p", {
-      className: "project-card__style",
+      className: "project-card__style gallery-project-only",
       text: interpolate(dictionary.patterns.projectStyle, { style: item.style })
     });
-    const description = createElement("p", { className: "project-card__story", text: item.shortDescription });
-    const footer = createElement("div", { className: "art-card__footer" });
+    const description = createElement("p", { className: "project-card__story gallery-project-only", text: item.shortDescription });
+    const footer = createElement("div", { className: "art-card__footer gallery-project-only" });
     const viewButton = createElement("button", {
       className: "button button--collection project-card__button",
       text: item.isCover ? dictionary.gallery.openCategory : dictionary.actions.viewProject,
@@ -487,7 +519,23 @@ function renderGallery() {
 
     viewButton.addEventListener("click", openItem);
     footer.append(renderProjectTags(item.tags, 3), viewButton);
-    bodyContent.append(meta, title, style, description, footer);
+    const familyButton = createElement("button", {
+      className: "gallery-family-index-only button button--collection project-card__button",
+      text: dictionary.gallery.customCreations?.openFamily || dictionary.gallery.openCategory,
+      attributes: { type: "button" }
+    });
+    familyButton.addEventListener("click", openItem);
+    bodyContent.append(
+      meta,
+      title,
+      style,
+      description,
+      footer,
+      createElement("span", { className: "gallery-family-index-only project-card__collection-label", text: family?.label || "" }),
+      createElement("h3", { className: "gallery-family-index-only", text: family?.label || "" }),
+      createElement("p", { className: "gallery-family-index-only gallery-family-description", text: family?.description || "" }),
+      familyButton
+    );
     article.append(figure, bodyContent);
     mountPoints.galleryGrid.append(article);
   });
@@ -1097,6 +1145,9 @@ function buildDesignRequestMailto(form) {
 }
 
 function setFilter(categoryId) {
+  if (categoryId !== "custom-creations" || activeFilter !== categoryId) {
+    activeGalleryFamily = null;
+  }
   activeFilter = categoryId;
   let visibleCount = 0;
   const cards = Array.from(document.querySelectorAll("[data-art-card]"));
@@ -1107,13 +1158,27 @@ function setFilter(categoryId) {
 
   if (mountPoints.galleryGrid) {
     mountPoints.galleryGrid.dataset.activeCategory = categoryId;
+    mountPoints.galleryGrid.dataset.familyView = categoryId === "custom-creations"
+      ? (activeGalleryFamily ? "archive" : "index")
+      : "";
+    mountPoints.galleryGrid.dataset.activeFamily = activeGalleryFamily || "";
   }
 
   cards.forEach((card) => {
-    const isVisible = categoryId === "all"
-      ? card.dataset.cover === "true"
-      : card.dataset.category === categoryId && (!hasCategoryProjects || card.dataset.cover !== "true");
+    let isVisible;
+    if (categoryId === "all") {
+      isVisible = card.dataset.cover === "true";
+    } else if (categoryId === "custom-creations") {
+      isVisible = activeGalleryFamily
+        ? card.dataset.category === categoryId && card.dataset.family === activeGalleryFamily
+        : card.dataset.category === categoryId && card.dataset.familyCover === "true";
+    } else {
+      isVisible = card.dataset.category === categoryId && (!hasCategoryProjects || card.dataset.cover !== "true");
+    }
     card.hidden = !isVisible;
+    card.style.order = categoryId === "custom-creations" && !activeGalleryFamily
+      ? card.dataset.familyOrder
+      : "";
     if (isVisible) visibleCount += 1;
   });
 
@@ -1129,7 +1194,15 @@ function setFilter(categoryId) {
 }
 
 function openGalleryCategory(categoryId) {
+  activeGalleryFamily = null;
   setFilter(categoryId);
+  mountPoints.galleryCategoryHeader?.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function openGalleryFamily(familyId) {
+  if (!getCustomCreationFamily(familyId)) return;
+  activeGalleryFamily = familyId;
+  setFilter("custom-creations");
   mountPoints.galleryCategoryHeader?.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
@@ -1143,23 +1216,47 @@ function renderGalleryCategoryHeader(categoryId) {
     return;
   }
 
-  const cover = dictionary.gallery.items.find((item) => item.categoryId === categoryId && item.isCover);
-  const label = getCategoryLabel(categoryId);
+  const family = categoryId === "custom-creations" && activeGalleryFamily
+    ? getCustomCreationFamily(activeGalleryFamily)
+    : null;
+  const cover = family
+    ? dictionary.gallery.items.find((item) => item.id === family.coverItemId)
+    : dictionary.gallery.items.find((item) => item.categoryId === categoryId && item.isCover);
+  const label = family?.label || getCategoryLabel(categoryId);
   const backButton = createElement("button", {
     className: "gallery-category-header__back",
-    text: dictionary.gallery.backToOverview,
+    text: family
+      ? dictionary.gallery.customCreations?.back
+      : dictionary.gallery.backToOverview,
     attributes: { type: "button" }
   });
   backButton.addEventListener("click", () => {
-    setFilter("all");
-    mountPoints.filterBar?.scrollIntoView({ behavior: "smooth", block: "center" });
+    if (family) {
+      activeGalleryFamily = null;
+      setFilter("custom-creations");
+      mountPoints.galleryCategoryHeader?.scrollIntoView({ behavior: "smooth", block: "start" });
+    } else {
+      setFilter("all");
+      mountPoints.filterBar?.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
   });
 
   const copy = createElement("div", { className: "gallery-category-header__copy" });
   copy.append(
-    createElement("span", { className: "gallery-category-header__eyebrow", text: dictionary.gallery.categoryEyebrow }),
+    createElement("span", {
+      className: "gallery-category-header__eyebrow",
+      text: categoryId === "custom-creations"
+        ? dictionary.gallery.customCreations?.eyebrow
+        : dictionary.gallery.categoryEyebrow
+    }),
     createElement("h3", { text: label }),
-    createElement("p", { text: cover?.shortDescription || cover?.description || "" })
+    createElement("p", {
+      text: family?.description
+        || (categoryId === "custom-creations" ? dictionary.gallery.customCreations?.intro : "")
+        || cover?.shortDescription
+        || cover?.description
+        || ""
+    })
   );
 
   header.replaceChildren(backButton, copy);
