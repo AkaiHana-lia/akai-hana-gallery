@@ -2299,6 +2299,52 @@
         }
       },
       {
+        "id": "BD-001",
+        "title": "Akai Hana Oversize",
+        "categoryId": "brand-design",
+        "category": "Brand Design",
+        "style": "Visual identity application for apparel and editorial presentation",
+        "shortDescription": "A refined brand application study built in black, crimson and gold.",
+        "description": "Art direction for translating the Akai Hana emblem onto an oversized T-shirt through front and back compositions, brand hierarchy and premium finishes.",
+        "includes": "Front and back mockups, emblem application, graphic scale and finish presentation.",
+        "uses": "Applied identity concept, visual guidelines, brand presentation and art direction.",
+        "examples": "Apparel mockup, logo application, visual campaign.",
+        "tags": [
+          "branding",
+          "apparel design",
+          "mockup"
+        ],
+        "image": {
+          "src": "./assets/images/gallery/brand-akai-oversize.png",
+          "width": 1122,
+          "height": 1402,
+          "alt": "Akai Hana identity study applied to a black oversized T-shirt with front and back views."
+        }
+      },
+      {
+        "id": "BD-002",
+        "title": "Akai Hana Performance",
+        "categoryId": "brand-design",
+        "category": "Brand Design",
+        "style": "Sports visual system, logo and brand applications",
+        "shortDescription": "A dynamic brand direction shaped around strength, discipline and harmony.",
+        "description": "A sports identity concept combining symbol, typography, apparel applications and an editorial presentation consistent with the Akai Hana universe.",
+        "includes": "Logo system, front and back applications, iconography and editorial composition.",
+        "uses": "Art direction, sports identity, corporate presentation and application guidelines.",
+        "examples": "Brand system, mockups, visual identity, campaign.",
+        "tags": [
+          "branding",
+          "sports identity",
+          "art direction"
+        ],
+        "image": {
+          "src": "./assets/images/gallery/brand-akai-performance.png",
+          "width": 1366,
+          "height": 1366,
+          "alt": "Akai Hana Performance visual system with sports identity applications, logo and iconography."
+        }
+      },
+      {
         "id": "WP-000",
         "title": "Akai Warrior",
         "isCover": true,
@@ -2459,6 +2505,29 @@
           "width": 1122,
           "height": 1402,
           "alt": "Female 3D avatar with a pink cap, translucent visor and red and blonde hair."
+        }
+      },
+      {
+        "id": "AV-003",
+        "title": "Crystal Tide",
+        "categoryId": "avatar-3d",
+        "category": "3D Avatar",
+        "style": "Aquatic 3D portrait, crystalline reflections and stylized realism",
+        "shortDescription": "Light, water and expression shaped into an immersive digital identity.",
+        "description": "An aquatic 3D portrait with crimson hair, blonde highlights and rippling light projected across the face.",
+        "includes": "Character concept, aquatic lighting, skin and hair materials and a high-resolution render.",
+        "uses": "Digital avatar, profile image, visual cover and creative campaign.",
+        "examples": "3D avatar, digital portrait, visual campaign.",
+        "tags": [
+          "3D",
+          "water",
+          "portrait"
+        ],
+        "image": {
+          "src": "./assets/images/gallery/avatar-3d-crystal-tide.png",
+          "width": 1122,
+          "height": 1402,
+          "alt": "Female 3D portrait underwater with crimson hair and luminous reflections across her face."
         }
       },
       {
@@ -2719,6 +2788,9 @@
     ],
     "featuredIds": [],
     "fullCollectionCta": "View all designs",
+    "openCategory": "Explore section",
+    "backToOverview": "Back to gallery",
+    "categoryEyebrow": "Selected collection",
     "accent": "We design. You bring it to life.",
     "tagline": "Artwork that speaks. Designs that last.",
     "studioNote": {

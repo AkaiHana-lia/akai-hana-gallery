@@ -2300,6 +2300,52 @@ window.AKAI_HANA_LOCALES = {
           }
         },
         {
+          "id": "BD-001",
+          "title": "Akai Hana Oversize",
+          "categoryId": "brand-design",
+          "category": "Brand Design",
+          "style": "Aplicación de identidad visual en prenda y presentación editorial",
+          "shortDescription": "Un estudio de aplicación de marca con presencia sobria, carmesí y dorada.",
+          "description": "Dirección visual para trasladar el emblema Akai Hana a una camiseta oversize mediante composición frontal y trasera, jerarquía de marca y acabados premium.",
+          "includes": "Mockup frontal y posterior, aplicación del emblema, escala gráfica y presentación de acabados.",
+          "uses": "Concepto de identidad aplicada, guía visual, presentación de marca y dirección de arte.",
+          "examples": "Mockup textil, aplicación de logotipo, campaña visual.",
+          "tags": [
+            "branding",
+            "apparel design",
+            "mockup"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/brand-akai-oversize.png",
+            "width": 1122,
+            "height": 1402,
+            "alt": "Estudio de identidad Akai Hana aplicado a una camiseta oversize negra, con vistas frontal y posterior."
+          }
+        },
+        {
+          "id": "BD-002",
+          "title": "Akai Hana Performance",
+          "categoryId": "brand-design",
+          "category": "Brand Design",
+          "style": "Sistema visual deportivo, logotipo y aplicaciones de marca",
+          "shortDescription": "Una dirección de marca dinámica construida alrededor de fuerza, disciplina y armonía.",
+          "description": "Concepto de identidad deportiva que reúne símbolo, tipografía, aplicaciones en prendas y una presentación editorial coherente con el universo Akai Hana.",
+          "includes": "Sistema de logotipo, aplicaciones frontal y posterior, iconografía y composición editorial.",
+          "uses": "Dirección de arte, identidad deportiva, presentación corporativa y guía de aplicaciones.",
+          "examples": "Sistema de marca, mockups, identidad visual, campaña.",
+          "tags": [
+            "branding",
+            "sports identity",
+            "art direction"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/brand-akai-performance.png",
+            "width": 1366,
+            "height": 1366,
+            "alt": "Sistema visual Akai Hana Performance con aplicaciones de identidad deportiva, logotipo e iconografía."
+          }
+        },
+        {
           "id": "WP-000",
           "title": "Akai Warrior",
           "isCover": true,
@@ -2460,6 +2506,29 @@ window.AKAI_HANA_LOCALES = {
             "width": 1122,
             "height": 1402,
             "alt": "Avatar 3D femenino con gorra rosa, visor translúcido y cabello rojo y rubio."
+          }
+        },
+        {
+          "id": "AV-003",
+          "title": "Crystal Tide",
+          "categoryId": "avatar-3d",
+          "category": "Avatar 3D",
+          "style": "Retrato 3D acuático, reflejos cristalinos y realismo estilizado",
+          "shortDescription": "Luz, agua y expresión convertidas en una identidad digital envolvente.",
+          "description": "Retrato 3D de estética acuática con cabello carmesí, reflejos rubios y destellos de luz proyectados sobre el rostro.",
+          "includes": "Concepto de personaje, iluminación acuática, materiales de piel y cabello y render de alta resolución.",
+          "uses": "Avatar digital, imagen de perfil, portada visual y campaña creativa.",
+          "examples": "Avatar 3D, retrato digital, campaña visual.",
+          "tags": [
+            "3D",
+            "agua",
+            "retrato"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/avatar-3d-crystal-tide.png",
+            "width": 1122,
+            "height": 1402,
+            "alt": "Retrato 3D femenino bajo el agua con cabello carmesí y reflejos luminosos sobre el rostro."
           }
         },
         {
@@ -2720,6 +2789,9 @@ window.AKAI_HANA_LOCALES = {
       ],
       "featuredIds": [],
       "fullCollectionCta": "Ver todos los diseños",
+      "openCategory": "Explorar sección",
+      "backToOverview": "Volver a la galería",
+      "categoryEyebrow": "Colección seleccionada",
       "accent": "Nosotros diseñamos. Tú le das vida.",
       "tagline": "Arte que habla. Diseños que permanecen.",
       "studioNote": {
@@ -5235,6 +5307,52 @@ window.AKAI_HANA_LOCALES = {
           }
         },
         {
+          "id": "BD-001",
+          "title": "Akai Hana Oversize",
+          "categoryId": "brand-design",
+          "category": "Brand Design",
+          "style": "Visual identity application for apparel and editorial presentation",
+          "shortDescription": "A refined brand application study built in black, crimson and gold.",
+          "description": "Art direction for translating the Akai Hana emblem onto an oversized T-shirt through front and back compositions, brand hierarchy and premium finishes.",
+          "includes": "Front and back mockups, emblem application, graphic scale and finish presentation.",
+          "uses": "Applied identity concept, visual guidelines, brand presentation and art direction.",
+          "examples": "Apparel mockup, logo application, visual campaign.",
+          "tags": [
+            "branding",
+            "apparel design",
+            "mockup"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/brand-akai-oversize.png",
+            "width": 1122,
+            "height": 1402,
+            "alt": "Akai Hana identity study applied to a black oversized T-shirt with front and back views."
+          }
+        },
+        {
+          "id": "BD-002",
+          "title": "Akai Hana Performance",
+          "categoryId": "brand-design",
+          "category": "Brand Design",
+          "style": "Sports visual system, logo and brand applications",
+          "shortDescription": "A dynamic brand direction shaped around strength, discipline and harmony.",
+          "description": "A sports identity concept combining symbol, typography, apparel applications and an editorial presentation consistent with the Akai Hana universe.",
+          "includes": "Logo system, front and back applications, iconography and editorial composition.",
+          "uses": "Art direction, sports identity, corporate presentation and application guidelines.",
+          "examples": "Brand system, mockups, visual identity, campaign.",
+          "tags": [
+            "branding",
+            "sports identity",
+            "art direction"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/brand-akai-performance.png",
+            "width": 1366,
+            "height": 1366,
+            "alt": "Akai Hana Performance visual system with sports identity applications, logo and iconography."
+          }
+        },
+        {
           "id": "WP-000",
           "title": "Akai Warrior",
           "isCover": true,
@@ -5395,6 +5513,29 @@ window.AKAI_HANA_LOCALES = {
             "width": 1122,
             "height": 1402,
             "alt": "Female 3D avatar with a pink cap, translucent visor and red and blonde hair."
+          }
+        },
+        {
+          "id": "AV-003",
+          "title": "Crystal Tide",
+          "categoryId": "avatar-3d",
+          "category": "3D Avatar",
+          "style": "Aquatic 3D portrait, crystalline reflections and stylized realism",
+          "shortDescription": "Light, water and expression shaped into an immersive digital identity.",
+          "description": "An aquatic 3D portrait with crimson hair, blonde highlights and rippling light projected across the face.",
+          "includes": "Character concept, aquatic lighting, skin and hair materials and a high-resolution render.",
+          "uses": "Digital avatar, profile image, visual cover and creative campaign.",
+          "examples": "3D avatar, digital portrait, visual campaign.",
+          "tags": [
+            "3D",
+            "water",
+            "portrait"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/avatar-3d-crystal-tide.png",
+            "width": 1122,
+            "height": 1402,
+            "alt": "Female 3D portrait underwater with crimson hair and luminous reflections across her face."
           }
         },
         {
@@ -5655,6 +5796,9 @@ window.AKAI_HANA_LOCALES = {
       ],
       "featuredIds": [],
       "fullCollectionCta": "View all designs",
+      "openCategory": "Explore section",
+      "backToOverview": "Back to gallery",
+      "categoryEyebrow": "Selected collection",
       "accent": "We design. You bring it to life.",
       "tagline": "Artwork that speaks. Designs that last.",
       "studioNote": {
