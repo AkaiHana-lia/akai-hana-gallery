@@ -53,9 +53,25 @@ window.AKAI_HANA_LOCALES = {
     "stories": {
       "eyebrow": "Archivo de historias",
       "title": "Stories",
+      "lead": "Una biblioteca en crecimiento sobre folklore japonés, simbolismo y arte del tatuaje.",
       "openStory": "Abrir historia {title}",
       "backToArchive": "Volver a Stories",
       "galleryTitle": "Galería visual",
+      "searchPlaceholder": "Buscar una historia...",
+      "counter": "{count} historias disponibles",
+      "closing": "Nuevas historias cada semana. Una colección viva de folklore japonés, simbolismo y arte.",
+      "newThisWeek": "Nuevas esta semana",
+      "newLabel": "Nueva",
+      "collectionTitle": "La colección",
+      "loadMore": "Cargar más historias",
+      "noResults": "No se encontraron historias.",
+      "filters": {
+        "all": "Todas",
+        "yokai": "Yōkai",
+        "creatures": "Criaturas",
+        "legends": "Leyendas",
+        "symbols": "Símbolos"
+      },
       "items": [
         {
           "id": "higanbana",
@@ -779,7 +795,7 @@ window.AKAI_HANA_LOCALES = {
           "number": "09",
           "title": "Akai Ito",
           "eyebrow": "Leyendas japonesas y destino",
-          "japaneseName": "赤い糸",
+          "japaneseName": "\u8D64\u3044\u7CF8",
           "romanized": "El hilo rojo del destino",
           "lead": "Un hilo rojo invisible conecta a las almas destinadas a encontrarse, sin importar el tiempo, el lugar o las circunstancias.",
           "cardImage": {
@@ -1215,7 +1231,7 @@ window.AKAI_HANA_LOCALES = {
             "width": 1024,
             "height": 1536,
             "alt": "Panel narrativo de Tengu con guardián de montaña, simbología y tatuaje.",
-            "position": "50% 45%"
+            "position": "34% 24%"
           },
           "heroImage": {
             "src": "./assets/images/story-tengu-banner.png",
@@ -1289,7 +1305,7 @@ window.AKAI_HANA_LOCALES = {
               "alt": "Banner de Tengu con luna roja, montaña y guardián alado."
             },
             {
-              "src": "./assets/images/story-tengu-lore.png",
+              "src": "./assets/images/story-tengu-card.png",
               "width": 1024,
               "height": 1536,
               "alt": "Panel completo de Tengu con historia, significados, simbología y arte de tatuaje."
@@ -1308,10 +1324,10 @@ window.AKAI_HANA_LOCALES = {
           "lead": "Nacida de un tallo de bambú, Kaguya-hime representa la belleza efímera, la nostalgia, el misterio y un destino imposible de retener.",
           "cardImage": {
             "src": "./assets/images/story-kaguya-hime-card.png",
-            "width": 1025,
+            "width": 1024,
             "height": 1536,
             "alt": "Panel narrativo de Kaguya-hime con princesa lunar, bambú, simbología y tatuaje.",
-            "position": "50% 44%"
+            "position": "34% 32%"
           },
           "heroImage": {
             "src": "./assets/images/story-kaguya-hime-banner.png",
@@ -1385,7 +1401,7 @@ window.AKAI_HANA_LOCALES = {
               "alt": "Banner de Kaguya-hime con princesa lunar, bambú y luna llena."
             },
             {
-              "src": "./assets/images/story-kaguya-hime-lore.png",
+              "src": "./assets/images/story-kaguya-hime-card.png",
               "width": 1024,
               "height": 1536,
               "alt": "Panel completo de Kaguya-hime con historia, significados, simbología y arte de tatuaje."
@@ -1788,23 +1804,7 @@ window.AKAI_HANA_LOCALES = {
           ],
           "quote": "Respeta el agua, o el río te recordará."
         }
-      ],
-      "lead": "Una biblioteca en crecimiento sobre folklore japonés, simbolismo y arte del tatuaje.",
-      "searchPlaceholder": "Buscar una historia...",
-      "counter": "{count} historias disponibles",
-      "closing": "Nuevas historias cada semana. Una colección viva de folklore japonés, simbolismo y arte.",
-      "newThisWeek": "Nuevas esta semana",
-      "newLabel": "Nueva",
-      "collectionTitle": "La colección",
-      "loadMore": "Cargar más historias",
-      "noResults": "No se encontraron historias.",
-      "filters": {
-        "all": "Todas",
-        "yokai": "Yōkai",
-        "creatures": "Criaturas",
-        "legends": "Leyendas",
-        "symbols": "Símbolos"
-      }
+      ]
     },
     "hero": {
       "eyebrow": "",
@@ -2048,28 +2048,32 @@ window.AKAI_HANA_LOCALES = {
     },
     "categories": [
       {
-        "id": "wallpapers",
-        "label": "Wallpapers"
-      },
-      {
-        "id": "avatar-3d",
-        "label": "Avatar 3D"
-      },
-      {
-        "id": "brand-design",
-        "label": "Brand Design"
+        "id": "all",
+        "label": "Todo"
       },
       {
         "id": "tattoo-designs",
-        "label": "Tatuajes"
+        "label": "Diseños de tatuaje"
       },
       {
         "id": "illustrations",
         "label": "Ilustraciones"
       },
       {
-        "id": "anime",
-        "label": "Anime"
+        "id": "japanese-art",
+        "label": "Arte japonés"
+      },
+      {
+        "id": "brand-design",
+        "label": "Diseño de marca"
+      },
+      {
+        "id": "black-grey",
+        "label": "Negro y gris"
+      },
+      {
+        "id": "anime-gaming",
+        "label": "Anime / Gaming"
       }
     ],
     "patterns": {
@@ -2083,7 +2087,7 @@ window.AKAI_HANA_LOCALES = {
     "gallery": {
       "eyebrow": "",
       "title": "Galería",
-      "body": "Una colección cuidada de diseños originales inspirados en la cultura, la mitología y el arte atemporal.",
+      "body": "Una colección cuidada de diseños originales inspirados en la cultura japonesa, la mitología y el arte atemporal.",
       "notice": {
         "icon": "i",
         "title": "Diseños digitales para inspiración y referencia.",
@@ -2102,7 +2106,7 @@ window.AKAI_HANA_LOCALES = {
         {
           "id": "TD-001",
           "title": "Yasuo",
-          "categoryId": "tattoo-designs",
+          "categoryId": "anime-gaming",
           "category": "Gaming / Anime",
           "style": "Guerrero anime, tinta oscura y energía legendaria",
           "shortDescription": "Una pieza intensa para transformar un personaje en icono visual.",
@@ -2168,7 +2172,7 @@ window.AKAI_HANA_LOCALES = {
         {
           "id": "TD-003",
           "title": "Final Fantasy VII",
-          "categoryId": "tattoo-designs",
+          "categoryId": "anime-gaming",
           "category": "Gaming",
           "style": "Espada, ruinas futuristas y nostalgia oscura",
           "shortDescription": "Una referencia de videojuego convertida en pieza cinematográfica.",
@@ -2201,7 +2205,7 @@ window.AKAI_HANA_LOCALES = {
         {
           "id": "TD-004",
           "title": "Realistic",
-          "categoryId": "tattoo-designs",
+          "categoryId": "black-grey",
           "category": "Negro y gris",
           "style": "Ojo hiperrealista, lágrima y emoción contenida",
           "shortDescription": "Ojo hiperrealista llorando. Sin retrato completo.",
@@ -2234,8 +2238,7 @@ window.AKAI_HANA_LOCALES = {
         {
           "id": "TD-005",
           "title": "Japanese Style",
-          "isCover": true,
-          "categoryId": "tattoo-designs",
+          "categoryId": "japanese-art",
           "category": "Tradicional",
           "style": "Tatuaje japonés tradicional de alta calidad",
           "shortDescription": "Una pieza grande, ornamental y preparada para tener presencia.",
@@ -2268,7 +2271,6 @@ window.AKAI_HANA_LOCALES = {
         {
           "id": "TD-006",
           "title": "Brand Design",
-          "isCover": true,
           "categoryId": "brand-design",
           "category": "Logos · Packaging · Identidad",
           "style": "Branding, logotipos, packaging e identidad visual premium",
@@ -2298,500 +2300,10 @@ window.AKAI_HANA_LOCALES = {
             "height": 1402,
             "alt": "Composición premium de branding, logotipos, packaging e identidad visual para empresas."
           }
-        },
-        {
-          "id": "BD-001",
-          "title": "Akai Hana Oversize",
-          "categoryId": "brand-design",
-          "category": "Brand Design",
-          "style": "Aplicación de identidad visual en prenda y presentación editorial",
-          "shortDescription": "Un estudio de aplicación de marca con presencia sobria, carmesí y dorada.",
-          "description": "Dirección visual para trasladar el emblema Akai Hana a una camiseta oversize mediante composición frontal y trasera, jerarquía de marca y acabados premium.",
-          "includes": "Mockup frontal y posterior, aplicación del emblema, escala gráfica y presentación de acabados.",
-          "uses": "Concepto de identidad aplicada, guía visual, presentación de marca y dirección de arte.",
-          "examples": "Mockup textil, aplicación de logotipo, campaña visual.",
-          "tags": [
-            "branding",
-            "apparel design",
-            "mockup"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/brand-akai-oversize.png",
-            "width": 1122,
-            "height": 1402,
-            "alt": "Estudio de identidad Akai Hana aplicado a una camiseta oversize negra, con vistas frontal y posterior."
-          }
-        },
-        {
-          "id": "BD-002",
-          "title": "Akai Hana Performance",
-          "categoryId": "brand-design",
-          "category": "Brand Design",
-          "style": "Sistema visual deportivo, logotipo y aplicaciones de marca",
-          "shortDescription": "Una dirección de marca dinámica construida alrededor de fuerza, disciplina y armonía.",
-          "description": "Concepto de identidad deportiva que reúne símbolo, tipografía, aplicaciones en prendas y una presentación editorial coherente con el universo Akai Hana.",
-          "includes": "Sistema de logotipo, aplicaciones frontal y posterior, iconografía y composición editorial.",
-          "uses": "Dirección de arte, identidad deportiva, presentación corporativa y guía de aplicaciones.",
-          "examples": "Sistema de marca, mockups, identidad visual, campaña.",
-          "tags": [
-            "branding",
-            "sports identity",
-            "art direction"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/brand-akai-performance.png",
-            "width": 1366,
-            "height": 1366,
-            "alt": "Sistema visual Akai Hana Performance con aplicaciones de identidad deportiva, logotipo e iconografía."
-          }
-        },
-        {
-          "id": "WP-000",
-          "title": "Akai Warrior",
-          "isCover": true,
-          "categoryId": "wallpapers",
-          "category": "Wallpapers",
-          "style": "Retrato cinematográfico, identidad Akai Hana y atmósfera japonesa",
-          "shortDescription": "La presencia visual de Akai Hana convertida en una portada de gran impacto.",
-          "description": "Wallpaper vertical con una guerrera de cabello carmesí, tatuajes florales y katana dentro de un estudio japonés iluminado con tonos cálidos.",
-          "includes": "Composición vertical en alta resolución y dirección visual cinematográfica.",
-          "uses": "Fondos para móvil, portadas digitales y piezas editoriales.",
-          "examples": "Wallpaper, portada, pantalla de bloqueo.",
-          "tags": [
-            "guerrera",
-            "japonés",
-            "Akai Hana"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/wallpaper-cover-akai-warrior.png",
-            "width": 1122,
-            "height": 1402,
-            "alt": "Guerrera Akai Hana de cabello rojo con tatuajes y katana en un estudio japonés."
-          }
-        },
-        {
-          "id": "WP-001",
-          "title": "Santuario Kitsune",
-          "categoryId": "wallpapers",
-          "category": "Wallpapers",
-          "style": "Paisaje japonés, kitsune blanco y luz sakura",
-          "shortDescription": "Un horizonte sereno donde el espíritu kitsune custodia el lago.",
-          "description": "Wallpaper panorámico de fantasía japonesa con un kitsune blanco frente al Fuji y un santuario entre cerezos.",
-          "includes": "Composición panorámica en alta resolución y adaptación visual para escritorio.",
-          "uses": "Fondos de escritorio, cabeceras digitales y ambientación de marca.",
-          "examples": "Wallpaper, banner, portada digital.",
-          "tags": [
-            "fantasía",
-            "kitsune",
-            "sakura"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/wallpaper-kitsune-sakura.jpg",
-            "width": 1672,
-            "height": 941,
-            "alt": "Kitsune blanco junto a un lago con Fuji, pagoda y cerezos al atardecer."
-          }
-        },
-        {
-          "id": "WP-002",
-          "title": "Crimson Wings",
-          "categoryId": "wallpapers",
-          "category": "Wallpapers",
-          "style": "Mariposa carmesí, flores y paisaje japonés nocturno",
-          "shortDescription": "Color, transformación y belleza suspendidos sobre un jardín nocturno.",
-          "description": "Una mariposa monumental en tonos carmesí y violeta emerge entre flores, tinta y arquitectura japonesa.",
-          "includes": "Arte panorámico en alta resolución y composición lista para pantalla.",
-          "uses": "Fondos de escritorio, portadas y piezas visuales digitales.",
-          "examples": "Wallpaper, banner, arte ambiental.",
-          "tags": [
-            "mariposa",
-            "flores",
-            "sakura"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/wallpaper-butterfly-sakura.jpg",
-            "width": 1536,
-            "height": 1024,
-            "alt": "Gran mariposa roja y violeta rodeada de flores ante un paisaje japonés nocturno."
-          }
-        },
-        {
-          "id": "WP-003",
-          "title": "Aurora",
-          "categoryId": "wallpapers",
-          "category": "Wallpapers",
-          "style": "Aurora boreal, cielo estrellado y silueta contemplativa",
-          "shortDescription": "La noche se abre en luz sobre un horizonte silencioso.",
-          "description": "Una escena cinematográfica bajo auroras verdes, con una figura contemplando el cielo desde la oscuridad.",
-          "includes": "Imagen panorámica en alta resolución optimizada para escritorio.",
-          "uses": "Wallpapers, portadas atmosféricas y fondos digitales.",
-          "examples": "Wallpaper, banner, cubierta visual.",
-          "tags": [
-            "aurora",
-            "noche",
-            "paisaje"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/wallpaper-aurora.jpg",
-            "width": 1672,
-            "height": 941,
-            "alt": "Aurora boreal verde sobre un cielo estrellado y una silueta junto a un coche."
-          }
-        },
-        {
-          "id": "AV-000",
-          "title": "Mirror Icon",
-          "isCover": true,
-          "categoryId": "avatar-3d",
-          "category": "Avatar 3D",
-          "style": "Modelado espejo, reflejos metálicos y estética urbana de lujo",
-          "shortDescription": "Una identidad 3D esculpida en luz, metal y presencia.",
-          "description": "Avatar 3D de acabado espejo con gorra de mosaico y cabello metálico, diseñado como una pieza digital de alto impacto.",
-          "includes": "Concepto de personaje, materiales reflectantes y render de alta resolución.",
-          "uses": "Imagen de marca, avatar digital, portada y personaje virtual.",
-          "examples": "Avatar 3D, icono premium, campaña digital.",
-          "tags": [
-            "3D",
-            "metal",
-            "avatar"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/avatar-3d-mirror-la.png",
-            "width": 1024,
-            "height": 1536,
-            "alt": "Avatar 3D femenino cubierto de mosaicos metálicos reflectantes sobre fondo negro."
-          }
-        },
-        {
-          "id": "AV-001",
-          "title": "Crimson LA",
-          "categoryId": "avatar-3d",
-          "category": "Avatar 3D",
-          "style": "Retrato 3D estilizado, acabado brillante y estética urbana",
-          "shortDescription": "Una identidad digital audaz con energía pop y acabado coleccionable.",
-          "description": "Avatar 3D de estética urbana con cabello carmesí, gorra oscura y visor rojo, modelado como una pieza digital premium.",
-          "includes": "Concepto de personaje, dirección de color y render de alta resolución.",
-          "uses": "Avatar de marca, perfil digital, personaje virtual y contenido social.",
-          "examples": "Avatar 3D, icono de perfil, personaje de marca.",
-          "tags": [
-            "3D",
-            "avatar",
-            "urbano"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/avatar-3d-crimson-la.jpg",
-            "width": 1122,
-            "height": 1402,
-            "alt": "Avatar 3D femenino con cabello rojo, gorra azul oscura y visor carmesí."
-          }
-        },
-        {
-          "id": "AV-002",
-          "title": "Pink Velocity",
-          "categoryId": "avatar-3d",
-          "category": "Avatar 3D",
-          "style": "Retrato 3D pop con visor rosa y acabado brillante",
-          "shortDescription": "Color, actitud y energía digital en una identidad contemporánea.",
-          "description": "Avatar 3D con gorra rosa y blanca, visor translúcido y cabello carmesí con reflejos rubios sobre un cielo azul.",
-          "includes": "Diseño de personaje, dirección de color y render de alta resolución.",
-          "uses": "Perfil digital, redes sociales, avatar de marca y contenido visual.",
-          "examples": "Avatar, icono de perfil, campaña pop.",
-          "tags": [
-            "3D",
-            "rosa",
-            "urbano"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/avatar-3d-pink-la.png",
-            "width": 1122,
-            "height": 1402,
-            "alt": "Avatar 3D femenino con gorra rosa, visor translúcido y cabello rojo y rubio."
-          }
-        },
-        {
-          "id": "AV-003",
-          "title": "Crystal Tide",
-          "categoryId": "avatar-3d",
-          "category": "Avatar 3D",
-          "style": "Retrato 3D acuático, reflejos cristalinos y realismo estilizado",
-          "shortDescription": "Luz, agua y expresión convertidas en una identidad digital envolvente.",
-          "description": "Retrato 3D de estética acuática con cabello carmesí, reflejos rubios y destellos de luz proyectados sobre el rostro.",
-          "includes": "Concepto de personaje, iluminación acuática, materiales de piel y cabello y render de alta resolución.",
-          "uses": "Avatar digital, imagen de perfil, portada visual y campaña creativa.",
-          "examples": "Avatar 3D, retrato digital, campaña visual.",
-          "tags": [
-            "3D",
-            "agua",
-            "retrato"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/avatar-3d-crystal-tide.png",
-            "width": 1122,
-            "height": 1402,
-            "alt": "Retrato 3D femenino bajo el agua con cabello carmesí y reflejos luminosos sobre el rostro."
-          }
-        },
-        {
-          "id": "IL-001",
-          "title": "Espíritu Libre",
-          "isCover": true,
-          "categoryId": "illustrations",
-          "category": "Ilustraciones",
-          "style": "Caballo en tinta negra y paisaje costero",
-          "shortDescription": "Fuerza y libertad avanzando frente al mar.",
-          "description": "Ilustración monocroma de un caballo negro en movimiento, integrado con flores, costa y luz de horizonte.",
-          "includes": "Ilustración detallada en alta resolución y composición editorial.",
-          "uses": "Póster, lámina, portada e inspiración artística.",
-          "examples": "Ilustración, póster, arte editorial.",
-          "tags": [
-            "caballo",
-            "tinta",
-            "naturaleza"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/illustration-black-horse.jpg",
-            "width": 1054,
-            "height": 1492,
-            "alt": "Caballo negro ilustrado en tinta ante una costa con flores y árboles."
-          }
-        },
-        {
-          "id": "IL-002",
-          "title": "Hilo del Destino",
-          "isCover": true,
-          "categoryId": "anime",
-          "category": "Anime",
-          "style": "Anime cinematográfico, hilo rojo y cielo estelar",
-          "shortDescription": "Un encuentro escrito entre estrellas.",
-          "description": "Ilustración anime de una conexión guiada por el hilo rojo del destino bajo una lluvia de estrellas.",
-          "includes": "Composición de personajes, iluminación cinematográfica y acabado de alta resolución.",
-          "uses": "Póster, portada, fondo vertical y encargo personalizado.",
-          "examples": "Ilustración anime, póster, portada digital.",
-          "tags": [
-            "anime",
-            "destino",
-            "hilo rojo"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/anime-cover-red-thread.png",
-            "width": 941,
-            "height": 1672,
-            "alt": "Chica anime de cabello rojo unida por un hilo del destino bajo un cielo estrellado."
-          }
-        },
-        {
-          "id": "AN-002",
-          "title": "Promesa de Cristal",
-          "categoryId": "anime",
-          "category": "Anime",
-          "style": "Fantasía anime, cristal y luz prismática",
-          "shortDescription": "Una promesa florece entre luz y memoria.",
-          "description": "Escena anime luminosa con dos personajes rodeados de vitrales, pétalos y reflejos de cristal.",
-          "includes": "Composición de personajes, atmósfera fantástica y acabado de alta resolución.",
-          "uses": "Póster, portada, arte de personaje y encargo personalizado.",
-          "examples": "Ilustración anime, póster, portada digital.",
-          "tags": [
-            "anime",
-            "fantasía",
-            "cristal"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/anime-crystal-promise.png",
-            "width": 1023,
-            "height": 1537,
-            "alt": "Pareja de fantasía anime rodeada de vitrales, flores y reflejos de cristal."
-          }
-        },
-        {
-          "id": "AN-003",
-          "title": "Pirate Legacy",
-          "categoryId": "anime",
-          "category": "Anime",
-          "style": "Anime, acuarela digital y contraste cálido frío",
-          "shortDescription": "Dos voluntades frente al mismo horizonte.",
-          "description": "Composición ilustrada de inspiración anime con dos guerreros, emblema pirata y un cielo dividido entre fuego y océano.",
-          "includes": "Composición de personajes, color y acabado de alta resolución.",
-          "uses": "Póster, fan art personalizado y portada digital.",
-          "examples": "Ilustración anime, póster, print.",
-          "tags": [
-            "anime",
-            "piratas",
-            "personajes"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/illustration-luffy-zoro.jpg",
-            "width": 1024,
-            "height": 1536,
-            "alt": "Ilustración de dos guerreros anime ante un cielo de fuego y mar."
-          }
-        },
-        {
-          "id": "IL-003",
-          "title": "Vínculo de Sangre",
-          "categoryId": "anime",
-          "category": "Anime",
-          "style": "Anime monocromo, tinta dinámica y dramatismo",
-          "shortDescription": "Protección, coraje y un vínculo que atraviesa la oscuridad.",
-          "description": "Ilustración en tinta de dos hermanos unidos en una composición de acción, agua y paisaje japonés.",
-          "includes": "Diseño de personajes, tinta digital y composición vertical.",
-          "uses": "Póster, portada, lámina y encargo personalizado.",
-          "examples": "Ilustración anime, print, portada.",
-          "tags": [
-            "anime",
-            "hermanos",
-            "tinta"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/illustration-tanjiro-nezuko.jpg",
-            "width": 1086,
-            "height": 1448,
-            "alt": "Dos personajes anime protegiéndose entre tinta, agua y un paisaje japonés."
-          }
-        },
-        {
-          "id": "IL-004",
-          "title": "Aliento de Fuego",
-          "categoryId": "anime",
-          "category": "Anime",
-          "style": "Guerrero en tinta sepia con dragón de fuego",
-          "shortDescription": "La determinación toma forma de llama.",
-          "description": "Ilustración de acción con un espadachín rodeado por un dragón de fuego en una composición intensa de tinta y luz.",
-          "includes": "Ilustración vertical, efectos de tinta y acabado de alta resolución.",
-          "uses": "Póster, portada y arte de personaje.",
-          "examples": "Ilustración anime, póster, print.",
-          "tags": [
-            "dragón",
-            "fuego",
-            "anime"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/illustration-tanjiro-dragon.jpg",
-            "width": 1086,
-            "height": 1448,
-            "alt": "Guerrero anime con katana rodeado por un dragón de fuego en tinta sepia."
-          }
-        },
-        {
-          "id": "IL-005",
-          "title": "Jardín Akai Hana",
-          "categoryId": "illustrations",
-          "category": "Ilustraciones",
-          "style": "Acuarela floral con sakura, loto y peonías",
-          "shortDescription": "Un jardín delicado donde cada flor guarda una intención.",
-          "description": "Composición botánica en acuarela con flores de cerezo, loto y peonías en una paleta rosa, tinta y marfil.",
-          "includes": "Ilustración floral en alta resolución y composición vertical.",
-          "uses": "Lámina, invitación, portada y diseño decorativo.",
-          "examples": "Arte floral, póster, diseño editorial.",
-          "tags": [
-            "flores",
-            "sakura",
-            "acuarela"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/illustration-sakura-lotus.jpg",
-            "width": 1086,
-            "height": 1448,
-            "alt": "Composición de flores de cerezo, loto y peonías en acuarela rosa y gris."
-          }
-        },
-        {
-          "id": "IL-006",
-          "title": "Akai Ito",
-          "categoryId": "illustrations",
-          "category": "Ilustraciones",
-          "style": "Línea fina, hilo rojo y simbolismo romántico",
-          "shortDescription": "Dos destinos unidos por un hilo que nunca se rompe.",
-          "description": "Ilustración minimalista de una pareja conectada por el hilo rojo del destino entre flores, humo y dos corazones.",
-          "includes": "Concepto simbólico, línea fina y composición personalizada.",
-          "uses": "Regalo, lámina, invitación y recuerdo personal.",
-          "examples": "Ilustración romántica, print, portada.",
-          "tags": [
-            "akai ito",
-            "amor",
-            "línea fina"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/illustration-akai-ito.jpg",
-            "width": 1122,
-            "height": 1402,
-            "alt": "Pareja unida por un hilo rojo entre flores y corazones en tinta fina."
-          }
-        },
-        {
-          "id": "IL-007",
-          "title": "Open Road",
-          "categoryId": "illustrations",
-          "category": "Ilustraciones",
-          "style": "Motocicleta monocroma y paisaje de montaña",
-          "shortDescription": "La carretera empieza donde termina el ruido.",
-          "description": "Ilustración de una motocicleta clásica frente a una carretera de montaña, trabajada con textura de grafito y acuarela.",
-          "includes": "Ilustración mecánica detallada y paisaje en alta resolución.",
-          "uses": "Póster, portada, regalo y arte para motoristas.",
-          "examples": "Ilustración de vehículo, print, póster.",
-          "tags": [
-            "moto",
-            "montaña",
-            "monocromo"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/illustration-motorcycle.jpg",
-            "width": 1024,
-            "height": 1536,
-            "alt": "Motocicleta negra ilustrada ante una carretera y montañas en estilo monocromo."
-          }
-        },
-        {
-          "id": "IL-008",
-          "title": "Sakura Minimal",
-          "categoryId": "illustrations",
-          "category": "Ilustraciones",
-          "style": "Botánica minimalista en acuarela rosa",
-          "shortDescription": "La belleza de lo esencial en una sola rama.",
-          "description": "Ilustración vertical y luminosa de flores de cerezo trazadas con línea delicada y suaves lavados de acuarela.",
-          "includes": "Arte botánico minimalista y archivo de alta resolución.",
-          "uses": "Lámina, papelería, portada y decoración.",
-          "examples": "Arte floral, print, diseño editorial.",
-          "tags": [
-            "sakura",
-            "minimalista",
-            "acuarela"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/illustration-sakura-minimal.jpg",
-            "width": 1086,
-            "height": 1448,
-            "alt": "Rama vertical de flores de cerezo rosas en acuarela minimalista."
-          }
-        },
-        {
-          "id": "IL-009",
-          "title": "Espíritu Leal",
-          "categoryId": "illustrations",
-          "category": "Ilustraciones",
-          "style": "Retrato animal, luna roja y tinta expresiva",
-          "shortDescription": "Lealtad, memoria y protección bajo una luna carmesí.",
-          "description": "Retrato ilustrado de un perro entre pinceladas negras, símbolos y una gran luna roja de fondo.",
-          "includes": "Retrato animal personalizado y composición artística en alta resolución.",
-          "uses": "Retrato conmemorativo, póster y regalo personal.",
-          "examples": "Retrato de mascota, print, ilustración personalizada.",
-          "tags": [
-            "perro",
-            "retrato",
-            "luna roja"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/illustration-dog-red-moon.jpg",
-            "width": 1122,
-            "height": 1402,
-            "alt": "Retrato ilustrado de un perro ante una luna roja con tinta negra y carmesí."
-          }
         }
       ],
       "featuredIds": [],
       "fullCollectionCta": "Ver todos los diseños",
-      "openCategory": "Explorar sección",
-      "backToOverview": "Volver a la galería",
-      "categoryEyebrow": "Colección seleccionada",
       "accent": "Nosotros diseñamos. Tú le das vida.",
       "tagline": "Arte que habla. Diseños que permanecen.",
       "studioNote": {
@@ -3060,9 +2572,25 @@ window.AKAI_HANA_LOCALES = {
     "stories": {
       "eyebrow": "Story archive",
       "title": "Stories",
+      "lead": "A growing library of Japanese folklore, symbolism and tattoo inspiration.",
       "openStory": "Open story {title}",
       "backToArchive": "Back to Stories",
       "galleryTitle": "Visual gallery",
+      "searchPlaceholder": "Search a story...",
+      "counter": "{count} stories available",
+      "closing": "New stories every week. A living collection of Japanese folklore, symbolism and art.",
+      "newThisWeek": "New this week",
+      "newLabel": "New",
+      "collectionTitle": "The collection",
+      "loadMore": "Load more stories",
+      "noResults": "No stories found.",
+      "filters": {
+        "all": "All",
+        "yokai": "Yōkai",
+        "creatures": "Creatures",
+        "legends": "Legends",
+        "symbols": "Symbols"
+      },
       "items": [
         {
           "id": "higanbana",
@@ -3786,7 +3314,7 @@ window.AKAI_HANA_LOCALES = {
           "number": "09",
           "title": "Akai Ito",
           "eyebrow": "Japanese legends and fate",
-          "japaneseName": "赤い糸",
+          "japaneseName": "\u8D64\u3044\u7CF8",
           "romanized": "The red thread of fate",
           "lead": "An invisible red thread connects souls destined to meet, no matter time, place or circumstance.",
           "cardImage": {
@@ -4222,7 +3750,7 @@ window.AKAI_HANA_LOCALES = {
             "width": 1024,
             "height": 1536,
             "alt": "Tengu narrative panel with mountain guardian, symbolism and tattoo art.",
-            "position": "50% 45%"
+            "position": "34% 24%"
           },
           "heroImage": {
             "src": "./assets/images/story-tengu-banner.png",
@@ -4315,10 +3843,10 @@ window.AKAI_HANA_LOCALES = {
           "lead": "Born from a bamboo stalk, Kaguya-hime represents fleeting beauty, nostalgia, mystery and a destiny that cannot be held.",
           "cardImage": {
             "src": "./assets/images/story-kaguya-hime-card.png",
-            "width": 1025,
+            "width": 1024,
             "height": 1536,
             "alt": "Kaguya-hime narrative panel with moon princess, bamboo, symbolism and tattoo art.",
-            "position": "50% 44%"
+            "position": "34% 32%"
           },
           "heroImage": {
             "src": "./assets/images/story-kaguya-hime-banner.png",
@@ -4795,23 +4323,7 @@ window.AKAI_HANA_LOCALES = {
           ],
           "quote": "Respect the water, or the river will remember you."
         }
-      ],
-      "lead": "A growing library of Japanese folklore, symbolism and tattoo inspiration.",
-      "searchPlaceholder": "Search a story...",
-      "counter": "{count} stories available",
-      "closing": "New stories every week. A living collection of Japanese folklore, symbolism and art.",
-      "newThisWeek": "New this week",
-      "newLabel": "New",
-      "collectionTitle": "The collection",
-      "loadMore": "Load more stories",
-      "noResults": "No stories found.",
-      "filters": {
-        "all": "All",
-        "yokai": "Yōkai",
-        "creatures": "Creatures",
-        "legends": "Legends",
-        "symbols": "Symbols"
-      }
+      ]
     },
     "hero": {
       "eyebrow": "",
@@ -5055,28 +4567,32 @@ window.AKAI_HANA_LOCALES = {
     },
     "categories": [
       {
-        "id": "wallpapers",
-        "label": "Wallpapers"
-      },
-      {
-        "id": "avatar-3d",
-        "label": "3D Avatar"
-      },
-      {
-        "id": "brand-design",
-        "label": "Brand Design"
+        "id": "all",
+        "label": "All"
       },
       {
         "id": "tattoo-designs",
-        "label": "Tattoos"
+        "label": "Tattoo Designs"
       },
       {
         "id": "illustrations",
         "label": "Illustrations"
       },
       {
-        "id": "anime",
-        "label": "Anime"
+        "id": "japanese-art",
+        "label": "Japanese Art"
+      },
+      {
+        "id": "brand-design",
+        "label": "Brand Design"
+      },
+      {
+        "id": "black-grey",
+        "label": "Black & Grey"
+      },
+      {
+        "id": "anime-gaming",
+        "label": "Anime / Gaming"
       }
     ],
     "patterns": {
@@ -5090,7 +4606,7 @@ window.AKAI_HANA_LOCALES = {
     "gallery": {
       "eyebrow": "",
       "title": "Gallery",
-      "body": "A curated collection of original designs inspired by culture, mythology and timeless art.",
+      "body": "A curated collection of original designs inspired by Japanese culture, mythology and timeless art.",
       "notice": {
         "icon": "i",
         "title": "Digital designs for inspiration and reference.",
@@ -5109,7 +4625,7 @@ window.AKAI_HANA_LOCALES = {
         {
           "id": "TD-001",
           "title": "Yasuo",
-          "categoryId": "tattoo-designs",
+          "categoryId": "anime-gaming",
           "category": "Gaming / Anime",
           "style": "Anime warrior, dark ink and legendary energy",
           "shortDescription": "An intense piece that turns a character into a visual icon.",
@@ -5175,7 +4691,7 @@ window.AKAI_HANA_LOCALES = {
         {
           "id": "TD-003",
           "title": "Final Fantasy VII",
-          "categoryId": "tattoo-designs",
+          "categoryId": "anime-gaming",
           "category": "Gaming",
           "style": "Sword, futuristic ruins and dark nostalgia",
           "shortDescription": "A videogame reference turned into a cinematic piece.",
@@ -5208,7 +4724,7 @@ window.AKAI_HANA_LOCALES = {
         {
           "id": "TD-004",
           "title": "Realistic",
-          "categoryId": "tattoo-designs",
+          "categoryId": "black-grey",
           "category": "Black & Grey",
           "style": "Hyperrealistic eye, tear and restrained emotion",
           "shortDescription": "A crying hyperrealistic eye. Not a full portrait.",
@@ -5241,8 +4757,7 @@ window.AKAI_HANA_LOCALES = {
         {
           "id": "TD-005",
           "title": "Japanese Style",
-          "isCover": true,
-          "categoryId": "tattoo-designs",
+          "categoryId": "japanese-art",
           "category": "Traditional",
           "style": "High-quality traditional Japanese tattoo design",
           "shortDescription": "A large ornamental piece made to hold presence.",
@@ -5275,7 +4790,6 @@ window.AKAI_HANA_LOCALES = {
         {
           "id": "TD-006",
           "title": "Brand Design",
-          "isCover": true,
           "categoryId": "brand-design",
           "category": "Logos · Packaging · Identity",
           "style": "Creative direction, logos, packaging and premium visual identity",
@@ -5305,500 +4819,10 @@ window.AKAI_HANA_LOCALES = {
             "height": 1402,
             "alt": "Premium creative studio composition with branding, logos, packaging concepts and visual identity for businesses."
           }
-        },
-        {
-          "id": "BD-001",
-          "title": "Akai Hana Oversize",
-          "categoryId": "brand-design",
-          "category": "Brand Design",
-          "style": "Visual identity application for apparel and editorial presentation",
-          "shortDescription": "A refined brand application study built in black, crimson and gold.",
-          "description": "Art direction for translating the Akai Hana emblem onto an oversized T-shirt through front and back compositions, brand hierarchy and premium finishes.",
-          "includes": "Front and back mockups, emblem application, graphic scale and finish presentation.",
-          "uses": "Applied identity concept, visual guidelines, brand presentation and art direction.",
-          "examples": "Apparel mockup, logo application, visual campaign.",
-          "tags": [
-            "branding",
-            "apparel design",
-            "mockup"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/brand-akai-oversize.png",
-            "width": 1122,
-            "height": 1402,
-            "alt": "Akai Hana identity study applied to a black oversized T-shirt with front and back views."
-          }
-        },
-        {
-          "id": "BD-002",
-          "title": "Akai Hana Performance",
-          "categoryId": "brand-design",
-          "category": "Brand Design",
-          "style": "Sports visual system, logo and brand applications",
-          "shortDescription": "A dynamic brand direction shaped around strength, discipline and harmony.",
-          "description": "A sports identity concept combining symbol, typography, apparel applications and an editorial presentation consistent with the Akai Hana universe.",
-          "includes": "Logo system, front and back applications, iconography and editorial composition.",
-          "uses": "Art direction, sports identity, corporate presentation and application guidelines.",
-          "examples": "Brand system, mockups, visual identity, campaign.",
-          "tags": [
-            "branding",
-            "sports identity",
-            "art direction"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/brand-akai-performance.png",
-            "width": 1366,
-            "height": 1366,
-            "alt": "Akai Hana Performance visual system with sports identity applications, logo and iconography."
-          }
-        },
-        {
-          "id": "WP-000",
-          "title": "Akai Warrior",
-          "isCover": true,
-          "categoryId": "wallpapers",
-          "category": "Wallpapers",
-          "style": "Cinematic portrait, Akai Hana identity and Japanese atmosphere",
-          "shortDescription": "Akai Hana's visual presence transformed into a striking cover.",
-          "description": "Vertical wallpaper featuring a crimson-haired warrior with floral tattoos and a katana inside a warmly lit Japanese studio.",
-          "includes": "High-resolution vertical composition and cinematic art direction.",
-          "uses": "Mobile wallpapers, digital covers and editorial artwork.",
-          "examples": "Wallpaper, cover, lock screen.",
-          "tags": [
-            "warrior",
-            "Japanese",
-            "Akai Hana"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/wallpaper-cover-akai-warrior.png",
-            "width": 1122,
-            "height": 1402,
-            "alt": "Red-haired Akai Hana warrior with tattoos and katana in a Japanese studio."
-          }
-        },
-        {
-          "id": "WP-001",
-          "title": "Kitsune Sanctuary",
-          "categoryId": "wallpapers",
-          "category": "Wallpapers",
-          "style": "Japanese landscape, white kitsune and sakura light",
-          "shortDescription": "A serene horizon where the kitsune spirit watches over the lake.",
-          "description": "A panoramic Japanese fantasy wallpaper featuring a white kitsune before Mount Fuji and a shrine among cherry blossoms.",
-          "includes": "High-resolution panoramic composition and a desktop-ready visual treatment.",
-          "uses": "Desktop backgrounds, digital headers and brand atmosphere.",
-          "examples": "Wallpaper, banner, digital cover.",
-          "tags": [
-            "fantasy",
-            "kitsune",
-            "sakura"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/wallpaper-kitsune-sakura.jpg",
-            "width": 1672,
-            "height": 941,
-            "alt": "White kitsune beside a lake with Mount Fuji, a pagoda and cherry blossoms at sunset."
-          }
-        },
-        {
-          "id": "WP-002",
-          "title": "Crimson Wings",
-          "categoryId": "wallpapers",
-          "category": "Wallpapers",
-          "style": "Crimson butterfly, flowers and a nocturnal Japanese landscape",
-          "shortDescription": "Colour, transformation and beauty suspended over a midnight garden.",
-          "description": "A monumental crimson and violet butterfly emerges among flowers, ink and Japanese architecture.",
-          "includes": "High-resolution panoramic artwork composed for widescreen display.",
-          "uses": "Desktop backgrounds, covers and digital visual pieces.",
-          "examples": "Wallpaper, banner, atmospheric art.",
-          "tags": [
-            "butterfly",
-            "flowers",
-            "sakura"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/wallpaper-butterfly-sakura.jpg",
-            "width": 1536,
-            "height": 1024,
-            "alt": "Large red and violet butterfly surrounded by flowers in a nocturnal Japanese landscape."
-          }
-        },
-        {
-          "id": "WP-003",
-          "title": "Aurora",
-          "categoryId": "wallpapers",
-          "category": "Wallpapers",
-          "style": "Northern lights, starry sky and contemplative silhouette",
-          "shortDescription": "The night opens into light above a silent horizon.",
-          "description": "A cinematic scene beneath green auroras, with a solitary figure contemplating the sky from the darkness.",
-          "includes": "High-resolution panoramic image optimised for desktop.",
-          "uses": "Wallpapers, atmospheric covers and digital backgrounds.",
-          "examples": "Wallpaper, banner, visual cover.",
-          "tags": [
-            "aurora",
-            "night",
-            "landscape"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/wallpaper-aurora.jpg",
-            "width": 1672,
-            "height": 941,
-            "alt": "Green northern lights above a starry sky and a silhouette beside a car."
-          }
-        },
-        {
-          "id": "AV-000",
-          "title": "Mirror Icon",
-          "isCover": true,
-          "categoryId": "avatar-3d",
-          "category": "3D Avatar",
-          "style": "Mirror modelling, metallic reflections and luxury urban styling",
-          "shortDescription": "A 3D identity sculpted through light, metal and presence.",
-          "description": "Mirror-finished 3D avatar with a mosaic cap and metallic hair, designed as a high-impact digital piece.",
-          "includes": "Character concept, reflective materials and high-resolution render.",
-          "uses": "Brand imagery, digital avatar, cover and virtual character.",
-          "examples": "3D avatar, premium icon, digital campaign.",
-          "tags": [
-            "3D",
-            "metal",
-            "avatar"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/avatar-3d-mirror-la.png",
-            "width": 1024,
-            "height": 1536,
-            "alt": "Female 3D avatar covered in reflective metallic mosaic tiles against black."
-          }
-        },
-        {
-          "id": "AV-001",
-          "title": "Crimson LA",
-          "categoryId": "avatar-3d",
-          "category": "3D Avatar",
-          "style": "Stylised 3D portrait, glossy finish and urban aesthetic",
-          "shortDescription": "A bold digital identity with pop energy and a collectible finish.",
-          "description": "An urban 3D avatar with crimson hair, a dark cap and red visor, modelled as a premium digital piece.",
-          "includes": "Character concept, colour direction and high-resolution render.",
-          "uses": "Brand avatar, digital profile, virtual character and social content.",
-          "examples": "3D avatar, profile icon, brand character.",
-          "tags": [
-            "3D",
-            "avatar",
-            "urban"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/avatar-3d-crimson-la.jpg",
-            "width": 1122,
-            "height": 1402,
-            "alt": "Female 3D avatar with red hair, dark blue cap and crimson visor."
-          }
-        },
-        {
-          "id": "AV-002",
-          "title": "Pink Velocity",
-          "categoryId": "avatar-3d",
-          "category": "3D Avatar",
-          "style": "Pop 3D portrait with a pink visor and glossy finish",
-          "shortDescription": "Colour, attitude and digital energy shaped into a modern identity.",
-          "description": "3D avatar with a pink and white cap, translucent visor and crimson hair with blonde highlights against a blue sky.",
-          "includes": "Character design, colour direction and high-resolution render.",
-          "uses": "Digital profile, social media, brand avatar and visual content.",
-          "examples": "Avatar, profile icon, pop campaign.",
-          "tags": [
-            "3D",
-            "pink",
-            "urban"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/avatar-3d-pink-la.png",
-            "width": 1122,
-            "height": 1402,
-            "alt": "Female 3D avatar with a pink cap, translucent visor and red and blonde hair."
-          }
-        },
-        {
-          "id": "AV-003",
-          "title": "Crystal Tide",
-          "categoryId": "avatar-3d",
-          "category": "3D Avatar",
-          "style": "Aquatic 3D portrait, crystalline reflections and stylized realism",
-          "shortDescription": "Light, water and expression shaped into an immersive digital identity.",
-          "description": "An aquatic 3D portrait with crimson hair, blonde highlights and rippling light projected across the face.",
-          "includes": "Character concept, aquatic lighting, skin and hair materials and a high-resolution render.",
-          "uses": "Digital avatar, profile image, visual cover and creative campaign.",
-          "examples": "3D avatar, digital portrait, visual campaign.",
-          "tags": [
-            "3D",
-            "water",
-            "portrait"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/avatar-3d-crystal-tide.png",
-            "width": 1122,
-            "height": 1402,
-            "alt": "Female 3D portrait underwater with crimson hair and luminous reflections across her face."
-          }
-        },
-        {
-          "id": "IL-001",
-          "title": "Free Spirit",
-          "isCover": true,
-          "categoryId": "illustrations",
-          "category": "Illustrations",
-          "style": "Black ink horse and coastal landscape",
-          "shortDescription": "Strength and freedom moving towards the sea.",
-          "description": "A monochrome illustration of a black horse in motion, integrated with flowers, coastline and horizon light.",
-          "includes": "Detailed high-resolution illustration and editorial composition.",
-          "uses": "Poster, art print, cover and creative inspiration.",
-          "examples": "Illustration, poster, editorial artwork.",
-          "tags": [
-            "horse",
-            "ink",
-            "nature"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/illustration-black-horse.jpg",
-            "width": 1054,
-            "height": 1492,
-            "alt": "Black horse illustrated in ink before a coast with flowers and trees."
-          }
-        },
-        {
-          "id": "IL-002",
-          "title": "Thread of Destiny",
-          "isCover": true,
-          "categoryId": "anime",
-          "category": "Anime",
-          "style": "Cinematic anime, red thread and starlit sky",
-          "shortDescription": "A meeting written among the stars.",
-          "description": "An anime illustration of a connection guided by the red thread of destiny beneath a shower of stars.",
-          "includes": "Character composition, cinematic lighting and high-resolution finish.",
-          "uses": "Poster, cover, vertical wallpaper and custom commission.",
-          "examples": "Anime illustration, poster, digital cover.",
-          "tags": [
-            "anime",
-            "destiny",
-            "red thread"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/anime-cover-red-thread.png",
-            "width": 941,
-            "height": 1672,
-            "alt": "Red-haired anime girl connected by a thread of destiny beneath a starlit sky."
-          }
-        },
-        {
-          "id": "AN-002",
-          "title": "Crystal Promise",
-          "categoryId": "anime",
-          "category": "Anime",
-          "style": "Anime fantasy, crystal and prismatic light",
-          "shortDescription": "A promise blooms among light and memory.",
-          "description": "A luminous anime scene with two characters surrounded by stained glass, petals and crystal reflections.",
-          "includes": "Character composition, fantasy atmosphere and high-resolution finish.",
-          "uses": "Poster, cover, character art and custom commission.",
-          "examples": "Anime illustration, poster, digital cover.",
-          "tags": [
-            "anime",
-            "fantasy",
-            "crystal"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/anime-crystal-promise.png",
-            "width": 1023,
-            "height": 1537,
-            "alt": "Anime fantasy couple surrounded by stained glass, flowers and crystal reflections."
-          }
-        },
-        {
-          "id": "AN-003",
-          "title": "Pirate Legacy",
-          "categoryId": "anime",
-          "category": "Anime",
-          "style": "Anime, digital watercolour and warm-cool contrast",
-          "shortDescription": "Two wills facing the same horizon.",
-          "description": "An anime-inspired composition with two warriors, a pirate emblem and a sky divided between fire and ocean.",
-          "includes": "Character composition, colour direction and high-resolution finish.",
-          "uses": "Poster, custom fan artwork and digital cover.",
-          "examples": "Anime illustration, poster, print.",
-          "tags": [
-            "anime",
-            "pirates",
-            "characters"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/illustration-luffy-zoro.jpg",
-            "width": 1024,
-            "height": 1536,
-            "alt": "Illustration of two anime warriors before a sky of fire and sea."
-          }
-        },
-        {
-          "id": "IL-003",
-          "title": "Blood Bond",
-          "categoryId": "anime",
-          "category": "Anime",
-          "style": "Monochrome anime, dynamic ink and drama",
-          "shortDescription": "Protection, courage and a bond that crosses the darkness.",
-          "description": "An ink illustration of two siblings united in a composition of action, water and Japanese landscape.",
-          "includes": "Character design, digital ink and vertical composition.",
-          "uses": "Poster, cover, art print and custom commission.",
-          "examples": "Anime illustration, print, cover.",
-          "tags": [
-            "anime",
-            "siblings",
-            "ink"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/illustration-tanjiro-nezuko.jpg",
-            "width": 1086,
-            "height": 1448,
-            "alt": "Two anime characters protecting each other among ink, water and a Japanese landscape."
-          }
-        },
-        {
-          "id": "IL-004",
-          "title": "Breath of Fire",
-          "categoryId": "anime",
-          "category": "Anime",
-          "style": "Sepia ink warrior with a fire dragon",
-          "shortDescription": "Determination takes the shape of flame.",
-          "description": "An action illustration featuring a swordsman surrounded by a fire dragon in an intense composition of ink and light.",
-          "includes": "Vertical illustration, ink effects and high-resolution finish.",
-          "uses": "Poster, cover and character artwork.",
-          "examples": "Anime illustration, poster, print.",
-          "tags": [
-            "dragon",
-            "fire",
-            "anime"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/illustration-tanjiro-dragon.jpg",
-            "width": 1086,
-            "height": 1448,
-            "alt": "Anime warrior with a katana surrounded by a sepia ink fire dragon."
-          }
-        },
-        {
-          "id": "IL-005",
-          "title": "Akai Hana Garden",
-          "categoryId": "illustrations",
-          "category": "Illustrations",
-          "style": "Floral watercolour with sakura, lotus and peonies",
-          "shortDescription": "A delicate garden where every flower holds an intention.",
-          "description": "A botanical watercolour composition with cherry blossoms, lotus and peonies in a palette of pink, ink and ivory.",
-          "includes": "High-resolution floral illustration and vertical composition.",
-          "uses": "Art print, invitation, cover and decorative design.",
-          "examples": "Floral art, poster, editorial design.",
-          "tags": [
-            "flowers",
-            "sakura",
-            "watercolour"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/illustration-sakura-lotus.jpg",
-            "width": 1086,
-            "height": 1448,
-            "alt": "Cherry blossom, lotus and peony composition in pink and grey watercolour."
-          }
-        },
-        {
-          "id": "IL-006",
-          "title": "Akai Ito",
-          "categoryId": "illustrations",
-          "category": "Illustrations",
-          "style": "Fine line, red thread and romantic symbolism",
-          "shortDescription": "Two destinies joined by a thread that never breaks.",
-          "description": "A minimalist illustration of a couple connected by the red thread of fate among flowers, smoke and two hearts.",
-          "includes": "Symbolic concept, fine line and custom composition.",
-          "uses": "Gift, art print, invitation and personal keepsake.",
-          "examples": "Romantic illustration, print, cover.",
-          "tags": [
-            "akai ito",
-            "love",
-            "fine line"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/illustration-akai-ito.jpg",
-            "width": 1122,
-            "height": 1402,
-            "alt": "Couple joined by a red thread among flowers and hearts in fine ink."
-          }
-        },
-        {
-          "id": "IL-007",
-          "title": "Open Road",
-          "categoryId": "illustrations",
-          "category": "Illustrations",
-          "style": "Monochrome motorcycle and mountain landscape",
-          "shortDescription": "The road begins where the noise ends.",
-          "description": "An illustration of a classic motorcycle before a mountain road, rendered with graphite and watercolour texture.",
-          "includes": "Detailed mechanical illustration and high-resolution landscape.",
-          "uses": "Poster, cover, gift and artwork for riders.",
-          "examples": "Vehicle illustration, print, poster.",
-          "tags": [
-            "motorcycle",
-            "mountains",
-            "monochrome"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/illustration-motorcycle.jpg",
-            "width": 1024,
-            "height": 1536,
-            "alt": "Black motorcycle illustrated before a road and mountains in monochrome style."
-          }
-        },
-        {
-          "id": "IL-008",
-          "title": "Sakura Minimal",
-          "categoryId": "illustrations",
-          "category": "Illustrations",
-          "style": "Minimal botanical art in pink watercolour",
-          "shortDescription": "The beauty of the essential in a single branch.",
-          "description": "A bright vertical illustration of cherry blossoms drawn with delicate lines and soft watercolour washes.",
-          "includes": "Minimal botanical artwork and high-resolution file.",
-          "uses": "Art print, stationery, cover and decoration.",
-          "examples": "Floral art, print, editorial design.",
-          "tags": [
-            "sakura",
-            "minimal",
-            "watercolour"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/illustration-sakura-minimal.jpg",
-            "width": 1086,
-            "height": 1448,
-            "alt": "Vertical branch of pink cherry blossoms in minimalist watercolour."
-          }
-        },
-        {
-          "id": "IL-009",
-          "title": "Loyal Spirit",
-          "categoryId": "illustrations",
-          "category": "Illustrations",
-          "style": "Animal portrait, red moon and expressive ink",
-          "shortDescription": "Loyalty, memory and protection beneath a crimson moon.",
-          "description": "An illustrated dog portrait surrounded by black brushwork, symbols and a large red moon.",
-          "includes": "Custom animal portrait and high-resolution artistic composition.",
-          "uses": "Memorial portrait, poster and personal gift.",
-          "examples": "Pet portrait, print, custom illustration.",
-          "tags": [
-            "dog",
-            "portrait",
-            "red moon"
-          ],
-          "image": {
-            "src": "./assets/images/gallery/illustration-dog-red-moon.jpg",
-            "width": 1122,
-            "height": 1402,
-            "alt": "Illustrated dog portrait before a red moon with black and crimson ink."
-          }
         }
       ],
       "featuredIds": [],
       "fullCollectionCta": "View all designs",
-      "openCategory": "Explore section",
-      "backToOverview": "Back to gallery",
-      "categoryEyebrow": "Selected collection",
       "accent": "We design. You bring it to life.",
       "tagline": "Artwork that speaks. Designs that last.",
       "studioNote": {
@@ -6014,3 +5038,5 @@ window.AKAI_HANA_LOCALES = {
     }
   }
 };
+
+window.AKAI_HANA_I18N = window.AKAI_HANA_I18N || window.AKAI_HANA_LOCALES;

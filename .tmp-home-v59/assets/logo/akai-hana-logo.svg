@@ -1,0 +1,81 @@
+<svg width="900" height="520" viewBox="0 0 900 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Akai Hana Design Studio official logo</title>
+  <desc id="desc">Akai Hana Design Studio logo with a crimson sakura flower, gold enso circle, Japanese seal and premium wordmark.</desc>
+  <defs>
+    <radialGradient id="petalTexture" cx="50%" cy="42%" r="62%">
+      <stop offset="0" stop-color="#E01818"/>
+      <stop offset="0.58" stop-color="#B60000"/>
+      <stop offset="1" stop-color="#5A0000"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="250" y1="60" x2="650" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFE092"/>
+      <stop offset="0.46" stop-color="#D4AF37"/>
+      <stop offset="1" stop-color="#8A6416"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.71 0 1 0 0 0 0 0 1 0 0 0 0 0 0.36 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g transform="translate(450 178)" filter="url(#softGlow)">
+    <path d="M-142 14C-152-74-83-142 14-143C93-144 155-96 166-30" stroke="url(#gold)" stroke-width="15" stroke-linecap="round"/>
+    <path d="M162-8C154 82 85 145-5 143C-98 141-158 77-160 10" stroke="url(#gold)" stroke-width="8" stroke-linecap="round" opacity="0.82"/>
+    <path d="M-134-53C-95-134 16-170 103-126" stroke="#D4AF37" stroke-width="3" stroke-linecap="round" opacity="0.55"/>
+    <path d="M123 92C61 158-45 160-109 98" stroke="#D4AF37" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+
+    <g>
+      <path d="M0-116C34-64 29-27 0 0C-29-27-34-64 0-116Z" fill="url(#petalTexture)"/>
+      <path d="M111-36C54-47 18-34 0 0C32 14 69 7 111-36Z" fill="url(#petalTexture)"/>
+      <path d="M69 96C64 37 38 9 0 0C-8 34 8 68 69 96Z" fill="url(#petalTexture)"/>
+      <path d="M-69 96C-8 68 8 34 0 0C-38 9-64 37-69 96Z" fill="url(#petalTexture)"/>
+      <path d="M-111-36C-69 7-32 14 0 0C-18-34-54-47-111-36Z" fill="url(#petalTexture)"/>
+      <path d="M0-101C10-63 9-32 0-8C-9-32-10-63 0-101Z" fill="#F03838" opacity="0.28"/>
+      <path d="M92-30C57-31 29-20 8-3C31-1 58-8 92-30Z" fill="#F03838" opacity="0.24"/>
+      <path d="M57 79C44 47 25 23 5 6C7 31 22 55 57 79Z" fill="#F03838" opacity="0.22"/>
+      <path d="M-57 79C-22 55-7 31-5 6C-25 23-44 47-57 79Z" fill="#F03838" opacity="0.22"/>
+      <path d="M-92-30C-58-8-31-1-8-3C-29-20-57-31-92-30Z" fill="#F03838" opacity="0.24"/>
+    </g>
+
+    <path d="M56-27A31 31 0 1 0 85 15A23 23 0 1 1 56-27Z" fill="url(#gold)"/>
+    <circle cx="0" cy="0" r="18" fill="#030303" stroke="#D4AF37" stroke-width="5"/>
+    <path d="M-10 0H10M0-10V10M-13-8H13M-13 8H13" stroke="#B60000" stroke-width="3" stroke-linecap="round"/>
+
+    <g fill="url(#gold)">
+      <circle cx="0" cy="-48" r="6"/>
+      <circle cx="46" cy="-14" r="6"/>
+      <circle cx="29" cy="39" r="6"/>
+      <circle cx="-29" cy="39" r="6"/>
+      <circle cx="-46" cy="-14" r="6"/>
+    </g>
+    <g stroke="#D4AF37" stroke-width="3" stroke-linecap="round" opacity="0.82">
+      <path d="M0-18V-42"/>
+      <path d="M15-8L39-14"/>
+      <path d="M9 15L24 34"/>
+      <path d="M-9 15L-24 34"/>
+      <path d="M-15-8L-39-14"/>
+    </g>
+  </g>
+
+  <g transform="translate(675 194)">
+    <rect x="-21" y="-50" width="42" height="100" rx="5" fill="#060606" stroke="#B60000" stroke-width="3"/>
+    <text x="0" y="-16" text-anchor="middle" font-family="'Yu Mincho', 'MS Mincho', serif" font-size="25" fill="#E01818">赤</text>
+    <text x="0" y="16" text-anchor="middle" font-family="'Yu Mincho', 'MS Mincho', serif" font-size="25" fill="#E01818">い</text>
+    <text x="0" y="48" text-anchor="middle" font-family="'Yu Mincho', 'MS Mincho', serif" font-size="25" fill="#E01818">花</text>
+  </g>
+
+  <g transform="translate(287 347)">
+    <path d="M0 0H139" stroke="#B60000" stroke-width="2"/>
+    <path d="M326 0H465" stroke="#B60000" stroke-width="2"/>
+    <path d="M225-17C237-5 244 2 254 8C244 13 237 21 225 32C213 21 206 13 196 8C206 2 213-5 225-17Z" fill="#B60000"/>
+    <path d="M225-26V19" stroke="#B60000" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <text x="450" y="325" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="62" font-weight="600" fill="url(#gold)">AKAI HANA</text>
+  <text x="450" y="395" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="30" font-weight="500" fill="#D4AF37">DESIGN STUDIO</text>
+  <text x="450" y="458" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="700" fill="#D4AF37">TATTOO DESIGN  •  JAPANESE ART  •  ILLUSTRATION  •  CUSTOM WORK</text>
+</svg>

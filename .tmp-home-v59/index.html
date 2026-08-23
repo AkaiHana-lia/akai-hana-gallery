@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Akai Hana Design Studio</title>
+    <meta name="description" content="" data-i18n-meta="seo.description" />
+    <meta name="theme-color" content="#050506" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://akaihanagallery.com/" data-canonical />
+    <link rel="alternate" hreflang="es" href="https://akaihanagallery.com/?lang=es" />
+    <link rel="alternate" hreflang="en" href="https://akaihanagallery.com/?lang=en" />
+    <link rel="alternate" hreflang="x-default" href="https://akaihanagallery.com/" />
+    <link rel="icon" href="./assets/logo/akai-hana-mark.svg" type="image/svg+xml" />
+    <link rel="preload" as="image" href="./assets/images/hero-akai-hana-gallery.png" />
+    <link rel="stylesheet" href="./src/styles/styles.css?v=home-v5-6-silk-lettering" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Akai Hana Design Studio" data-i18n-meta="seo.ogTitle" />
+    <meta property="og:description" content="" data-i18n-meta="seo.ogDescription" />
+    <meta property="og:image" content="https://akaihanagallery.com/assets/images/hero-akai-hana-gallery.png" />
+    <meta property="og:url" content="https://akaihanagallery.com/" data-og-url />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script type="application/ld+json" id="schema-data"></script>
+  </head>
+
+  <body data-page="home">
+    <a class="skip-link" href="#home" data-i18n="accessibility.skipToGallery"></a>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#home" data-i18n-attr="aria-label:accessibility.brandHome">
+        <img class="brand__mark" src="./assets/logo/akai-hana-mark.svg" width="48" height="48" alt="" aria-hidden="true" />
+        <span class="brand__name" data-i18n="brand.name"></span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        type="button"
+        data-nav-toggle
+        aria-expanded="false"
+        aria-controls="site-nav"
+        data-i18n-attr="aria-label:accessibility.openMenu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="header-actions">
+        <nav class="site-nav" id="site-nav" data-nav data-i18n-attr="aria-label:accessibility.primaryNavigation">
+          <a href="#home" data-i18n="nav.home"></a>
+          <a href="#gallery" data-i18n="nav.gallery"></a>
+          <a href="#stories" data-i18n="nav.stories"></a>
+          <a href="#pop-culture" data-i18n="nav.popCulture"></a>
+          <a href="#services-contact" data-i18n="nav.servicesContact"></a>
+        </nav>
+
+        <div class="language-switcher" role="group" data-language-switcher data-i18n-attr="aria-label:language.selectorLabel">
+          <button class="language-button" type="button" data-lang="es" lang="es">ES</button>
+          <span aria-hidden="true">/</span>
+          <button class="language-button" type="button" data-lang="en" lang="en">EN</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home" data-page="home" aria-labelledby="hero-title">
+        <div class="hero__image" aria-hidden="true"></div>
+        <div class="hero__ambient" aria-hidden="true"></div>
+        <div class="hero__leaves hero__leaves--back" data-leaves-layer="back" aria-hidden="true"></div>
+        <div class="hero__leaves hero__leaves--front" data-leaves-layer="front" aria-hidden="true"></div>
+        <div class="hero__content reveal">
+          <img
+            class="hero__logo"
+            src="./assets/logo/akai-hana-logo.svg"
+            width="110"
+            height="110"
+            data-i18n-attr="alt:brand.logoAlt"
+          />
+          <p class="eyebrow" data-i18n="hero.eyebrow"></p>
+          <h1 id="hero-title" class="hero__title">
+            <span data-i18n="hero.titleLineOne"></span>
+            <span data-i18n="hero.titleLineTwo"></span>
+            <span class="hero__title-accent" data-i18n="hero.titleAccent"></span>
+          </h1>
+          <p class="hero__lead" data-i18n="hero.lead"></p>
+          <div class="hero__actions" data-i18n-attr="aria-label:accessibility.heroActions">
+            <a class="button button--primary" href="#gallery" data-i18n="hero.primaryCta"></a>
+            <a class="button button--ghost" href="#services-contact" data-i18n="hero.secondaryCta"></a>
+          </div>
+        </div>
+        <div class="hero__preview" data-hero-values data-i18n-attr="aria-label:accessibility.galleryValues"></div>
+      </section>
+
+      </main>
+
+    <script src="./src/i18n/locales-stories-10.js?v=home-visual-art-23-08" defer></script>
+    <script src="./src/data/pop-culture.js?v=pop-higanbana-name-18-03" defer></script>
+    <script src="./src/scripts/main.js?v=home-v5-9-red-piano" defer></script>
+  </body>
+</html>

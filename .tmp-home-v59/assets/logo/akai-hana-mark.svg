@@ -1,0 +1,45 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Akai Hana Design Studio mark</title>
+  <desc id="desc">Akai Hana crimson sakura mark inside a gold enso circle with a Japanese seal.</desc>
+  <defs>
+    <radialGradient id="petal" cx="50%" cy="42%" r="62%">
+      <stop offset="0" stop-color="#E01818"/>
+      <stop offset="0.58" stop-color="#B60000"/>
+      <stop offset="1" stop-color="#590000"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="95" y1="74" x2="405" y2="424" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFE092"/>
+      <stop offset="0.48" stop-color="#D4AF37"/>
+      <stop offset="1" stop-color="#8A6416"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="256" fill="#030303"/>
+  <path d="M100 262C76 146 165 54 276 59C368 63 431 121 446 199" stroke="url(#gold)" stroke-width="28" stroke-linecap="round"/>
+  <path d="M444 225C431 337 341 419 226 406C123 394 76 313 89 245" stroke="url(#gold)" stroke-width="13" stroke-linecap="round" opacity="0.86"/>
+  <path d="M119 182C158 83 284 36 381 98" stroke="#D4AF37" stroke-width="5" stroke-linecap="round" opacity="0.48"/>
+  <path d="M374 343C303 429 173 431 112 337" stroke="#D4AF37" stroke-width="5" stroke-linecap="round" opacity="0.45"/>
+
+  <g transform="translate(250 231)">
+    <path d="M0-142C42-79 35-33 0 0C-35-33-42-79 0-142Z" fill="url(#petal)"/>
+    <path d="M136-44C67-58 22-42 0 0C39 17 84 9 136-44Z" fill="url(#petal)"/>
+    <path d="M84 118C78 46 46 11 0 0C-10 42 10 83 84 118Z" fill="url(#petal)"/>
+    <path d="M-84 118C-10 83 10 42 0 0C-46 11-78 46-84 118Z" fill="url(#petal)"/>
+    <path d="M-136-44C-84 9-39 17 0 0C-22-42-67-58-136-44Z" fill="url(#petal)"/>
+    <path d="M70-34A39 39 0 1 0 106 19A29 29 0 1 1 70-34Z" fill="url(#gold)"/>
+    <circle cx="0" cy="0" r="23" fill="#030303" stroke="#D4AF37" stroke-width="7"/>
+    <path d="M-13 0H13M0-13V13M-17-10H17M-17 10H17" stroke="#B60000" stroke-width="4" stroke-linecap="round"/>
+    <g fill="url(#gold)">
+      <circle cx="0" cy="-60" r="7"/>
+      <circle cx="57" cy="-18" r="7"/>
+      <circle cx="36" cy="49" r="7"/>
+      <circle cx="-36" cy="49" r="7"/>
+      <circle cx="-57" cy="-18" r="7"/>
+    </g>
+  </g>
+
+  <g transform="translate(393 318)">
+    <rect x="-23" y="-56" width="46" height="112" rx="6" fill="#050505" stroke="#B60000" stroke-width="4"/>
+    <text x="0" y="-18" text-anchor="middle" font-family="'Yu Mincho', 'MS Mincho', serif" font-size="29" fill="#E01818">赤</text>
+    <text x="0" y="18" text-anchor="middle" font-family="'Yu Mincho', 'MS Mincho', serif" font-size="29" fill="#E01818">花</text>
+  </g>
+</svg>

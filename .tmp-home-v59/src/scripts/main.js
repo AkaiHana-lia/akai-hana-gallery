@@ -37,7 +37,6 @@ const mountPoints = {
   customDesignTags: document.querySelector("[data-custom-design-tags]"),
   filterBar: document.querySelector("[data-filter-bar]"),
   galleryGrid: document.querySelector("[data-gallery-grid]"),
-  galleryCategoryHeader: document.querySelector("[data-gallery-category-header]"),
   storiesIndex: document.querySelector("[data-stories-index]"),
   storyReader: document.querySelector("[data-story-reader]"),
   storyDetail: document.querySelector("[data-story-detail]"),
@@ -66,31 +65,12 @@ let lightboxProjectId = null;
 let lastFocusedElement = null;
 let activeStoryId = null;
 let activeStoryFilter = "all";
+let storySearchTerm = "";
 let visibleStoryCount = 18;
 let activePopCultureThemeId = window.AKAI_HANA_POP_CULTURE?.defaultTheme || "kitsune";
 let activePopCultureCategoryId = null;
 
 const storyLibraryFilters = ["all", "yokai", "creatures", "legends", "symbols"];
-const storyCardImages = {
-  higanbana: { src: "./assets/images/stories/cards/higanbana.png", width: 941, height: 1672 },
-  kitsune: { src: "./assets/images/stories/cards/kitsune.png", width: 941, height: 1672 },
-  koi: { src: "./assets/images/stories/cards/koi.png", width: 941, height: 1672 },
-  ryu: { src: "./assets/images/stories/cards/ryu.png", width: 941, height: 1672 },
-  hannya: { src: "./assets/images/stories/cards/hannya.png", width: 941, height: 1672 },
-  "yuki-onna": { src: "./assets/images/stories/cards/yuki-onna.png", width: 941, height: 1672 },
-  baku: { src: "./assets/images/stories/cards/baku.png", width: 941, height: 1672 },
-  "tsuru-no-ongaeshi": { src: "./assets/images/stories/cards/tsuru-no-ongaeshi.png", width: 941, height: 1672 },
-  "akai-ito": { src: "./assets/images/stories/cards/akai-ito.png", width: 941, height: 1672 },
-  "shuten-doji": { src: "./assets/images/stories/cards/shuten-doji.png", width: 1024, height: 1536 },
-  "kuchisake-onna": { src: "./assets/images/stories/cards/kuchisake-onna.png", width: 1023, height: 1537 },
-  "nure-onna": { src: "./assets/images/stories/cards/nure-onna.png", width: 1023, height: 1537 },
-  tengu: { src: "./assets/images/stories/cards/tengu.png", width: 1023, height: 1537 },
-  "kaguya-hime": { src: "./assets/images/stories/cards/kaguya-hime.png", width: 1023, height: 1537 },
-  jorogumo: { src: "./assets/images/stories/cards/jorogumo.png", width: 941, height: 1672 },
-  yatagarasu: { src: "./assets/images/stories/cards/yatagarasu.png", width: 941, height: 1672 },
-  nekomata: { src: "./assets/images/stories/cards/nekomata.png", width: 941, height: 1672 },
-  kappa: { src: "./assets/images/stories/cards/kappa.png", width: 1023, height: 1537 }
-};
 const storyLibraryMeta = {
   higanbana: {
     categories: ["symbols"],
@@ -400,31 +380,21 @@ function renderGallery() {
   catalogById = new Map();
   clear(mountPoints.galleryGrid);
   const featuredIds = Array.isArray(dictionary.gallery.featuredIds) ? dictionary.gallery.featuredIds : [];
-  const categoryOrder = new Map(dictionary.categories.map((category, index) => [category.id, index]));
   const galleryItems = featuredIds.length
     ? featuredIds.map((id) => dictionary.gallery.items.find((item) => item.id === id)).filter(Boolean)
-    : [...dictionary.gallery.items].sort((a, b) => {
-        if (Boolean(a.isCover) !== Boolean(b.isCover)) return a.isCover ? -1 : 1;
-        if (a.isCover && b.isCover) {
-          return (categoryOrder.get(a.categoryId) ?? 0) - (categoryOrder.get(b.categoryId) ?? 0);
-        }
-        return 0;
-      });
+    : dictionary.gallery.items;
 
   dictionary.gallery.items.forEach((item) => {
     catalogById.set(item.id, item);
   });
 
   galleryItems.forEach((item, index) => {
-    const categoryLabel = getCategoryLabel(item.categoryId);
-    const category = item.category || categoryLabel;
-    const displayTitle = item.isCover ? categoryLabel : item.title;
+    const category = item.category || getCategoryLabel(item.categoryId);
     const article = createElement("article", {
       className: "art-card reveal",
       attributes: {
         "data-art-card": "",
         "data-category": item.categoryId,
-        "data-cover": item.isCover ? "true" : "false",
         "data-project-id": item.id
       }
     });
@@ -437,19 +407,12 @@ function renderGallery() {
         "aria-label": interpolate(dictionary.accessibility.openHighRes, { title: item.title })
       }
     });
-    const openItem = () => {
-      if (item.isCover && activeFilter === "all") {
-        openGalleryCategory(item.categoryId);
-      } else {
-        openLightbox(item.id);
-      }
-    };
-    media.addEventListener("click", openItem);
+    media.addEventListener("click", () => openLightbox(item.id));
     const overlay = createElement("div", { className: "art-card__overlay" });
     const overlayContent = createElement("div", { className: "art-card__overlay-content" });
     const overlayCta = createElement("span", {
       className: "art-card__overlay-cta",
-      text: item.isCover ? dictionary.gallery.openCategory : dictionary.actions.viewProject
+      text: dictionary.actions.viewProject
     });
 
     overlayContent.append(
@@ -457,7 +420,7 @@ function renderGallery() {
         className: "art-card__overlay-meta",
         text: interpolate(dictionary.patterns.projectMeta, { category, id: item.id })
       }),
-      createElement("strong", { text: displayTitle }),
+      createElement("strong", { text: item.title }),
       overlayCta
     );
     overlay.append(overlayContent);
@@ -469,7 +432,7 @@ function renderGallery() {
       className: "art-card__meta",
       text: interpolate(dictionary.patterns.projectMeta, { category, id: item.id })
     });
-    const title = createElement("h3", { text: displayTitle });
+    const title = createElement("h3", { text: item.title });
     const style = createElement("p", {
       className: "project-card__style",
       text: interpolate(dictionary.patterns.projectStyle, { style: item.style })
@@ -478,14 +441,14 @@ function renderGallery() {
     const footer = createElement("div", { className: "art-card__footer" });
     const viewButton = createElement("button", {
       className: "button button--collection project-card__button",
-      text: item.isCover ? dictionary.gallery.openCategory : dictionary.actions.viewProject,
+      text: dictionary.actions.viewProject,
       attributes: {
         type: "button",
         "data-project-open": item.id
       }
     });
 
-    viewButton.addEventListener("click", openItem);
+    viewButton.addEventListener("click", () => openLightbox(item.id));
     footer.append(renderProjectTags(item.tags, 3), viewButton);
     bodyContent.append(meta, title, style, description, footer);
     article.append(figure, bodyContent);
@@ -531,9 +494,30 @@ function getOrderedStories(stories) {
 }
 
 function getFilteredStories(stories) {
+  const normalizedSearch = storySearchTerm.trim().toLowerCase();
+
   return stories.filter((story) => {
     const meta = getStoryMeta(story);
-    return activeStoryFilter === "all" || meta.categories.includes(activeStoryFilter);
+    const matchesFilter = activeStoryFilter === "all" || meta.categories.includes(activeStoryFilter);
+    if (!matchesFilter) return false;
+
+    if (!normalizedSearch) return true;
+
+    const searchableText = [
+      story.title,
+      story.cardTitle,
+      story.eyebrow,
+      story.japaneseName,
+      story.romanized,
+      story.lead,
+      ...meta.categories.map((category) => dictionary.stories?.filters?.[category] || category),
+      ...meta.keywords
+    ]
+      .filter(Boolean)
+      .join(" ")
+      .toLowerCase();
+
+    return searchableText.includes(normalizedSearch);
   });
 }
 
@@ -560,8 +544,7 @@ function renderStoryCard(story, index, options = {}) {
     content.append(createElement("span", { className: "story-card__badge", text: dictionary.stories?.newLabel || "New" }));
   }
 
-  const cardImage = { ...story.cardImage, ...storyCardImages[story.id] };
-  card.append(renderStoryImage(cardImage, "story-card__image", index < 2), content);
+  card.append(renderStoryImage(story.cardImage, "story-card__image", index < 2), content);
   card.addEventListener("click", () => openStory(story.id));
   return card;
 }
@@ -584,7 +567,53 @@ function renderStories() {
   clear(mountPoints.storiesIndex);
 
   const library = createElement("div", { className: "stories-library" });
+  const toolbar = createElement("div", { className: "stories-toolbar" });
+  const searchInput = createElement("input", {
+    className: "stories-search__input",
+    attributes: {
+      type: "search",
+      placeholder: dictionary.stories?.searchPlaceholder || "Search a story...",
+      value: storySearchTerm,
+      "data-story-search": "",
+      "aria-label": dictionary.stories?.searchPlaceholder || "Search a story..."
+    }
+  });
+  const filters = createElement("div", { className: "stories-filters", attributes: { role: "list" } });
   const filteredStories = getFilteredStories(stories);
+  const counter = createElement("p", {
+    className: "stories-count",
+    text: interpolate(dictionary.stories?.counter || "{count} stories available", { count: filteredStories.length })
+  });
+
+  searchInput.addEventListener("input", (event) => {
+    storySearchTerm = event.target.value;
+    visibleStoryCount = 18;
+    renderStories();
+    mountPoints.storiesIndex.querySelector(".stories-search__input")?.focus();
+  });
+
+  storyLibraryFilters.forEach((filter) => {
+    const filterButton = createElement("button", {
+      className: `stories-filter${activeStoryFilter === filter ? " is-active" : ""}`,
+      text: dictionary.stories?.filters?.[filter] || filter,
+      attributes: {
+        type: "button",
+        "data-story-filter": filter,
+        "aria-pressed": activeStoryFilter === filter ? "true" : "false"
+      }
+    });
+    filterButton.addEventListener("click", () => {
+      activeStoryFilter = filter;
+      visibleStoryCount = 18;
+      renderStories();
+    });
+    filters.append(filterButton);
+  });
+
+  const searchLabel = createElement("label", { className: "stories-search" });
+  searchLabel.append(searchInput);
+  toolbar.append(searchLabel, filters, counter);
+  library.append(toolbar);
 
   const collection = createElement("section", { className: "stories-library__section stories-library__section--collection" });
   const collectionGrid = createElement("div", { className: "stories-library__grid" });
@@ -632,13 +661,6 @@ function renderStories() {
 function renderStoryDetail(story) {
   clear(mountPoints.storyDetail);
 
-  const galleryImages = Array.isArray(story.gallery) ? [...story.gallery] : [];
-  const cardTattoo = story.cardImage?.src?.includes("tattoo") ? story.cardImage : null;
-
-  if (cardTattoo && !galleryImages.some((image) => image.src === cardTattoo.src)) {
-    galleryImages.push(cardTattoo);
-  }
-
   const detail = createElement("div", { className: `story-detail story-detail--${story.id}` });
   const hero = createElement("section", { className: "story-detail__hero" });
   const heroFigure = createElement("figure", { className: "story-detail__hero-figure" });
@@ -684,12 +706,12 @@ function renderStoryDetail(story) {
     bodyContent.append(sectionElement);
   });
 
-  if (galleryImages.length) {
+  if (Array.isArray(story.gallery) && story.gallery.length) {
     const gallery = createElement("section", { className: "story-gallery" });
     const galleryGrid = createElement("div", { className: "story-gallery__grid" });
 
     gallery.append(createElement("h2", { text: story.galleryTitle || dictionary.stories.galleryTitle }));
-    galleryImages.forEach((image) => {
+    story.gallery.forEach((image) => {
       const figure = createElement("figure", { className: "story-gallery__item" });
       figure.append(renderStoryImage(image, "story-gallery__image"));
       galleryGrid.append(figure);
@@ -1101,18 +1123,9 @@ function setFilter(categoryId) {
   let visibleCount = 0;
   const cards = Array.from(document.querySelectorAll("[data-art-card]"));
   const buttons = Array.from(document.querySelectorAll("[data-filter]"));
-  const hasCategoryProjects = categoryId !== "all" && cards.some((card) => (
-    card.dataset.category === categoryId && card.dataset.cover !== "true"
-  ));
-
-  if (mountPoints.galleryGrid) {
-    mountPoints.galleryGrid.dataset.activeCategory = categoryId;
-  }
 
   cards.forEach((card) => {
-    const isVisible = categoryId === "all"
-      ? card.dataset.cover === "true"
-      : card.dataset.category === categoryId && (!hasCategoryProjects || card.dataset.cover !== "true");
+    const isVisible = categoryId === "all" || card.dataset.category === categoryId;
     card.hidden = !isVisible;
     if (isVisible) visibleCount += 1;
   });
@@ -1125,45 +1138,6 @@ function setFilter(categoryId) {
 
   const countTemplate = visibleCount === 1 ? dictionary.gallery.countOne : dictionary.gallery.countMany;
   if (galleryCount && countTemplate) galleryCount.textContent = interpolate(countTemplate, { count: visibleCount });
-  renderGalleryCategoryHeader(categoryId);
-}
-
-function openGalleryCategory(categoryId) {
-  setFilter(categoryId);
-  mountPoints.galleryCategoryHeader?.scrollIntoView({ behavior: "smooth", block: "start" });
-}
-
-function renderGalleryCategoryHeader(categoryId) {
-  const header = mountPoints.galleryCategoryHeader;
-  if (!header) return;
-
-  if (categoryId === "all") {
-    header.hidden = true;
-    header.replaceChildren();
-    return;
-  }
-
-  const cover = dictionary.gallery.items.find((item) => item.categoryId === categoryId && item.isCover);
-  const label = getCategoryLabel(categoryId);
-  const backButton = createElement("button", {
-    className: "gallery-category-header__back",
-    text: dictionary.gallery.backToOverview,
-    attributes: { type: "button" }
-  });
-  backButton.addEventListener("click", () => {
-    setFilter("all");
-    mountPoints.filterBar?.scrollIntoView({ behavior: "smooth", block: "center" });
-  });
-
-  const copy = createElement("div", { className: "gallery-category-header__copy" });
-  copy.append(
-    createElement("span", { className: "gallery-category-header__eyebrow", text: dictionary.gallery.categoryEyebrow }),
-    createElement("h3", { text: label }),
-    createElement("p", { text: cover?.shortDescription || cover?.description || "" })
-  );
-
-  header.replaceChildren(backButton, copy);
-  header.hidden = false;
 }
 
 function getLightboxItems() {
@@ -1627,6 +1601,9 @@ setLocale(locale, !window.location.search.includes("lang=")).catch((error) => {
   setText(".gallery-count", "");
   showFallbackContent(error);
 });
+
+
+
 /* AKAIHANA HOME — V5.9 red piano + champagne leaf contact */
 let livingHeroTitleStarted = false;
 let livingHeroTitleVisible = true;
