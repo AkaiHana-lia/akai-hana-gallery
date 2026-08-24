@@ -8547,6 +8547,11 @@ body[data-page="home"] .hero__title-accent .hero__title-light--glint {
     margin-inline: auto;
   }
 
+  .gallery-section .gallery-grid[data-active-category="custom-creations"][data-family-view="archive"][data-active-family="wallpapers"] {
+    grid-template-columns: minmax(0, 1fr);
+    max-width: 460px;
+  }
+
   .gallery-section .gallery-grid[data-active-category="custom-creations"][data-family-view] .art-card,
   .gallery-section .gallery-grid[data-active-category="custom-creations"][data-family-view] .art-card[data-layout] {
     grid-column: 1;
@@ -8558,5 +8563,50 @@ body[data-page="home"] .hero__title-accent .hero__title-light--glint {
 
   .gallery-section .gallery-grid[data-family-view="archive"][data-active-family="wallpapers"] .art-card__figure {
     aspect-ratio: 16 / 10;
+  }
+
+  .story-detail--kitsune .story-detail__hero-figure,
+  .story-detail--koi .story-detail__hero-figure,
+  .story-detail--ryu .story-detail__hero-figure,
+  .story-detail--kuchisake-onna .story-detail__hero-figure,
+  .story-detail--nure-onna .story-detail__hero-figure,
+  .story-detail--tengu .story-detail__hero-figure,
+  .story-detail--kaguya-hime .story-detail__hero-figure,
+  .story-detail--jorogumo .story-detail__hero-figure,
+  .story-detail--yatagarasu .story-detail__hero-figure,
+  .story-detail--nekomata .story-detail__hero-figure,
+  .story-detail--kappa .story-detail__hero-figure,
+  .story-detail--ho-o .story-detail__hero-figure,
+  .story-detail--tora .story-detail__hero-figure {
+    height: auto;
+    aspect-ratio: 2.2 / 1;
+  }
+
+  .story-detail--kitsune .story-detail__hero-image,
+  .story-detail--koi .story-detail__hero-image,
+  .story-detail--ryu .story-detail__hero-image,
+  .story-detail--kuchisake-onna .story-detail__hero-image,
+  .story-detail--nure-onna .story-detail__hero-image,
+  .story-detail--tengu .story-detail__hero-image,
+  .story-detail--kaguya-hime .story-detail__hero-image,
+  .story-detail--jorogumo .story-detail__hero-image,
+  .story-detail--yatagarasu .story-detail__hero-image,
+  .story-detail--nekomata .story-detail__hero-image,
+  .story-detail--kappa .story-detail__hero-image,
+  .story-detail--ho-o .story-detail__hero-image,
+  .story-detail--tora .story-detail__hero-image {
+    object-fit: contain;
+    background: #020202;
+  }
+}
+
+@media (max-width: 380px) {
+  .pop-culture__archive-header {
+    grid-template-columns: minmax(0, 1fr);
+    align-items: start;
+  }
+
+  .pop-culture__current-icon {
+    width: 96px;
   }
 }

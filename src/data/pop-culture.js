@@ -106,6 +106,38 @@ window.AKAI_HANA_POP_CULTURE = {
       },
       entries: [
         {
+          id: "kitsune-ghost-of-yotei-legends",
+          categoryId: "video-games",
+          title: "Ghost of Yōtei — Legends",
+          franchise: {
+            es: "Videojuego · PlayStation",
+            en: "Video Game · PlayStation"
+          },
+          classification: {
+            es: "Reinterpretación sobrenatural oficial",
+            en: "Official Supernatural Reinterpretation"
+          },
+          image: "./assets/images/pop-ghost-of-yotei-legends.png",
+          imageFit: "contain",
+          shortDescription: {
+            es: "Legends reinterpreta a Kitsune como una figura sobrenatural dentro de su versión oscura de los Wild Six.",
+            en: "Legends reimagines Kitsune as a supernatural figure within its dark retelling of the Wild Six."
+          },
+          fullDescription: {
+            es: "PlayStation presenta Legends como una reinterpretación sobrenatural de los Wild Six. En ella, Kitsune se transforma en una de las figuras sobrenaturales que protagonizan esta versión alternativa.",
+            en: "PlayStation presents Legends as a supernatural retelling of the Wild Six. In it, Kitsune becomes one of the supernatural figures at the center of this alternate version."
+          },
+          context: {
+            es: "La denominación oficial y el tratamiento sobrenatural confirman una reinterpretación moderna del kitsune, no una simple semejanza visual.",
+            en: "The official naming and supernatural treatment confirm a modern kitsune reinterpretation rather than a merely visual resemblance."
+          },
+          sourceLabel: {
+            es: "Ghost of Yōtei — página oficial",
+            en: "Ghost of Yōtei — Official Page"
+          },
+          sourceUrl: "https://www.playstation.com/games/ghost-of-yotei/"
+        },
+        {
           id: "kitsune-kamisama-kiss",
           categoryId: "anime-manga",
           title: "Kamisama Kiss",
@@ -610,6 +642,38 @@ window.AKAI_HANA_POP_CULTURE = {
         en: "Yuki-onna, the Woman of the Snow, connects beauty, danger, winter and mystery. These references show her folkloric origin and verified modern adaptations."
       },
       entries: [
+        {
+          id: "yuki-onna-ghost-of-yotei-legends",
+          categoryId: "video-games",
+          title: "Ghost of Yōtei — Legends",
+          franchise: {
+            es: "Videojuego · PlayStation",
+            en: "Video Game · PlayStation"
+          },
+          classification: {
+            es: "Referencia oficial explícita",
+            en: "Explicit Official Reference"
+          },
+          image: "./assets/images/pop-ghost-of-yotei-legends.png",
+          imageFit: "contain",
+          shortDescription: {
+            es: "Legends presenta a Snow-Woman con poderes de hielo y frío, identificada oficialmente en japonés como Yuki-onna.",
+            en: "Legends features Snow-Woman with frost and cold abilities, officially identified in Japanese as Yuki-onna."
+          },
+          fullDescription: {
+            es: "PlayStation describe Legends como una reinterpretación sobrenatural de los Wild Six. Una de sus figuras se convierte en Snow-Woman, emplea habilidades de hielo y frío, y el material oficial japonés la nombra explícitamente Yuki-onna.",
+            en: "PlayStation describes Legends as a supernatural retelling of the Wild Six. One of its figures becomes Snow-Woman, uses frost and cold abilities, and is explicitly named Yuki-onna in official Japanese material."
+          },
+          context: {
+            es: "El nombre oficial y sus poderes invernales establecen una referencia directa a la mujer de la nieve del folclore japonés.",
+            en: "The official name and her wintry abilities establish a direct reference to the snow woman of Japanese folklore."
+          },
+          sourceLabel: {
+            es: "Ghost of Yōtei — página oficial",
+            en: "Ghost of Yōtei — Official Page"
+          },
+          sourceUrl: "https://www.playstation.com/games/ghost-of-yotei/"
+        },
         {
           id: "yuki-onna-kwaidan",
           categoryId: "cinema",
