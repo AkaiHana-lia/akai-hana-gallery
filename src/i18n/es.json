@@ -3007,6 +3007,25 @@
           "height": 1402,
           "alt": "Retrato ilustrado de un perro ante una luna roja con tinta negra y carmesí."
         }
+      },
+      {
+        "id": "IL-010",
+        "title": "Elegancia Carmesí",
+        "categoryId": "illustrations",
+        "category": "Ilustraciones",
+        "style": "Sumi-e contemporáneo, retrato femenino y pincelada roja",
+        "shortDescription": "Serenidad y carácter trazados entre tinta y flores.",
+        "description": "Retrato femenino de inspiración japonesa realizado con acuarela, tinta negra, flores carmesí y una pincelada roja envolvente.",
+        "includes": "Retrato artístico, composición floral y acabado vertical de alta resolución.",
+        "uses": "Póster, lámina, portada y decoración artística.",
+        "examples": "Ilustración japonesa, retrato, print.",
+        "tags": ["sumi-e", "retrato", "carmesí"],
+        "image": {
+          "src": "./assets/images/gallery/illustration-crimson-elegance.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "Retrato femenino en acuarela japonesa con vestido negro, flores rojas y una pincelada carmesí."
+        }
       }
     ],
     "featuredIds": [],

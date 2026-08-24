@@ -3226,6 +3226,29 @@ window.AKAI_HANA_LOCALES = {
             "height": 1402,
             "alt": "Retrato ilustrado de un perro ante una luna roja con tinta negra y carmesí."
           }
+        },
+        {
+          "id": "IL-010",
+          "title": "Elegancia Carmesí",
+          "categoryId": "illustrations",
+          "category": "Ilustraciones",
+          "style": "Sumi-e contemporáneo, retrato femenino y pincelada roja",
+          "shortDescription": "Serenidad y carácter trazados entre tinta y flores.",
+          "description": "Retrato femenino de inspiración japonesa realizado con acuarela, tinta negra, flores carmesí y una pincelada roja envolvente.",
+          "includes": "Retrato artístico, composición floral y acabado vertical de alta resolución.",
+          "uses": "Póster, lámina, portada y decoración artística.",
+          "examples": "Ilustración japonesa, retrato, print.",
+          "tags": [
+            "sumi-e",
+            "retrato",
+            "carmesí"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/illustration-crimson-elegance.png",
+            "width": 1086,
+            "height": 1448,
+            "alt": "Retrato femenino en acuarela japonesa con vestido negro, flores rojas y una pincelada carmesí."
+          }
         }
       ],
       "featuredIds": [],
@@ -6705,6 +6728,29 @@ window.AKAI_HANA_LOCALES = {
             "width": 1122,
             "height": 1402,
             "alt": "Illustrated dog portrait before a red moon with black and crimson ink."
+          }
+        },
+        {
+          "id": "IL-010",
+          "title": "Crimson Elegance",
+          "categoryId": "illustrations",
+          "category": "Illustrations",
+          "style": "Contemporary sumi-e, feminine portrait and red brushwork",
+          "shortDescription": "Serenity and character traced through ink and flowers.",
+          "description": "A Japanese-inspired feminine portrait rendered in watercolour and black ink, with crimson flowers and an enveloping red brushstroke.",
+          "includes": "Artistic portrait, floral composition and high-resolution vertical finish.",
+          "uses": "Poster, art print, cover and artistic decoration.",
+          "examples": "Japanese illustration, portrait, print.",
+          "tags": [
+            "sumi-e",
+            "portrait",
+            "crimson"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/illustration-crimson-elegance.png",
+            "width": 1086,
+            "height": 1448,
+            "alt": "Feminine Japanese watercolour portrait with a black dress, red flowers and a crimson brushstroke."
           }
         }
       ],

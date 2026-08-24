@@ -7299,6 +7299,7 @@ body[data-page="services-contact"] .site-actions {
   display: block;
   width: 100%;
   height: auto;
+  clip-path: inset(0 0 15% 0);
 }
 
 .services-contact__grid {
@@ -7518,6 +7519,7 @@ body[data-page="services-contact"] .site-actions {
 .services-contact__copy {
   position: absolute;
   z-index: 4;
+  isolation: isolate;
   top: clamp(225px, 24vh, 260px);
   left: clamp(445px, 31.7vw, 545px);
   width: clamp(285px, 18.7vw, 326px);
@@ -7525,6 +7527,30 @@ body[data-page="services-contact"] .site-actions {
   padding: 0;
   color: var(--text);
   text-shadow: 0 3px 24px rgba(0, 0, 0, 0.78);
+}
+
+.services-contact__copy::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  top: -64px;
+  left: -68px;
+  width: 455px;
+  height: 690px;
+  border-radius: 46%;
+  background: radial-gradient(
+    ellipse at 44% 42%,
+    rgba(0, 0, 0, 0.84) 0%,
+    rgba(0, 0, 0, 0.7) 50%,
+    rgba(0, 0, 0, 0.3) 72%,
+    transparent 100%
+  );
+  pointer-events: none;
+}
+
+.services-contact__copy > * {
+  position: relative;
+  z-index: 1;
 }
 
 .services-contact__copy .eyebrow {
@@ -7667,6 +7693,15 @@ body[data-page="services-contact"] .site-actions {
   .services-contact__copy {
     order: 1;
     padding-top: 0;
+  }
+
+  .services-contact__copy::before {
+    top: -34px;
+    left: -24px;
+    width: calc(100% + 48px);
+    height: calc(100% + 72px);
+    border-radius: 28px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.46));
   }
 
   .services-contact__form {
