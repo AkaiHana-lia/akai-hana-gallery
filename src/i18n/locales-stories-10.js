@@ -1787,6 +1787,196 @@ window.AKAI_HANA_LOCALES = {
             }
           ],
           "quote": "Respeta el agua, o el río te recordará."
+        },
+        {
+          "id": "ho-o",
+          "number": "19",
+          "title": "Hō-ō",
+          "cardTitle": "Hō-ō",
+          "eyebrow": "Criaturas sagradas de Japón",
+          "japaneseName": "鳳凰",
+          "romanized": "El fénix japonés",
+          "lead": "Renacimiento, transformación y nueva vida. El Hō-ō anuncia paz, prosperidad y equilibrio, y renace del fuego con una fuerza más luminosa.",
+          "cardImage": {
+            "src": "./assets/images/story-card-ho-o-tattoo.png",
+            "width": 1122,
+            "height": 1402,
+            "alt": "Tatuaje de espalda de Hō-ō con plumas rojas y doradas, fuego, nubes y peonías.",
+            "position": "50% 46%"
+          },
+          "heroImage": {
+            "src": "./assets/images/story-ho-o-banner.png",
+            "width": 1717,
+            "height": 916,
+            "alt": "Banner de Hō-ō entre llamas, luna roja, nubes y flores de sakura.",
+            "position": "50% 50%"
+          },
+          "sections": [
+            {
+              "eyebrow": "Historia y leyenda",
+              "title": "El ave que anuncia una era de paz",
+              "paragraphs": [
+                "Según las antiguas leyendas, el Hō-ō solo aparece en tiempos de virtud y justicia. Es el rey de todas las aves y un ser divino que anuncia paz, prosperidad y equilibrio.",
+                "Posee cinco colores sagrados —rojo, verde, azul, blanco y amarillo— asociados a las cinco virtudes y los cinco elementos. Al final de su ciclo se inmola en llamas purificadoras y renace de sus cenizas, más fuerte y magnífico que antes."
+              ]
+            },
+            {
+              "eyebrow": "Significados",
+              "title": "Renacimiento, armonía y poder divino",
+              "paragraphs": [
+                "El Hō-ō representa la capacidad de superar la oscuridad, transformarse y comenzar de nuevo con sabiduría.",
+                "También es mensajero de paz, prosperidad y buena fortuna, y una figura de conexión celestial, guía y protección."
+              ],
+              "list": [
+                "Renacimiento",
+                "Transformación",
+                "Paz y prosperidad",
+                "Nueva vida",
+                "Poder divino"
+              ]
+            },
+            {
+              "eyebrow": "Colores y elementos",
+              "title": "Las cinco virtudes del Hō-ō",
+              "paragraphs": [
+                "Rojo es fuego, pasión, vida y alegría; verde representa madera, crecimiento, renovación y esperanza; azul evoca agua, sabiduría y tranquilidad.",
+                "Blanco expresa metal, pureza, claridad y verdad; amarillo representa tierra, estabilidad, abundancia y centro."
+              ],
+              "list": [
+                "Nubes: conexión celestial y movimiento divino",
+                "Peonías: riqueza, honor y belleza suprema",
+                "Llamas: purificación, muerte y renacimiento",
+                "Sol o disco rojo: vida, energía y fuerza creadora",
+                "Paulownia: nobleza y protección"
+              ]
+            },
+            {
+              "eyebrow": "En el arte del tatuaje",
+              "title": "Plumas, fuego y movimiento",
+              "paragraphs": [
+                "El Hō-ō brilla en composiciones de gran escala. Sus plumas fluidas, colores intensos y movimiento en espiral se adaptan especialmente bien a espalda completa, pecho o brazo entero.",
+                "Es una elección poderosa para representar una transformación personal: no teme arder, porque sabe que del fuego nace su verdadera esencia."
+              ]
+            }
+          ],
+          "galleryTitle": "Galería de Hō-ō",
+          "gallery": [
+            {
+              "src": "./assets/images/story-ho-o-banner.png",
+              "width": 1717,
+              "height": 916,
+              "alt": "Banner de Hō-ō entre fuego, luna roja y paisaje japonés."
+            },
+            {
+              "src": "./assets/images/story-ho-o-lore.png",
+              "width": 1024,
+              "height": 1536,
+              "alt": "Panel completo de Hō-ō con historia, significados, colores, elementos y estilo de tatuaje."
+            },
+            {
+              "src": "./assets/images/story-card-ho-o-tattoo.png",
+              "width": 1122,
+              "height": 1402,
+              "alt": "Tatuaje japonés de espalda completa con Hō-ō, fuego, nubes y peonías.",
+              "position": "50% 46%"
+            }
+          ],
+          "quote": "Así como el Hō-ō renace del fuego, tú también puedes renacer."
+        },
+        {
+          "id": "tora",
+          "number": "20",
+          "title": "Tora",
+          "cardTitle": "Tora",
+          "eyebrow": "Criaturas y símbolos de Japón",
+          "japaneseName": "虎",
+          "romanized": "El tigre japonés",
+          "lead": "Fuerza, coraje y protección. Tora avanza sin retroceder y protege el camino con una presencia indomable.",
+          "cardImage": {
+            "src": "./assets/images/story-card-tora-tattoo.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Composición de tatuaje Tora con tigre japonés, olas, bambú, luna roja y hojas de arce.",
+            "position": "50% 46%"
+          },
+          "heroImage": {
+            "src": "./assets/images/story-tora-banner.png",
+            "width": 1983,
+            "height": 793,
+            "alt": "Banner de Tora con tigre japonés, sol rojo, bambú, pagoda y hojas de arce.",
+            "position": "50% 50%"
+          },
+          "sections": [
+            {
+              "eyebrow": "Historia y leyendas",
+              "title": "El guardián del Este",
+              "paragraphs": [
+                "El tigre, Tora en japonés, ha sido desde tiempos antiguos uno de los animales más respetados en Japón. Aunque no es nativo del país, su figura llegó a través de China y el budismo como símbolo de fuerza indomable y protección contra los malos espíritus.",
+                "En el folklore japonés es guardián de los cuatro dioses celestiales del Este, protector de las puertas frente a la mala energía y portador de buena fortuna."
+              ]
+            },
+            {
+              "eyebrow": "Significados",
+              "title": "Fuerza interior y determinación",
+              "paragraphs": [
+                "Su presencia imponente y su mirada feroz representan la valentía para afrontar cualquier desafío y la determinación de no rendirse.",
+                "En la cultura samurái, el tigre también representa rectitud, honor y lealtad."
+              ],
+              "list": [
+                "Fuerza interior",
+                "Coraje y determinación",
+                "Protección",
+                "Independencia",
+                "Justicia y honor"
+              ]
+            },
+            {
+              "eyebrow": "Colores y elementos",
+              "title": "Energía vital y naturaleza indomable",
+              "paragraphs": [
+                "Dorado y amarillo expresan poder, riqueza y energía vital; negro aporta protección, misterio y autoridad; rojo simboliza pasión, coraje y buena suerte.",
+                "Blanco representa pureza y claridad mental, mientras verde habla de crecimiento, renovación y armonía con la naturaleza."
+              ],
+              "list": [
+                "Bambú: fuerza y flexibilidad",
+                "Hojas de arce: paso del tiempo y belleza efímera",
+                "Nubes y viento: energía vital y cambio constante",
+                "Montañas: estabilidad, sabiduría y superación",
+                "Luna: intuición, guía y fuerza silenciosa"
+              ]
+            },
+            {
+              "eyebrow": "En el arte del tatuaje",
+              "title": "Una fuerza creada para el Irezumi",
+              "paragraphs": [
+                "El estilo Irezumi captura la fuerza y elegancia del tigre mediante movimiento, contraste y una anatomía poderosa.",
+                "Funciona especialmente bien en composiciones de gran escala como espalda completa, pecho, mangas o piernas, acompañado de bambú, olas, viento y hojas de arce."
+              ]
+            }
+          ],
+          "galleryTitle": "Galería de Tora",
+          "gallery": [
+            {
+              "src": "./assets/images/story-tora-banner.png",
+              "width": 1983,
+              "height": 793,
+              "alt": "Banner de Tora con tigre, sol rojo y paisaje japonés."
+            },
+            {
+              "src": "./assets/images/story-tora-lore.png",
+              "width": 1024,
+              "height": 1536,
+              "alt": "Panel completo de Tora con historia, significados, colores, elementos y estilo de tatuaje."
+            },
+            {
+              "src": "./assets/images/story-card-tora-tattoo.png",
+              "width": 1024,
+              "height": 1536,
+              "alt": "Tatuaje japonés de Tora con tigre, olas, bambú, luna roja y hojas de arce.",
+              "position": "50% 46%"
+            }
+          ],
+          "quote": "El tigre no ruge por vanidad, ruge porque su espíritu es libre."
         }
       ],
       "lead": "Una biblioteca en crecimiento sobre folklore japonés, simbolismo y arte del tatuaje.",
@@ -5031,6 +5221,196 @@ window.AKAI_HANA_LOCALES = {
             }
           ],
           "quote": "Respect the water, or the river will remember you."
+        },
+        {
+          "id": "ho-o",
+          "number": "19",
+          "title": "Hō-ō",
+          "cardTitle": "Hō-ō",
+          "eyebrow": "Sacred creatures of Japan",
+          "japaneseName": "鳳凰",
+          "romanized": "The Japanese phoenix",
+          "lead": "Rebirth, transformation and new life. Hō-ō announces peace, prosperity and balance, rising from fire with a brighter strength.",
+          "cardImage": {
+            "src": "./assets/images/story-card-ho-o-tattoo.png",
+            "width": 1122,
+            "height": 1402,
+            "alt": "Hō-ō back tattoo with red and gold feathers, fire, clouds and peonies.",
+            "position": "50% 46%"
+          },
+          "heroImage": {
+            "src": "./assets/images/story-ho-o-banner.png",
+            "width": 1717,
+            "height": 916,
+            "alt": "Hō-ō banner with flames, red moon, clouds and cherry blossoms.",
+            "position": "50% 50%"
+          },
+          "sections": [
+            {
+              "eyebrow": "History and legend",
+              "title": "The bird that announces an age of peace",
+              "paragraphs": [
+                "According to ancient legends, Hō-ō appears only in times of virtue and justice. It is the king of all birds and a divine being that announces peace, prosperity and balance.",
+                "It bears five sacred colors—red, green, blue, white and yellow—linked to the five virtues and five elements. At the end of its cycle it enters purifying flames and rises from its ashes stronger and more magnificent than before."
+              ]
+            },
+            {
+              "eyebrow": "Meanings",
+              "title": "Rebirth, harmony and divine power",
+              "paragraphs": [
+                "Hō-ō represents the ability to overcome darkness, transform and begin again with wisdom.",
+                "It is also a messenger of peace, prosperity and good fortune, and a figure of celestial connection, guidance and protection."
+              ],
+              "list": [
+                "Rebirth",
+                "Transformation",
+                "Peace and prosperity",
+                "New life",
+                "Divine power"
+              ]
+            },
+            {
+              "eyebrow": "Colors and elements",
+              "title": "The five virtues of Hō-ō",
+              "paragraphs": [
+                "Red is fire, passion, life and joy; green represents wood, growth, renewal and hope; blue evokes water, wisdom and tranquility.",
+                "White expresses metal, purity, clarity and truth; yellow represents earth, stability, abundance and center."
+              ],
+              "list": [
+                "Clouds: celestial connection and divine movement",
+                "Peonies: wealth, honor and supreme beauty",
+                "Flames: purification, death and rebirth",
+                "Sun or red disc: life, energy and creative force",
+                "Paulownia: nobility and protection"
+              ]
+            },
+            {
+              "eyebrow": "In tattoo art",
+              "title": "Feathers, fire and movement",
+              "paragraphs": [
+                "Hō-ō shines in large-scale compositions. Its flowing feathers, intense colors and spiral movement are especially suited to a full back, chest or entire arm.",
+                "It is a powerful choice to represent personal transformation: it does not fear burning, because it knows its true essence is born from fire."
+              ]
+            }
+          ],
+          "galleryTitle": "Hō-ō gallery",
+          "gallery": [
+            {
+              "src": "./assets/images/story-ho-o-banner.png",
+              "width": 1717,
+              "height": 916,
+              "alt": "Hō-ō banner with fire, red moon and Japanese landscape."
+            },
+            {
+              "src": "./assets/images/story-ho-o-lore.png",
+              "width": 1024,
+              "height": 1536,
+              "alt": "Complete Hō-ō panel with history, meanings, colors, elements and tattoo style."
+            },
+            {
+              "src": "./assets/images/story-card-ho-o-tattoo.png",
+              "width": 1122,
+              "height": 1402,
+              "alt": "Japanese full-back Hō-ō tattoo with fire, clouds and peonies.",
+              "position": "50% 46%"
+            }
+          ],
+          "quote": "Just as Hō-ō rises from fire, you too can be reborn."
+        },
+        {
+          "id": "tora",
+          "number": "20",
+          "title": "Tora",
+          "cardTitle": "Tora",
+          "eyebrow": "Creatures and symbols of Japan",
+          "japaneseName": "虎",
+          "romanized": "The Japanese tiger",
+          "lead": "Strength, courage and protection. Tora advances without retreat and guards the path with an untamable presence.",
+          "cardImage": {
+            "src": "./assets/images/story-card-tora-tattoo.png",
+            "width": 1024,
+            "height": 1536,
+            "alt": "Tora tattoo composition with Japanese tiger, waves, bamboo, red moon and maple leaves.",
+            "position": "50% 46%"
+          },
+          "heroImage": {
+            "src": "./assets/images/story-tora-banner.png",
+            "width": 1983,
+            "height": 793,
+            "alt": "Tora banner with Japanese tiger, red sun, bamboo, pagoda and maple leaves.",
+            "position": "50% 50%"
+          },
+          "sections": [
+            {
+              "eyebrow": "History and legends",
+              "title": "The guardian of the East",
+              "paragraphs": [
+                "The tiger, Tora in Japanese, has been one of Japan's most respected animals since ancient times. Though not native to the country, its image arrived through China and Buddhism as a symbol of indomitable strength and protection from evil spirits.",
+                "In Japanese folklore it is a guardian of the four celestial gods of the East, protecting gateways from harmful energy and attracting good fortune."
+              ]
+            },
+            {
+              "eyebrow": "Meanings",
+              "title": "Inner strength and determination",
+              "paragraphs": [
+                "Its imposing presence and fierce gaze represent the bravery to face any challenge and the determination never to surrender.",
+                "In samurai culture, the tiger also represents integrity, honor and loyalty."
+              ],
+              "list": [
+                "Inner strength",
+                "Courage and determination",
+                "Protection",
+                "Independence",
+                "Justice and honor"
+              ]
+            },
+            {
+              "eyebrow": "Colors and elements",
+              "title": "Vital energy and untamable nature",
+              "paragraphs": [
+                "Gold and yellow express power, wealth and vital energy; black brings protection, mystery and authority; red symbolizes passion, courage and good fortune.",
+                "White represents purity and mental clarity, while green speaks of growth, renewal and harmony with nature."
+              ],
+              "list": [
+                "Bamboo: strength and flexibility",
+                "Maple leaves: the passage of time and fleeting beauty",
+                "Clouds and wind: vital energy and constant change",
+                "Mountains: stability, wisdom and overcoming adversity",
+                "Moon: intuition, guidance and quiet strength"
+              ]
+            },
+            {
+              "eyebrow": "In tattoo art",
+              "title": "A force made for Irezumi",
+              "paragraphs": [
+                "Irezumi captures the tiger's strength and elegance through movement, contrast and powerful anatomy.",
+                "It works especially well in large-scale compositions such as a full back, chest, sleeves or legs, accompanied by bamboo, waves, wind and maple leaves."
+              ]
+            }
+          ],
+          "galleryTitle": "Tora gallery",
+          "gallery": [
+            {
+              "src": "./assets/images/story-tora-banner.png",
+              "width": 1983,
+              "height": 793,
+              "alt": "Tora banner with tiger, red sun and Japanese landscape."
+            },
+            {
+              "src": "./assets/images/story-tora-lore.png",
+              "width": 1024,
+              "height": 1536,
+              "alt": "Complete Tora panel with history, meanings, colors, elements and tattoo style."
+            },
+            {
+              "src": "./assets/images/story-card-tora-tattoo.png",
+              "width": 1024,
+              "height": 1536,
+              "alt": "Japanese Tora tattoo with tiger, waves, bamboo, red moon and maple leaves.",
+              "position": "50% 46%"
+            }
+          ],
+          "quote": "The tiger does not roar from vanity; it roars because its spirit is free."
         }
       ],
       "lead": "A growing library of Japanese folklore, symbolism and tattoo inspiration.",

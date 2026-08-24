@@ -67,7 +67,7 @@ let lightboxProjectId = null;
 let lastFocusedElement = null;
 let activeStoryId = null;
 let activeStoryFilter = "all";
-let visibleStoryCount = 18;
+let visibleStoryCount = 20;
 let activePopCultureThemeId = window.AKAI_HANA_POP_CULTURE?.defaultTheme || "kitsune";
 let activePopCultureCategoryId = null;
 
@@ -90,7 +90,9 @@ const storyCardImages = {
   jorogumo: { src: "./assets/images/stories/cards/jorogumo.png", width: 941, height: 1672 },
   yatagarasu: { src: "./assets/images/stories/cards/yatagarasu.png", width: 941, height: 1672 },
   nekomata: { src: "./assets/images/stories/cards/nekomata.png", width: 941, height: 1672 },
-  kappa: { src: "./assets/images/stories/cards/kappa.png", width: 1023, height: 1537 }
+  kappa: { src: "./assets/images/stories/cards/kappa.png", width: 1023, height: 1537 },
+  "ho-o": { src: "./assets/images/stories/cards/ho-o.png", width: 1023, height: 1537 },
+  tora: { src: "./assets/images/stories/cards/tora.png", width: 1023, height: 1537 }
 };
 const storyLibraryMeta = {
   higanbana: {
@@ -165,6 +167,16 @@ const storyLibraryMeta = {
   kappa: {
     categories: ["yokai", "creatures", "legends"],
     keywords: ["kappa", "river spirit", "water", "cucumber", "shell", "river", "respect", "yokai", "creature", "legend", "河童"],
+    isNew: true
+  },
+  "ho-o": {
+    categories: ["creatures", "legends", "symbols"],
+    keywords: ["ho-o", "hō-ō", "phoenix", "fenix", "fénix", "fire", "rebirth", "transformation", "prosperity", "creature", "legend", "symbol", "鳳凰"],
+    isNew: true
+  },
+  tora: {
+    categories: ["creatures", "legends", "symbols"],
+    keywords: ["tora", "tiger", "tigre", "strength", "courage", "protection", "guardian", "creature", "legend", "symbol", "虎"],
     isNew: true
   }
 };
