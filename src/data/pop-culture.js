@@ -3180,6 +3180,239 @@ window.AKAI_HANA_POP_CULTURE = {
           sourceUrl: "https://one-piece.com/character/kawamatsu/index.html"
         }
       ]
+    },
+    {
+      id: "ho-o",
+      number: "19",
+      title: "Hō-ō",
+      kanji: "鳳凰",
+      image: "./assets/images/story-card-ho-o-tattoo.png",
+      icon: "./assets/images/stories/cards/ho-o.png",
+      intro: {
+        es: "El Hō-ō reaparece en la cultura popular como ave sagrada, símbolo de renacimiento y figura vinculada al fuego, la luz y la prosperidad.",
+        en: "The Hō-ō reappears in pop culture as a sacred bird and a symbol of rebirth, fire, light and prosperity."
+      },
+      entries: [
+        {
+          id: "ho-o-pokemon-ho-oh",
+          categoryId: "pokemon",
+          title: "Pokémon — Ho-Oh",
+          franchise: { es: "Anime / Videojuego", en: "Anime / Video Game" },
+          classification: { es: "Inspiración directa", en: "Direct Inspiration" },
+          image: "./assets/images/pop-ho-o-pokemon.png",
+          imageFit: "contain",
+          shortDescription: {
+            es: "Ho-Oh traslada al universo Pokémon la silueta majestuosa, el color y la dimensión auspiciosa del Hō-ō.",
+            en: "Ho-Oh brings the Hō-ō's majestic silhouette, color and auspicious nature into the Pokémon world."
+          },
+          fullDescription: {
+            es: "El Pokémon arcoíris conserva la imagen del gran pájaro celestial y la asociación con la felicidad, la renovación y una presencia casi divina.",
+            en: "The Rainbow Pokémon preserves the image of a great celestial bird and its association with happiness, renewal and an almost divine presence."
+          },
+          context: {
+            es: "Una de las reinterpretaciones modernas más reconocibles del ave fénix de Asia oriental.",
+            en: "One of the most recognizable modern reinterpretations of the East Asian phoenix."
+          },
+          sourceLabel: { es: "Pokémon — ficha oficial de Ho-Oh", en: "Pokémon — Official Ho-Oh Profile" },
+          sourceUrl: "https://www.pokemon.com/uk/pokedex/ho-oh"
+        },
+        {
+          id: "ho-o-digimon-hououmon",
+          categoryId: "anime-manga",
+          title: "Digimon — Hououmon",
+          franchise: { es: "Anime / Videojuego", en: "Anime / Video Game" },
+          classification: { es: "Referencia explícita", en: "Explicit Reference" },
+          image: "./assets/images/pop-ho-o-digimon.png",
+          imageFit: "contain",
+          shortDescription: {
+            es: "Hououmon convierte al Hō-ō en un Digimon sagrado de cuatro alas doradas y gran poder purificador.",
+            en: "Hououmon turns the Hō-ō into a sacred Digimon with four golden wings and immense purifying power."
+          },
+          fullDescription: {
+            es: "Su nombre japonés, su apariencia y su jerarquía entre las aves sagradas establecen una conexión directa con el Hō-ō tradicional.",
+            en: "Its Japanese name, appearance and status among sacred birds establish a direct connection to the traditional Hō-ō."
+          },
+          context: {
+            es: "La referencia está integrada tanto en el nombre como en el diseño oficial del personaje.",
+            en: "The reference is embedded in both the name and the official character design."
+          },
+          sourceLabel: { es: "Digimon Encyclopedia — Hououmon", en: "Digimon Encyclopedia — Hououmon" },
+          sourceUrl: "https://digimon.net/reference_en/detail.php?directory_name=hououmon"
+        },
+        {
+          id: "ho-o-nioh-2",
+          categoryId: "video-games",
+          title: "Nioh 2 — Hō-ō",
+          franchise: { es: "Videojuego", en: "Video Game" },
+          classification: { es: "Referencia explícita", en: "Explicit Reference" },
+          image: "./assets/images/pop-ho-o-nioh2.png",
+          shortDescription: {
+            es: "Nioh 2 incorpora al Hō-ō como espíritu guardián dentro de su universo de mitología y yōkai japoneses.",
+            en: "Nioh 2 includes the Hō-ō as a Guardian Spirit within its world of Japanese mythology and yōkai."
+          },
+          fullDescription: {
+            es: "La figura del ave sagrada se adapta al lenguaje del juego como presencia protectora vinculada a la luz y al poder espiritual.",
+            en: "The sacred bird is adapted to the game's language as a protective presence tied to light and spiritual power."
+          },
+          context: {
+            es: "Una incorporación directa del nombre y el imaginario del Hō-ō al videojuego.",
+            en: "A direct incorporation of the Hō-ō's name and imagery into the video game."
+          },
+          sourceLabel: { es: "Nioh 2 — web oficial", en: "Nioh 2 — Official Site" },
+          sourceUrl: "https://teamninja-studio.com/nioh2/en-uk/"
+        },
+        {
+          id: "ho-o-kusunoki-garden-of-gods",
+          categoryId: "anime-manga",
+          title: { es: "Kusunoki's Garden of Gods — Hō-ō", en: "Kusunoki's Garden of Gods — Hō-ō" },
+          franchise: { es: "Anime / Novela", en: "Anime / Novel" },
+          classification: { es: "Referencia oficial explícita", en: "Explicit Official Reference" },
+          image: "./assets/images/pop-ho-o-kusunoki.png",
+          imageFit: "contain",
+          shortDescription: {
+            es: "La obra presenta al Hō-ō como una de sus bestias sagradas, alternando entre una forma pequeña y su verdadera apariencia divina.",
+            en: "The work presents the Hō-ō as one of its sacred beasts, shifting between a small form and its true divine appearance."
+          },
+          fullDescription: {
+            es: "El personaje conserva el nombre 鳳凰 y su condición de ave sagrada dentro del jardín habitado por seres espirituales.",
+            en: "The character retains the name 鳳凰 and its identity as a sacred bird within the garden inhabited by spiritual beings."
+          },
+          context: {
+            es: "Una aparición oficial y literal del Hō-ō dentro de la narrativa.",
+            en: "An official and literal appearance of the Hō-ō within the story."
+          },
+          sourceLabel: { es: "Kusunoki's Garden of Gods — personaje oficial", en: "Kusunoki's Garden of Gods — Official Character" },
+          sourceUrl: "https://kusunokitei.com/chara/09.html"
+        }
+      ]
+    },
+    {
+      id: "tora",
+      number: "20",
+      title: "Tora",
+      kanji: "虎",
+      image: "./assets/images/story-card-tora-tattoo.png",
+      icon: "./assets/images/stories/cards/tora.png",
+      intro: {
+        es: "El tigre japonés aparece en la cultura popular como emblema de fuerza, coraje, protección, independencia y voluntad indomable.",
+        en: "The Japanese tiger appears throughout pop culture as an emblem of strength, courage, protection, independence and indomitable will."
+      },
+      entries: [
+        {
+          id: "tora-monster-hunter-rise-magnamalo",
+          categoryId: "video-games",
+          title: "Monster Hunter Rise — Magnamalo",
+          franchise: { es: "Videojuego", en: "Video Game" },
+          classification: { es: "Eco visual del tigre", en: "Tiger Visual Echo" },
+          image: "./assets/images/pop-tora-magnamalo.png",
+          imageFit: "contain",
+          shortDescription: {
+            es: "Magnamalo combina una anatomía felina, colmillos y una presencia acorazada que evocan la ferocidad protectora del tigre.",
+            en: "Magnamalo combines feline anatomy, fangs and an armored presence that evoke the tiger's protective ferocity."
+          },
+          fullDescription: {
+            es: "Su diseño de gran depredador y su energía explosiva conectan visualmente con el Tora sin convertirlo en una adaptación literal.",
+            en: "Its apex-predator design and explosive energy visually connect it with Tora without making it a literal adaptation."
+          },
+          context: {
+            es: "Se presenta como paralelismo visual y simbólico, no como equivalencia folclórica confirmada.",
+            en: "Presented as a visual and symbolic parallel, not as a confirmed folkloric equivalence."
+          },
+          sourceLabel: { es: "Monster Hunter Rise — Magnamalo oficial", en: "Monster Hunter Rise — Official Magnamalo" },
+          sourceUrl: "https://www.monsterhunter.com/rise/us/monster/"
+        },
+        {
+          id: "tora-tiger-and-bunny-wild-tiger",
+          categoryId: "anime-manga",
+          title: "Tiger & Bunny — Wild Tiger",
+          franchise: { es: "Anime", en: "Anime" },
+          classification: { es: "Referencia nominal explícita", en: "Explicit Naming Reference" },
+          image: "./assets/images/pop-tora-wild-tiger.png",
+          imageFit: "contain",
+          shortDescription: {
+            es: "Wild Tiger utiliza directamente al tigre como identidad heroica y símbolo de fuerza al servicio de los demás.",
+            en: "Wild Tiger directly uses the tiger as a heroic identity and a symbol of strength in service of others."
+          },
+          fullDescription: {
+            es: "Kotetsu Kaburagi adopta el nombre Wild Tiger y proyecta tenacidad, coraje y protección mediante su identidad de héroe.",
+            en: "Kotetsu Kaburagi takes the name Wild Tiger and projects tenacity, courage and protection through his heroic identity."
+          },
+          context: {
+            es: "Una referencia explícita al tigre construida desde el nombre y la función heroica.",
+            en: "An explicit tiger reference built through both the name and heroic role."
+          },
+          sourceLabel: { es: "Tiger & Bunny 2 — Wild Tiger oficial", en: "Tiger & Bunny 2 — Official Wild Tiger" },
+          sourceUrl: "https://www.tigerandbunny.net/TB2/character/hero.php?id=0"
+        },
+        {
+          id: "tora-toradora-taiga-aisaka",
+          categoryId: "anime-manga",
+          title: "Toradora! — Taiga Aisaka",
+          franchise: { es: "Anime / Manga", en: "Anime / Manga" },
+          classification: { es: "Referencia nominal y simbólica", en: "Naming and Symbolic Reference" },
+          image: "./assets/images/pop-tora-taiga-aisaka.png",
+          imageFit: "contain",
+          shortDescription: {
+            es: "Taiga es conocida como la «Tigre de Bolsillo», un apodo que une su nombre y su temperamento feroz con la imagen del tigre.",
+            en: "Taiga is known as the 'Palmtop Tiger,' linking her name and fierce temperament with the image of the tiger."
+          },
+          fullDescription: {
+            es: "La serie transforma el simbolismo del tigre en un contraste cómico entre su pequeña estatura y una personalidad intensa e indomable.",
+            en: "The series turns tiger symbolism into a comic contrast between her small stature and intense, indomitable personality."
+          },
+          context: {
+            es: "El vínculo aparece expresamente en el apodo oficial del personaje.",
+            en: "The connection appears explicitly in the character's official nickname."
+          },
+          sourceLabel: { es: "Toradora! — perfil oficial de Taiga", en: "Toradora! — Official Taiga Profile" },
+          sourceUrl: "https://king-cr.jp/special/toradora/character.html"
+        },
+        {
+          id: "tora-tiger-mask-w",
+          categoryId: "anime-manga",
+          title: "Tiger Mask W",
+          franchise: { es: "Anime", en: "Anime" },
+          classification: { es: "Referencia explícita", en: "Explicit Reference" },
+          image: "./assets/images/pop-tora-tiger-mask-w.png",
+          shortDescription: {
+            es: "Tiger Mask convierte la máscara y el nombre del tigre en una identidad de combate asociada al valor y la determinación.",
+            en: "Tiger Mask turns the tiger mask and name into a fighting identity associated with courage and determination."
+          },
+          fullDescription: {
+            es: "La iconografía del tigre se integra en el héroe, su atuendo y el lenguaje visual del ring como emblema de fuerza indomable.",
+            en: "Tiger iconography is embedded in the hero, costume and visual language of the ring as an emblem of indomitable strength."
+          },
+          context: {
+            es: "Una utilización directa y central de la identidad del tigre.",
+            en: "A direct and central use of tiger identity."
+          },
+          sourceLabel: { es: "Tiger Mask W — web oficial", en: "Tiger Mask W — Official Site" },
+          sourceUrl: "https://www.toei-anim.co.jp/tv/tigermask_w/"
+        },
+        {
+          id: "tora-ushio-and-tora",
+          categoryId: "anime-manga",
+          title: "Ushio & Tora — Tora",
+          franchise: { es: "Anime / Manga", en: "Anime / Manga" },
+          classification: { es: "Referencia explícita", en: "Explicit Reference" },
+          image: "./assets/images/pop-tora-ushio-tora.png",
+          imageFit: "contain",
+          shortDescription: {
+            es: "Tora es un poderoso yōkai de aspecto felino cuyo nombre y ferocidad remiten directamente al tigre.",
+            en: "Tora is a powerful feline yōkai whose name and ferocity directly evoke the tiger."
+          },
+          fullDescription: {
+            es: "La obra convierte al tigre en un compañero sobrenatural: feroz, orgulloso y protector a medida que crece su vínculo con Ushio.",
+            en: "The story turns the tiger into a supernatural companion: fierce, proud and increasingly protective as his bond with Ushio grows."
+          },
+          context: {
+            es: "La referencia es explícita en el nombre y en la construcción visual del personaje.",
+            en: "The reference is explicit in both the name and visual construction of the character."
+          },
+          sourceLabel: { es: "Shogakukan — Ushio & Tora", en: "Shogakukan — Ushio & Tora" },
+          sourceUrl: "https://e-comi.shogakukan.co.jp/books/091224810000d0000000"
+        }
+      ]
     }
   ]
 };
