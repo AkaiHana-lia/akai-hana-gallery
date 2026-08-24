@@ -3014,9 +3014,9 @@ window.AKAI_HANA_LOCALES = {
             "personajes"
           ],
           "image": {
-            "src": "./assets/images/gallery/illustration-luffy-zoro.jpg",
-            "width": 1024,
-            "height": 1536,
+            "src": "./assets/images/gallery/anime-pirate-legacy.png",
+            "width": 1122,
+            "height": 1402,
             "alt": "Ilustración de dos guerreros anime ante un cielo de fuego y mar."
           }
         },
@@ -3064,6 +3064,52 @@ window.AKAI_HANA_LOCALES = {
             "width": 1086,
             "height": 1448,
             "alt": "Guerrero anime con katana rodeado por un dragón de fuego en tinta sepia."
+          }
+        },
+        {
+          "id": "AN-005",
+          "title": "Familiar de Sombras",
+          "categoryId": "anime",
+          "category": "Anime",
+          "style": "Anime nocturno, energía violeta y espíritu felino",
+          "shortDescription": "La oscuridad despierta junto a un aliado inseparable.",
+          "description": "Ilustración anime de un guerrero acompañado por un gato negro y una imponente presencia felina formada por energía púrpura.",
+          "includes": "Diseño de personaje, iluminación neón y composición vertical de alta resolución.",
+          "uses": "Póster, portada, fondo vertical y arte de personaje.",
+          "examples": "Ilustración anime, póster, portada digital.",
+          "tags": [
+            "anime",
+            "gato",
+            "energía"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/anime-shadow-familiar.png",
+            "width": 1122,
+            "height": 1402,
+            "alt": "Guerrero anime con un gato negro rodeado por un gran espíritu felino de energía violeta."
+          }
+        },
+        {
+          "id": "AN-006",
+          "title": "Reencuentro bajo la Luna",
+          "categoryId": "anime",
+          "category": "Anime",
+          "style": "Fantasía cinematográfica, luz lunar y emoción íntima",
+          "shortDescription": "Un instante de calma protegido por la noche.",
+          "description": "Escena de fantasía anime con dos personajes abrazados junto a un gato negro, rodeados de flores y pétalos bajo la luna llena.",
+          "includes": "Composición de personajes, iluminación lunar y acabado vertical de alta resolución.",
+          "uses": "Póster, portada, fondo vertical y encargo personalizado.",
+          "examples": "Ilustración anime, póster, arte de personajes.",
+          "tags": [
+            "anime",
+            "luna",
+            "fantasía"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/anime-moonlit-reunion.png",
+            "width": 1086,
+            "height": 1448,
+            "alt": "Pareja de fantasía abrazada con un gato negro entre flores y pétalos bajo la luna llena."
           }
         },
         {
@@ -6448,9 +6494,9 @@ window.AKAI_HANA_LOCALES = {
             "characters"
           ],
           "image": {
-            "src": "./assets/images/gallery/illustration-luffy-zoro.jpg",
-            "width": 1024,
-            "height": 1536,
+            "src": "./assets/images/gallery/anime-pirate-legacy.png",
+            "width": 1122,
+            "height": 1402,
             "alt": "Illustration of two anime warriors before a sky of fire and sea."
           }
         },
@@ -6498,6 +6544,52 @@ window.AKAI_HANA_LOCALES = {
             "width": 1086,
             "height": 1448,
             "alt": "Anime warrior with a katana surrounded by a sepia ink fire dragon."
+          }
+        },
+        {
+          "id": "AN-005",
+          "title": "Shadow Familiar",
+          "categoryId": "anime",
+          "category": "Anime",
+          "style": "Nocturnal anime, violet energy and feline spirit",
+          "shortDescription": "The darkness awakens beside an inseparable ally.",
+          "description": "An anime illustration of a warrior accompanied by a black cat and an imposing feline presence formed from purple energy.",
+          "includes": "Character design, neon lighting and high-resolution vertical composition.",
+          "uses": "Poster, cover, vertical wallpaper and character artwork.",
+          "examples": "Anime illustration, poster, digital cover.",
+          "tags": [
+            "anime",
+            "cat",
+            "energy"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/anime-shadow-familiar.png",
+            "width": 1122,
+            "height": 1402,
+            "alt": "Anime warrior with a black cat surrounded by a huge feline spirit made of violet energy."
+          }
+        },
+        {
+          "id": "AN-006",
+          "title": "Moonlit Reunion",
+          "categoryId": "anime",
+          "category": "Anime",
+          "style": "Cinematic fantasy, moonlight and intimate emotion",
+          "shortDescription": "A quiet moment sheltered by the night.",
+          "description": "An anime fantasy scene with two characters embracing beside a black cat, surrounded by flowers and petals beneath the full moon.",
+          "includes": "Character composition, moonlit lighting and high-resolution vertical finish.",
+          "uses": "Poster, cover, vertical wallpaper and custom commission.",
+          "examples": "Anime illustration, poster, character artwork.",
+          "tags": [
+            "anime",
+            "moon",
+            "fantasy"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/anime-moonlit-reunion.png",
+            "width": 1086,
+            "height": 1448,
+            "alt": "Fantasy couple embracing with a black cat among flowers and petals beneath the full moon."
           }
         },
         {

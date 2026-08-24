@@ -2803,9 +2803,9 @@
           "personajes"
         ],
         "image": {
-          "src": "./assets/images/gallery/illustration-luffy-zoro.jpg",
-          "width": 1024,
-          "height": 1536,
+          "src": "./assets/images/gallery/anime-pirate-legacy.png",
+          "width": 1122,
+          "height": 1402,
           "alt": "Ilustración de dos guerreros anime ante un cielo de fuego y mar."
         }
       },
@@ -2853,6 +2853,44 @@
           "width": 1086,
           "height": 1448,
           "alt": "Guerrero anime con katana rodeado por un dragón de fuego en tinta sepia."
+        }
+      },
+      {
+        "id": "AN-005",
+        "title": "Familiar de Sombras",
+        "categoryId": "anime",
+        "category": "Anime",
+        "style": "Anime nocturno, energía violeta y espíritu felino",
+        "shortDescription": "La oscuridad despierta junto a un aliado inseparable.",
+        "description": "Ilustración anime de un guerrero acompañado por un gato negro y una imponente presencia felina formada por energía púrpura.",
+        "includes": "Diseño de personaje, iluminación neón y composición vertical de alta resolución.",
+        "uses": "Póster, portada, fondo vertical y arte de personaje.",
+        "examples": "Ilustración anime, póster, portada digital.",
+        "tags": ["anime", "gato", "energía"],
+        "image": {
+          "src": "./assets/images/gallery/anime-shadow-familiar.png",
+          "width": 1122,
+          "height": 1402,
+          "alt": "Guerrero anime con un gato negro rodeado por un gran espíritu felino de energía violeta."
+        }
+      },
+      {
+        "id": "AN-006",
+        "title": "Reencuentro bajo la Luna",
+        "categoryId": "anime",
+        "category": "Anime",
+        "style": "Fantasía cinematográfica, luz lunar y emoción íntima",
+        "shortDescription": "Un instante de calma protegido por la noche.",
+        "description": "Escena de fantasía anime con dos personajes abrazados junto a un gato negro, rodeados de flores y pétalos bajo la luna llena.",
+        "includes": "Composición de personajes, iluminación lunar y acabado vertical de alta resolución.",
+        "uses": "Póster, portada, fondo vertical y encargo personalizado.",
+        "examples": "Ilustración anime, póster, arte de personajes.",
+        "tags": ["anime", "luna", "fantasía"],
+        "image": {
+          "src": "./assets/images/gallery/anime-moonlit-reunion.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "Pareja de fantasía abrazada con un gato negro entre flores y pétalos bajo la luna llena."
         }
       },
       {
