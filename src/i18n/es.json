@@ -2411,6 +2411,25 @@
         }
       },
       {
+        "id": "BD-003",
+        "title": "Akai Hana Sound",
+        "categoryId": "brand-design",
+        "category": "Brand Design",
+        "style": "Identidad musical, dirección de arte y universo escénico",
+        "shortDescription": "Una identidad visual diseñada para sonar con la misma fuerza con la que se ve.",
+        "description": "Aplicación de la identidad Akai Hana en una artista de rock, instrumento, vestuario y dirección escénica.",
+        "includes": "Dirección de arte, aplicación de marca y composición promocional.",
+        "uses": "Identidad musical, campañas, portadas y comunicación de eventos.",
+        "examples": "Key visual, póster musical, campaña de marca.",
+        "tags": ["música", "dirección de arte", "identidad"],
+        "image": {
+          "src": "./assets/images/gallery/brand-akai-music.png",
+          "width": 1122,
+          "height": 1402,
+          "alt": "Artista de rock con guitarra y la identidad visual Akai Hana aplicada al vestuario y al escenario."
+        }
+      },
+      {
         "id": "WP-000",
         "title": "Akai Warrior",
         "isCover": true,
@@ -2517,24 +2536,24 @@
       },
       {
         "id": "WP-004",
-        "title": "Akai Warrior Mobile",
+        "title": "Ruta bajo la luna",
         "categoryId": "custom-creations",
         "familyId": "wallpapers",
         "category": "Wallpapers",
         "collectionLabel": "WALLPAPER",
-        "layout": "portrait",
-        "style": "Retrato cinematográfico, identidad Akai Hana y atmósfera japonesa",
-        "shortDescription": "Una portada vertical creada para acompañar la pantalla con carácter propio.",
-        "description": "Wallpaper vertical con una guerrera de cabello carmesí, tatuajes florales y katana dentro de un estudio japonés iluminado con tonos cálidos.",
-        "includes": "Composición vertical en alta resolución y adaptación para pantalla móvil.",
-        "uses": "Fondos para móvil, pantallas de bloqueo y portadas digitales.",
-        "examples": "Wallpaper móvil, lock screen, portada.",
-        "tags": ["wallpaper", "móvil", "Akai Hana"],
+        "layout": "wide",
+        "style": "Motociclismo nocturno, luna llena y atmósfera cinematográfica",
+        "shortDescription": "Una ruta nocturna frente al mar donde libertad, fuerza y horizonte se encuentran.",
+        "description": "Wallpaper panorámico con una motorista de cabello carmesí junto al océano bajo la luna llena.",
+        "includes": "Composición horizontal en alta resolución optimizada para escritorio.",
+        "uses": "Fondos de escritorio, cabeceras digitales y portadas atmosféricas.",
+        "examples": "Wallpaper, banner, portada digital.",
+        "tags": ["motocicleta", "luna", "noche"],
         "image": {
-          "src": "./assets/images/gallery/wallpaper-cover-akai-warrior.png",
-          "width": 1122,
-          "height": 1402,
-          "alt": "Guerrera Akai Hana de cabello rojo con tatuajes y katana en un estudio japonés."
+          "src": "./assets/images/gallery/wallpaper-moonlit-ride.png",
+          "width": 1536,
+          "height": 1024,
+          "alt": "Motorista de cabello carmesí junto al mar bajo una luna llena."
         }
       },
       {
@@ -2569,7 +2588,7 @@
         "layout": "portrait",
         "style": "Tarot personalizado, simbolismo astral y narrativa personal",
         "shortDescription": "Una identidad interior narrada mediante estrellas, símbolos y arquetipos.",
-        "description": "Carta astral ilustrada en formato tarot que reúne paisaje, luna, balanza, koi y símbolos de evolución personal.",
+      "description": "XVII — La Buscadora representa la curiosidad, el aprendizaje, la intuición, la disciplina y la evolución personal. Inspirada en La Estrella del Rider-Waite, simboliza esperanza, renovación y la búsqueda de una dirección propia. Sus elementos reflejan el camino de crecer y descubrir: la estrella es el norte, la luna la intuición, el libro el conocimiento, la brújula la dirección, el torii el paso hacia una nueva etapa, los sakura la transformación, los koi la perseverancia y la balanza el equilibrio entre razón, intuición, disciplina y libertad. Su significado central es: DISCIPLINA → INTUICIÓN → CONOCIMIENTO → EVOLUCIÓN. La Buscadora no necesita conocer todo el camino para empezar a recorrerlo.",
         "includes": "Dirección simbólica, composición editorial y arte vertical personalizado.",
         "uses": "Carta personal, regalo, póster y pieza de memoria.",
         "examples": "Tarot, carta astral, regalo personalizado.",

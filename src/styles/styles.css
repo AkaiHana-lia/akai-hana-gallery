@@ -4516,69 +4516,6 @@ body[data-page="home"] .intro__grid {
     linear-gradient(180deg, rgba(3, 3, 3, 0.2), rgba(3, 3, 3, 0.06) 24%, rgba(3, 3, 3, 0.1) 72%, rgba(3, 3, 3, 0.34));
 }
 
-.stories-atmosphere {
-  position: absolute;
-  z-index: 0;
-  inset: 0;
-  overflow: hidden;
-  pointer-events: none;
-}
-
-.stories-atmosphere__hair,
-.stories-atmosphere__eyes {
-  position: absolute;
-  inset: 0;
-  display: block;
-}
-
-.stories-atmosphere__hair {
-  background: url("../../assets/images/stories-background-oni-sakura.png") center top / cover no-repeat;
-  clip-path: polygon(7% 2%, 25% 1%, 31% 35%, 24% 52%, 12% 44%);
-  opacity: 0.18;
-  filter: saturate(1.08) brightness(1.04);
-  transform-origin: 17% 20%;
-  animation: stories-hair-breeze 6.8s ease-in-out infinite alternate;
-}
-
-.stories-atmosphere__eyes {
-  background:
-    radial-gradient(circle at 6.9% 24.8%, rgba(255, 42, 28, 0.98) 0 2px, rgba(232, 16, 14, 0.72) 3px, rgba(182, 0, 0, 0.18) 7px, transparent 13px),
-    radial-gradient(circle at 9.1% 24.6%, rgba(255, 42, 28, 0.98) 0 2px, rgba(232, 16, 14, 0.72) 3px, rgba(182, 0, 0, 0.18) 7px, transparent 13px);
-  mix-blend-mode: screen;
-  filter: drop-shadow(0 0 7px rgba(255, 26, 20, 0.74));
-  animation: stories-eye-glow 3.4s ease-in-out infinite;
-}
-
-.stories-section.is-reading .stories-atmosphere {
-  display: none;
-}
-
-@keyframes stories-hair-breeze {
-  0% { transform: translate3d(-1px, 0, 0) skewY(-0.08deg); }
-  48% { transform: translate3d(2px, -1px, 0) skewY(0.12deg); }
-  100% { transform: translate3d(4px, 1px, 0) skewY(0.2deg); }
-}
-
-@keyframes stories-eye-glow {
-  0%, 100% { opacity: 0.38; }
-  48% { opacity: 0.92; }
-  58% { opacity: 0.68; }
-}
-
-@media (max-width: 1099px) {
-  .stories-atmosphere__hair,
-  .stories-atmosphere__eyes {
-    display: none;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .stories-atmosphere__hair,
-  .stories-atmosphere__eyes {
-    animation: none;
-  }
-}
-
 .stories-section.is-reading {
   padding: var(--header-height) 0 0;
 }

@@ -2412,6 +2412,29 @@ window.AKAI_HANA_LOCALES = {
           }
         },
         {
+          "id": "BD-003",
+          "title": "Akai Hana Sound",
+          "categoryId": "brand-design",
+          "category": "Brand Design",
+          "style": "Identidad musical, dirección de arte y universo escénico",
+          "shortDescription": "Una identidad visual diseñada para sonar con la misma fuerza con la que se ve.",
+          "description": "Aplicación de la identidad Akai Hana en una artista de rock, instrumento, vestuario y dirección escénica.",
+          "includes": "Dirección de arte, aplicación de marca y composición promocional.",
+          "uses": "Identidad musical, campañas, portadas y comunicación de eventos.",
+          "examples": "Key visual, póster musical, campaña de marca.",
+          "tags": [
+            "música",
+            "dirección de arte",
+            "identidad"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/brand-akai-music.png",
+            "width": 1122,
+            "height": 1402,
+            "alt": "Artista de rock con guitarra y la identidad visual Akai Hana aplicada al vestuario y al escenario."
+          }
+        },
+        {
           "id": "WP-000",
           "title": "Akai Warrior",
           "isCover": true,
@@ -2518,28 +2541,28 @@ window.AKAI_HANA_LOCALES = {
         },
         {
           "id": "WP-004",
-          "title": "Akai Warrior Mobile",
+          "title": "Ruta bajo la luna",
           "categoryId": "custom-creations",
           "familyId": "wallpapers",
           "category": "Wallpapers",
           "collectionLabel": "WALLPAPER",
-          "layout": "portrait",
-          "style": "Retrato cinematográfico, identidad Akai Hana y atmósfera japonesa",
-          "shortDescription": "Una portada vertical creada para acompañar la pantalla con carácter propio.",
-          "description": "Wallpaper vertical con una guerrera de cabello carmesí, tatuajes florales y katana dentro de un estudio japonés iluminado con tonos cálidos.",
-          "includes": "Composición vertical en alta resolución y adaptación para pantalla móvil.",
-          "uses": "Fondos para móvil, pantallas de bloqueo y portadas digitales.",
-          "examples": "Wallpaper móvil, lock screen, portada.",
+          "layout": "wide",
+          "style": "Motociclismo nocturno, luna llena y atmósfera cinematográfica",
+          "shortDescription": "Una ruta nocturna frente al mar donde libertad, fuerza y horizonte se encuentran.",
+          "description": "Wallpaper panorámico con una motorista de cabello carmesí junto al océano bajo la luna llena.",
+          "includes": "Composición horizontal en alta resolución optimizada para escritorio.",
+          "uses": "Fondos de escritorio, cabeceras digitales y portadas atmosféricas.",
+          "examples": "Wallpaper, banner, portada digital.",
           "tags": [
-            "wallpaper",
-            "móvil",
-            "Akai Hana"
+            "motocicleta",
+            "luna",
+            "noche"
           ],
           "image": {
-            "src": "./assets/images/gallery/wallpaper-cover-akai-warrior.png",
-            "width": 1122,
-            "height": 1402,
-            "alt": "Guerrera Akai Hana de cabello rojo con tatuajes y katana en un estudio japonés."
+            "src": "./assets/images/gallery/wallpaper-moonlit-ride.png",
+            "width": 1536,
+            "height": 1024,
+            "alt": "Motorista de cabello carmesí junto al mar bajo una luna llena."
           }
         },
         {
@@ -2578,7 +2601,7 @@ window.AKAI_HANA_LOCALES = {
           "layout": "portrait",
           "style": "Tarot personalizado, simbolismo astral y narrativa personal",
           "shortDescription": "Una identidad interior narrada mediante estrellas, símbolos y arquetipos.",
-          "description": "Carta astral ilustrada en formato tarot que reúne paisaje, luna, balanza, koi y símbolos de evolución personal.",
+          "description": "XVII — La Buscadora representa la curiosidad, el aprendizaje, la intuición, la disciplina y la evolución personal. Inspirada en La Estrella del Rider-Waite, simboliza esperanza, renovación y la búsqueda de una dirección propia. Sus elementos reflejan el camino de crecer y descubrir: la estrella es el norte, la luna la intuición, el libro el conocimiento, la brújula la dirección, el torii el paso hacia una nueva etapa, los sakura la transformación, los koi la perseverancia y la balanza el equilibrio entre razón, intuición, disciplina y libertad. Su significado central es: DISCIPLINA → INTUICIÓN → CONOCIMIENTO → EVOLUCIÓN. La Buscadora no necesita conocer todo el camino para empezar a recorrerlo.",
           "includes": "Dirección simbólica, composición editorial y arte vertical personalizado.",
           "uses": "Carta personal, regalo, póster y pieza de memoria.",
           "examples": "Tarot, carta astral, regalo personalizado.",
@@ -5633,6 +5656,29 @@ window.AKAI_HANA_LOCALES = {
           }
         },
         {
+          "id": "BD-003",
+          "title": "Akai Hana Sound",
+          "categoryId": "brand-design",
+          "category": "Brand Design",
+          "style": "Music identity, art direction and stage universe",
+          "shortDescription": "A visual identity designed to sound as powerful as it looks.",
+          "description": "An Akai Hana identity application across a rock artist, instrument, wardrobe and stage direction.",
+          "includes": "Art direction, brand application and promotional composition.",
+          "uses": "Music identity, campaigns, covers and event communication.",
+          "examples": "Key visual, music poster, brand campaign.",
+          "tags": [
+            "music",
+            "art direction",
+            "identity"
+          ],
+          "image": {
+            "src": "./assets/images/gallery/brand-akai-music.png",
+            "width": 1122,
+            "height": 1402,
+            "alt": "Rock artist with a guitar and the Akai Hana visual identity applied to her wardrobe and stage."
+          }
+        },
+        {
           "id": "WP-000",
           "title": "Akai Warrior",
           "isCover": true,
@@ -5739,28 +5785,28 @@ window.AKAI_HANA_LOCALES = {
         },
         {
           "id": "WP-004",
-          "title": "Akai Warrior Mobile",
+          "title": "Moonlit Ride",
           "categoryId": "custom-creations",
           "familyId": "wallpapers",
           "category": "Wallpapers",
           "collectionLabel": "WALLPAPER",
-          "layout": "portrait",
-          "style": "Cinematic Japanese portrait and Akai Hana identity",
-          "shortDescription": "A warrior presence created for a vertical screen.",
-          "description": "A cinematic vertical composition featuring the Akai Hana muse in a Japanese studio, conceived as a premium mobile wallpaper.",
-          "includes": "High-resolution vertical artwork optimised for mobile.",
-          "uses": "Mobile wallpapers, digital covers and editorial artwork.",
-          "examples": "Mobile wallpaper, lock screen, visual cover.",
+          "layout": "wide",
+          "style": "Night riding, full moon and cinematic atmosphere",
+          "shortDescription": "A moonlit road by the sea where freedom, strength and the horizon meet.",
+          "description": "A panoramic wallpaper featuring a crimson-haired rider beside the ocean under a full moon.",
+          "includes": "High-resolution horizontal composition optimized for desktop.",
+          "uses": "Desktop backgrounds, digital headers and atmospheric covers.",
+          "examples": "Wallpaper, banner, digital cover.",
           "tags": [
-            "wallpaper",
-            "portrait",
-            "Akai Hana"
+            "motorcycle",
+            "moon",
+            "night"
           ],
           "image": {
-            "src": "./assets/images/gallery/gallery-wallpaper-cover-akai.png",
-            "width": 1122,
-            "height": 1402,
-            "alt": "Akai Hana warrior seated in a Japanese studio with a katana."
+            "src": "./assets/images/gallery/wallpaper-moonlit-ride.png",
+            "width": 1536,
+            "height": 1024,
+            "alt": "Crimson-haired rider beside the sea beneath a full moon."
           }
         },
         {
@@ -5799,7 +5845,7 @@ window.AKAI_HANA_LOCALES = {
           "layout": "portrait",
           "style": "Personal astrology interpreted as vintage symbolic art",
           "shortDescription": "An intimate portrait guided by symbols, intuition and personal purpose.",
-          "description": "A custom astral composition in the language of an antique tarot card, integrating personal symbols and a unique visual narrative.",
+          "description": "XVII — The Seeker represents curiosity, learning, intuition, discipline and personal evolution. Inspired by The Star from the Rider-Waite deck, it symbolises hope, renewal and the search for one's own direction. Its elements reflect the path of growth and discovery: the star is the guiding point, the moon intuition, the book knowledge, the compass direction, the torii the passage into a new stage, the sakura transformation, the koi perseverance, and the scales the balance between reason, intuition, discipline and freedom. Its central meaning is: DISCIPLINE → INTUITION → KNOWLEDGE → EVOLUTION. The Seeker does not need to know the entire path before beginning to walk it.",
           "includes": "Symbolic concept, personalised composition and high-resolution final artwork.",
           "uses": "Personal art, gifts, print and spiritual projects.",
           "examples": "Astral card, symbolic portrait, personalised tarot.",
