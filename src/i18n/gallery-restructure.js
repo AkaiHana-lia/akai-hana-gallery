@@ -19,6 +19,8 @@
       brandDescription: "Identidades visuales, aplicaciones de marca y sistemas gráficos con dirección premium.",
       memoryLabel: "MEMORY ART",
       memoryDescription: "Recuerdos, personas y relatos personales convertidos en piezas visuales para conservar y compartir.",
+      wallpapersLabel: "Wallpapers",
+      wallpapersCategory: "Wallpapers",
       photoCategory: "Foto",
       brandCategory: "Brand Design",
       memoryCategory: "Memory Art"
@@ -39,6 +41,8 @@
       brandDescription: "Visual identities, brand applications and graphic systems with premium art direction.",
       memoryLabel: "MEMORY ART",
       memoryDescription: "Memories, people and personal stories transformed into visual pieces to preserve and share.",
+      wallpapersLabel: "Wallpapers",
+      wallpapersCategory: "Wallpapers",
       photoCategory: "Photo",
       brandCategory: "Brand Design",
       memoryCategory: "Memory Art"
@@ -51,14 +55,23 @@
     const text = copy[locale];
 
     const retainedCategories = dictionary.categories.filter((category) => (
-      category.id !== "avatar-3d" && category.id !== "brand-design" && category.id !== "world-symbols"
+      category.id !== "avatar-3d"
+      && category.id !== "brand-design"
+      && category.id !== "world-symbols"
+      && category.id !== "wallpapers"
     ));
     const customIndex = retainedCategories.findIndex((category) => category.id === "custom-creations");
     retainedCategories.splice(customIndex + 1, 0, { id: "world-symbols", label: text.worldLabel });
+    const animeIndex = retainedCategories.findIndex((category) => category.id === "anime");
+    retainedCategories.splice(animeIndex + 1, 0, { id: "wallpapers", label: text.wallpapersLabel });
     dictionary.categories = retainedCategories;
 
     gallery.items.forEach((item) => {
-      if (item.categoryId === "avatar-3d") {
+      if (item.categoryId === "custom-creations" && item.familyId === "wallpapers") {
+        item.categoryId = "wallpapers";
+        item.category = text.wallpapersCategory;
+        delete item.familyId;
+      } else if (item.categoryId === "avatar-3d") {
         item.categoryId = "custom-creations";
         item.familyId = "photo";
         item.category = text.photoCategory;
@@ -101,14 +114,6 @@
 
     gallery.customCreations = gallery.customCreations || {};
     gallery.customCreations.families = [
-      {
-        id: "wallpapers",
-        label: "WALLPAPERS",
-        description: locale === "es"
-          ? "Fondos cinematográficos creados para escritorio, móvil y formatos digitales."
-          : "Cinematic backgrounds created for desktop, mobile and digital formats.",
-        coverItemId: "WP-001"
-      },
       { id: "photo", label: text.photoLabel, description: text.photoDescription, coverItemId: "AV-000" },
       { id: "brand-design", label: text.brandLabel, description: text.brandDescription, coverItemId: "TD-006" },
       { id: "memory-art", label: text.memoryLabel, description: text.memoryDescription, coverItemId: "CC-002" }

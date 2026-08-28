@@ -8448,9 +8448,9 @@ body[data-page="home"] .hero__title-accent .hero__title-light--glint {
 
 /* The outer view is a clean four-family index. */
 .gallery-section .gallery-grid[data-active-category="custom-creations"][data-family-view="index"] {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: clamp(20px, 1.8vw, 30px);
-  max-width: 1380px;
+  max-width: 1080px;
 }
 
 .gallery-section .gallery-grid[data-active-category="custom-creations"][data-family-view="index"] .art-card {
