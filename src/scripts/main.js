@@ -67,7 +67,7 @@ let lightboxProjectId = null;
 let lastFocusedElement = null;
 let activeStoryId = null;
 let activeStoryFilter = "all";
-let visibleStoryCount = 20;
+let visibleStoryCount = 22;
 let activePopCultureThemeId = window.AKAI_HANA_POP_CULTURE?.defaultTheme || "kitsune";
 let activePopCultureCategoryId = null;
 
@@ -161,23 +161,19 @@ const storyLibraryMeta = {
   },
   nekomata: {
     categories: ["yokai", "creatures"],
-    keywords: ["nekomata", "two-tailed cat", "cat", "bakeneko", "spirit fire", "transformation", "protection", "yokai", "creature", "猫又"],
-    isNew: true
+    keywords: ["nekomata", "two-tailed cat", "cat", "bakeneko", "spirit fire", "transformation", "protection", "yokai", "creature", "猫又"]
   },
   kappa: {
     categories: ["yokai", "creatures", "legends"],
-    keywords: ["kappa", "river spirit", "water", "cucumber", "shell", "river", "respect", "yokai", "creature", "legend", "河童"],
-    isNew: true
+    keywords: ["kappa", "river spirit", "water", "cucumber", "shell", "river", "respect", "yokai", "creature", "legend", "河童"]
   },
   "ho-o": {
     categories: ["creatures", "legends", "symbols"],
-    keywords: ["ho-o", "hō-ō", "phoenix", "fenix", "fénix", "fire", "rebirth", "transformation", "prosperity", "creature", "legend", "symbol", "鳳凰"],
-    isNew: true
+    keywords: ["ho-o", "hō-ō", "phoenix", "fenix", "fénix", "fire", "rebirth", "transformation", "prosperity", "creature", "legend", "symbol", "鳳凰"]
   },
   tora: {
     categories: ["creatures", "legends", "symbols"],
-    keywords: ["tora", "tiger", "tigre", "strength", "courage", "protection", "guardian", "creature", "legend", "symbol", "虎"],
-    isNew: true
+    keywords: ["tora", "tiger", "tigre", "strength", "courage", "protection", "guardian", "creature", "legend", "symbol", "虎"]
   }
 };
 
@@ -218,7 +214,9 @@ async function loadDictionary(nextLocale) {
       loadedDictionary.stories = JSON.parse(JSON.stringify(fallbackDictionary.stories));
     }
 
-    return loadedDictionary;
+    return window.AKAI_HANA_RESTRUCTURE_GALLERY
+      ? window.AKAI_HANA_RESTRUCTURE_GALLERY(loadedDictionary, nextLocale)
+      : loadedDictionary;
   } catch (error) {
     if (fallbackDictionary) return JSON.parse(JSON.stringify(fallbackDictionary));
     throw error;

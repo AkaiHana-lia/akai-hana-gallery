@@ -4523,7 +4523,7 @@ body[data-page="home"] .intro__grid {
 .stories-layout {
   position: relative;
   z-index: 1;
-  width: min(1500px, 96vw);
+  width: min(1760px, 96vw);
   max-width: none;
   margin-inline: auto;
   display: grid;
@@ -4659,10 +4659,10 @@ body[data-page="home"] .intro__grid {
 }
 
 .stories-library__grid {
-  width: min(1600px, 100%);
+  width: min(1760px, 100%);
   margin-inline: auto;
   display: grid;
-  grid-template-columns: repeat(14, minmax(0, 1fr));
+  grid-template-columns: repeat(16, minmax(0, 1fr));
   gap: clamp(12px, 0.8vw, 16px);
 }
 
@@ -4670,8 +4670,8 @@ body[data-page="home"] .intro__grid {
   grid-column: span 2;
 }
 
-.stories-library__section--collection .stories-library__grid > .story-card:nth-child(15):nth-last-child(6) {
-  grid-column: 2 / span 2;
+.stories-library__section--collection .stories-library__grid > .story-card:nth-child(17):nth-last-child(6) {
+  grid-column: 3 / span 2;
 }
 
 .stories-library__section--new .stories-library__grid {
@@ -4812,28 +4812,28 @@ body[data-page="home"] .intro__grid {
 
 @media (max-width: 1680px) {
   .stories-library__grid {
-    grid-template-columns: repeat(14, minmax(0, 1fr));
+    grid-template-columns: repeat(16, minmax(0, 1fr));
   }
 }
 
 @media (max-width: 1600px) {
   .stories-layout {
-    width: min(1420px, 96vw);
+    width: min(1520px, 98vw);
     margin-inline: auto;
   }
 
   .stories-library__grid {
-    grid-template-columns: repeat(14, minmax(0, 1fr));
+    grid-template-columns: repeat(16, minmax(0, 1fr));
   }
 }
 
 @media (max-width: 1380px) {
   .stories-layout {
-    width: min(1240px, 96vw);
+    width: min(1320px, 98vw);
   }
 
   .stories-library__grid {
-    grid-template-columns: repeat(14, minmax(0, 1fr));
+    grid-template-columns: repeat(16, minmax(0, 1fr));
   }
 }
 
@@ -4858,7 +4858,7 @@ body[data-page="home"] .intro__grid {
   }
 
   .stories-library__section--collection .stories-library__grid > .story-card,
-  .stories-library__section--collection .stories-library__grid > .story-card:nth-child(15):nth-last-child(6) {
+  .stories-library__section--collection .stories-library__grid > .story-card:nth-child(17):nth-last-child(6) {
     grid-column: auto;
   }
 }
@@ -8557,6 +8557,23 @@ body[data-page="home"] .hero__title-accent .hero__title-light--glint {
   aspect-ratio: 3 / 4;
 }
 
+.gallery-section .gallery-grid[data-family-view="archive"][data-active-family="photo"],
+.gallery-section .gallery-grid[data-family-view="archive"][data-active-family="brand-design"] {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: clamp(18px, 1.6vw, 26px);
+}
+
+.gallery-section .gallery-grid[data-family-view="archive"][data-active-family="memory-art"] {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(20px, 1.8vw, 30px);
+}
+
+.gallery-section .gallery-grid[data-family-view="archive"][data-active-family="photo"] .art-card__figure,
+.gallery-section .gallery-grid[data-family-view="archive"][data-active-family="brand-design"] .art-card__figure,
+.gallery-section .gallery-grid[data-family-view="archive"][data-active-family="memory-art"] .art-card__figure {
+  aspect-ratio: 3 / 4;
+}
+
 @media (min-width: 621px) and (max-width: 1100px) {
   .gallery-section .gallery-grid[data-active-category="custom-creations"][data-family-view="index"] {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -8565,6 +8582,12 @@ body[data-page="home"] .hero__title-accent .hero__title-light--glint {
   }
 
   .gallery-section .gallery-grid[data-active-category="custom-creations"][data-family-view="archive"][data-active-family="wallpapers"] {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .gallery-section .gallery-grid[data-family-view="archive"][data-active-family="photo"],
+  .gallery-section .gallery-grid[data-family-view="archive"][data-active-family="brand-design"],
+  .gallery-section .gallery-grid[data-family-view="archive"][data-active-family="memory-art"] {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
