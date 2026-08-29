@@ -3557,6 +3557,70 @@ window.AKAI_HANA_POP_CULTURE = {
           secondarySourceUrl: "https://kimetsu.com/anime/risshihen/character/?chara=obanai"
         }
       ]
+    },
+    {
+      id: "sakura",
+      number: "22",
+      title: "Sakura",
+      kanji: "桜",
+      image: "./assets/images/stories/cards/sakura.png",
+      icon: "./assets/images/story-sakura-banner.png",
+      intro: {
+        es: "El sakura aparece en la cultura popular como símbolo de belleza efímera, cambio, esperanza, memoria y nuevos comienzos.",
+        en: "Sakura appears throughout pop culture as a symbol of fleeting beauty, change, hope, memory and new beginnings."
+      },
+      entries: [
+        {
+          id: "sakura-one-piece-hiriluk",
+          categoryId: "anime-manga",
+          title: "One Piece — Hiriluk's Sakura",
+          franchise: { es: "Anime / Manga", en: "Anime / Manga" },
+          classification: { es: "Referencia narrativa oficial", en: "Official Narrative Reference" },
+          image: "./assets/images/pop-sakura-one-piece-hiriluk.jpg",
+          imageFit: "contain",
+          shortDescription: {
+            es: "La historia de Drum convierte las flores de cerezo de Hiriluk en una imagen de esperanza, legado y despedida capaz de transformar una isla invernal.",
+            en: "The Drum story turns Hiriluk's cherry blossoms into an image of hope, legacy and farewell capable of transforming a winter island."
+          },
+          fullDescription: {
+            es: "El episodio oficial 90 presenta el milagro de los Drum Rockies cubiertos por el sakura de Hiriluk. La floración culmina su investigación y acompaña la partida de Chopper, uniendo memoria, voluntad heredada y comienzo de una nueva vida.",
+            en: "Official episode 90 presents the miracle of the Drum Rockies covered by Hiriluk's sakura. The blossom completes his research and accompanies Chopper's departure, connecting memory, inherited will and the beginning of a new life."
+          },
+          context: {
+            es: "La conexión es literal y central: el título, la sinopsis y la imagen oficial del episodio identifican expresamente el milagro como «el sakura de Hiriluk».",
+            en: "The connection is literal and central: the episode title, synopsis and official image expressly identify the miracle as 'Hiriluk's Sakura.'"
+          },
+          sourceLabel: { es: "One Piece — episodio 90 oficial", en: "One Piece — Official Episode 90" },
+          sourceUrl: "https://one-piece.com/anime/90/index.html",
+          secondarySourceLabel: { es: "One Piece — especial oficial sobre los episodios 86–90", en: "One Piece — Official Episodes 86–90 Feature" },
+          secondarySourceUrl: "https://one-piece.com/news/o20210514_12531/index.html"
+        },
+        {
+          id: "sakura-pokemon-cherrim",
+          categoryId: "pokemon",
+          title: "Pokémon — Cherrim",
+          franchise: { es: "Videojuego / Anime", en: "Video Game / Anime" },
+          classification: { es: "Referencia floral oficial", en: "Official Floral Reference" },
+          image: "./assets/images/pop-sakura-pokemon-cherrim.png",
+          imageFit: "contain",
+          shortDescription: {
+            es: "Cherrim es el Pokémon Floración: al absorber suficiente luz solar abre sus pétalos y adopta una forma llena de energía.",
+            en: "Cherrim is the Blossom Pokémon: after absorbing enough sunlight, it opens its petals and takes on an energetic form."
+          },
+          fullDescription: {
+            es: "Su diseño reproduce una flor de cerezo abierta y convierte la floración en una transformación visible entre sus formas encapotada y soleada. La Pokédex oficial destaca sus pétalos, su aroma floral y la energía que recibe del sol.",
+            en: "Its design evokes an open cherry blossom and turns blooming into a visible transformation between its Overcast and Sunshine Forms. The official Pokédex highlights its petals, floral scent and the energy it receives from sunlight."
+          },
+          context: {
+            es: "La ficha oficial clasifica a Cherrim como Pokémon Floración y documenta sus dos formas; la relación concreta con el sakura también es visible en su diseño y nombre japonés, チェリム.",
+            en: "The official profile classifies Cherrim as the Blossom Pokémon and documents its two forms; the specific sakura connection is also visible in its design and Japanese name, チェリム."
+          },
+          sourceLabel: { es: "Pokémon — Pokédex oficial de Cherrim", en: "Pokémon — Official Cherrim Pokédex" },
+          sourceUrl: "https://www.pokemon.com/es/pokedex/cherrim",
+          secondarySourceLabel: { es: "Pokémon Diamante Brillante y Perla Reluciente — guía oficial", en: "Pokémon Brilliant Diamond and Shining Pearl — Official Guide" },
+          secondarySourceUrl: "https://diamondpearl.pokemon.com/en-au/trainersguide/pokedex/"
+        }
+      ]
     }
   ]
 };
