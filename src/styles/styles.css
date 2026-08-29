@@ -6421,6 +6421,77 @@ body[data-page="contact"] #contact {
   gap: 12px;
 }
 
+.pop-culture__archive-heading {
+  scroll-margin-top: calc(var(--header-height) + 18px);
+}
+
+.pop-culture__pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  margin: 22px auto 0;
+  color: rgba(255, 234, 208, 0.94);
+}
+
+.pop-culture__pagination[hidden] {
+  display: none;
+}
+
+.pop-culture__pagination::before,
+.pop-culture__pagination::after {
+  content: "";
+  width: clamp(26px, 4vw, 58px);
+  height: 1px;
+  margin-inline: 5px;
+  background: linear-gradient(90deg, rgba(212, 175, 55, 0), rgba(212, 175, 55, 0.52));
+}
+
+.pop-culture__pagination::after {
+  transform: scaleX(-1);
+}
+
+.pop-culture__page-button {
+  position: relative;
+  width: 30px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border: 0;
+  border-bottom: 1px solid transparent;
+  background: transparent;
+  color: rgba(255, 234, 208, 0.88);
+  font: 400 0.9rem/1 Georgia, "Times New Roman", serif;
+  cursor: pointer;
+  transition: color 160ms var(--ease), border-color 160ms var(--ease), opacity 160ms var(--ease);
+}
+
+.pop-culture__page-button:hover,
+.pop-culture__page-button:focus-visible {
+  color: #fff8eb;
+  border-bottom-color: rgba(212, 175, 55, 0.65);
+  outline: none;
+}
+
+.pop-culture__page-button[aria-current="page"] {
+  border-bottom-color: var(--crimson-bright);
+  color: var(--crimson-bright);
+  text-shadow: 0 0 18px rgba(182, 0, 0, 0.58);
+}
+
+.pop-culture__page-button--arrow {
+  color: rgba(212, 175, 55, 0.82);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.45rem;
+}
+
+.pop-culture__page-button:disabled {
+  opacity: 0.2;
+  cursor: default;
+  pointer-events: none;
+}
+
 .pop-theme-card {
   position: relative;
   min-height: 178px;

@@ -13,6 +13,22 @@ window.AKAI_HANA_POP_CULTURE = {
       es: "Explorar por historia",
       en: "Explore by story"
     },
+    paginationLabel: {
+      es: "Paginación de Stories",
+      en: "Stories pagination"
+    },
+    previousPage: {
+      es: "Página anterior de Stories",
+      en: "Previous Stories page"
+    },
+    nextPage: {
+      es: "Página siguiente de Stories",
+      en: "Next Stories page"
+    },
+    pageLabel: {
+      es: "Página {page} de Stories",
+      en: "Stories page {page}"
+    },
     hint: {
       es: "Selecciona una historia para explorar sus conexiones pop culture.",
       en: "Select a story to explore its pop-culture connections."
