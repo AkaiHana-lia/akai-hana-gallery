@@ -2291,13 +2291,13 @@ window.AKAI_HANA_LOCALES = {
       "items": [
         {
           "id": "TD-COVER",
-          "title": "Pirate Legacy",
+          "title": "Akai Hana Tattoo Art",
           "isCover": true,
           "categoryId": "tattoo-designs",
-          "category": "Anime · Gaming",
-          "style": "Composición anime de gran formato con tinta, color y movimiento",
-          "shortDescription": "Una portada de tatuaje potente inspirada en una tripulación legendaria.",
-          "description": "Diseño vertical de tatuaje inspirado en aventura, lealtad y energía pirata, con una composición dinámica de personajes y símbolos reconocibles.",
+          "category": "Arte del tatuaje",
+          "style": "Retrato japonés de gran formato con tinta, ornamentación y luz carmesí",
+          "shortDescription": "Una portada premium dedicada al arte del tatuaje y a la identidad visual de Akai Hana.",
+          "description": "Retrato vertical de una guerrera tatuada en un espacio japonés ceremonial, con una composición intensa de tinta, flores, metal dorado y luz carmesí.",
           "includes": [
             "Composición vertical",
             "Dirección de color",
@@ -2312,15 +2312,15 @@ window.AKAI_HANA_LOCALES = {
             "gaming"
           ],
           "tags": [
-            "Anime",
-            "Pirate",
-            "Color"
+            "Tatuaje",
+            "Japonés",
+            "Akai Hana"
           ],
           "image": {
-            "src": "./assets/images/gallery/tattoo-cover-one-piece.png",
-            "width": 1024,
-            "height": 1536,
-            "alt": "Tatuaje anime de One Piece con Zoro, Luffy y Chopper en una composición vertical."
+            "src": "./assets/images/gallery/tattoo-cover-akai-hana-warrior.png",
+            "width": 1122,
+            "height": 1402,
+            "alt": "Guerrera de Akai Hana con tatuajes japoneses, kimono negro y carmesí y una daga ceremonial."
           }
         },
         {
@@ -2999,7 +2999,7 @@ window.AKAI_HANA_LOCALES = {
         },
         {
           "id": "AN-003",
-          "title": "Pirate Legacy",
+          "title": "Akai Hana Tattoo Art",
           "categoryId": "anime",
           "category": "Anime",
           "style": "Anime, acuarela digital y contraste cálido frío",
@@ -5794,13 +5794,13 @@ window.AKAI_HANA_LOCALES = {
       "items": [
         {
           "id": "TD-COVER",
-          "title": "Pirate Legacy",
+          "title": "Akai Hana Tattoo Art",
           "isCover": true,
           "categoryId": "tattoo-designs",
-          "category": "Anime · Gaming",
-          "style": "Large-format anime composition with ink, color and movement",
-          "shortDescription": "A powerful tattoo cover inspired by a legendary crew.",
-          "description": "A vertical tattoo design inspired by adventure, loyalty and pirate energy, combining iconic characters and symbols in a dynamic composition.",
+          "category": "Tattoo Art",
+          "style": "Large-format Japanese portrait with ink, ornament and crimson light",
+          "shortDescription": "A premium cover devoted to tattoo art and the visual identity of Akai Hana.",
+          "description": "A vertical portrait of a tattooed warrior in a ceremonial Japanese space, composed through ink, flowers, gold metal and intense crimson light.",
           "includes": [
             "Vertical composition",
             "Color direction",
@@ -5815,15 +5815,15 @@ window.AKAI_HANA_LOCALES = {
             "gaming"
           ],
           "tags": [
-            "Anime",
-            "Pirate",
-            "Color"
+            "Tattoo",
+            "Japanese",
+            "Akai Hana"
           ],
           "image": {
-            "src": "./assets/images/gallery/tattoo-cover-one-piece.png",
-            "width": 1024,
-            "height": 1536,
-            "alt": "One Piece anime tattoo featuring Zoro, Luffy and Chopper in a vertical composition."
+            "src": "./assets/images/gallery/tattoo-cover-akai-hana-warrior.png",
+            "width": 1122,
+            "height": 1402,
+            "alt": "Akai Hana warrior with Japanese tattoos, a black and crimson kimono and a ceremonial dagger."
           }
         },
         {

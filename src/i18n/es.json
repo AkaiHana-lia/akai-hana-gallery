@@ -2100,13 +2100,13 @@
     "items": [
       {
         "id": "TD-COVER",
-        "title": "Pirate Legacy",
+        "title": "Akai Hana Tattoo Art",
         "isCover": true,
         "categoryId": "tattoo-designs",
-        "category": "Anime · Gaming",
-        "style": "Composición anime de gran formato con tinta, color y movimiento",
-        "shortDescription": "Una portada de tatuaje potente inspirada en una tripulación legendaria.",
-        "description": "Diseño vertical de tatuaje inspirado en aventura, lealtad y energía pirata, con una composición dinámica de personajes y símbolos reconocibles.",
+        "category": "Arte del tatuaje",
+        "style": "Retrato japonés de gran formato con tinta, ornamentación y luz carmesí",
+        "shortDescription": "Una portada premium dedicada al arte del tatuaje y a la identidad visual de Akai Hana.",
+        "description": "Retrato vertical de una guerrera tatuada en un espacio japonés ceremonial, con una composición intensa de tinta, flores, metal dorado y luz carmesí.",
         "includes": [
           "Composición vertical",
           "Dirección de color",
@@ -2121,15 +2121,15 @@
           "gaming"
         ],
         "tags": [
-          "Anime",
-          "Pirate",
-          "Color"
+          "Tatuaje",
+          "Japonés",
+          "Akai Hana"
         ],
         "image": {
-          "src": "./assets/images/gallery/tattoo-cover-one-piece.png",
-          "width": 1024,
-          "height": 1536,
-          "alt": "Tatuaje anime de One Piece con Zoro, Luffy y Chopper en una composición vertical."
+          "src": "./assets/images/gallery/tattoo-cover-akai-hana-warrior.png",
+          "width": 1122,
+          "height": 1402,
+          "alt": "Guerrera de Akai Hana con tatuajes japoneses, kimono negro y carmesí y una daga ceremonial."
         }
       },
       {
