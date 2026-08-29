@@ -3493,6 +3493,70 @@ window.AKAI_HANA_POP_CULTURE = {
           sourceUrl: "https://e-comi.shogakukan.co.jp/books/091224810000d0000000"
         }
       ]
+    },
+    {
+      id: "hebi",
+      number: "21",
+      title: "Hebi",
+      kanji: "蛇",
+      image: "./assets/images/stories/cards/hebi.png",
+      icon: "./assets/images/story-hebi-banner.png",
+      intro: {
+        es: "La serpiente aparece en la cultura popular japonesa como imagen de transformación, renovación, peligro, conocimiento y poder oculto.",
+        en: "The serpent appears throughout Japanese pop culture as an image of transformation, renewal, danger, knowledge and hidden power."
+      },
+      entries: [
+        {
+          id: "hebi-naruto-orochimaru",
+          categoryId: "anime-manga",
+          title: "Naruto — Orochimaru",
+          franchise: { es: "Anime / Manga", en: "Anime / Manga" },
+          classification: { es: "Conexión oficial fuerte", en: "Strong Official Connection" },
+          image: "./assets/images/pop-hebi-naruto-orochimaru.jpg",
+          imageFit: "contain",
+          shortDescription: {
+            es: "La web oficial de Naruto vincula directamente a Orochimaru con la serpiente blanca, la muda del cuerpo y el renacimiento mediante nuevos recipientes.",
+            en: "Naruto's official site directly links Orochimaru with the white serpent, shedding the body and rebirth through new vessels."
+          },
+          fullDescription: {
+            es: "En el episodio oficial «Ojo de Halcón», Orochimaru abandona su antiguo cuerpo y adopta la forma de una serpiente blanca mientras intenta apoderarse del cuerpo de Sasuke. Su técnica de inmortalidad prolonga esa idea mediante la transferencia de su conciencia a nuevos cuerpos.",
+            en: "In the official episode 'Eye of the Hawk,' Orochimaru sheds his old body and takes the form of a white serpent while attempting to claim Sasuke's body. His immortality technique extends that idea through the transfer of his consciousness into new bodies."
+          },
+          context: {
+            es: "La conexión es explícita en el material oficial: serpiente, piel abandonada, transformación corporal y reaparición forman parte central de la construcción del personaje.",
+            en: "The connection is explicit in official material: serpent imagery, cast-off skin, bodily transformation and recurring return are central to the character."
+          },
+          sourceLabel: { es: "Naruto — episodio oficial", en: "Naruto — Official Episode" },
+          sourceUrl: "https://naruto-official.com/en/anime/naruto2/list/01_558",
+          secondarySourceLabel: { es: "Naruto — perfil oficial de Orochimaru", en: "Naruto — Official Orochimaru Profile" },
+          secondarySourceUrl: "https://naruto-official.com/en/news/01_1629"
+        },
+        {
+          id: "hebi-demon-slayer-obanai-iguro",
+          categoryId: "anime-manga",
+          title: "Demon Slayer — Obanai Iguro",
+          franchise: { es: "Anime / Manga", en: "Anime / Manga" },
+          classification: { es: "Referencia oficial explícita", en: "Explicit Official Reference" },
+          image: "./assets/images/pop-hebi-demon-slayer-obanai.jpg",
+          imageFit: "contain",
+          shortDescription: {
+            es: "El perfil oficial presenta a Obanai como Serpent Hashira y destaca que siempre está acompañado por su serpiente.",
+            en: "The official profile presents Obanai as the Serpent Hashira and highlights that he is accompanied by his snake."
+          },
+          fullDescription: {
+            es: "Obanai integra la serpiente en su rango, su silueta y su identidad visual. El título de Pilar de la Serpiente y la presencia constante del animal convierten el motivo en una referencia narrativa y gráfica directa.",
+            en: "Obanai integrates the serpent into his rank, silhouette and visual identity. His title as the Serpent Hashira and the constant presence of the animal make the motif a direct narrative and graphic reference."
+          },
+          context: {
+            es: "No es una asociación interpretativa: la denominación oficial del personaje y su descripción confirman expresamente el vínculo con la serpiente.",
+            en: "This is not an interpretive association: the character's official title and description expressly confirm the serpent connection."
+          },
+          sourceLabel: { es: "Demon Slayer — personaje oficial", en: "Demon Slayer — Official Character" },
+          sourceUrl: "https://demonslayer-anime.com/infinitycastle/character/",
+          secondarySourceLabel: { es: "Kimetsu no Yaiba — perfil oficial japonés", en: "Kimetsu no Yaiba — Official Japanese Profile" },
+          secondarySourceUrl: "https://kimetsu.com/anime/risshihen/character/?chara=obanai"
+        }
+      ]
     }
   ]
 };
