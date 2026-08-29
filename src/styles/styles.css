@@ -8446,11 +8446,11 @@ body[data-page="home"] .hero__title-accent .hero__title-light--glint {
   object-position: center;
 }
 
-/* The outer view is a clean four-family index. */
+/* The outer view is a clean two-family index. */
 .gallery-section .gallery-grid[data-active-category="custom-creations"][data-family-view="index"] {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: clamp(20px, 1.8vw, 30px);
-  max-width: 1080px;
+  max-width: 820px;
 }
 
 .gallery-section .gallery-grid[data-active-category="custom-creations"][data-family-view="index"] .art-card {

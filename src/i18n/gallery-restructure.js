@@ -64,6 +64,8 @@
     retainedCategories.splice(customIndex + 1, 0, { id: "world-symbols", label: text.worldLabel });
     const animeIndex = retainedCategories.findIndex((category) => category.id === "anime");
     retainedCategories.splice(animeIndex + 1, 0, { id: "wallpapers", label: text.wallpapersLabel });
+    const wallpapersIndex = retainedCategories.findIndex((category) => category.id === "wallpapers");
+    retainedCategories.splice(wallpapersIndex + 1, 0, { id: "brand-design", label: text.brandCategory });
     dictionary.categories = retainedCategories;
 
     gallery.items.forEach((item) => {
@@ -77,12 +79,16 @@
         item.category = text.photoCategory;
         item.collectionLabel = text.photoLabel;
         delete item.isCover;
-      } else if (item.categoryId === "brand-design") {
-        item.categoryId = "custom-creations";
-        item.familyId = "brand-design";
+      } else if (item.categoryId === "brand-design" || item.familyId === "brand-design") {
+        item.categoryId = "brand-design";
         item.category = text.brandCategory;
-        item.collectionLabel = text.brandLabel;
-        delete item.isCover;
+        delete item.familyId;
+        delete item.collectionLabel;
+        if (item.id === "TD-006") {
+          item.isCover = true;
+        } else {
+          delete item.isCover;
+        }
       } else if (item.categoryId === "custom-creations" && item.familyId && item.familyId !== "wallpapers") {
         item.familyId = "memory-art";
         item.category = text.memoryCategory;
@@ -115,7 +121,6 @@
     gallery.customCreations = gallery.customCreations || {};
     gallery.customCreations.families = [
       { id: "photo", label: text.photoLabel, description: text.photoDescription, coverItemId: "AV-000" },
-      { id: "brand-design", label: text.brandLabel, description: text.brandDescription, coverItemId: "TD-006" },
       { id: "memory-art", label: text.memoryLabel, description: text.memoryDescription, coverItemId: "CC-002" }
     ];
 
