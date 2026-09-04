@@ -3621,6 +3621,68 @@ window.AKAI_HANA_POP_CULTURE = {
           secondarySourceUrl: "https://diamondpearl.pokemon.com/en-au/trainersguide/pokedex/"
         }
       ]
+    },
+    {
+      id: "raijin",
+      number: "23",
+      title: "Raijin",
+      kanji: "雷神",
+      image: "./assets/images/stories/cards/raijin.png",
+      icon: "./assets/images/story-raijin-banner.png",
+      intro: {
+        es: "El dios japonés del trueno encuentra nuevas formas en los videojuegos: poder eléctrico, protección y la fuerza de la tormenta reinterpretados desde referencias oficiales.",
+        en: "The Japanese thunder god finds new forms in video games: electrical power, protection and the force of the storm reinterpreted through official references."
+      },
+      entries: [
+        {
+          id: "raijin-mortal-kombat-raiden",
+          categoryId: "video-games",
+          title: "Mortal Kombat — Raiden",
+          franchise: { es: "Videojuego", en: "Video Game" },
+          classification: { es: "Inspiración oficial confirmada", en: "Confirmed Official Inspiration" },
+          image: "./assets/images/pop-raijin-mortal-kombat-raiden.png",
+          imageFit: "contain",
+          shortDescription: {
+            es: "El material oficial del 30.º aniversario identifica a Raijin, dios japonés del trueno, como origen del nombre y la condición divina de Raiden.",
+            en: "Official 30th-anniversary material identifies Raijin, the Japanese thunder god, as the origin of Raiden's name and godhood."
+          },
+          fullDescription: {
+            es: "La ficha presenta a Raiden como dios inmortal del trueno y protector de Earthrealm. Su sección de preguntas señala expresamente a Raijin como respuesta sobre el origen de su nombre y su estatus como dios. El retrato oficial mostrado corresponde a esta versión del personaje.",
+            en: "The profile presents Raiden as the immortal thunder god and protector of Earthrealm. Its trivia section explicitly names Raijin as the answer about the origin of his name and status as a god. The official portrait shown represents this version of the character."
+          },
+          context: {
+            es: "La relación no depende solo del parecido: está confirmada por la propia franquicia. La descripción se refiere a la versión recogida en la web del aniversario, no a todas las continuidades de Mortal Kombat.",
+            en: "The connection is not based on resemblance alone: it is confirmed by the franchise itself. This description concerns the version documented on the anniversary site, not every Mortal Kombat continuity."
+          },
+          sourceLabel: { es: "Mortal Kombat — Raiden, 30.º aniversario", en: "Mortal Kombat — Raiden, 30th Anniversary" },
+          sourceUrl: "https://mk30.mortalkombat.com/en-gb/roster/raiden"
+        },
+        {
+          id: "raijin-warframe-volt",
+          categoryId: "video-games",
+          title: "Warframe — Volt Raijin",
+          franchise: { es: "Videojuego", en: "Video Game" },
+          classification: { es: "Referencia oficial explícita", en: "Explicit Official Reference" },
+          image: "./assets/images/pop-raijin-warframe-volt.png",
+          imageFit: "contain",
+          shortDescription: {
+            es: "Digital Extremes presenta el aspecto Volt Raijin como una forma de encarnar al dios del trueno, con electricidad y accesorios de inspiración japonesa.",
+            en: "Digital Extremes presents the Volt Raijin skin as a way to embody the thunder god, with electricity and Japanese-inspired accessories."
+          },
+          fullDescription: {
+            es: "El resumen oficial del Devstream 181 vincula directamente este aspecto con el dios del trueno y enumera Tomoe Signa y Kaminari Ephemera entre sus accesorios. El nombre Raijin y su lenguaje eléctrico convierten el motivo mitológico en una reinterpretación de ciencia ficción.",
+            en: "The official Devstream 181 overview directly links this skin to the thunder god and lists Tomoe Signa and Kaminari Ephemera among its accessories. The Raijin name and electrical imagery turn the mythological motif into a science-fiction reinterpretation."
+          },
+          context: {
+            es: "Es una referencia explícita del aspecto Volt Raijin, no una afirmación sobre el origen de todo el personaje Volt. En la ilustración oficial, Volt Raijin aparece a la derecha y Nova Aozakura a la izquierda.",
+            en: "This is an explicit reference in the Volt Raijin skin, not a claim about the origin of the entire Volt character. In the official illustration, Volt Raijin appears on the right and Nova Aozakura on the left."
+          },
+          sourceLabel: { es: "Warframe — Devstream 181 oficial", en: "Warframe — Official Devstream 181" },
+          sourceUrl: "https://www.warframe.com/en/news/devstream-181-overview",
+          secondarySourceLabel: { es: "Warframe — colección oficial Sakura Storm", en: "Warframe — Official Sakura Storm Collection" },
+          secondarySourceUrl: "https://www.warframe.com/en/news/koumei-visions-bundle-sakura-storm-collection"
+        }
+      ]
     }
   ]
 };
