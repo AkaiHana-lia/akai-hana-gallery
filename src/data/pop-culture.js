@@ -2309,22 +2309,24 @@ window.AKAI_HANA_POP_CULTURE = {
           categoryId: "anime-manga",
           title: { es: "Demon Slayer - Sakonji Urokodaki", en: "Demon Slayer - Sakonji Urokodaki" },
           franchise: { es: "Anime", en: "Anime" },
-          classification: { es: "Iconografia Tengu", en: "Tengu Iconography" },
+          classification: { es: "Referencia visual oficial al Tengu", en: "Official Visual Tengu Reference" },
           image: "./assets/images/pop-tengu-urokodaki.png",
           shortDescription: {
-            es: "Urokodaki esta definido oficialmente por su mascara Tengu dentro de una franquicia anime mayor.",
-            en: "Urokodaki is officially defined through his Tengu mask inside a major anime franchise."
+            es: "Sakonji Urokodaki, maestro de Tanjiro, lleva la característica máscara roja de un Tengu.",
+            en: "Sakonji Urokodaki, Tanjiro's teacher, wears the distinctive red mask of a Tengu."
           },
           fullDescription: {
-            es: "Sakonji Urokodaki incorpora el rostro Tengu como iconografia central de personaje. En esta ficha se incluye como presencia visual oficial del Tengu, no como adaptacion completa de la leyenda.",
-            en: "Sakonji Urokodaki incorporates the Tengu face as central character iconography. This entry includes him as official visual Tengu presence, not as a full adaptation of the legend."
+            es: "La web oficial de Demon Slayer presenta a Urokodaki como un instructor que prepara aspirantes al Cuerpo de Exterminio en el monte Sagiri. La ficha oficial de The Hinokami Chronicles identifica expresamente su máscara como una máscara Tengu.",
+            en: "The official Demon Slayer website presents Urokodaki as a trainer preparing prospective Demon Slayers at Mount Sagiri. His official profile for The Hinokami Chronicles explicitly identifies his mask as a Tengu mask."
           },
           context: {
-            es: "La formulacion se mantiene prudente: Tengu como mascara e iconografia explicita dentro de Demon Slayer.",
-            en: "The wording remains cautious: Tengu as explicit mask and iconography inside Demon Slayer."
+            es: "La conexión es visual: la máscara utiliza la iconografía Tengu. No implica que Urokodaki sea un Tengu ni una adaptación literal de la leyenda.",
+            en: "The connection is visual: the mask uses Tengu iconography. It does not imply that Urokodaki is a Tengu or a literal adaptation of the legend."
           },
           sourceLabel: { es: "Kimetsu no Yaiba - personajes", en: "Kimetsu no Yaiba - Characters" },
-          sourceUrl: "https://kimetsu.com/anime/risshihen/character/?chara=urokodaki"
+          sourceUrl: "https://kimetsu.com/anime/risshihen/character/?chara=urokodaki",
+          secondarySourceLabel: { es: "SEGA - máscara Tengu oficial", en: "SEGA - Official Tengu Mask Reference" },
+          secondarySourceUrl: "https://asia.sega.com/kimetsu_hinokami/en/character/"
         },
         {
           id: "tengu-eccentric-family",
@@ -2811,12 +2813,12 @@ window.AKAI_HANA_POP_CULTURE = {
             en: "Atlus presents Yatagarasu as one of the demon-summoner factions in Soul Hackers 2."
           },
           fullDescription: {
-            es: "El juego reutiliza el nombre de Yatagarasu para una sociedad secreta vinculada al orden y la proteccion de Japon, manteniendo su funcion de guia y autoridad.",
-            en: "The game reuses the Yatagarasu name for a secret society tied to order and the protection of Japan, preserving its role as guide and authority."
+            es: "La web oficial de ATLUS nombra a Yatagarasu y a la Phantom Society como dos facciones rivales de invocadores de demonios. Ringo se ve involucrada en su conflicto mientras intenta evitar el fin del mundo.",
+            en: "The official ATLUS website names Yatagarasu and the Phantom Society as two rival Devil Summoner factions. Ringo becomes involved in their conflict while trying to avert the end of the world."
           },
           context: {
-            es: "Uso oficial del nombre para una organizacion central del videojuego.",
-            en: "Official use of the name for a central organization in the game."
+            es: "Referencia nominal oficial: Yatagarasu es el nombre de una organización. No se presenta como prueba de que la facción sea literalmente el cuervo divino de tres patas.",
+            en: "Official naming reference: Yatagarasu is the name of an organization. This is not presented as evidence that the faction is literally the three-legged divine crow."
           },
           sourceLabel: { es: "Soul Hackers 2 - web oficial", en: "Soul Hackers 2 - Official Site" },
           sourceUrl: "https://soulhackers2.atlus.com/"
