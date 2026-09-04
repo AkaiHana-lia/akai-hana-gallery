@@ -3683,6 +3683,70 @@ window.AKAI_HANA_POP_CULTURE = {
           secondarySourceUrl: "https://www.warframe.com/en/news/koumei-visions-bundle-sakura-storm-collection"
         }
       ]
+    },
+    {
+      id: "fujin",
+      number: "24",
+      title: "Fūjin",
+      kanji: "風神",
+      image: "./assets/images/stories/cards/fujin.png",
+      icon: "./assets/images/story-fujin-banner.png",
+      intro: {
+        es: "El dios japonés del viento se reinterpreta en los videojuegos mediante el movimiento, la protección y el poder de las corrientes de aire.",
+        en: "The Japanese wind god is reinterpreted in video games through movement, protection and the power of air currents."
+      },
+      entries: [
+        {
+          id: "fujin-mortal-kombat-11",
+          categoryId: "video-games",
+          title: "Mortal Kombat 11 — Fujin",
+          franchise: { es: "Videojuego", en: "Video Game" },
+          classification: { es: "Referencia oficial explícita", en: "Explicit Official Reference" },
+          image: "./assets/images/pop-fujin-mortal-kombat.jpg",
+          imageFit: "contain",
+          shortDescription: {
+            es: "La descripción oficial de Mortal Kombat 11 presenta a Fujin como dios del viento y protector de Earthrealm junto a su hermano Raiden.",
+            en: "The official Mortal Kombat 11 description presents Fujin as the wind god and a protector of Earthrealm alongside his brother Raiden."
+          },
+          fullDescription: {
+            es: "Su nombre y su identidad divina convierten el vínculo con Fūjin en una referencia directa, no solo visual. La ficha del contenido lo describe como una figura afable que inspira bondad y heroísmo frente al odio y la tiranía. Aftermath le da un papel destacado en la historia.",
+            en: "His name and divine identity make the connection to Fūjin a direct reference, not just a visual one. The content profile describes an affable figure who inspires goodness and heroism against hatred and tyranny. Aftermath gives him a prominent role in the story."
+          },
+          context: {
+            es: "La denominación «dios del viento» está expresamente documentada. Su parentesco con Raiden y su función en Earthrealm pertenecen a la narrativa de Mortal Kombat, no son una descripción general del folklore japonés.",
+            en: "The designation 'wind god' is explicitly documented. His relationship with Raiden and role in Earthrealm belong to Mortal Kombat's narrative, not to a general description of Japanese folklore."
+          },
+          sourceLabel: { es: "Mortal Kombat 11 — ficha oficial de Fujin en Steam", en: "Mortal Kombat 11 — Official Fujin Steam Listing" },
+          sourceUrl: "https://store.steampowered.com/app/1316180/Mortal_Kombat_11_Fujin/",
+          secondarySourceLabel: { es: "NetherRealm — presentación oficial de Aftermath", en: "NetherRealm — Official Aftermath Introduction" },
+          secondarySourceUrl: "https://blog.playstation.com/2020/05/06/mortal-kombat-11-aftermath-brings-new-story-robocop-and-friendships/"
+        },
+        {
+          id: "fujin-age-of-mythology-retold",
+          categoryId: "video-games",
+          title: "Age of Mythology: Retold — Fujin",
+          franchise: { es: "Videojuego", en: "Video Game" },
+          classification: { es: "Representación mitológica directa", en: "Direct Mythological Representation" },
+          image: "./assets/images/pop-fujin-age-of-mythology.webp",
+          imageFit: "contain",
+          shortDescription: {
+            es: "El panteón japonés oficial de Heavenly Spear incluye a Fujin como dios del viento, con el poder Smiting Gust para lanzar unidades mediante una gran ráfaga.",
+            en: "Heavenly Spear's official Japanese pantheon includes Fujin as the wind god, with the Smiting Gust power to launch units with a tremendous gust."
+          },
+          fullDescription: {
+            es: "La ficha oficial lo presenta entre las deidades menores, con bonificaciones orientadas a caballería y unidades míticas, y el Oni como unidad mitológica. Su retrato conserva el saco de los vientos y las corrientes que hacen reconocible a Fūjin.",
+            en: "The official profile lists him among the minor gods, focusing on cavalry and myth units, with the Oni as his myth unit. His portrait retains the wind bag and currents that make Fūjin recognizable."
+          },
+          context: {
+            es: "Aquí Fūjin no es una semejanza interpretativa: aparece por su nombre y función dentro del panteón japonés del juego. El viento se traduce tanto en su imagen como en una habilidad jugable.",
+            en: "Here Fūjin is not an interpretive resemblance: he appears by name and role within the game's Japanese pantheon. Wind is expressed through both his image and a playable ability."
+          },
+          sourceLabel: { es: "Age of Mythology — panteón japonés oficial", en: "Age of Mythology — Official Japanese Pantheon" },
+          sourceUrl: "https://www.ageofempires.com/games/aom/civilizations/japanese-pantheon/",
+          secondarySourceLabel: { es: "Age of Mythology — Heavenly Spear oficial", en: "Age of Mythology — Official Heavenly Spear" },
+          secondarySourceUrl: "https://www.ageofempires.com/games/aom/age-of-mythology-retold-heavenly-spear/"
+        }
+      ]
     }
   ]
 };
