@@ -193,6 +193,26 @@
     dictionary.categories = retainedCategories;
 
     gallery.items.forEach((item) => {
+      if (item.id === "IL-003") {
+        item.image = {
+          src: "./assets/images/gallery/anime-dragon-violet-castle.png",
+          width: 1024,
+          height: 1536,
+          alt: locale === "es"
+            ? "Espadachín y maga pelirroja frente a un dragón y un castillo bajo un vórtice violeta."
+            : "Swordsman and red-haired mage facing a dragon and a castle beneath a violet vortex."
+        };
+      }
+      if (item.id === "AN-006") {
+        item.image = {
+          src: "./assets/images/gallery/anime-warrior-mage-dragon.png",
+          width: 1086,
+          height: 1448,
+          alt: locale === "es"
+            ? "Guerrero con escudo y maga de cabello azul frente a un dragón entre ruinas y magia roja."
+            : "Shield-bearing warrior and blue-haired mage facing a dragon amid ruins and red magic."
+        };
+      }
       if (item.categoryId === "custom-creations" && item.familyId === "wallpapers") {
         item.categoryId = "wallpapers";
         item.category = text.wallpapersCategory;
